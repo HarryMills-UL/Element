@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_expression_body" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::ExpressionBody</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_expression_body_1abda21791df4b9c1fc3688212282c319a" prot="private" static="no" mutable="no">
+        <type>Unnamed</type>
+        <definition>Unnamed Element.AST.ExpressionBody._</definition>
+        <argsstring></argsstring>
+        <name>_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ExpressionBody.cs" line="9" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ExpressionBody.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_expression_body_1a0de6febb8a74b62321313a293aca6705" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_expression" kindref="compound">Expression</ref></type>
+        <definition>Expression Element.AST.ExpressionBody.Expression</definition>
+        <argsstring></argsstring>
+        <name>Expression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ExpressionBody.cs" line="11" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ExpressionBody.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ExpressionBody.cs" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ExpressionBody.cs" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_body_1abda21791df4b9c1fc3688212282c319a" prot="private" virt="non-virtual"><scope>Element::AST::ExpressionBody</scope><name>_</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_body_1a0de6febb8a74b62321313a293aca6705" prot="public" virt="non-virtual"><scope>Element::AST::ExpressionBody</scope><name>Expression</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

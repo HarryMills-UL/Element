@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_e6808de029c8c611b680c1bf60e922e8" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/obj/Debug</compoundname>
+    <innerdir refid="dir_e4a138ada078b1e81c8867f338fc213a">/Users/harry.mills/Documents/Repos/Element/Element.NET/obj/Debug/netstandard2.0</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/obj/Debug/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="classelement_1_1anonymous__block__expression" kind="class"><name>element::anonymous_block_expression</name>
+    <member refid="classelement_1_1anonymous__block__expression_1a139f9b454062e4edd449c78381b29f9d" kind="variable"><name>our_scope</name></member>
+    <member refid="classelement_1_1anonymous__block__expression_1a5a9eb6a78767ffcbed408be5d236b08a" kind="function"><name>anonymous_block_expression</name></member>
+    <member refid="classelement_1_1anonymous__block__expression_1ab5bd59a6d571e0a6368a42bfe992a5b4" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1anonymous__block__expression_1a4c081d57ea701e4c07291a5abd7111ec" kind="function"><name>resolve</name></member>
+  </compound>
+  <compound refid="classelement_1_1anonymous__block__instance" kind="class"><name>element::anonymous_block_instance</name>
+    <member refid="classelement_1_1anonymous__block__instance_1acb996fe84b906ef7fc92132033ed5997" kind="variable"><name>declarer</name></member>
+    <member refid="classelement_1_1anonymous__block__instance_1a81f3a02bab315586a26c6a14344d8d1b" kind="variable"><name>fields</name></member>
+    <member refid="classelement_1_1anonymous__block__instance_1a231f0cdcba4656808760b9121d9f467e" kind="function"><name>anonymous_block_instance</name></member>
+    <member refid="classelement_1_1anonymous__block__instance_1a95f42c98d917bdc5951482befc279126" kind="function"><name>is_constant</name></member>
+    <member refid="classelement_1_1anonymous__block__instance_1af42a77a0d159ffa096f4118a4d342a99" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1anonymous__block__instance_1ad8050aece4826fe6636541eff52c8909" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1anonymous__block__instance_1a0dbdb796b56e0f2bf7e5d8cf001350c9" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1anonymous__block__instance_1a0c638d1a201287d9bed5b55738702b07" kind="function"><name>compile</name></member>
+  </compound>
+  <compound refid="classelement_1_1any__constraint" kind="class"><name>element::any_constraint</name>
+    <member refid="classelement_1_1any__constraint_1af4ada34329ae2cef165aaf8fb3f4484f" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1any__constraint_1af3bbe19586bc103e20082b0fd9c1475a" kind="function"><name>any_constraint</name></member>
+  </compound>
+  <compound refid="classelement_1_1bool__type" kind="class"><name>element::bool_type</name>
+    <member refid="classelement_1_1bool__type_1a0ac0048fa2df9863533ed3c996a872f7" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1bool__type_1a2546eea9a0c657116d68a2a81383b0c3" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1bool__type_1ae2a7fcb04c2cf12bbae8ddc6a5e62254" kind="function"><name>bool_type</name></member>
+    <member refid="classelement_1_1bool__type_1ad69f094e429f1d59cdcc3c79b11da9be" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1bool__type_1a125a86cbea6c94fdbb75ab1e82324ab1" kind="function"><name>is_constant</name></member>
+  </compound>
+  <compound refid="structevaluator__ctx_1_1boundary" kind="struct"><name>evaluator_ctx::boundary</name>
+    <member refid="structevaluator__ctx_1_1boundary_1a9e24aba2d2f050c1d602a3ab8bde7c3a" kind="variable"><name>inputs</name></member>
+    <member refid="structevaluator__ctx_1_1boundary_1a366e6e4d0564c842681dc6a7ab862e9d" kind="variable"><name>inputs_count</name></member>
+  </compound>
+  <compound refid="structelement_1_1compilation__context_1_1boundary__info" kind="struct"><name>element::compilation_context::boundary_info</name>
+    <member refid="structelement_1_1compilation__context_1_1boundary__info_1ae26a891cd453e0f6edc59570d3859ccb" kind="variable"><name>size</name></member>
+  </compound>
+  <compound refid="classelement_1_1call__expression" kind="class"><name>element::call_expression</name>
+    <member refid="classelement_1_1call__expression_1a77fd0f58912b64d89d4e36bf951d8086" kind="variable"><name>arguments</name></member>
+    <member refid="classelement_1_1call__expression_1a51a9652bafbce338f29a55e56a0a2a34" kind="function"><name>call_expression</name></member>
+    <member refid="classelement_1_1call__expression_1aadd61804bd95bd83c5481d8f33332c1f" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1call__expression_1a279684dae4855d4a5d14e333b7f1f148" kind="function"><name>resolve</name></member>
+  </compound>
+  <compound refid="classelement_1_1call__stack" kind="class"><name>element::call_stack</name>
+    <member refid="classelement_1_1call__stack_1a71f17a74aecbdeb5ae5ad61963ace583" kind="variable"><name>frames</name></member>
+    <member refid="classelement_1_1call__stack_1ac2c4bfe28e11bdd79e3a9c01f7400205" kind="function"><name>push</name></member>
+    <member refid="classelement_1_1call__stack_1a417faa332a237234d96bdab3ef81759c" kind="function"><name>pop</name></member>
+    <member refid="classelement_1_1call__stack_1aa849cf9c2409cf58deaff3d01c5657b2" kind="function"><name>is_recursive</name></member>
+    <member refid="classelement_1_1call__stack_1a03f2174102840f21e3d4935dea739014" kind="function"><name>build_recursive_error</name></member>
+  </compound>
+  <compound refid="classelement_1_1capture__stack" kind="class"><name>element::capture_stack</name>
+    <member refid="classelement_1_1capture__stack_1ab4356cbf6b5b24ecab3a0e8d4c71b5b6" kind="variable"><name>frames</name></member>
+    <member refid="classelement_1_1capture__stack_1ad376a19d942f5701ec96e2fe1b0f26e6" kind="function"><name>capture_stack</name></member>
+    <member refid="classelement_1_1capture__stack_1a9411806490ee4a8a03d313df3ae1e92f" kind="function"><name>push</name></member>
+    <member refid="classelement_1_1capture__stack_1aa9647e768ffeb18d85d51e8297a7e8d2" kind="function"><name>push</name></member>
+    <member refid="classelement_1_1capture__stack_1ada97e6c404bb128fea760672d14bcdcc" kind="function"><name>pop</name></member>
+    <member refid="classelement_1_1capture__stack_1afd6e47ddbeb65aa46ad584ef41ca1969" kind="function"><name>find</name></member>
+  </compound>
+  <compound refid="classelement_1_1compilation__context" kind="class"><name>element::compilation_context</name>
+    <member refid="classelement_1_1compilation__context_1ab7fbe540acc93a1eb9dd19a4731c06be" kind="variable"><name>calls</name></member>
+    <member refid="classelement_1_1compilation__context_1afeacbbd2f6981dafe2be0a7a3d5e3498" kind="variable"><name>captures</name></member>
+    <member refid="classelement_1_1compilation__context_1a3af7cafc0f08540604bbe96839c0486f" kind="variable"><name>source_info</name></member>
+    <member refid="classelement_1_1compilation__context_1a258e42631ec752d70b34862ef1db8a1c" kind="variable"><name>boundaries</name></member>
+    <member refid="classelement_1_1compilation__context_1ad8cfd66b8166737d06d51bd5e058ae4c" kind="variable"><name>interpreter</name></member>
+    <member refid="classelement_1_1compilation__context_1a1323db355f49b51b995c3faeb7d72a32" kind="variable"><name>global_scope</name></member>
+    <member refid="classelement_1_1compilation__context_1ad936e880d64e8a8fda446828ef744ae0" kind="variable"><name>compiler_scope</name></member>
+    <member refid="classelement_1_1compilation__context_1adff1d58557feafbd5b1a6b7129c7333d" kind="function"><name>compilation_context</name></member>
+    <member refid="classelement_1_1compilation__context_1aee7fafcd54016310adac311517468305" kind="function"><name>get_global_scope</name></member>
+    <member refid="classelement_1_1compilation__context_1a4685253fa2e4fe3c39716f873989bb46" kind="function"><name>get_compiler_scope</name></member>
+    <member refid="classelement_1_1compilation__context_1ae6bbe2110a6e064ef3429afc454869fb" kind="function"><name>get_logger</name></member>
+    <member refid="classelement_1_1compilation__context_1a17f13560935225de73913fdd52816310" kind="function"><name>total_boundary_size_at_index</name></member>
+  </compound>
+  <compound refid="structcompiler__ctx" kind="struct"><name>compiler_ctx</name>
+    <member refid="structcompiler__ctx_1adc448fc7889f443666bc3e0d7e494da4" kind="variable"><name>context</name></member>
+    <member refid="structcompiler__ctx_1a5513d847d64a6439de623aaecc98e806" kind="variable"><name>opts</name></member>
+    <member refid="structcompiler__ctx_1a5c2a0dac6a2b97263de876e603b11c5f" kind="variable"><name>archive</name></member>
+    <member refid="structcompiler__ctx_1afe5a4a171b434770c3f6951dca305af6" kind="variable"><name>function</name></member>
+    <member refid="structcompiler__ctx_1a6642cd231340d927e9453fd05a97e398" kind="variable"><name>constants</name></member>
+    <member refid="structcompiler__ctx_1a7dfe2227a33a6f97fdcd00afd87c81e2" kind="function"><name>entries</name></member>
+  </compound>
+  <compound refid="classelement_1_1constraint" kind="class"><name>element::constraint</name>
+    <member refid="classelement_1_1constraint_1a94ff236de2673057c72b23475bbaf3b9" kind="variable"><name>any</name></member>
+    <member refid="classelement_1_1constraint_1a992c32b88bba87880b3962b7c16b2e3e" kind="variable"><name>function</name></member>
+    <member refid="classelement_1_1constraint_1a406c3073bf5a8a35aa568088bc9d981c" kind="variable"><name>declarer</name></member>
+    <member refid="classelement_1_1constraint_1a597a9dc041be2a1bf3a0bc7e74ca8239" kind="function"><name>constraint</name></member>
+    <member refid="classelement_1_1constraint_1a684c2afbf9217060904a9566c4d6ab20" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1constraint_1a411e7e1e3bd12caf29e56790913cd039" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1constraint_1a901b9b9bf504d51aacd4fc451f50e4f8" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1constraint_1a013e01ab6fb858a2a9236dfd728dae69" kind="function"><name>to_code</name></member>
+  </compound>
+  <compound refid="classelement_1_1constraint__declaration" kind="class"><name>element::constraint_declaration</name>
+    <member refid="classelement_1_1constraint__declaration_1acf07796b2f44e1ee50e8b8c762da7db1" kind="enum"><name>kind</name></member>
+    <member refid="classelement_1_1constraint__declaration_1acf07796b2f44e1ee50e8b8c762da7db1a8b9035807842a4e4dbe009f3f1478127" kind="enumvalue"><name>custom</name></member>
+    <member refid="classelement_1_1constraint__declaration_1acf07796b2f44e1ee50e8b8c762da7db1ace668bdd53970633afdd53e88b772919" kind="enumvalue"><name>intrinsic</name></member>
+    <member refid="classelement_1_1constraint__declaration_1ac927110dfadbe4328fc81030e55535f9" kind="variable"><name>constraint_</name></member>
+    <member refid="classelement_1_1constraint__declaration_1afa8dd5690816946874184c4ff2d58798" kind="variable"><name>constraint_kind</name></member>
+    <member refid="classelement_1_1constraint__declaration_1aa1d7f3bdaabf9b18d3b14df9bd516bda" kind="function"><name>constraint_declaration</name></member>
+    <member refid="classelement_1_1constraint__declaration_1a494669f29fa81a6bd0d45f171f6730e7" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1constraint__declaration_1a7a6ea4e6ad97df3b615ed0250d1f0818" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1constraint__declaration_1a856abdbbd378ea61fdd6eb1f7aa333af" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1constraint__declaration_1ab16b88b6ad3c09e6ec04178e489e10d9" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1constraint__declaration_1a20a0fa899680299fd5060e15bc3704c6" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1constraint__declaration_1a8b9080d0a569a30f9655d28926d6f0ef" kind="function"><name>is_intrinsic</name></member>
+  </compound>
+  <compound refid="classelement_1_1declaration" kind="class"><name>element::declaration</name>
+    <member refid="classelement_1_1declaration_1a2e520b33e96f792b5323ed22ec616719" kind="variable"><name>qualifier</name></member>
+    <member refid="classelement_1_1declaration_1a4af44f9d6c056d99c61a8fad55568f5f" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1declaration_1a475501035092573ccdedc3ec274251ad" kind="variable"><name>inputs</name></member>
+    <member refid="classelement_1_1declaration_1a2c5271358044c7784a008b0f11945588" kind="variable"><name>our_scope</name></member>
+    <member refid="classelement_1_1declaration_1ab6dd2fc24083358e423b900756a85cc7" kind="variable"><name>output</name></member>
+    <member refid="classelement_1_1declaration_1a4ba869980bcec8cd2d6801837a54ca24" kind="variable"><name>wrapper</name></member>
+    <member refid="classelement_1_1declaration_1a8696b7fbe135b0587844522d5adc244a" kind="function"><name>declaration</name></member>
+    <member refid="classelement_1_1declaration_1a610ac22456ae8b6373f67d0319ebe8fa" kind="function"><name>has_inputs</name></member>
+    <member refid="classelement_1_1declaration_1aef569b66836406fea14c09a544bd7768" kind="function"><name>has_output</name></member>
+    <member refid="classelement_1_1declaration_1a1d2398978ddc2bcef7ab41431de63f7e" kind="function"><name>has_constraint</name></member>
+    <member refid="classelement_1_1declaration_1aceb9f554853c91d5cc59275858fa407a" kind="function"><name>has_scope</name></member>
+    <member refid="classelement_1_1declaration_1a217a30a77e016ca9faebdddf94e1c338" kind="function"><name>is_intrinsic</name></member>
+    <member refid="classelement_1_1declaration_1ab0a2dc970845b94bd83b509b29706ce6" kind="function"><name>is_variadic</name></member>
+    <member refid="classelement_1_1declaration_1aca9fee3dff59f5fc556a7c97582795cf" kind="function"><name>get_inputs</name></member>
+    <member refid="classelement_1_1declaration_1a8068d1e042ffa6c66071512f098f8e1b" kind="function"><name>get_scope</name></member>
+    <member refid="classelement_1_1declaration_1a73b170b0cd63360e464409f77ec5b19b" kind="function"><name>get_output</name></member>
+    <member refid="classelement_1_1declaration_1a81bd001ce644bc329f3ae0bdff5e7718" kind="function"><name>serializable</name></member>
+    <member refid="classelement_1_1declaration_1a8cc77ed9d14d592b274c5ef8095f828e" kind="function"><name>deserializable</name></member>
+    <member refid="classelement_1_1declaration_1a155e76df8fb03187c5fa3cb50d5593c8" kind="function"><name>generate_placeholder</name></member>
+    <member refid="classelement_1_1declaration_1a3e154c96fa736c4770e27118ef5683d2" kind="function"><name>location</name></member>
+    <member refid="classelement_1_1declaration_1a671dc39120f6cb09515ea119b0dc6900" kind="function"><name>recursive_handler</name></member>
+  </compound>
+  <compound refid="classelement_1_1declaration__wrapper" kind="class"><name>element::declaration_wrapper</name>
+    <member refid="classelement_1_1declaration__wrapper_1a985a6f8cd39c99da5476c41fc3375ece" kind="variable"><name>declarer</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1aee635313fdb66db75527687f1029604a" kind="function"><name>declaration_wrapper</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a6ae9f48398173e7d7e7a1b85527e4bd8" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a05f78d3203f47a875a104bb4a7611ca8" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1ad858c989267d44c6b26eb73b8de7420a" kind="function"><name>has_inputs</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a5f891ffe89129edae6ea655fe2cc259a" kind="function"><name>has_output</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1ad2f04d14bf7eea87898f19e626b61f50" kind="function"><name>has_constraint</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a3809604321d53c287194b9b4c695a81d" kind="function"><name>has_scope</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a8f504eb0bb5ba94cfee2929566e92b3d" kind="function"><name>is_intrinsic</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1afa938f8f5bc6c411b4c9cdc1d2079cd1" kind="function"><name>get_inputs</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1aa9c49f674cda8e7432a020633ada73ee" kind="function"><name>get_scope</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a3abf08aeb08b7b85d94e5a942577f735" kind="function"><name>get_output</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a6e3b8d5b1119754da5bc302010589452" kind="function"><name>serializable</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1abc1d6ac71d82e41e6a71b6cd1357613d" kind="function"><name>deserializable</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a702f2d60eda068cb2a2c84e3a80eb51c" kind="function"><name>generate_placeholder</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1a57619c7e0c89933f5bcf7cd3bb805e5b" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1ad8235651ebacb877006937c41f704e6d" kind="function"><name>call</name></member>
+    <member refid="classelement_1_1declaration__wrapper_1ab2cd53a6a6463bcd5dcba4f0b6c9616b" kind="function"><name>compile</name></member>
+  </compound>
+  <compound refid="structelement__interpreter__ctx_1_1_deleter" kind="struct"><name>element_interpreter_ctx::Deleter</name>
+    <member refid="structelement__interpreter__ctx_1_1_deleter_1ae8ae6b3c63af51c496afb435207225c6" kind="function"><name>operator()</name></member>
+    <member refid="structelement__interpreter__ctx_1_1_deleter_1a8673977ef872a29e9226105c2d495aa4" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structelement__ast" kind="struct"><name>element_ast</name>
+    <member refid="structelement__ast_1a1c5169c6841e2cc9afc646475f390818" kind="variable"><name>literal</name></member>
+    <member refid="structelement__ast_1a9ceed2511b31278aa6132a64e09d799d" kind="variable"><name>flags</name></member>
+    <member refid="structelement__ast_1a613f3ee5520f0f83f4dd07c533930c24" kind="variable"><name>@1</name></member>
+    <member refid="structelement__ast_1a51de937a26d4459ae609da913d8a9263" kind="variable"><name>type</name></member>
+    <member refid="structelement__ast_1a908c5f516c6cbe2a4f433992ef0e6e71" kind="variable"><name>identifier</name></member>
+    <member refid="structelement__ast_1a4fb6f3acd3793cd23ff929aaeeb0e512" kind="variable"><name>parent</name></member>
+    <member refid="structelement__ast_1aa7336192d647a7d9e74b02db8a4f6a3f" kind="variable"><name>children</name></member>
+    <member refid="structelement__ast_1ae6585f05201a5b5d3cb282fec2566285" kind="variable"><name>nearest_token</name></member>
+    <member refid="structelement__ast_1ab1fa97709dd73c707bca87eebf1f9c5b" kind="function"><name>element_ast</name></member>
+    <member refid="structelement__ast_1aa4fd97dea42daffc53c4da14104ed4e9" kind="function"><name>has_flag</name></member>
+  </compound>
+  <compound refid="structelement__declaration" kind="struct"><name>element_declaration</name>
+    <member refid="structelement__declaration_1a7ae48d47c9b097406ae338a69e47cd48" kind="variable"><name>decl</name></member>
+  </compound>
+  <compound refid="structelement__instruction" kind="struct"><name>element_instruction</name>
+    <member refid="structelement__instruction_1a76803d3286f1c0a4e540cf2d6f3b9b22" kind="variable"><name>actual_type</name></member>
+    <member refid="structelement__instruction_1a5ae105a4a79ed02ed773b43b58143c5d" kind="variable"><name>m_dependents</name></member>
+    <member refid="structelement__instruction_1ae26c2540b369adb80a8f010dfe07c399" kind="variable"><name>m_type_id</name></member>
+    <member refid="structelement__instruction_1ab1d78775506ad663e0556d8c6030ab65" kind="variable"><name>m_size</name></member>
+    <member refid="structelement__instruction_1a712cd03bdded21fafa62bf94f18f358e" kind="function"><name>dependents</name></member>
+    <member refid="structelement__instruction_1ab47fc733a09a9d6ee64b7bc40234b7a5" kind="function"><name>dependents</name></member>
+    <member refid="structelement__instruction_1a876d321d32779491ac0e632a76f6630c" kind="function"><name>get_size</name></member>
+    <member refid="structelement__instruction_1a265563e4d616399f5080b353ab0acf16" kind="function"><name>is_constant</name></member>
+    <member refid="structelement__instruction_1a63b15ce9d9636bcfbce49c643264025d" kind="function"><name>matches_constraint</name></member>
+    <member refid="structelement__instruction_1ae3f2d58fe0a38d1aa24a986dbbdd88e8" kind="function"><name>get_constraint</name></member>
+    <member refid="structelement__instruction_1a9ef2181af4c362af26904d9cbb30075a" kind="function"><name>typeof_info</name></member>
+    <member refid="structelement__instruction_1af1261514857a1fcc87fb291149106396" kind="function"><name>to_instruction</name></member>
+    <member refid="structelement__instruction_1afd27d82abd590258cf42be59cc3375c3" kind="function"><name>index</name></member>
+    <member refid="structelement__instruction_1a0e4b3a0f9c9f981e2305c2f7b83f08c3" kind="function"><name>element_instruction</name></member>
+    <member refid="structelement__instruction_1a892e137a2beab2900b0fec3a24dd59cd" kind="function"><name>compile</name></member>
+  </compound>
+  <compound refid="structelement__instruction__binary" kind="struct"><name>element_instruction_binary</name>
+    <member refid="structelement__instruction__binary_1aaa863cecb20598f3c5f03c5375ddb4bc" kind="typedef"><name>op</name></member>
+    <member refid="structelement__instruction__binary_1a5495dccdf4664022d57d592c6a45cdd6" kind="variable"><name>m_op</name></member>
+    <member refid="structelement__instruction__binary_1ad7757bc4e377feae844d3c95215f7bee" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__binary_1aa45056939135b50154becef8a17cbbec" kind="function"><name>element_instruction_binary</name></member>
+    <member refid="structelement__instruction__binary_1ab7cc8cbf784d249dba4ccc0942f2e55f" kind="function"><name>operation</name></member>
+    <member refid="structelement__instruction__binary_1a9c08fce034cc13c28d788feaf1f7164b" kind="function"><name>input1</name></member>
+    <member refid="structelement__instruction__binary_1ae6c0bc06a5fb2d2242fcd28b55519f85" kind="function"><name>input2</name></member>
+    <member refid="structelement__instruction__binary_1af1114cc8c70e66615b166bfdd83357eb" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__instruction__constant" kind="struct"><name>element_instruction_constant</name>
+    <member refid="structelement__instruction__constant_1a0c10367f7f8603e6e0e8430e5f311c10" kind="variable"><name>m_value</name></member>
+    <member refid="structelement__instruction__constant_1ac227a080a4859dfbedfb0154fa4f0179" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__constant_1a0eca1fb811573860eecb855c3a3bfc43" kind="function"><name>element_instruction_constant</name></member>
+    <member refid="structelement__instruction__constant_1a2a5f85d57be5a81161d46b7f57fe7267" kind="function"><name>call</name></member>
+    <member refid="structelement__instruction__constant_1a14c5f9a1f364550abb7e8904406c4972" kind="function"><name>value</name></member>
+    <member refid="structelement__instruction__constant_1a4b164fe6b63d71841f4c0ab77ba2ef2d" kind="function"><name>get_size</name></member>
+    <member refid="structelement__instruction__constant_1a8ffb278dfa6541928ec49ac85a9027b5" kind="function"><name>to_string</name></member>
+  </compound>
+  <compound refid="structelement__instruction__fold" kind="struct"><name>element_instruction_fold</name>
+    <member refid="structelement__instruction__fold_1a07466193260c78df2facbcdeb5e89df0" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__fold_1aac3c6ce7281ad11d10f4865f8952fe5d" kind="function"><name>element_instruction_fold</name></member>
+    <member refid="structelement__instruction__fold_1af95e5ae4b76bd0b5b034069d57a315cb" kind="function"><name>list</name></member>
+    <member refid="structelement__instruction__fold_1aa5d9f877bdb401e412464edb915590fd" kind="function"><name>initial</name></member>
+    <member refid="structelement__instruction__fold_1a3aa96452235c916b815cbd66cf5f958d" kind="function"><name>accumulator</name></member>
+    <member refid="structelement__instruction__fold_1a8c84b9d5b54b0dc3143f6eef62343e14" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__instruction__for" kind="struct"><name>element_instruction_for</name>
+    <member refid="structelement__instruction__for_1aaad4a8a328670d3eee268dd340ae8e69" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__for_1a152432381f6f765d3a08de4b87320ca5" kind="function"><name>element_instruction_for</name></member>
+    <member refid="structelement__instruction__for_1a8e02f96e7209ebc5858d223887527f7d" kind="function"><name>initial</name></member>
+    <member refid="structelement__instruction__for_1a750b5d1223e5e08e8a93c7107d6a2f6e" kind="function"><name>condition</name></member>
+    <member refid="structelement__instruction__for_1a315975d4d8cb4ace1eafcb6dac67ff7e" kind="function"><name>body</name></member>
+    <member refid="structelement__instruction__for_1ad7f07569fe312dfed5b273b2819ae75b" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__instruction__if" kind="struct"><name>element_instruction_if</name>
+    <member refid="structelement__instruction__if_1ad7bddc1486f67778f781a416361b46d1" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__if_1a4757cb2d596d31c185504cc3229a21f7" kind="function"><name>element_instruction_if</name></member>
+    <member refid="structelement__instruction__if_1a2a534a3f95a301b99c8355367821c3e1" kind="function"><name>predicate</name></member>
+    <member refid="structelement__instruction__if_1a32da9333deca608b4153f800131077cd" kind="function"><name>if_true</name></member>
+    <member refid="structelement__instruction__if_1ac8b20043e05ba712bf77f7b882f29b7e" kind="function"><name>if_false</name></member>
+    <member refid="structelement__instruction__if_1ad0758a897e0b970e11a4ebcd86d10210" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__instruction__indexer" kind="struct"><name>element_instruction_indexer</name>
+    <member refid="structelement__instruction__indexer_1a19a0c92a1049c90cb586e1c254f0545c" kind="variable"><name>for_instruction</name></member>
+    <member refid="structelement__instruction__indexer_1aacef39a4b9956a74ae100ec40206604f" kind="variable"><name>index</name></member>
+    <member refid="structelement__instruction__indexer_1a0e142f571e6e817bcd32898968ad5778" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__indexer_1ac20f2f4a067aec2fb206cf2fa676c384" kind="function"><name>element_instruction_indexer</name></member>
+    <member refid="structelement__instruction__indexer_1a97dfa7a5c51e65809a103359c223ac43" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__instruction__input" kind="struct"><name>element_instruction_input</name>
+    <member refid="structelement__instruction__input_1a065e2fe325a6e4fe8cf105ff640ca073" kind="variable"><name>m_scope</name></member>
+    <member refid="structelement__instruction__input_1a3b1b76fb2e4a09ca0269d0776aa8a9e9" kind="variable"><name>m_index</name></member>
+    <member refid="structelement__instruction__input_1a3cb328f505c032ff4c075cf017be3dff" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__input_1a834e28f7b60eaed11b0e24d1144fc752" kind="function"><name>element_instruction_input</name></member>
+    <member refid="structelement__instruction__input_1a7c425d785dd2c4578d162f1b0b8db5a9" kind="function"><name>scope</name></member>
+    <member refid="structelement__instruction__input_1abe5a31f693b9c8ddeb601228098e3ea4" kind="function"><name>index</name></member>
+    <member refid="structelement__instruction__input_1a9877b59b670a40a28b58f4d0d6921724" kind="function"><name>get_size</name></member>
+    <member refid="structelement__instruction__input_1ad7a4dbc5b2c1cb4f10697fb5669222e1" kind="function"><name>is_constant</name></member>
+    <member refid="structelement__instruction__input_1a032479b140b24638cfa0ff7912048a1e" kind="function"><name>to_string</name></member>
+  </compound>
+  <compound refid="structelement__instruction__nullary" kind="struct"><name>element_instruction_nullary</name>
+    <member refid="structelement__instruction__nullary_1ac90a248db5b6e9001c1dda295488dd0a" kind="typedef"><name>op</name></member>
+    <member refid="structelement__instruction__nullary_1a8aeeddb61d2e88e40799ff46fc4a0207" kind="variable"><name>m_op</name></member>
+    <member refid="structelement__instruction__nullary_1a21684fcb27685ba9f08941fddfb537ae" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__nullary_1afb44b9c83a5ae523291e9c92297e211c" kind="function"><name>element_instruction_nullary</name></member>
+    <member refid="structelement__instruction__nullary_1a14a7a644e8de1ccc50bafa3d73384f3d" kind="function"><name>operation</name></member>
+    <member refid="structelement__instruction__nullary_1a9e674e7c60f507628104925204861683" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__instruction__select" kind="struct"><name>element_instruction_select</name>
+    <member refid="structelement__instruction__select_1a498ef6c72bc746d2febe31d25d493924" kind="variable"><name>selector</name></member>
+    <member refid="structelement__instruction__select_1a03490d605e0e75a648ca1da28d733838" kind="variable"><name>options</name></member>
+    <member refid="structelement__instruction__select_1a82fa10d486fde82584280aef2599b944" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__select_1a61fe72ccfeda3a8c250c18acef153e18" kind="function"><name>element_instruction_select</name></member>
+    <member refid="structelement__instruction__select_1af5d70d3c7d824b3f5e07e3c454c75023" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__instruction__serialised__structure" kind="struct"><name>element_instruction_serialised_structure</name>
+    <member refid="structelement__instruction__serialised__structure_1a3a2377a3d4d46ba5619891b84c5ae419" kind="variable"><name>m_debug_dependents_names</name></member>
+    <member refid="structelement__instruction__serialised__structure_1abde8856a40c6300038488836de35551e" kind="variable"><name>m_debug_type_name</name></member>
+    <member refid="structelement__instruction__serialised__structure_1af1534a628a062260733d3e5a020ccaf3" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__serialised__structure_1a4bc0074ae0d60a513c92ca872367251b" kind="function"><name>element_instruction_serialised_structure</name></member>
+    <member refid="structelement__instruction__serialised__structure_1a086a45518e842eee20ce3b3e126a5891" kind="function"><name>output</name></member>
+    <member refid="structelement__instruction__serialised__structure_1a8ada0b8b4ceb4524e15a8e80844280f5" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__instruction__unary" kind="struct"><name>element_instruction_unary</name>
+    <member refid="structelement__instruction__unary_1ac6d496d9dfef6e46c6964358e4eeb66d" kind="typedef"><name>op</name></member>
+    <member refid="structelement__instruction__unary_1aa83cb398a64c7501652a97629dafef44" kind="variable"><name>m_op</name></member>
+    <member refid="structelement__instruction__unary_1a42a4a4f9a68581d44141ff7cb6fb7d2c" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="structelement__instruction__unary_1abb3e93b6015660550c46a3a7037fbc8c" kind="function"><name>element_instruction_unary</name></member>
+    <member refid="structelement__instruction__unary_1a5c1657b9e7d44acf6cddcd88712931d6" kind="function"><name>operation</name></member>
+    <member refid="structelement__instruction__unary_1a9902f1e6ed8eefccc0662062453be7d9" kind="function"><name>input</name></member>
+    <member refid="structelement__instruction__unary_1a8d34b22475a22a5b92cceeea1046e4d7" kind="function"><name>get_size</name></member>
+  </compound>
+  <compound refid="structelement__interpreter__ctx" kind="struct"><name>element_interpreter_ctx</name>
+    <member refid="structelement__interpreter__ctx_1a0900c808b178557b60b4385b74f25b4c" kind="typedef"><name>intrinsic_map_type</name></member>
+    <member refid="structelement__interpreter__ctx_1a225caf0cf2681a6508b12ad8db5752c6" kind="variable"><name>parse_only</name></member>
+    <member refid="structelement__interpreter__ctx_1a08c07b1334462d7c07aebaa051fc06e0" kind="variable"><name>prelude_loaded</name></member>
+    <member refid="structelement__interpreter__ctx_1abbcd3e2ea3226450ace81e069beab38b" kind="variable"><name>logger</name></member>
+    <member refid="structelement__interpreter__ctx_1a8d9400b9826eec0fc1ad284db3776e44" kind="variable"><name>src_context</name></member>
+    <member refid="structelement__interpreter__ctx_1a30d48770953c73638b0e490212bf9f46" kind="variable"><name>global_scope</name></member>
+    <member refid="structelement__interpreter__ctx_1acc2e1f585e1f00c354ddf73a056663f3" kind="variable"><name>intrinsic_map</name></member>
+    <member refid="structelement__interpreter__ctx_1a5abbb270ae4f26051cee9b6889680453" kind="function"><name>element_interpreter_ctx</name></member>
+    <member refid="structelement__interpreter__ctx_1a78ab020c1676f1f7cf20172fc62c8ff2" kind="function"><name>~element_interpreter_ctx</name></member>
+    <member refid="structelement__interpreter__ctx_1a702fa8a7bd12c2c0c7a61596f59c7351" kind="function"><name>load_into_scope</name></member>
+    <member refid="structelement__interpreter__ctx_1aea34233a6406febc146315dba92469c9" kind="function"><name>load</name></member>
+    <member refid="structelement__interpreter__ctx_1af9f1f600874e43398e899e0da9de54ea" kind="function"><name>load_file</name></member>
+    <member refid="structelement__interpreter__ctx_1a4004b896837ae1fcd7ac8a0e9075161b" kind="function"><name>load_files</name></member>
+    <member refid="structelement__interpreter__ctx_1abd10f1ae221c8a69fe27901f4738ad2f" kind="function"><name>load_package</name></member>
+    <member refid="structelement__interpreter__ctx_1a2d4e2da2bffb3dfaefe484d1e6c79e2c" kind="function"><name>load_packages</name></member>
+    <member refid="structelement__interpreter__ctx_1a54ee62c1e426332179ab6e7af9fc6437" kind="function"><name>load_prelude</name></member>
+    <member refid="structelement__interpreter__ctx_1a5f58160c5915c33285ab9c7d11149a7f" kind="function"><name>clear</name></member>
+    <member refid="structelement__interpreter__ctx_1a66bbe13629d37d06fa287abb2efb6394" kind="function"><name>set_log_callback</name></member>
+    <member refid="structelement__interpreter__ctx_1aa57d65c826ba9e0029891c157bd8a566" kind="function"><name>log</name></member>
+    <member refid="structelement__interpreter__ctx_1a7af80beb3ac8c85ab663b7da7dc3a504" kind="function"><name>log</name></member>
+  </compound>
+  <compound refid="structelement__lmnt__archive__ctx" kind="struct"><name>element_lmnt_archive_ctx</name>
+    <member refid="structelement__lmnt__archive__ctx_1a0705a4847c175983ad99df4429ad820f" kind="variable"><name>functions</name></member>
+    <member refid="structelement__lmnt__archive__ctx_1a6f2d99646273d3635019e15f43b715bc" kind="variable"><name>constants</name></member>
+    <member refid="structelement__lmnt__archive__ctx_1a2ec6e01bbbf01f85a48b429f6f7d9843" kind="variable"><name>entries</name></member>
+    <member refid="structelement__lmnt__archive__ctx_1a72a47f2cfe24ba29ad35b4e0e4d37830" kind="function"><name>get_constant</name></member>
+  </compound>
+  <compound refid="structelement__lmnt__compiled__function" kind="struct"><name>element_lmnt_compiled_function</name>
+    <member refid="structelement__lmnt__compiled__function_1a0d19a93671a9a246980690d6e0c3ef47" kind="variable"><name>function</name></member>
+    <member refid="structelement__lmnt__compiled__function_1a51f10995aebf7c82b3eb23524f5f7443" kind="variable"><name>ops</name></member>
+    <member refid="structelement__lmnt__compiled__function_1ab4d81baa34cb63056c94a4763a45426b" kind="variable"><name>inputs_size</name></member>
+    <member refid="structelement__lmnt__compiled__function_1a6c2dceb1988ad1696aa71ac5c6454fd2" kind="variable"><name>outputs_size</name></member>
+    <member refid="structelement__lmnt__compiled__function_1a56df1ceb4879434a43f6c4d46db9b71b" kind="variable"><name>outputs_matched</name></member>
+    <member refid="structelement__lmnt__compiled__function_1a57db34ceec4171f61fa81da5c3b39e92" kind="variable"><name>locals_size</name></member>
+  </compound>
+  <compound refid="structelement__lmnt__instruction" kind="struct"><name>element_lmnt_instruction</name>
+    <member refid="structelement__lmnt__instruction_1a53b2a1e60f7f923f845db0ceaf2e3e33" kind="variable"><name>opcode</name></member>
+    <member refid="structelement__lmnt__instruction_1a69b0d553b738d9e231056a82fecf2ec2" kind="variable"><name>arg1</name></member>
+    <member refid="structelement__lmnt__instruction_1a44ecb76c7cbf72d48319f2fcb37ee585" kind="variable"><name>arg2</name></member>
+    <member refid="structelement__lmnt__instruction_1af10d02f1fe7cba9663974149b0c02d76" kind="variable"><name>arg3</name></member>
+  </compound>
+  <compound refid="structelement__lmnt__stack__entry" kind="struct"><name>element_lmnt_stack_entry</name>
+    <member refid="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4" kind="enum"><name>entry_type</name></member>
+    <member refid="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4a617ac08757d38a5a7ed91c224f0e90a0" kind="enumvalue"><name>constant</name></member>
+    <member refid="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4aa43c1b0aa53a0c908810c06ab1ff3967" kind="enumvalue"><name>input</name></member>
+    <member refid="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4a78e6221f6393d1356681db398f14ce6d" kind="enumvalue"><name>output</name></member>
+    <member refid="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4af5ddaf0ca7929578b408c909429f68f2" kind="enumvalue"><name>local</name></member>
+    <member refid="structelement__lmnt__stack__entry_1a747b86b4e15ad5284e8b73779a3cf138" kind="variable"><name>type</name></member>
+    <member refid="structelement__lmnt__stack__entry_1a3a89e7336b612e548b8ba708ecd13fe9" kind="variable"><name>index</name></member>
+    <member refid="structelement__lmnt__stack__entry_1aa62006866444657db520abdb2215b8fc" kind="variable"><name>size</name></member>
+  </compound>
+  <compound refid="structelement__log__ctx" kind="struct"><name>element_log_ctx</name>
+    <member refid="structelement__log__ctx_1a72c70f7fc05fd42135bac20ca276cc96" kind="variable"><name>callback</name></member>
+    <member refid="structelement__log__ctx_1a98b58cc20805488781730ab11d81b018" kind="variable"><name>user_data</name></member>
+    <member refid="structelement__log__ctx_1a904aad1f5aaf86653e899d403cfb16d4" kind="variable"><name>compilation_step_indent_level</name></member>
+    <member refid="structelement__log__ctx_1afe0ce62c8a4fac089a9f81ff2a4d1902" kind="function"><name>log</name></member>
+    <member refid="structelement__log__ctx_1a65046602e3e10ea13d472456c06afe0c" kind="function"><name>log</name></member>
+    <member refid="structelement__log__ctx_1ae446071f1128e31400583c0c19e2a9e9" kind="function"><name>log</name></member>
+    <member refid="structelement__log__ctx_1a44b7c8ac40f043a5fb9fed814ec5ee8b" kind="function"><name>log</name></member>
+    <member refid="structelement__log__ctx_1a3de87340f55e0faa187c1f8a3e1aa3ea" kind="function"><name>log</name></member>
+    <member refid="structelement__log__ctx_1a9f4d181f3d93b2a52a96e87692c6d165" kind="function"><name>log</name></member>
+    <member refid="structelement__log__ctx_1a5e22858a19273a789ca2490892c5b132" kind="function"><name>log</name></member>
+    <member refid="structelement__log__ctx_1a3b1ea12128014fed59cee6e3b484c077" kind="function"><name>log_step</name></member>
+    <member refid="structelement__log__ctx_1ab9d5dc168ae7f2c189f1760c6bcc937f" kind="function"><name>log_step_indent</name></member>
+    <member refid="structelement__log__ctx_1ad3c1c697a61ec3ad312532510f55d52b" kind="function"><name>log_step_unindent</name></member>
+  </compound>
+  <compound refid="structelement__metainfo" kind="struct"><name>element_metainfo</name>
+    <member refid="structelement__metainfo_1a2cb8e3a076aa3a29a23d1745d3d7e6cf" kind="variable"><name>code</name></member>
+    <member refid="structelement__metainfo_1a56b8e905e77b71d47b654590fe3ba51d" kind="variable"><name>typeof</name></member>
+    <member refid="structelement__metainfo_1a0828bc7344993384737361f414c3f819" kind="variable"><name>source_type</name></member>
+  </compound>
+  <compound refid="structelement__object" kind="struct"><name>element_object</name>
+    <member refid="structelement__object_1a90bac5143f148c5a7362bf60b1d0b651" kind="variable"><name>obj</name></member>
+  </compound>
+  <compound refid="structelement__parser__ctx" kind="struct"><name>element_parser_ctx</name>
+    <member refid="structelement__parser__ctx_1af22fcb6a18506b4495facf27ed85ecb9" kind="variable"><name>logger</name></member>
+    <member refid="structelement__parser__ctx_1aad022a78218ce762742e2e29b372123b" kind="variable"><name>src_context</name></member>
+    <member refid="structelement__parser__ctx_1a0a9a579311dd34fef640b94861537cac" kind="variable"><name>tokeniser</name></member>
+    <member refid="structelement__parser__ctx_1a0646363cc0058e99f3d0c698407ec7d7" kind="variable"><name>root</name></member>
+    <member refid="structelement__parser__ctx_1a202ae82a2568f29f10da381c36b6ed4b" kind="function"><name>parse_literal</name></member>
+    <member refid="structelement__parser__ctx_1ae765b8d935736b201e7c5580321fd87c" kind="function"><name>parse_identifier</name></member>
+    <member refid="structelement__parser__ctx_1a34e2db345a13ac5834b29028e571ffc9" kind="function"><name>parse_typename</name></member>
+    <member refid="structelement__parser__ctx_1af4127c722b1217db81bd67ac81562ff2" kind="function"><name>parse_port</name></member>
+    <member refid="structelement__parser__ctx_1a033b5157026888fde529d0825928cc74" kind="function"><name>parse_portlist</name></member>
+    <member refid="structelement__parser__ctx_1ac4e55a2a1037fe8cb3ef5dc41b4624b9" kind="function"><name>parse_exprlist</name></member>
+    <member refid="structelement__parser__ctx_1a0c2bb3a45c9cee57c0885d80881b745e" kind="function"><name>parse_call</name></member>
+    <member refid="structelement__parser__ctx_1af04bcf19103900e4c54badade3a60402" kind="function"><name>parse_lambda</name></member>
+    <member refid="structelement__parser__ctx_1a8a7243aff07ee28f4f95e286dde892aa" kind="function"><name>parse_expression</name></member>
+    <member refid="structelement__parser__ctx_1aedc761b9ca9c5861c3836ebee5e251ba" kind="function"><name>parse_qualifiers</name></member>
+    <member refid="structelement__parser__ctx_1a2711c226f2a5e092d92a08a2551949b1" kind="function"><name>parse_declaration</name></member>
+    <member refid="structelement__parser__ctx_1aafe60996f97dd24ca89613cd2ab7beb8" kind="function"><name>parse_scope</name></member>
+    <member refid="structelement__parser__ctx_1a4351da7b95bf0cee3fd5da7e5870ff24" kind="function"><name>parse_anonymous_block</name></member>
+    <member refid="structelement__parser__ctx_1a56723bb1c225cad7ce86d8d1cf23c6ec" kind="function"><name>parse_body</name></member>
+    <member refid="structelement__parser__ctx_1ac9c5978050783c9dabf758a69eecab79" kind="function"><name>parse_function</name></member>
+    <member refid="structelement__parser__ctx_1a713aa7ebc4dc7c5ab762a0f95de5caf1" kind="function"><name>parse_struct</name></member>
+    <member refid="structelement__parser__ctx_1a42fec80c1e4a7edf8f460e8eab276f3b" kind="function"><name>parse_constraint</name></member>
+    <member refid="structelement__parser__ctx_1a1d03491aa4f0bba888b3ece7a226eb5c" kind="function"><name>parse_namespace</name></member>
+    <member refid="structelement__parser__ctx_1ab30984c71d20a7a8311916a7185cbd0f" kind="function"><name>parse_item</name></member>
+    <member refid="structelement__parser__ctx_1a7b79166518f1a2821726bcc72ee6bd1b" kind="function"><name>parse</name></member>
+    <member refid="structelement__parser__ctx_1a6b9ace1f9d4677c7b4f9f1b25317b367" kind="function"><name>ast_build</name></member>
+    <member refid="structelement__parser__ctx_1aaf070948690c9ca30ab8fe20e7e727a6" kind="function"><name>validate</name></member>
+    <member refid="structelement__parser__ctx_1a821ad93c15cd3b8471fc11f497e3f0d2" kind="function"><name>log</name></member>
+    <member refid="structelement__parser__ctx_1aff659cef5bfeb02eacfb88446af44654" kind="function"><name>log</name></member>
+    <member refid="structelement__parser__ctx_1a31d6ed3c74fb275d0472a8e6c4c97dd9" kind="function"><name>validate_type</name></member>
+    <member refid="structelement__parser__ctx_1a41873c3181ae2d5fac191da8f6bb2fc2" kind="function"><name>validate_portlist</name></member>
+    <member refid="structelement__parser__ctx_1aaefe108db499547ce5c51690e46c066c" kind="function"><name>validate_struct</name></member>
+    <member refid="structelement__parser__ctx_1a19ceced5bdd673a0a20225c08936bcce" kind="function"><name>validate_scope</name></member>
+  </compound>
+  <compound refid="structelement__tokeniser__ctx" kind="struct"><name>element_tokeniser_ctx</name>
+    <member refid="structelement__tokeniser__ctx_1aadcfb5eaf9cb3319cb1949b8a6b7f6af" kind="variable"><name>logger</name></member>
+    <member refid="structelement__tokeniser__ctx_1ad1a3ec6e789f30518ed1ad83ec066509" kind="variable"><name>raw_filename</name></member>
+    <member refid="structelement__tokeniser__ctx_1ac3f52e69f4578a19841eed6c2011a49b" kind="variable"><name>filename</name></member>
+    <member refid="structelement__tokeniser__ctx_1aedba310d542d048657fd7704c5c9ddc3" kind="variable"><name>input</name></member>
+    <member refid="structelement__tokeniser__ctx_1a1c9ff78d05a88379c2e738f3d8212ed4" kind="variable"><name>pos</name></member>
+    <member refid="structelement__tokeniser__ctx_1aed301249c2984fd98a34316e2a35dada" kind="variable"><name>line</name></member>
+    <member refid="structelement__tokeniser__ctx_1a0a9fd6abd53ad541b20f787f4a7580fa" kind="variable"><name>line_start_position</name></member>
+    <member refid="structelement__tokeniser__ctx_1aa3c4e377fe5cb1c51d144f3640de3095" kind="variable"><name>character</name></member>
+    <member refid="structelement__tokeniser__ctx_1adab0ee776203337281285836d3956360" kind="variable"><name>cur_token</name></member>
+    <member refid="structelement__tokeniser__ctx_1a930ba27146e375bbc30e6f54f9d94623" kind="variable"><name>tokens</name></member>
+    <member refid="structelement__tokeniser__ctx_1a144ae2f071fe8d5f736b0a18fe78963e" kind="variable"><name>line_number_to_line_pos</name></member>
+    <member refid="structelement__tokeniser__ctx_1a54ce637c402578e9bd81fb90599aa9c9" kind="function"><name>text</name></member>
+    <member refid="structelement__tokeniser__ctx_1ae726433879f50338a9ea9b387208b047" kind="function"><name>text_on_line</name></member>
+    <member refid="structelement__tokeniser__ctx_1a4f5735962aec884eb1a7eacfb3eb384a" kind="function"><name>log</name></member>
+    <member refid="structelement__tokeniser__ctx_1ac4f792c72026806499a2a50e0423fd77" kind="function"><name>log</name></member>
+    <member refid="structelement__tokeniser__ctx_1a06bdac1e1b2316482e8527a4c6a93c17" kind="function"><name>log</name></member>
+    <member refid="structelement__tokeniser__ctx_1a3dbaab2fc757db9e28808cee56239369" kind="function"><name>set_log_callback</name></member>
+    <member refid="structelement__tokeniser__ctx_1a12747be60ab95af6c3ab27b73d030383" kind="function"><name>element_tokeniser_ctx</name></member>
+  </compound>
+  <compound refid="classelement_1_1error" kind="class"><name>element::error</name>
+    <member refid="classelement_1_1error_1ab2355a893f7140850f0c8455bc2b39bf" kind="variable"><name>message</name></member>
+    <member refid="classelement_1_1error_1ae1e105963d5907e88fc7c0669321553c" kind="variable"><name>code</name></member>
+    <member refid="classelement_1_1error_1a7ddbbcd76996f7c7f5a82e5198261fa4" kind="variable"><name>logged</name></member>
+    <member refid="classelement_1_1error_1ae411f409e61649f8cfdb214a8eefe771" kind="function"><name>error</name></member>
+    <member refid="classelement_1_1error_1a769efe168fd4eda7a32719f299684fb0" kind="function"><name>is_constant</name></member>
+    <member refid="classelement_1_1error_1a6c381bcbbf77ffa152d4633b0d1e7e63" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1error_1a6b84ffe63f6f8315d414d109470b0e9b" kind="function"><name>call</name></member>
+    <member refid="classelement_1_1error_1a7b1d097f4b285b9556c5b8d7c23979bd" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1error_1a8695f708255c1c73144d4b0ef0dd960d" kind="function"><name>get_result</name></member>
+    <member refid="classelement_1_1error_1a212478f991aa368a29b81b6a18ed8ea7" kind="function"><name>get_message</name></member>
+    <member refid="classelement_1_1error_1ab6b91f7de7177bbb01e422d4ed8f7f63" kind="function"><name>get_log_message</name></member>
+    <member refid="classelement_1_1error_1a9b7d5cb6d445eb093de2c34b8a47b648" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1error_1af935a398e586583f4b5c086c86941007" kind="function"><name>log_once</name></member>
+  </compound>
+  <compound refid="structelement_1_1error__map" kind="struct"><name>element::error_map</name>
+    <member refid="structelement_1_1error__map_1a674c579c2cca5b30d6872ca465339a86" kind="typedef"><name>func</name></member>
+    <member refid="structelement_1_1error__map_1a6b3e032fd0d42d6fddc750efb3362f9d" kind="typedef"><name>map</name></member>
+    <member refid="structelement_1_1error__map_1ac04d0816734e28e2e163b6fc22ef3306" kind="variable"><name>func_map</name></member>
+    <member refid="structelement_1_1error__map_1a7e07d591e11442d0d906a9bbe5e84fd7" kind="function"><name>register_func</name></member>
+    <member refid="structelement_1_1error__map_1a62924243ffe710053d1b053a204a64e2" kind="function"><name>build_error</name></member>
+  </compound>
+  <compound refid="structelement_1_1error__map_3_4" kind="struct"><name>element::error_map&lt;&gt;</name>
+    <member refid="structelement_1_1error__map_3_4_1ad3922d7a000471bb95272f43e7d6945a" kind="typedef"><name>func</name></member>
+    <member refid="structelement_1_1error__map_3_4_1a96d4f29cd9d77f49d24527f75ce33272" kind="typedef"><name>map</name></member>
+    <member refid="structelement_1_1error__map_3_4_1ace15df96d4ea6acea352e339f748a85e" kind="variable"><name>func_map</name></member>
+    <member refid="structelement_1_1error__map_3_4_1a1a4a6c17f74d15782b4a3d2aab4044e2" kind="function"><name>register_func</name></member>
+    <member refid="structelement_1_1error__map_3_4_1a54adb25b5ff8553c4f93dfb92ccf8c77" kind="function"><name>build_error</name></member>
+  </compound>
+  <compound refid="structevaluator__ctx" kind="struct"><name>evaluator_ctx</name>
+    <member refid="structevaluator__ctx_1ab8eff2fc59306537b68b6a496f7958d3" kind="variable"><name>boundaries</name></member>
+    <member refid="structevaluator__ctx_1a1a37ae1063d9d363cc5bde079837907f" kind="variable"><name>options</name></member>
+  </compound>
+  <compound refid="classelement_1_1expression" kind="class"><name>element::expression</name>
+    <member refid="classelement_1_1expression_1a6623caad8c6bcbf657f38881b802a3bb" kind="variable"><name>source_info</name></member>
+    <member refid="classelement_1_1expression_1a47256e1a3b45c743dafff76a919eb2fe" kind="variable"><name>parent</name></member>
+    <member refid="classelement_1_1expression_1a1309da73a62696f5f083769ecd5ff9aa" kind="function"><name>expression</name></member>
+    <member refid="classelement_1_1expression_1a5c627a38ed8e6e0d6d8e813d562b90cb" kind="function"><name>~expression</name></member>
+    <member refid="classelement_1_1expression_1ab7419c3672a17e32acea3f1c10575ea4" kind="function"><name>expression</name></member>
+    <member refid="classelement_1_1expression_1a90f3706cbd6bcee57d023232d9a6410c" kind="function"><name>expression</name></member>
+    <member refid="classelement_1_1expression_1a2dec6ae72d4f1845775d53865de5a328" kind="function"><name>operator=</name></member>
+    <member refid="classelement_1_1expression_1ab83edc8cf33cce9535a0b970916035fa" kind="function"><name>operator=</name></member>
+    <member refid="classelement_1_1expression_1a62ef52663af5183fef99aa31384196ef" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1expression_1a3366d576405a80f459529de059098927" kind="function"><name>resolve</name></member>
+  </compound>
+  <compound refid="classelement_1_1expression__chain" kind="class"><name>element::expression_chain</name>
+    <member refid="classelement_1_1expression__chain_1a2aca5841962adc3f127f58a908f1b08f" kind="variable"><name>declarer</name></member>
+    <member refid="classelement_1_1expression__chain_1a52275efbf30102c9b027154589df0806" kind="variable"><name>captures</name></member>
+    <member refid="classelement_1_1expression__chain_1af72f4fca42d4ed87156ad230c83d2bf0" kind="variable"><name>expressions</name></member>
+    <member refid="classelement_1_1expression__chain_1af9dfe01f3df6c63745de364fff71c7f0" kind="function"><name>expression_chain</name></member>
+    <member refid="classelement_1_1expression__chain_1ab87ba15e95fb79558479c0bfda625712" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1expression__chain_1a5c369fc0c2a7f6601dac170bc565e858" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1expression__chain_1a30ac7fcb874418252529ae143446bb9b" kind="function"><name>call</name></member>
+    <member refid="classelement_1_1expression__chain_1a7da32a5ed91387104935d531c18a9da4" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1expression__chain_1a9f39e34d411c0961a3984a97e77be29f" kind="function"><name>get_scope</name></member>
+  </compound>
+  <compound refid="structelement_1_1file__information" kind="struct"><name>element::file_information</name>
+    <member refid="structelement_1_1file__information_1aed1acef5dace7734ab1d546ed64f81bb" kind="variable"><name>source_lines</name></member>
+    <member refid="structelement_1_1file__information_1a0e9a177644d31bac283bc917d2dd480f" kind="variable"><name>file_name</name></member>
+  </compound>
+  <compound refid="structelement_1_1call__stack_1_1frame" kind="struct"><name>element::call_stack::frame</name>
+    <member refid="structelement_1_1call__stack_1_1frame_1a08400602c5c287afef5f0f232b0f1459" kind="variable"><name>function</name></member>
+    <member refid="structelement_1_1call__stack_1_1frame_1a9f2cc55f3145471e990872b18c303b17" kind="variable"><name>compiled_arguments</name></member>
+  </compound>
+  <compound refid="structelement_1_1capture__stack_1_1frame" kind="struct"><name>element::capture_stack::frame</name>
+    <member refid="structelement_1_1capture__stack_1_1frame_1a4c565a75ec80ac9c22b77656b626ed20" kind="variable"><name>current_scope</name></member>
+    <member refid="structelement_1_1capture__stack_1_1frame_1ad119b3b84e2a2321c56c3f97575647b5" kind="variable"><name>parameters</name></member>
+    <member refid="structelement_1_1capture__stack_1_1frame_1a13e8def04a8886a12aa2e538bc763f48" kind="variable"><name>compiled_arguments</name></member>
+  </compound>
+  <compound refid="classelement_1_1function__declaration" kind="class"><name>element::function_declaration</name>
+    <member refid="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416" kind="enum"><name>kind</name></member>
+    <member refid="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416a2c8407132baf0892c4189ec401b73909" kind="enumvalue"><name>expression_bodied</name></member>
+    <member refid="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416a622b5ce8009300677fdd6b97e4e24581" kind="enumvalue"><name>scope_bodied</name></member>
+    <member refid="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416ace668bdd53970633afdd53e88b772919" kind="enumvalue"><name>intrinsic</name></member>
+    <member refid="classelement_1_1function__declaration_1a528bc8e878e3314420a00719531cd852" kind="variable"><name>body</name></member>
+    <member refid="classelement_1_1function__declaration_1a06343e14fd8aa9ac4d2a0e89aa5d8f29" kind="variable"><name>constraint_</name></member>
+    <member refid="classelement_1_1function__declaration_1a63178b101de9072473228096cbaddbb6" kind="variable"><name>function_kind</name></member>
+    <member refid="classelement_1_1function__declaration_1a4566b12454c64404ef49f4ddcd761192" kind="function"><name>function_declaration</name></member>
+    <member refid="classelement_1_1function__declaration_1aef4a832206e8bcab214e8cd95f7d2948" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1function__declaration_1add97c4df923342e9b2ae70f07a0e4437" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1function__declaration_1af0b183a0342c67d8684525e2b3962929" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1function__declaration_1aad27533d671d736f955ce75909afd90e" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1function__declaration_1af0c75e5d22cc72b1f4881bfe23d4bf44" kind="function"><name>is_variadic</name></member>
+    <member refid="classelement_1_1function__declaration_1a4020725cd1f1cc4034a1cfc74107065a" kind="function"><name>call</name></member>
+    <member refid="classelement_1_1function__declaration_1af8f8c39ecb4fd69822b038eb0a424caf" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1function__declaration_1a9d7549971a9b70367a421f46c4ee9106" kind="function"><name>valid_at_boundary</name></member>
+    <member refid="classelement_1_1function__declaration_1a6f383548bd1dee00a603e969e4f7cad1" kind="function"><name>is_intrinsic</name></member>
+  </compound>
+  <compound refid="classelement_1_1function__instance" kind="class"><name>element::function_instance</name>
+    <member refid="classelement_1_1function__instance_1a62d35135a4daf9c2d391d7771bed2262" kind="variable"><name>declarer</name></member>
+    <member refid="classelement_1_1function__instance_1a4883b7b3c2f36aa02aa1d73b918fe4ac" kind="variable"><name>captures</name></member>
+    <member refid="classelement_1_1function__instance_1a066fc5c783acb1c9713eec5997b183b5" kind="variable"><name>provided_arguments</name></member>
+    <member refid="classelement_1_1function__instance_1a7a0d3203b41c819379d27c277f0a9888" kind="function"><name>function_instance</name></member>
+    <member refid="classelement_1_1function__instance_1ad179bc2415979c2e44a18262e9cfaa68" kind="function"><name>function_instance</name></member>
+    <member refid="classelement_1_1function__instance_1a5b80340f9cf7444acce701e12ca51ea1" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1function__instance_1adb2fcadefb0e5715c17e73ae0d7cc6c6" kind="function"><name>to_string</name></member>
+    <member refid="classelement_1_1function__instance_1a12df3df02186b4acec015959ade8dffa" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1function__instance_1a405126acd8288ccd1ff7f2e09d982e3f" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1function__instance_1acc1fd16515b4cd780fbe1771232957b9" kind="function"><name>call</name></member>
+    <member refid="classelement_1_1function__instance_1ad6c081cc248e0dbb707b2c4c2a251c12" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1function__instance_1adc06e35f9a5eed92d1d769e2c9023fb3" kind="function"><name>is_constant</name></member>
+    <member refid="classelement_1_1function__instance_1a4ac5b9fc1afb18dc0f9cebccccf086f6" kind="function"><name>valid_at_boundary</name></member>
+  </compound>
+  <compound refid="classelement_1_1identifier" kind="class"><name>element::identifier</name>
+    <member refid="classelement_1_1identifier_1aa993d6d6489537e166562029be1dcba2" kind="variable"><name>return_identifier</name></member>
+    <member refid="classelement_1_1identifier_1a44ff39fc2e96bfbb1b77848621ea9aa3" kind="variable"><name>list_count_identifier</name></member>
+    <member refid="classelement_1_1identifier_1ad4e44ce4e026610eb7e67424782ae046" kind="variable"><name>list_at_identifier</name></member>
+    <member refid="classelement_1_1identifier_1a11c341519cdb75ad999c2f83f305d240" kind="variable"><name>value</name></member>
+    <member refid="classelement_1_1identifier_1a54f46eab9bc9d3bd2d030313b0a931de" kind="function"><name>identifier</name></member>
+    <member refid="classelement_1_1identifier_1ab49b156dedd5e436f37fc9a3adfce175" kind="function"><name>identifier</name></member>
+    <member refid="classelement_1_1identifier_1a73ff9a4d980df58fc5fffebaf15322b6" kind="function"><name>operator&lt;</name></member>
+  </compound>
+  <compound refid="classelement_1_1identifier__expression" kind="class"><name>element::identifier_expression</name>
+    <member refid="classelement_1_1identifier__expression_1aa5d9a606ab50742731125c387abd15e3" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1identifier__expression_1a61b46600425425b639d153f5b10a1861" kind="function"><name>identifier_expression</name></member>
+    <member refid="classelement_1_1identifier__expression_1a2b72a2ee83d73f4353bfa08db3a43b45" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1identifier__expression_1ab92ca2286d679eded4fb8afe4f285ec4" kind="function"><name>resolve</name></member>
+  </compound>
+  <compound refid="classelement_1_1indexing__expression" kind="class"><name>element::indexing_expression</name>
+    <member refid="classelement_1_1indexing__expression_1aeaa5128028ee18857a50a78815514bba" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1indexing__expression_1a03b69802b57e83ca6ae8da8b656237a9" kind="function"><name>indexing_expression</name></member>
+    <member refid="classelement_1_1indexing__expression_1a79b5c088bb961023d0fc2f5160e1e015" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1indexing__expression_1a3fb58cd725a875ba5c7e487023e7afe5" kind="function"><name>resolve</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic" kind="class"><name>element::intrinsic</name>
+    <member refid="classelement_1_1intrinsic_1a5504ba65208305f07556cac2a5d1ea4b" kind="variable"><name>validation_func_map</name></member>
+    <member refid="classelement_1_1intrinsic_1ac1c6392504b4d1c96d2d1ecdbd778595" kind="function"><name>intrinsic</name></member>
+    <member refid="classelement_1_1intrinsic_1a7721b8c8d6b437767856f3a306595efb" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1intrinsic_1aa5c60778353f03920ab6ac6f88a6a18f" kind="function"><name>get_type</name></member>
+    <member refid="classelement_1_1intrinsic_1ab7356d6ee4a2017e33136dc0b2a20e6b" kind="function"><name>register_intrinsic</name></member>
+    <member refid="classelement_1_1intrinsic_1a8b18e4724f1e669eee15e822005419c8" kind="function"><name>get_intrinsic</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__binary" kind="class"><name>element::intrinsic_binary</name>
+    <member refid="classelement_1_1intrinsic__binary_1a564544176597d1cf6a7f893353b11f56" kind="variable"><name>operation</name></member>
+    <member refid="classelement_1_1intrinsic__binary_1ac449662f10454fdd6edfe0106b2a3002" kind="variable"><name>first_argument_type</name></member>
+    <member refid="classelement_1_1intrinsic__binary_1a1ee29ab620d233834f0dda99973a6663" kind="variable"><name>second_argument_type</name></member>
+    <member refid="classelement_1_1intrinsic__binary_1a0df6501154a5df8664e8c27b08925e3c" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__binary_1aa428914146fb23f098c6d82ee1e23dbc" kind="function"><name>intrinsic_binary</name></member>
+    <member refid="classelement_1_1intrinsic__binary_1a70a5025e573183d778903b74dbf84b92" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1intrinsic__binary_1a34e8a36545ab34994637a364da5b797e" kind="function"><name>get_operation</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__compiler__list__indexer" kind="class"><name>element::intrinsic_compiler_list_indexer</name>
+    <member refid="classelement_1_1intrinsic__compiler__list__indexer_1a90a06c29ab1b547ef8f84e7016a01260" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__compiler__list__indexer_1a74664c4edcf3b8a4adf20466998584c8" kind="function"><name>intrinsic_compiler_list_indexer</name></member>
+    <member refid="classelement_1_1intrinsic__compiler__list__indexer_1a41fb7dd3cc3127e5c463e4ca4f89477a" kind="function"><name>compile</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__constructor__bool" kind="class"><name>element::intrinsic_constructor_bool</name>
+    <member refid="classelement_1_1intrinsic__constructor__bool_1a50f1d8899953097bfded0d2b985503be" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__constructor__bool_1a3e66207e5cd3c5c8b573d3348f6f6096" kind="function"><name>intrinsic_constructor_bool</name></member>
+    <member refid="classelement_1_1intrinsic__constructor__bool_1a41c92110cf2e1dc8d4e9217450c98949" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__constructor__list" kind="class"><name>element::intrinsic_constructor_list</name>
+    <member refid="classelement_1_1intrinsic__constructor__list_1a5b04e1836a37ad7e3a0d1868a6b0756f" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__constructor__list_1aece531bb47d5b8a3158ceaa54f51f85a" kind="function"><name>intrinsic_constructor_list</name></member>
+    <member refid="classelement_1_1intrinsic__constructor__list_1a15b932c67aedb9e99f905568c426fef9" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__constructor__num" kind="class"><name>element::intrinsic_constructor_num</name>
+    <member refid="classelement_1_1intrinsic__constructor__num_1a889474bf007edf1a862a5c8a442ad976" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__constructor__num_1ae9befd85a940230a32b254e1e3044049" kind="function"><name>intrinsic_constructor_num</name></member>
+    <member refid="classelement_1_1intrinsic__constructor__num_1a3e77da3d04b524d9eaf557f4cdd84fad" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__for" kind="class"><name>element::intrinsic_for</name>
+    <member refid="classelement_1_1intrinsic__for_1ab57f5a491f72fcab1383ebc6116808dd" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__for_1a1e34750cfc53ddd3310a90f81eb57406" kind="function"><name>intrinsic_for</name></member>
+    <member refid="classelement_1_1intrinsic__for_1a117e132e83695d93564dc77791b4191a" kind="function"><name>compile</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__function" kind="class"><name>element::intrinsic_function</name>
+    <member refid="classelement_1_1intrinsic__function_1adb99dbfe29f1afaebe631e3ebe7d4a3e" kind="variable"><name>return_type</name></member>
+    <member refid="classelement_1_1intrinsic__function_1ac6b81d1f64c9d2b0d8c933354f5a95da" kind="variable"><name>variadic</name></member>
+    <member refid="classelement_1_1intrinsic__function_1a5c0047bd8132aff623e64e1c915e9f4f" kind="function"><name>intrinsic_function</name></member>
+    <member refid="classelement_1_1intrinsic__function_1ade7386116500af97be31a5150c823a64" kind="function"><name>get_type</name></member>
+    <member refid="classelement_1_1intrinsic__function_1af467108b9d30343391aec61a1a0fb91c" kind="function"><name>is_variadic</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__if" kind="class"><name>element::intrinsic_if</name>
+    <member refid="classelement_1_1intrinsic__if_1a951cb7e4be20b98b05bab0118c36b79f" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__if_1adcb40f3ae94ef301e6dc5ad33aabfc96" kind="function"><name>intrinsic_if</name></member>
+    <member refid="classelement_1_1intrinsic__if_1ad07962f2d9271d6584c27e356c9139c9" kind="function"><name>compile</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__list" kind="class"><name>element::intrinsic_list</name>
+    <member refid="classelement_1_1intrinsic__list_1a579899eb05f556aa3bfb2caba9df8e1d" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__list_1af7fb816e2bf88bc31d24488f5c7b275e" kind="function"><name>intrinsic_list</name></member>
+    <member refid="classelement_1_1intrinsic__list_1a3e4abe85fffd444dec1dd5c3e803f3aa" kind="function"><name>compile</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__list__fold" kind="class"><name>element::intrinsic_list_fold</name>
+    <member refid="classelement_1_1intrinsic__list__fold_1a4d8e73f37fa8a68bf62c886d2de8dfed" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__list__fold_1a223ab861e8e3c97b9e2b613866827693" kind="function"><name>intrinsic_list_fold</name></member>
+    <member refid="classelement_1_1intrinsic__list__fold_1a949ef9df7383e513cc73ebf80458781f" kind="function"><name>compile</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__not__implemented" kind="class"><name>element::intrinsic_not_implemented</name>
+    <member refid="classelement_1_1intrinsic__not__implemented_1ae30a67d185c071a65caedc79063019b7" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__not__implemented_1a4d5218591350006694f6fe9f6d1efed8" kind="function"><name>intrinsic_not_implemented</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__nullary" kind="class"><name>element::intrinsic_nullary</name>
+    <member refid="classelement_1_1intrinsic__nullary_1ae0c8c8b4ec0f998f22f4e05e4bc505ef" kind="variable"><name>operation</name></member>
+    <member refid="classelement_1_1intrinsic__nullary_1a03a13091069480cc03a4ea381b901c1a" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__nullary_1ab03aa7e60d833416a5e22667e3660d64" kind="function"><name>intrinsic_nullary</name></member>
+    <member refid="classelement_1_1intrinsic__nullary_1a5f035c9f716a0037a6df68ce4a4da963" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1intrinsic__nullary_1ac258cf8349cc79f095027bf6dfebaf11" kind="function"><name>get_operation</name></member>
+  </compound>
+  <compound refid="classelement_1_1intrinsic__unary" kind="class"><name>element::intrinsic_unary</name>
+    <member refid="classelement_1_1intrinsic__unary_1aa11e1f9d08fceadccc43b29fa08efad2" kind="variable"><name>operation</name></member>
+    <member refid="classelement_1_1intrinsic__unary_1aace7c900229193e2de9de46d504c9f3c" kind="variable"><name>argument_type</name></member>
+    <member refid="classelement_1_1intrinsic__unary_1a0b6c1d78421d3b2a7d7249ab85d9c728" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1intrinsic__unary_1ac264fb58a0440a6c2490d628e89da9aa" kind="function"><name>intrinsic_unary</name></member>
+    <member refid="classelement_1_1intrinsic__unary_1af37ef7189258d835d22a2dc2b2615eb4" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1intrinsic__unary_1a1de4716f37e31a84de897e045fc2456a" kind="function"><name>get_operation</name></member>
+  </compound>
+  <compound refid="classelement_1_1list__wrapper" kind="class"><name>element::list_wrapper</name>
+    <member refid="classelement_1_1list__wrapper_1aea5d0472df92e8180ae23be805fb5ec4" kind="variable"><name>selector</name></member>
+    <member refid="classelement_1_1list__wrapper_1ad96350586ba45a56dfcc0c0816cc7efb" kind="variable"><name>options</name></member>
+    <member refid="classelement_1_1list__wrapper_1a777df77896253794a9b3ada27a64be90" kind="function"><name>create_or_optimise</name></member>
+    <member refid="classelement_1_1list__wrapper_1ab81697bf5269c81f08af236b7f46c7c9" kind="function"><name>list_wrapper</name></member>
+    <member refid="classelement_1_1list__wrapper_1a96a06d03841cb67af222fe255e5b181d" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1list__wrapper_1ac3c4174ff11a3d1ea1c3b1f328789e12" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1list__wrapper_1a87938134d77380c100eaeba45d8443ad" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1list__wrapper_1a47337a3ad90c35cc277053939f04aa79" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1list__wrapper_1a63476f30f06074e6725fe5a27e732ea3" kind="function"><name>call</name></member>
+    <member refid="classelement_1_1list__wrapper_1a085abc437497fe04e6e30b7afd9ce3b3" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1list__wrapper_1a3dbf86abc3a5602406d4a16db0fc2b35" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1list__wrapper_1a55d8727c3fd885b649e40152e397b93f" kind="function"><name>to_instruction</name></member>
+  </compound>
+  <compound refid="classelement_1_1literal__expression" kind="class"><name>element::literal_expression</name>
+    <member refid="classelement_1_1literal__expression_1a58f4a86f4b3847380d587dd0cf449647" kind="variable"><name>value</name></member>
+    <member refid="classelement_1_1literal__expression_1a76680dcf0c5383a7ac6c3d84dc25622f" kind="function"><name>literal_expression</name></member>
+    <member refid="classelement_1_1literal__expression_1a378b6704c5b706f97423403991ee18f3" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1literal__expression_1a5117cc9860063a77ed27b1ee7033af89" kind="function"><name>resolve</name></member>
+  </compound>
+  <compound refid="structelement_1_1log__error__map" kind="struct"><name>element::log_error_map</name>
+    <member refid="structelement_1_1log__error__map_1a50842b3c12081a106f090960aba7d553" kind="typedef"><name>func</name></member>
+    <member refid="structelement_1_1log__error__map_1ad7762c9af8c63ebe29e5effed3da699e" kind="typedef"><name>map</name></member>
+    <member refid="structelement_1_1log__error__map_1ab3b8d9173e294c3262de38dcb17e42bf" kind="variable"><name>func_map</name></member>
+    <member refid="structelement_1_1log__error__map_1acc8a35f170f3236de708dc12db7d0728" kind="function"><name>register_func</name></member>
+    <member refid="structelement_1_1log__error__map_1abd8c0eb76521bb1bd3b19ba5362a3a0c" kind="function"><name>build_error</name></member>
+  </compound>
+  <compound refid="structelement_1_1log__error__map_3_4" kind="struct"><name>element::log_error_map&lt;&gt;</name>
+    <member refid="structelement_1_1log__error__map_3_4_1ae15790db27eef6a716b4625f03a093a0" kind="typedef"><name>func</name></member>
+    <member refid="structelement_1_1log__error__map_3_4_1a335d755d8b95fa6e60f1c67710e56537" kind="typedef"><name>map</name></member>
+    <member refid="structelement_1_1log__error__map_3_4_1a6598c9a530a7fed8b5c9ec2720e10ba6" kind="variable"><name>func_map</name></member>
+    <member refid="structelement_1_1log__error__map_3_4_1ac2826a79143a73c2b1c08a4fd2419b1a" kind="function"><name>register_func</name></member>
+    <member refid="structelement_1_1log__error__map_3_4_1a0bfd7b23f900ab6db0e27edae3895f9a" kind="function"><name>build_error</name></member>
+  </compound>
+  <compound refid="classelement_1_1log__message" kind="class"><name>element::log_message</name>
+    <member refid="classelement_1_1log__message_1a92131634936b70250b736df95720ecf5" kind="variable"><name>result</name></member>
+    <member refid="classelement_1_1log__message_1a51d5e75235a898a8de0ad02735126b4e" kind="variable"><name>log_msg</name></member>
+    <member refid="classelement_1_1log__message_1a690a6b9002103f7f3a5c76f726eefb18" kind="variable"><name>msg</name></member>
+    <member refid="classelement_1_1log__message_1a61989d871a0ef40a0eeca47007644177" kind="function"><name>log_message</name></member>
+    <member refid="classelement_1_1log__message_1a3f69403c7eb231b4995f36019dd71051" kind="function"><name>get_log_message</name></member>
+  </compound>
+  <compound refid="classelement_1_1namespace__declaration" kind="class"><name>element::namespace_declaration</name>
+    <member refid="classelement_1_1namespace__declaration_1a94902e40804982e256d2177f60b08f95" kind="function"><name>namespace_declaration</name></member>
+    <member refid="classelement_1_1namespace__declaration_1abf422dba695c3620650ba24a03fb597d" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1namespace__declaration_1a0b7ecf88ca2b3e8a310a324fd6749045" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1namespace__declaration_1a90aba27845dd84b69e18904d18be8db9" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1namespace__declaration_1af58c44d98844717e4d8a2f009c0241c6" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1namespace__declaration_1a7fdbf629177af07bed6ef300681ff54b" kind="function"><name>is_intrinsic</name></member>
+  </compound>
+  <compound refid="classelement_1_1num__type" kind="class"><name>element::num_type</name>
+    <member refid="classelement_1_1num__type_1aa24643ea3753e671004b62489224c55f" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1num__type_1a28aec4c561641b3dd010e74a009af97d" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1num__type_1a76696d38119eb18af4fa0dfdc6b66ea2" kind="function"><name>num_type</name></member>
+    <member refid="classelement_1_1num__type_1a581b5ddcefea5d8f66b6629dafc9b730" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1num__type_1ac51678479376053cd6df62a668e75550" kind="function"><name>is_constant</name></member>
+  </compound>
+  <compound refid="classelement_1_1object" kind="class"><name>element::object</name>
+    <member refid="classelement_1_1object_1a8c377027f992c5b3440679941619c468" kind="variable"><name>source_info</name></member>
+    <member refid="classelement_1_1object_1a9737ac6b6eef6c4e41d0a15ebf42762a" kind="function"><name>~object</name></member>
+    <member refid="classelement_1_1object_1a0b77789880bc695115d2428b9b1f2fe6" kind="function"><name>object</name></member>
+    <member refid="classelement_1_1object_1aecee67e856bcf56ecaee3848c3b834fe" kind="function"><name>object</name></member>
+    <member refid="classelement_1_1object_1a05f452496fc2f14d4844fefe0326e5cd" kind="function"><name>operator=</name></member>
+    <member refid="classelement_1_1object_1aec74730c57e08a37dc6a61992e84e543" kind="function"><name>operator=</name></member>
+    <member refid="classelement_1_1object_1ab44c28014a94092052f9cf9418eef340" kind="function"><name>is_constant</name></member>
+    <member refid="classelement_1_1object_1ad349d741b95f1a6fa5bbdd5188e8292b" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1object_1a930429a343359aaf0cf603d251ca53a2" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1object_1a1c22bf6d69ae19c71d6b2bd0cedfd675" kind="function"><name>to_string</name></member>
+    <member refid="classelement_1_1object_1a3ba311dae552affb306308617e394cf8" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1object_1a3452e5e30891e487707a7fb300f6465d" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1object_1a542266c49533b394c8f7668748f6424a" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1object_1af6dbeefad4c697ab757864ae78fd831e" kind="function"><name>call</name></member>
+    <member refid="classelement_1_1object_1aa562aac5d1f233abda4a5348ac38da73" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1object_1a82a0020492785cb186c7d09ea88aa79d" kind="function"><name>get_inputs</name></member>
+    <member refid="classelement_1_1object_1a410a20ebbac9643d6798ffa98a34ff17" kind="function"><name>get_scope</name></member>
+    <member refid="classelement_1_1object_1a17cca83a78581c5e8b73652f57910d1a" kind="function"><name>get_output</name></member>
+    <member refid="classelement_1_1object_1ac285622d5bdbf53d29ed531a7a50cd2a" kind="function"><name>to_instruction</name></member>
+    <member refid="classelement_1_1object_1af31de89eb2a06fe7856ae3d8252fdd1b" kind="function"><name>object</name></member>
+  </compound>
+  <compound refid="structpair__hash" kind="struct"><name>pair_hash</name>
+    <member refid="structpair__hash_1a4df9b576476c0882720e8e60712ee813" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classelement_1_1port" kind="class"><name>element::port</name>
+    <member refid="classelement_1_1port_1af71c6415f20e459e2fdeacec5f5df694" kind="variable"><name>declarer</name></member>
+    <member refid="classelement_1_1port_1ae5e268467167dffb69aa16c88530604f" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1port_1a2da83674bf34c56a809cebc090a8dabc" kind="variable"><name>annotation</name></member>
+    <member refid="classelement_1_1port_1a5a8b1c9e4ac29392ab58b638a0f41a85" kind="variable"><name>expression_chain</name></member>
+    <member refid="classelement_1_1port_1a449f82d71268b17d7d24bd49e6654dcc" kind="function"><name>port</name></member>
+    <member refid="classelement_1_1port_1a221b304bee136330a5ce7884c7b2c7c4" kind="function"><name>has_annotation</name></member>
+    <member refid="classelement_1_1port_1a3c07211ab4dc0185649947c42b7ab6e5" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1port_1a3a6bafcd3de9b239d5af90ec8046cbc6" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1port_1a4027b1bbae3e8289f7b11e13f9e33f4d" kind="function"><name>get_name</name></member>
+    <member refid="classelement_1_1port_1aed22e2d7363914c4c0bd5af0ca1c5cc5" kind="function"><name>get_annotation</name></member>
+    <member refid="classelement_1_1port_1a909bfb375284dea84fb17020f6547e43" kind="function"><name>resolve_annotation</name></member>
+    <member refid="classelement_1_1port_1ae3e04b4f71fe9177e9617caa9f8804a7" kind="function"><name>generate_placeholder</name></member>
+    <member refid="classelement_1_1port_1aea2cafa58b271633b653f2c8cdffeb59" kind="function"><name>has_default</name></member>
+    <member refid="classelement_1_1port_1adae12540589c46367c00bbccd9225715" kind="function"><name>get_default</name></member>
+  </compound>
+  <compound refid="structrtti__type" kind="struct"><name>rtti_type</name>
+    <member refid="structrtti__type_1a9e39e4a33b4fa119977acfb1aacf9117" kind="variable"><name>m_type_id</name></member>
+    <member refid="structrtti__type_1a2162c625991b82bdb390809a16c8c649" kind="function"><name>subtype</name></member>
+    <member refid="structrtti__type_1ad10b160dbb5d7b81ffddfcef4c2131f2" kind="function"><name>is</name></member>
+    <member refid="structrtti__type_1ae8a056e6d6a658d2e5ccf757da1c5031" kind="function"><name>as</name></member>
+    <member refid="structrtti__type_1ac9b5c9bad7ef9069f612b0356a6ffffc" kind="function"><name>as</name></member>
+    <member refid="structrtti__type_1a4ba3d8090b0e77409fbfa90f769a0324" kind="function"><name>rtti_type</name></member>
+  </compound>
+  <compound refid="classelement_1_1scope" kind="class"><name>element::scope</name>
+    <member refid="classelement_1_1scope_1a2604822ce15f19e2237a36df2fc1413a" kind="variable"><name>parent_scope</name></member>
+    <member refid="classelement_1_1scope_1a7c3d233c6dfd8942c32271e1c0f9ef57" kind="variable"><name>declarations</name></member>
+    <member refid="classelement_1_1scope_1a55ad5a45bc22b96783424df6a87ff14d" kind="function"><name>scope</name></member>
+    <member refid="classelement_1_1scope_1a7000b05037603af5550d58a88d3fbdbb" kind="function"><name>find</name></member>
+    <member refid="classelement_1_1scope_1ad14ba45ea0654f6d1c7f08dd34966622" kind="function"><name>is_root</name></member>
+    <member refid="classelement_1_1scope_1a7d4e28932908072c8d12b1f24024f331" kind="function"><name>is_empty</name></member>
+    <member refid="classelement_1_1scope_1aab9588d9646efdda129cfb2bb29b5fc6" kind="function"><name>get_global</name></member>
+    <member refid="classelement_1_1scope_1a2b582208203e1e1ce052afe86e0bd3b7" kind="function"><name>get_parent_scope</name></member>
+    <member refid="classelement_1_1scope_1aa272f5fe3bffd923fbb3bd6a94245fa9" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1scope_1a0fd47a4e1b6ae41ccec952f8012b404a" kind="function"><name>add_declaration</name></member>
+    <member refid="classelement_1_1scope_1aee01759c190834e223051ff027b4d9c8" kind="function"><name>remove_declaration</name></member>
+    <member refid="classelement_1_1scope_1a105c71c96af743c929a29dad19ef944e" kind="function"><name>get_declarations</name></member>
+    <member refid="classelement_1_1scope_1afe24e475c66400b0c506c41132e4be1c" kind="function"><name>merge</name></member>
+    <member refid="classelement_1_1scope_1a90a49b446fd0fa4a8a5dae2c388cba03" kind="function"><name>mark_declaration_compiler_generated</name></member>
+  </compound>
+  <compound refid="structelement_1_1source__context" kind="struct"><name>element::source_context</name>
+    <member refid="structelement_1_1source__context_1a2aa8326dd35186e45170139034cc6373" kind="variable"><name>file_info</name></member>
+  </compound>
+  <compound refid="classelement_1_1source__information" kind="class"><name>element::source_information</name>
+    <member refid="classelement_1_1source__information_1a72feb6fb1d023f9e436bd8ae3c5d639e" kind="variable"><name>line</name></member>
+    <member refid="classelement_1_1source__information_1a615f03d7b573b6c98e03728e723b9e9c" kind="variable"><name>character_start</name></member>
+    <member refid="classelement_1_1source__information_1a853fef704f611376e650d093db6a527a" kind="variable"><name>character_end</name></member>
+    <member refid="classelement_1_1source__information_1a8f6f5fea5cf131bea445749d3b562c42" kind="variable"><name>line_in_source</name></member>
+    <member refid="classelement_1_1source__information_1af4e0bc2c30a3925bc4511243f0fae63a" kind="variable"><name>filename</name></member>
+    <member refid="classelement_1_1source__information_1adc57894a00dc0b75c0a68959a9b0bad3" kind="variable"><name>text</name></member>
+    <member refid="classelement_1_1source__information_1afa27167a26e233913caa7b54122c568d" kind="function"><name>source_information</name></member>
+    <member refid="classelement_1_1source__information_1a00f3ba2fdcc023e6a63e2e7c4506bcb5" kind="function"><name>source_information</name></member>
+    <member refid="classelement_1_1source__information_1ad635d7253fdd595d5c6f69189b66e097" kind="function"><name>get_text</name></member>
+  </compound>
+  <compound refid="classelement_1_1struct__declaration" kind="class"><name>element::struct_declaration</name>
+    <member refid="classelement_1_1struct__declaration_1abae712f3cb5e969761f68b1a61fd06fa" kind="enum"><name>kind</name></member>
+    <member refid="classelement_1_1struct__declaration_1abae712f3cb5e969761f68b1a61fd06faa8b9035807842a4e4dbe009f3f1478127" kind="enumvalue"><name>custom</name></member>
+    <member refid="classelement_1_1struct__declaration_1abae712f3cb5e969761f68b1a61fd06faace668bdd53970633afdd53e88b772919" kind="enumvalue"><name>intrinsic</name></member>
+    <member refid="classelement_1_1struct__declaration_1a18ccf7be7d8f5b6f51688a755c2f9de9" kind="variable"><name>type</name></member>
+    <member refid="classelement_1_1struct__declaration_1a005160af89d291329f28a272090e812b" kind="variable"><name>struct_kind</name></member>
+    <member refid="classelement_1_1struct__declaration_1aa5690bfc84faea09b26237392f0c839b" kind="function"><name>struct_declaration</name></member>
+    <member refid="classelement_1_1struct__declaration_1aab22fe87ab607047ab59a085166dd88c" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1struct__declaration_1a996888888671ceec7a7bb68622e40c19" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1struct__declaration_1ade1bee2198e21a2ba0cfce304335537a" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1struct__declaration_1a6a2a0c7d78ba936cecd4c36f647b4a46" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1struct__declaration_1ae009315f47ac40641fdedbf0c1cf65c2" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1struct__declaration_1a8f44f6bf757e299811df64c6aaec30ef" kind="function"><name>call</name></member>
+    <member refid="classelement_1_1struct__declaration_1a103db6650bdbb9ed6bea8ccde8387dd4" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1struct__declaration_1a3813abf80084e4b167761b4e7f4f9b55" kind="function"><name>serializable</name></member>
+    <member refid="classelement_1_1struct__declaration_1af18c519541da5af3c01ec8b80562bd9a" kind="function"><name>deserializable</name></member>
+    <member refid="classelement_1_1struct__declaration_1acfa418793c01f2585b8105abff464377" kind="function"><name>generate_placeholder</name></member>
+    <member refid="classelement_1_1struct__declaration_1a37feab62dc3f4fedb0d458a4f3a669dc" kind="function"><name>is_intrinsic</name></member>
+    <member refid="classelement_1_1struct__declaration_1a083803600ce32a39fa9c80630348e246" kind="function"><name>get_name</name></member>
+  </compound>
+  <compound refid="classelement_1_1struct__instance" kind="class"><name>element::struct_instance</name>
+    <member refid="classelement_1_1struct__instance_1add53dd148827a8fd567914d0e55267a8" kind="variable"><name>declarer</name></member>
+    <member refid="classelement_1_1struct__instance_1a1acb3194f4545f869388bec1dbba726d" kind="variable"><name>fields</name></member>
+    <member refid="classelement_1_1struct__instance_1aca3211a7de7495d23beed8c060332ef6" kind="function"><name>struct_instance</name></member>
+    <member refid="classelement_1_1struct__instance_1ac1ae0c92c1de3318439158d9027031c5" kind="function"><name>struct_instance</name></member>
+    <member refid="classelement_1_1struct__instance_1a1dcc32d60645985cd64e001b572c9213" kind="function"><name>typeof_info</name></member>
+    <member refid="classelement_1_1struct__instance_1ad1f708125163973eff5d93845e3dad93" kind="function"><name>to_string</name></member>
+    <member refid="classelement_1_1struct__instance_1a5ce3cc153193cde61b84bb28b6af3735" kind="function"><name>matches_constraint</name></member>
+    <member refid="classelement_1_1struct__instance_1af6d3bcee497ec8548fa8cc04cde3ce69" kind="function"><name>get_constraint</name></member>
+    <member refid="classelement_1_1struct__instance_1ad9ab94083295413e54cd16de680b8fed" kind="function"><name>index</name></member>
+    <member refid="classelement_1_1struct__instance_1ac593a4fdaeecaa787bffcf98377df1a7" kind="function"><name>compile</name></member>
+    <member refid="classelement_1_1struct__instance_1ac40461ab03c37d881d26f96632772035" kind="function"><name>to_instruction</name></member>
+    <member refid="classelement_1_1struct__instance_1a21f133b57a32d2093dfbbdfa47d1953d" kind="function"><name>is_constant</name></member>
+    <member refid="classelement_1_1struct__instance_1ac171463a79d58396a05ed2d7411830e1" kind="function"><name>clone_and_fill_with_expressions</name></member>
+    <member refid="classelement_1_1struct__instance_1a8cd6d67ea64c095c055ac7ff549f1776" kind="function"><name>clone_and_fill_with_expressions_internal</name></member>
+  </compound>
+  <compound refid="classelement_1_1type" kind="class"><name>element::type</name>
+    <member refid="classelement_1_1type_1ab26e7c37e1e407154912595eb7244731" kind="variable"><name>num</name></member>
+    <member refid="classelement_1_1type_1a96d8b486ab44b43fcd634a4f9e63314a" kind="variable"><name>boolean</name></member>
+    <member refid="classelement_1_1type_1ae7016cbde51134f487db13b58a99a4fd" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1type_1a3841af9197d3854d4069b0c5e975decf" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1type_1ad07e93ef6b2d988e1ab9b2b35f029bdc" kind="function"><name>get_identifier</name></member>
+    <member refid="classelement_1_1type_1ae7e73411c6259491df91d00e1ddec200" kind="function"><name>type</name></member>
+  </compound>
+  <compound refid="classelement_1_1type__annotation" kind="class"><name>element::type_annotation</name>
+    <member refid="classelement_1_1type__annotation_1a92e3ffb5a51bc868db63373bda42c3e8" kind="variable"><name>source_info</name></member>
+    <member refid="classelement_1_1type__annotation_1ae6455baf532e8b3f119e3a0dfda2dc9d" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1type__annotation_1ac7e32aa078027c5a2d1a50ee028493df" kind="function"><name>type_annotation</name></member>
+    <member refid="classelement_1_1type__annotation_1a2208f563e24243efcb31a51ce17bfc16" kind="function"><name>to_code</name></member>
+    <member refid="classelement_1_1type__annotation_1a4990cfa6ef1a5b5a3a64754f2f5fd12f" kind="function"><name>to_string</name></member>
+  </compound>
+  <compound refid="classelement_1_1user__function__constraint" kind="class"><name>element::user_function_constraint</name>
+    <member refid="classelement_1_1user__function__constraint_1adfdf93677a6ac4845986ce2f6a2b3c13" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1user__function__constraint_1a4b53955bee1885f2701ad30922be886d" kind="function"><name>user_function_constraint</name></member>
+    <member refid="classelement_1_1user__function__constraint_1a1b82682c5cd68bc5cb620f0fd89c3194" kind="function"><name>matches_constraint</name></member>
+  </compound>
+  <compound refid="classelement_1_1user__type" kind="class"><name>element::user_type</name>
+    <member refid="classelement_1_1user__type_1ad030bcc0faab7fd9afccb21bbc1bdebd" kind="variable"><name>declarer</name></member>
+    <member refid="classelement_1_1user__type_1a558edcab2e9634a7c8693af4e23fd5e9" kind="variable"><name>name</name></member>
+    <member refid="classelement_1_1user__type_1ae7752cddc31726cc4ac9931872c3ec09" kind="function"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="classelement_1_1user__type_1a20164d9cd0c8aa6a26a3187f47ee29e9" kind="function"><name>user_type</name></member>
+    <member refid="classelement_1_1user__type_1a03bf7189d88e4f188b8233689dd3f133" kind="function"><name>get_name</name></member>
+  </compound>
+  <compound refid="class_word_delimited_by" kind="class"><name>WordDelimitedBy</name>
+  </compound>
+  <compound refid="namespaceast__idx" kind="namespace"><name>ast_idx</name>
+  </compound>
+  <compound refid="namespaceast__idx_1_1declaration" kind="namespace"><name>ast_idx::declaration</name>
+    <member refid="ast__indexes_8hpp_1ad693483c73b5bcb9fcc2ae0a79c15f68" kind="variable"><name>inputs</name></member>
+    <member refid="ast__indexes_8hpp_1a52234f443d500612e8b5a1e40ac0f65c" kind="variable"><name>outputs</name></member>
+  </compound>
+  <compound refid="namespaceast__idx_1_1function" kind="namespace"><name>ast_idx::function</name>
+    <member refid="ast__indexes_8hpp_1aabbe84fcf259b86dc8cd56799aab367a" kind="variable"><name>declaration</name></member>
+    <member refid="ast__indexes_8hpp_1aaff2758b9fc56ce9495c53040fe51950" kind="variable"><name>body</name></member>
+  </compound>
+  <compound refid="namespaceast__idx_1_1lambda" kind="namespace"><name>ast_idx::lambda</name>
+    <member refid="ast__indexes_8hpp_1a6b9bd74fcf26ea0f09b595b1a8bb1c6f" kind="variable"><name>inputs</name></member>
+    <member refid="ast__indexes_8hpp_1a83f2a11c6bf8f30c37f229b53fa4006f" kind="variable"><name>output</name></member>
+    <member refid="ast__indexes_8hpp_1ad0c6074757d2d02c3ee177041f6fa063" kind="variable"><name>body</name></member>
+  </compound>
+  <compound refid="namespaceast__idx_1_1ns" kind="namespace"><name>ast_idx::ns</name>
+    <member refid="ast__indexes_8hpp_1a2ba2d7cacdc1b1c610b3c3995b6c3a91" kind="variable"><name>body</name></member>
+  </compound>
+  <compound refid="namespaceast__idx_1_1port" kind="namespace"><name>ast_idx::port</name>
+    <member refid="ast__indexes_8hpp_1a4890f4b8ea41fdb00f1426de5c324e53" kind="variable"><name>type</name></member>
+    <member refid="ast__indexes_8hpp_1a2fcd0400041c03503e8d97f5ebb2c66e" kind="variable"><name>default_value</name></member>
+  </compound>
+  <compound refid="namespaceelement" kind="namespace"><name>element</name>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8" kind="enum"><name>log_error_message_code</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a2424d83ddf98a56391a7a1ab2d0ef762" kind="enumvalue"><name>parse_identifier_failed</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a99345657405fa317b98802af6b391a07" kind="enumvalue"><name>parse_identifier_reserved</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7956d281789be74a77455f4d7a7a63e9" kind="enumvalue"><name>parse_typename_not_identifier</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a42392f009b57ee9465c172022abf9d3c" kind="enumvalue"><name>parse_port_failed</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a5906c0c735032b59f82d1ae91f8408c3" kind="enumvalue"><name>parse_exprlist_empty</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a33106545aa97a33b599c563e2724a2b0" kind="enumvalue"><name>parse_exprlist_missing_closing_parenthesis</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7cd1639b7db9b8c521970ddaed4080c7" kind="enumvalue"><name>parse_call_invalid_expression</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a00e2005463e237e7e91eb1a1e00e2978" kind="enumvalue"><name>parse_expression_failed</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a5de10e21a6a8e0f8804789874cbd0086" kind="enumvalue"><name>parse_declaration_invalid_identifier</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ac55e04b73e14d0c99a5fd3d5af416f31" kind="enumvalue"><name>parse_declaration_missing_portlist_closing_parenthesis</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a4d6b4e58e266ce768a354a86881fcf7e" kind="enumvalue"><name>parse_declaration_invalid_struct_return_type</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8af45058db44d8fa631bee84abb7162541" kind="enumvalue"><name>parse_body_missing_semicolon</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a1ad863811acd1b648aa1272bc9e8dfc2" kind="enumvalue"><name>parse_body_missing_body_for_function</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a30197bd21761f1ef2a3f034719ddf20c" kind="enumvalue"><name>parse_body_missing_body</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8afb16175959e7a3ff9951ae470d99bae0" kind="enumvalue"><name>parse_function_missing_body</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a50438321c9d7a9f727fc10f5474dea8c" kind="enumvalue"><name>parse_struct_missing_identifier</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a8848ad48d0f6f9e8fc294da75595097a" kind="enumvalue"><name>parse_struct_nonintrinsic_missing_portlist</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a0faa3097a5b8600f8da640968821bc4d" kind="enumvalue"><name>parse_struct_invalid_body</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a75df7649bdd821be02085fe4fc0128ec" kind="enumvalue"><name>parse_constraint_invalid_identifier</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ab8b5e50482a105ac6ec7412ab3a8bffa" kind="enumvalue"><name>parse_constraint_nonintrinsic_missing_portlist</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8aec6ae31e345ae9829447dbc7557e31c4" kind="enumvalue"><name>parse_constraint_has_body</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a5c3511e74e040246f5fba11ab227df87" kind="enumvalue"><name>parse_constraint_invalid_body</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ad5011028b290675681af84aebed453c2" kind="enumvalue"><name>intrinsic_not_implemented</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8afa1fd973b3acac330bd95d2638995e8f" kind="enumvalue"><name>intrinsic_type_mismatch</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8aa324a4336cf212df504a9c8839c0624d" kind="enumvalue"><name>invalid_grammar_in_portlist</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8aa37a740d0e10f881617be61d10eccd34" kind="enumvalue"><name>invalid_type_annotation</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a0b4e025c156bafc4b92a4ba60288b161" kind="enumvalue"><name>failed_to_build_declaration</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7b6bd61a73edf74ab529ba297d9a0170" kind="enumvalue"><name>failed_to_build_root</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a96055009906ace56d7a69bc54814ea11" kind="enumvalue"><name>internal_compiler_error</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ae4e34ff3200f8772038025edf82b4c38" kind="enumvalue"><name>missing_declaration_scope</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ae67cb0342e68b77194bc95b71cfa61d0" kind="enumvalue"><name>expression_chain_cannot_be_empty</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7b1f64f59cacd501a008cea98764db18" kind="enumvalue"><name>invalid_function_declaration</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a5a3188144736b8675bb52eafe1826c21" kind="enumvalue"><name>invalid_call_expression_placement</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a3c242d78b2ac711362770d5750d09733" kind="enumvalue"><name>invalid_literal_expression_placement</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a63183fb3b5316392ee6d720f1bda0db2" kind="enumvalue"><name>empty_expression</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a4cdc9b4aba258f3b7022f0ccd63ae675" kind="enumvalue"><name>function_missing_return</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a875f65c0ae58a0afe0d55f9c1b2380aa" kind="enumvalue"><name>multiple_definition_with_parameter</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a18729d367443ba4a17a6326083da7f70" kind="enumvalue"><name>default_argument_not_at_end</name></member>
+    <member refid="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7690dd86a02a4a53f4a1f50bac919a80" kind="enumvalue"><name>struct_portlist_cannot_contain_discards</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2e" kind="enum"><name>error_message_code</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ead59d44f65f27a8f17055f3d1026c93b5" kind="enumvalue"><name>not_indexable</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea5e745ab6c8449d86c7daaaaa96b9b9cb" kind="enumvalue"><name>not_callable</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea27f73099760adcc68fab5e59590d3e87" kind="enumvalue"><name>not_compilable</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea478a83a35791e2f83d602f5f0339af16" kind="enumvalue"><name>failed_to_find_when_resolving_indexing_expr</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea85c08ed7632ff59dbacbd0e49d0da06c" kind="enumvalue"><name>failed_to_find_when_resolving_identifier_expr</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea8ec2a68235f68b94698d40af809f91f6" kind="enumvalue"><name>recursion_detected</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea00abba27b27f1816a7c907961e3c95b4" kind="enumvalue"><name>instance_function_cannot_be_nullary</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea8288ea627126c759ceeb9cc1c268816f" kind="enumvalue"><name>is_not_an_instance_function</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea0359e61df05b3a20311eb34e809c6b9d" kind="enumvalue"><name>argument_count_mismatch</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea5bba04e7e11720eae1d1ae01861c3ba2" kind="enumvalue"><name>failed_to_find</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ead5011028b290675681af84aebed453c2" kind="enumvalue"><name>intrinsic_not_implemented</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2eaa9f62e43e781f7fdf335d9f25ebf918e" kind="enumvalue"><name>not_enough_arguments</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2eac227176428d4ed4456c20405d85a0b6f" kind="enumvalue"><name>too_many_arguments</name></member>
+    <member refid="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea043b8100f964275735b71382f526e6a0" kind="enumvalue"><name>invalid_errorless_call</name></member>
+    <member refid="object__model_2fwd_8hpp_1a22d5bde42f35869c2a7c0fd56aa2244a" kind="typedef"><name>object_const_shared_ptr</name></member>
+    <member refid="object__model_2fwd_8hpp_1a0749a9c86e22116c446e94ead4dd93c5" kind="typedef"><name>constraint_const_ptr</name></member>
+    <member refid="object__model_2fwd_8hpp_1a8ccd45ab56d3070612a24d676c04644e" kind="typedef"><name>constraint_const_unique_ptr</name></member>
+    <member refid="object__model_2fwd_8hpp_1ae9d359c6a5f770d207309dca13d8679c" kind="typedef"><name>type_const_ptr</name></member>
+    <member refid="object__model_2fwd_8hpp_1a6c5794794284499ffc601a9d3eb6afed" kind="typedef"><name>type_const_unique_ptr</name></member>
+    <member refid="object__model_2fwd_8hpp_1a63cd757dc7f9f09cfcd9aeece9a0ef75" kind="typedef"><name>function_shared_ptr</name></member>
+    <member refid="object__model_2fwd_8hpp_1aa27b5d8dd2ee39af45fbe63ff759622d" kind="typedef"><name>function_const_shared_ptr</name></member>
+    <member refid="object__model__builder_8hpp_1a19154029e298e18e7d7bf27de2593e41" kind="typedef"><name>deferred_expressions</name></member>
+    <member refid="declaration_8hpp_1a4cea0527c88a4572670b99ca2275a078" kind="variable"><name>intrinsic_qualifier</name></member>
+    <member refid="declaration_8hpp_1aa1d6e468b869444d08e2e864c13485c4" kind="variable"><name>namespace_qualifier</name></member>
+    <member refid="declaration_8hpp_1a105ee0f1147e8cf800710b9134e778ee" kind="variable"><name>constraint_qualifier</name></member>
+    <member refid="declaration_8hpp_1aef4966c387b69a3c368a2015e8314894" kind="variable"><name>struct_qualifier</name></member>
+    <member refid="declaration_8hpp_1a8b1f3de5510d6a931d02dc97247f5bc5" kind="variable"><name>function_qualifier</name></member>
+    <member refid="declaration_8hpp_1af8f8811efefd01f07db3ddb23c5fe5b5" kind="variable"><name>return_keyword</name></member>
+    <member refid="declaration_8hpp_1a1e3532cc0fd660540b0d1150329fdbb9" kind="variable"><name>unidentifier</name></member>
+    <member refid="log__errors_8hpp_1a3b76dd210dfe2dbdf01474c822aba668" kind="function"><name>register_log_error</name></member>
+    <member refid="log__errors_8hpp_1a3a594b1452a3d940f5380d7c7878ec59" kind="function"><name>build_log_error</name></member>
+    <member refid="log__errors_8hpp_1a10dc6334a15890a748ebc9f76a6a883c" kind="function"><name>build_source_info</name></member>
+    <member refid="log__errors_8hpp_1a9324d9020eaa06f46860c1fb389f5cab" kind="function"><name>build_source_info</name></member>
+    <member refid="log__errors_8hpp_1a05e36f241992cb0ef2c3dd2911b80f77" kind="function"><name>build_log_error</name></member>
+    <member refid="log__errors_8hpp_1af3a04af72f661065e186fca272f094cb" kind="function"><name>build_log_error</name></member>
+    <member refid="log__errors_8hpp_1a0bdd5f3f3850945663184bbb9da2cb00" kind="function"><name>log_error</name></member>
+    <member refid="log__errors_8hpp_1ae38cd1e1898ffeebc3a3f954c34e5af5" kind="function"><name>log_error</name></member>
+    <member refid="error__map_8hpp_1afc5d17cf8893a35e7e2aa56c6cbda3a1" kind="function"><name>register_error</name></member>
+    <member refid="error__map_8hpp_1a92340d4ba7719f25139ccefdb1bb79c2" kind="function"><name>build_error</name></member>
+    <member refid="error__map_8hpp_1a17c279ef5357c929f478daf321c90469" kind="function"><name>build_error_and_log</name></member>
+    <member refid="intrinsic_8hpp_1af768d9b5d7ccf72b006206c6057e49ea" kind="function"><name>generate_placeholder_inputs</name></member>
+    <member refid="intrinsic__function_8hpp_1a754336c73c19d1072e12b252ad97ca11" kind="function"><name>evaluate</name></member>
+    <member refid="object_8cpp_1a44f6a774a050486e6de6e4fc128a676f" kind="function"><name>valid_call</name></member>
+    <member refid="object_8cpp_1a7250c04d76c6a14dd000994fc42b79be" kind="function"><name>build_error_for_invalid_call</name></member>
+    <member refid="object_8cpp_1a9b2882eeb7e046e06317706eb46a54db" kind="function"><name>index_type</name></member>
+    <member refid="object_8cpp_1a4f9dd6b3a9a29eb9518f191cc5539987" kind="function"><name>compile_placeholder_expression</name></member>
+    <member refid="object__model__builder_8cpp_1a9436f5933aaf9f5d89e76621d86ec65e" kind="function"><name>build_scope</name></member>
+    <member refid="object__model__builder_8cpp_1ac7dba4c1f4ba19f5da04f0e4feab0c91" kind="function"><name>build_scope</name></member>
+    <member refid="object__model__builder_8cpp_1aa2d77c3e5d7a7d4e08d07362997bde47" kind="function"><name>get_function_kind</name></member>
+    <member refid="object__model__builder_8cpp_1aa43560e3be6a297af514cd26d6d6c6dd" kind="function"><name>build_type_annotation</name></member>
+    <member refid="object__model__builder_8cpp_1ace88f78a87ad48c7da31aa425e931435" kind="function"><name>build_output</name></member>
+    <member refid="object__model__builder_8cpp_1a515fcd7ffb86dfa19607bcac969c383a" kind="function"><name>build_inputs</name></member>
+    <member refid="object__model__builder_8cpp_1a01e755cf4efd45dbccd08e0ba4d6ea21" kind="function"><name>build_inputs_output</name></member>
+    <member refid="object__model__builder_8cpp_1a1f640988f685229fadde7a4a4243695e" kind="function"><name>build_struct_declaration</name></member>
+    <member refid="object__model__builder_8cpp_1a3a0985d99e5ed1c13fc85d69d5911170" kind="function"><name>build_constraint_declaration</name></member>
+    <member refid="object__model__builder_8cpp_1a3c79e794d8ee288c328328647dc66f77" kind="function"><name>build_lambda_declaration</name></member>
+    <member refid="object__model__builder_8cpp_1a90bd952323fb38ee4f7b93bcb46e7c3e" kind="function"><name>build_function_declaration</name></member>
+    <member refid="object__model__builder_8cpp_1a7a64e2ce625b08338e6d9c027c365916" kind="function"><name>build_namespace_declaration</name></member>
+    <member refid="object__model__builder_8cpp_1ad1b77d814c2e5347ca064ff6f8b6d623" kind="function"><name>build_declaration</name></member>
+    <member refid="object__model__builder_8cpp_1ac9e7c753c252a3d39d49d9ae661d5241" kind="function"><name>build_literal_expression</name></member>
+    <member refid="object__model__builder_8cpp_1a8d20f7e2f7f545b7f62806ef4a8d6e22" kind="function"><name>build_identifier_expression</name></member>
+    <member refid="object__model__builder_8cpp_1a90389dc6ab64febed2b0c92dcf99999f" kind="function"><name>build_indexing_expression</name></member>
+    <member refid="object__model__builder_8cpp_1a3b9da87c670bddac81f976c88c790852" kind="function"><name>build_call_expression</name></member>
+    <member refid="object__model__builder_8cpp_1ac94128eefae8956159f5a12afe6c1453" kind="function"><name>build_anonymous_block_expression</name></member>
+    <member refid="object__model__builder_8cpp_1ab95fd43652e56839487b7e4582eda0e8" kind="function"><name>build_expression_chain</name></member>
+    <member refid="object__model__builder_8cpp_1a5d8a4d3410e3918f1c7e2a115bca592e" kind="function"><name>build_expression</name></member>
+    <member refid="object__model__builder_8cpp_1a8d5bc1a4a857f72c2ad603ab662c5ac0" kind="function"><name>build_root_scope</name></member>
+    <member refid="object__model__builder_8hpp_1ac0a661df9e7a45e9f0f985c88bee0474" kind="function"><name>assign_source_information</name></member>
+  </compound>
+  <compound refid="namespaceelement_1_1detail" kind="namespace"><name>element::detail</name>
+    <member refid="log__errors_8cpp_1a401ea9a6307d99b59e7dd29599d24ed3" kind="function"><name>register_log_errors</name></member>
+    <member refid="error__map_8hpp_1ad5f9b2878d173d0cfef4584dd60f9979" kind="function"><name>register_errors</name></member>
+  </compound>
+  <compound refid="ast_8cpp" kind="file"><name>ast.cpp</name>
+    <member refid="ast_8cpp_1af4d215541f84bd7832a1a031c9303c9f" kind="define"><name>GET_TOKEN</name></member>
+    <member refid="ast_8cpp_1aa9235368531b9c3669d6674928f5c7d1" kind="define"><name>GET_TOKEN_CUSTOM_MSG</name></member>
+    <member refid="ast_8cpp_1a1d95647ad8a6d6b1c23896c7d6a12c57" kind="define"><name>GET_TOKEN_COUNT</name></member>
+    <member refid="ast_8cpp_1a7f7c97a6a1b259cc594135cfd714b21c" kind="define"><name>TOKENLIST_ADVANCE_AND_UPDATE</name></member>
+    <member refid="ast_8cpp_1a5c1aa7876188f6fac04043feae264197" kind="variable"><name>qualifiers</name></member>
+    <member refid="ast_8cpp_1a7364eda696e6e583f03f13cf0ebd83fa" kind="variable"><name>constructs</name></member>
+    <member refid="ast_8cpp_1aea8868b6409385a1e014171fdcdfbbc1" kind="variable"><name>reserved_args</name></member>
+    <member refid="ast_8cpp_1a9ec71aa9597c0bfa1831fe4a122864bb" kind="variable"><name>reserved_names</name></member>
+    <member refid="ast_8cpp_1aafc1c22fa9692baaa484dc5b4263ab18" kind="variable"><name>ast_pool</name></member>
+    <member refid="ast_8cpp_1a22b34e90d215d06f54838b531f0394ea" kind="function"><name>element_ast_to_string</name></member>
+    <member refid="ast_8cpp_1a3950940e7bb1d83e0597f8e69378929a" kind="function"><name>check_reserved_words</name></member>
+    <member refid="ast_8cpp_1a886339e0cf06e16f2fd026084fbe8e1b" kind="function"><name>tokenlist_advance</name></member>
+    <member refid="ast_8cpp_1a098fb19d8b903c1cc3e1324b1b787863" kind="function"><name>delete_ast_unique_ptr</name></member>
+    <member refid="ast_8cpp_1a0235fb6a0d298ae60aa2ab54a1b36a57" kind="function"><name>ast_new</name></member>
+    <member refid="ast_8cpp_1a8a66e28e2993c7d37ed74dc57e2482f6" kind="function"><name>element_ast_get_type</name></member>
+    <member refid="ast_8cpp_1a3abbafc4bb7e78025acdf67f7347cba7" kind="function"><name>element_ast_get_value_as_identifier</name></member>
+    <member refid="ast_8cpp_1a990d0a0903a2074a4420b51ca0ebaf2c" kind="function"><name>element_ast_get_value_as_literal</name></member>
+    <member refid="ast_8cpp_1acf84966b69b7452f4fd8641a453fab3b" kind="function"><name>element_ast_get_parent</name></member>
+    <member refid="ast_8cpp_1ab451709bd989ae34b46df84be4d061b8" kind="function"><name>element_ast_get_child_count</name></member>
+    <member refid="ast_8cpp_1a7611114d6c6c6edfaaed9afdb39b8448" kind="function"><name>element_ast_get_child</name></member>
+    <member refid="ast_8cpp_1a0f801fb1b4dfe70dbdddddcb71222afe" kind="function"><name>ast_clear</name></member>
+    <member refid="ast_8cpp_1a7fdaa0f4c8e60899fb2f55c5bbc9fb2a" kind="function"><name>ast_move</name></member>
+    <member refid="ast_8cpp_1a17952772a585a769172350cfbaeb114b" kind="function"><name>ast_add_child</name></member>
+    <member refid="ast_8cpp_1a36423e6c2366c272165d8f377157cea0" kind="function"><name>ast_new_child</name></member>
+    <member refid="ast_8cpp_1abd34de32db0cbddd127dc18bdd0a18f2" kind="function"><name>element_ast_delete</name></member>
+  </compound>
+  <compound refid="ast__indexes_8hpp" kind="file"><name>ast_indexes.hpp</name>
+  </compound>
+  <compound refid="ast__internal_8hpp" kind="file"><name>ast_internal.hpp</name>
+    <member refid="ast__internal_8hpp_1ae80d39a7dfedce02a40f584c66e3fdfe" kind="typedef"><name>ast_unique_ptr</name></member>
+    <member refid="ast__internal_8hpp_1a1682027c91f93e508016616c0d057835" kind="function"><name>ast_new_child</name></member>
+    <member refid="ast__internal_8hpp_1ae845f20d61ee67dca6843d11bdb77159" kind="function"><name>ast_node_has_identifier</name></member>
+    <member refid="ast__internal_8hpp_1a1826c3afb43df7cb2dbb8daeaa983266" kind="function"><name>ast_node_has_literal</name></member>
+    <member refid="ast__internal_8hpp_1a8e6f487ef3a35496abbc1ae526de6560" kind="function"><name>ast_node_in_function_scope</name></member>
+    <member refid="ast__internal_8hpp_1a28ec9ad5f2b3682c9fd2549b05857363" kind="function"><name>ast_node_in_lambda_scope</name></member>
+    <member refid="ast__internal_8hpp_1aea5b21811c883be1719b62c101798553" kind="function"><name>ast_node_struct_is_valid</name></member>
+    <member refid="ast__internal_8hpp_1af23b7b98cf89510a9d2a678b4d306f83" kind="function"><name>ast_node_struct_has_body</name></member>
+    <member refid="ast__internal_8hpp_1ae227f948f2678f35b39bb5f0eef8aaf9" kind="function"><name>ast_node_struct_get_declaration</name></member>
+    <member refid="ast__internal_8hpp_1af1a50516d5829ae9fa4ad70f0e92d204" kind="function"><name>ast_node_struct_get_body</name></member>
+    <member refid="ast__internal_8hpp_1a30e95ff21146aca28082d166951935b3" kind="function"><name>ast_node_function_is_valid</name></member>
+    <member refid="ast__internal_8hpp_1a0752b038780393ca10e8aa3a841f5c63" kind="function"><name>ast_node_function_has_body</name></member>
+    <member refid="ast__internal_8hpp_1a74124986387c045a497b9b72dd971209" kind="function"><name>ast_node_function_get_declaration</name></member>
+    <member refid="ast__internal_8hpp_1a07de6eb75f8647cd1a3df138c347b4ce" kind="function"><name>ast_node_function_get_body</name></member>
+    <member refid="ast__internal_8hpp_1a9d57933a5fccb5fc8d5c0a7f90498da9" kind="function"><name>ast_node_declaration_is_valid</name></member>
+    <member refid="ast__internal_8hpp_1a1a33c77e74fe9a14a38c7bba1398b6f0" kind="function"><name>ast_node_declaration_has_inputs</name></member>
+    <member refid="ast__internal_8hpp_1aa2d98b5328e546a0991bc4f734ac753c" kind="function"><name>ast_node_declaration_get_inputs</name></member>
+    <member refid="ast__internal_8hpp_1ab72d3ececfc99a159e9e535601d95962" kind="function"><name>ast_node_declaration_has_outputs</name></member>
+    <member refid="ast__internal_8hpp_1a5f72555551b3730577a3f0ffc29dcc55" kind="function"><name>ast_node_declaration_get_outputs</name></member>
+    <member refid="ast__internal_8hpp_1a5dd558542dd5a66c4d5bda8c20387fcc" kind="function"><name>get_root_from_ast</name></member>
+  </compound>
+  <compound refid="ast_2fwd_8hpp" kind="file"><name>fwd.hpp</name>
+    <member refid="ast_2fwd_8hpp_1ac54935b9d1ab58f20bdaee61452003e6" kind="enum"><name>element_nullary_op</name></member>
+    <member refid="ast_2fwd_8hpp_1ac54935b9d1ab58f20bdaee61452003e6aa3d2de7675556553a5f08e4c88d2c228" kind="enumvalue"><name>nan</name></member>
+    <member refid="ast_2fwd_8hpp_1ac54935b9d1ab58f20bdaee61452003e6a4eb8b5111c15f342868a7742453c451a" kind="enumvalue"><name>positive_infinity</name></member>
+    <member refid="ast_2fwd_8hpp_1ac54935b9d1ab58f20bdaee61452003e6a47955e67b7e2c8bd728f04d0f23e0a7d" kind="enumvalue"><name>negative_infinity</name></member>
+    <member refid="ast_2fwd_8hpp_1ac54935b9d1ab58f20bdaee61452003e6a94d4625e81b95be909df3791323ec454" kind="enumvalue"><name>true_value</name></member>
+    <member refid="ast_2fwd_8hpp_1ac54935b9d1ab58f20bdaee61452003e6a2d2c6163369c81871cda60826f2f2319" kind="enumvalue"><name>false_value</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712" kind="enum"><name>element_unary_op</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712a7d27e4a7ca7533a3bef4fad10a0c19c7" kind="enumvalue"><name>sin</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712a4d00d79b6733c9cc066584a02ed03410" kind="enumvalue"><name>cos</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712a5b2d4484498235e80d61a233a7c04991" kind="enumvalue"><name>tan</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712a62130e1b1e81120c6344cc4e661f9e4b" kind="enumvalue"><name>asin</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712acbdb2632628e9ed7d677a713d9817b0d" kind="enumvalue"><name>acos</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712a6d86bcdc87773d8bb8527c65ed349b97" kind="enumvalue"><name>atan</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712af8e19f449f17c9d37dcc93dd244ec3bb" kind="enumvalue"><name>ln</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712af9ac6b05beccb0fc5837b6a7fef4c1d3" kind="enumvalue"><name>abs</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712a6fee666d16bfa3ecbc516290cb59aa0a" kind="enumvalue"><name>ceil</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712a7515875808ef6219fa6fd725e2105588" kind="enumvalue"><name>floor</name></member>
+    <member refid="ast_2fwd_8hpp_1a14f4175c565c128380851cfa4fff7712a3870b99bc7d3e82e23296558b0741457" kind="enumvalue"><name>not_</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082" kind="enum"><name>element_binary_op</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a34ec78fcc91ffb1e54cd85e4a0924332" kind="enumvalue"><name>add</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a8a68dc3e925eacf92633be230722a140" kind="enumvalue"><name>sub</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a353942263d1bedfbe06b7bfa78226253" kind="enumvalue"><name>mul</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a38696558dc98494c08d951c052900a2a" kind="enumvalue"><name>div</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a5cadb523cb6909f92350f70f124adfb8" kind="enumvalue"><name>rem</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a30d7e0494351def45591fccb21d3510b" kind="enumvalue"><name>pow</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082ad8bd79cc131920d5de426f914d17405a" kind="enumvalue"><name>min</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a2ffe4e77325d9a7152f7086ea7aa5114" kind="enumvalue"><name>max</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082adc1d71bbb5c4d2a5e936db79ef10c19f" kind="enumvalue"><name>log</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082acf36371cf609a42d24265c46488c3e6d" kind="enumvalue"><name>atan2</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082aa195f8c413b580691c2daa246c1b16ce" kind="enumvalue"><name>and_</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082acfc049a17faac959998820e7aaaf4329" kind="enumvalue"><name>or_</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082adf22f17124884fc51f1ac69d610096ac" kind="enumvalue"><name>eq</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082abc68613fd1fb63c55cd63311464adfbf" kind="enumvalue"><name>neq</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082ad91af6958918af87d6a057c1cdf5b225" kind="enumvalue"><name>lt</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082ae8742a3606fa66940a24d4453fd5883c" kind="enumvalue"><name>leq</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a1bfad22f0925978f310a37440bfdff43" kind="enumvalue"><name>gt</name></member>
+    <member refid="ast_2fwd_8hpp_1a2210937c16c4f9733ca7686002f09082a42d01130c31a6db1a25b5c8314cf9fc7" kind="enumvalue"><name>geq</name></member>
+  </compound>
+  <compound refid="instruction__tree_2fwd_8hpp" kind="file"><name>fwd.hpp</name>
+    <member refid="instruction__tree_2fwd_8hpp_1aba4c43ade207aeb5a6ce3ecbebb9c665" kind="typedef"><name>instruction_const_shared_ptr</name></member>
+  </compound>
+  <compound refid="object__model_2fwd_8hpp" kind="file"><name>fwd.hpp</name>
+  </compound>
+  <compound refid="common_8cpp" kind="file"><name>common.cpp</name>
+    <member refid="common_8cpp_1aa171a490e160a1682a3b7ba5a9f0cc08" kind="define"><name>PRINTCASE</name></member>
+    <member refid="common_8cpp_1a2727ca87e680991e784359e3878ef6ab" kind="function"><name>tokens_to_string</name></member>
+    <member refid="common_8cpp_1a1c4804e27113f12586b66bed5a979790" kind="function"><name>ast_to_string</name></member>
+    <member refid="common_8cpp_1a914f467bc7c93f7c082e39bf2c1c0832" kind="function"><name>instruction_to_string</name></member>
+    <member refid="common_8cpp_1a5b20e4aa784acfa6b16717ad7367deca" kind="function"><name>ast_to_code</name></member>
+  </compound>
+  <compound refid="common__internal_8hpp" kind="file"><name>common_internal.hpp</name>
+    <member refid="common__internal_8hpp_1a211659caca38621c5e46bf6a1f1956a4" kind="define"><name>ENSURE_NOT_NULL</name></member>
+    <member refid="common__internal_8hpp_1add0a5f023c5d211abe9c567bfe3b1c0d" kind="typedef"><name>LogCallback</name></member>
+    <member refid="common__internal_8hpp_1aeb7b5cf69f8ca072e81ff5bf0515ae4e" kind="function"><name>tokens_to_string</name></member>
+    <member refid="common__internal_8hpp_1a47370f91a4139ddad9d5e5fed2cc6c6a" kind="function"><name>ast_to_string</name></member>
+    <member refid="common__internal_8hpp_1a1c3c79e75ebae808f8beb31fabb61836" kind="function"><name>instruction_to_string</name></member>
+    <member refid="common__internal_8hpp_1ade9ac205d3764f42544921c97d37a66c" kind="function"><name>ast_to_code</name></member>
+  </compound>
+  <compound refid="evaluator_8cpp" kind="file"><name>evaluator.cpp</name>
+    <member refid="evaluator_8cpp_1a7262d50236fba02bc3b99c0d46a52285" kind="function"><name>do_evaluate</name></member>
+    <member refid="evaluator_8cpp_1a4c0be556da3dd1232b84fc3e4dea320c" kind="function"><name>element_evaluate</name></member>
+    <member refid="evaluator_8cpp_1a21b0cf183b7e88a467c475b45f6b143b" kind="function"><name>element_evaluate</name></member>
+    <member refid="evaluator_8cpp_1a153275d0e64c63095f5847ccf51eae53" kind="function"><name>element_evaluate_nullary</name></member>
+    <member refid="evaluator_8cpp_1a274f57ee153750409bab435d226867a8" kind="function"><name>element_evaluate_unary</name></member>
+    <member refid="evaluator_8cpp_1a2aa83407b5040457ecf55042af61f49b" kind="function"><name>element_evaluate_binary</name></member>
+    <member refid="evaluator_8cpp_1a6fe4958a3a9ca717b38ff9d396d5f9a3" kind="function"><name>element_evaluate_if</name></member>
+    <member refid="evaluator_8cpp_1ade4fc16c7f95b58b37eada57a0eeadd1" kind="function"><name>element_evaluate_for</name></member>
+    <member refid="evaluator_8cpp_1a606d014300d1930a631a6a52dccf339d" kind="function"><name>element_evaluate_select</name></member>
+  </compound>
+  <compound refid="evaluator_8hpp" kind="file"><name>evaluator.hpp</name>
+    <member refid="evaluator_8hpp_1aec0089d6c57d4e1886109893e27b22c3" kind="function"><name>element_evaluate</name></member>
+    <member refid="evaluator_8hpp_1a21b0cf183b7e88a467c475b45f6b143b" kind="function"><name>element_evaluate</name></member>
+    <member refid="evaluator_8hpp_1a153275d0e64c63095f5847ccf51eae53" kind="function"><name>element_evaluate_nullary</name></member>
+    <member refid="evaluator_8hpp_1a274f57ee153750409bab435d226867a8" kind="function"><name>element_evaluate_unary</name></member>
+    <member refid="evaluator_8hpp_1a2aa83407b5040457ecf55042af61f49b" kind="function"><name>element_evaluate_binary</name></member>
+    <member refid="evaluator_8hpp_1a6fe4958a3a9ca717b38ff9d396d5f9a3" kind="function"><name>element_evaluate_if</name></member>
+    <member refid="evaluator_8hpp_1aee70587635c2e601d8a02e6e58080fea" kind="function"><name>element_evaluate_for</name></member>
+    <member refid="evaluator_8hpp_1a606d014300d1930a631a6a52dccf339d" kind="function"><name>element_evaluate_select</name></member>
+  </compound>
+  <compound refid="instructions_8cpp" kind="file"><name>instructions.cpp</name>
+    <member refid="instructions_8cpp_1a9e2d3aba9125b6912f91d86e9ce11d04" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1a520aafbaf6c6c0d48ac1a8180c04961a" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1a64da2f1e1c78e76de54f376fe11c4c0b" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1a74061e8b52d48bb1e3b5b2f92d9d0c91" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1ae05586b465220e876789cc932643fd90" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1a392d9a8b22fecb70e549d5ce37e57636" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1a958cb1d9658c1e36261b8460cf6ef601" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1ad6b24ac46bf03b21b300d0f17e46e46f" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1a602bba71bc798f14ae1c050e9e6b5ae3" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1a5faa848d3eab918d3bcb2ae75a67f34f" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="instructions_8cpp_1a17d8655d87b6e4fc3ad9fa8fa5a47d99" kind="function"><name>DEFINE_TYPE_ID</name></member>
+  </compound>
+  <compound refid="instructions_8hpp" kind="file"><name>instructions.hpp</name>
+  </compound>
+  <compound refid="interpreter_8cpp" kind="file"><name>interpreter.cpp</name>
+    <member refid="interpreter_8cpp_1a8d3e59f8d256d7703e84064d7ca70879" kind="function"><name>file_exists</name></member>
+    <member refid="interpreter_8cpp_1a738bd9a6ab91fb97b4e459b190ac5d07" kind="function"><name>directory_exists</name></member>
+    <member refid="interpreter_8cpp_1a1d35b15e484b6238e831b33148fe277d" kind="function"><name>element_interpreter_create</name></member>
+    <member refid="interpreter_8cpp_1ab8340be831061903fe2bd300f1ae7a7e" kind="function"><name>element_interpreter_delete</name></member>
+    <member refid="interpreter_8cpp_1af219139c7f42d95ad15fce52ee5f0dd2" kind="function"><name>element_interpreter_load_string</name></member>
+    <member refid="interpreter_8cpp_1af23b1641ff24341bd0b824cfd161388f" kind="function"><name>element_interpreter_load_file</name></member>
+    <member refid="interpreter_8cpp_1aad5192c97020ee4ab8b19b9ee5b8a15b" kind="function"><name>element_interpreter_load_files</name></member>
+    <member refid="interpreter_8cpp_1a827c325f41651d73eb45d68c7badf5b1" kind="function"><name>element_interpreter_load_package</name></member>
+    <member refid="interpreter_8cpp_1a05c0d53fba2ea41e62d22a0f654b51ef" kind="function"><name>element_interpreter_load_packages</name></member>
+    <member refid="interpreter_8cpp_1abf0463ba4c2be03550393186d74be1bf" kind="function"><name>element_interpreter_load_prelude</name></member>
+    <member refid="interpreter_8cpp_1a97b95823e13977bdf8c1893cd12ee5c4" kind="function"><name>element_interpreter_parse_only_mode</name></member>
+    <member refid="interpreter_8cpp_1ab0e1f68a5fa4c74a5a6b72c88430dcda" kind="function"><name>element_interpreter_set_log_callback</name></member>
+    <member refid="interpreter_8cpp_1acaa4d77adca47069570f3942daf294a4" kind="function"><name>element_interpreter_clear</name></member>
+    <member refid="interpreter_8cpp_1aeffcf6a9ae8d6bc24fe9bbb77a9d129a" kind="function"><name>element_delete_declaration</name></member>
+    <member refid="interpreter_8cpp_1a4c23f3914460f42beded136222755818" kind="function"><name>element_delete_object</name></member>
+    <member refid="interpreter_8cpp_1addb276e93197f887c5766a4d6627ec63" kind="function"><name>element_interpreter_find</name></member>
+    <member refid="interpreter_8cpp_1a2f8a27224a2cce80c4217a0d67d7025d" kind="function"><name>valid_boundary_function</name></member>
+    <member refid="interpreter_8cpp_1ad67d99f14d81115c380f51b9afd6aa62" kind="function"><name>element_interpreter_compile</name></member>
+    <member refid="interpreter_8cpp_1ab02592ca5bbf5058132464c693e3ecef" kind="function"><name>element_interpreter_evaluate</name></member>
+    <member refid="interpreter_8cpp_1a8154b5c6303cb1d452b19b7a7af13e59" kind="function"><name>element_interpreter_compile_expression</name></member>
+    <member refid="interpreter_8cpp_1a69409bd2fdd17cbdd6957758143e1f3c" kind="function"><name>element_interpreter_evaluate_expression</name></member>
+    <member refid="interpreter_8cpp_1a5deb310c29f4004e2dcf7a1df486236f" kind="function"><name>element_interpreter_typeof_expression</name></member>
+  </compound>
+  <compound refid="interpreter__internal_8hpp" kind="file"><name>interpreter_internal.hpp</name>
+  </compound>
+  <compound refid="compiler_8cpp" kind="file"><name>compiler.cpp</name>
+    <member refid="compiler_8cpp_1aaad322d28731229be33f406a1d103f1e" kind="variable"><name>unary_scalar_ops</name></member>
+    <member refid="compiler_8cpp_1a79fd027c3f0d9d2441d5b7f2c8e47d1f" kind="variable"><name>unary_vector_ops</name></member>
+    <member refid="compiler_8cpp_1a432f26728a247b9764d1ed64c0c64901" kind="variable"><name>binary_scalar_ops</name></member>
+    <member refid="compiler_8cpp_1a8c2593bc9b2b851d0d08ce06025e9566" kind="variable"><name>binary_vector_ops</name></member>
+    <member refid="compiler_8cpp_1a7cb80307148fa51f6981e1cc9c79d3c7" kind="function"><name>buf_raw_write_and_update</name></member>
+    <member refid="compiler_8cpp_1ae35015ae3178dd838f7d63180fde1060" kind="function"><name>buf_write_and_update</name></member>
+    <member refid="compiler_8cpp_1a2e950963d7ca8b5ecd7cf422e9f46b64" kind="function"><name>generate_lmnt_constants</name></member>
+    <member refid="compiler_8cpp_1aee84d69148bbca2a19a2558cc25509dc" kind="function"><name>generate_lmnt_ops</name></member>
+    <member refid="compiler_8cpp_1ac434d8a28b4bab48f57b43c26baf0344" kind="function"><name>get_input_size</name></member>
+    <member refid="compiler_8cpp_1a734368e02f9dca4457a6487389c11958" kind="function"><name>lmnt_compile</name></member>
+    <member refid="compiler_8cpp_1aa21043e450721133a73c06baf7a94778" kind="function"><name>build_archive</name></member>
+    <member refid="compiler_8cpp_1a5acd316d5fd9f85e8f7e5a1f07b028b8" kind="function"><name>element_lmnt_archive_init</name></member>
+    <member refid="compiler_8cpp_1a1b66d1ab23ec1ee547b880c4cc482dd1" kind="function"><name>element_lmnt_archive_delete</name></member>
+    <member refid="compiler_8cpp_1a276f45ef25bb38ebd439e4dce338fcb5" kind="function"><name>element_lmnt_compile</name></member>
+    <member refid="compiler_8cpp_1a65e62c90cd49971eeadb58ad5538512c" kind="function"><name>element_lmnt_archive_build</name></member>
+  </compound>
+  <compound refid="compiler_8hpp" kind="file"><name>compiler.hpp</name>
+  </compound>
+  <compound refid="log__errors_8cpp" kind="file"><name>log_errors.cpp</name>
+  </compound>
+  <compound refid="log__errors_8hpp" kind="file"><name>log_errors.hpp</name>
+  </compound>
+  <compound refid="call__stack_8cpp" kind="file"><name>call_stack.cpp</name>
+  </compound>
+  <compound refid="call__stack_8hpp" kind="file"><name>call_stack.hpp</name>
+  </compound>
+  <compound refid="capture__stack_8cpp" kind="file"><name>capture_stack.cpp</name>
+  </compound>
+  <compound refid="capture__stack_8hpp" kind="file"><name>capture_stack.hpp</name>
+  </compound>
+  <compound refid="compilation__context_8cpp" kind="file"><name>compilation_context.cpp</name>
+  </compound>
+  <compound refid="compilation__context_8hpp" kind="file"><name>compilation_context.hpp</name>
+  </compound>
+  <compound refid="any__constraint_8hpp" kind="file"><name>any_constraint.hpp</name>
+  </compound>
+  <compound refid="bool__type_8cpp" kind="file"><name>bool_type.cpp</name>
+  </compound>
+  <compound refid="bool__type_8hpp" kind="file"><name>bool_type.hpp</name>
+  </compound>
+  <compound refid="constraint_8cpp" kind="file"><name>constraint.cpp</name>
+    <member refid="constraint_8cpp_1ae503af6ce6db7d2c2e9c2580c3adc458" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="constraint_8cpp_1ae5192704abdb671902b29e704cb62bf7" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="constraint_8cpp_1a3cded97d1800582b912647d1d335a3cd" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="constraint_8cpp_1ae91bfe289c7c472120e6c13feb1ef246" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="constraint_8cpp_1ae0d8f020cf31e33c9725ab553e29327b" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="constraint_8cpp_1a1c9f046a7a9aca17d51f086597a7860d" kind="function"><name>DEFINE_TYPE_ID</name></member>
+  </compound>
+  <compound refid="constraint_8hpp" kind="file"><name>constraint.hpp</name>
+  </compound>
+  <compound refid="num__type_8cpp" kind="file"><name>num_type.cpp</name>
+  </compound>
+  <compound refid="num__type_8hpp" kind="file"><name>num_type.hpp</name>
+  </compound>
+  <compound refid="type_8hpp" kind="file"><name>type.hpp</name>
+  </compound>
+  <compound refid="user__function__constraint_8cpp" kind="file"><name>user_function_constraint.cpp</name>
+  </compound>
+  <compound refid="user__function__constraint_8hpp" kind="file"><name>user_function_constraint.hpp</name>
+  </compound>
+  <compound refid="user__type_8hpp" kind="file"><name>user_type.hpp</name>
+  </compound>
+  <compound refid="constraint__declaration_8cpp" kind="file"><name>constraint_declaration.cpp</name>
+  </compound>
+  <compound refid="constraint__declaration_8hpp" kind="file"><name>constraint_declaration.hpp</name>
+  </compound>
+  <compound refid="declaration_8cpp" kind="file"><name>declaration.cpp</name>
+  </compound>
+  <compound refid="declaration_8hpp" kind="file"><name>declaration.hpp</name>
+  </compound>
+  <compound refid="function__declaration_8cpp" kind="file"><name>function_declaration.cpp</name>
+  </compound>
+  <compound refid="function__declaration_8hpp" kind="file"><name>function_declaration.hpp</name>
+  </compound>
+  <compound refid="namespace__declaration_8cpp" kind="file"><name>namespace_declaration.cpp</name>
+  </compound>
+  <compound refid="namespace__declaration_8hpp" kind="file"><name>namespace_declaration.hpp</name>
+  </compound>
+  <compound refid="struct__declaration_8cpp" kind="file"><name>struct_declaration.cpp</name>
+  </compound>
+  <compound refid="struct__declaration_8hpp" kind="file"><name>struct_declaration.hpp</name>
+  </compound>
+  <compound refid="error_8cpp" kind="file"><name>error.cpp</name>
+  </compound>
+  <compound refid="error_8hpp" kind="file"><name>error.hpp</name>
+  </compound>
+  <compound refid="error__map_8cpp" kind="file"><name>error_map.cpp</name>
+  </compound>
+  <compound refid="error__map_8hpp" kind="file"><name>error_map.hpp</name>
+  </compound>
+  <compound refid="anonymous__block__expression_8cpp" kind="file"><name>anonymous_block_expression.cpp</name>
+  </compound>
+  <compound refid="anonymous__block__expression_8hpp" kind="file"><name>anonymous_block_expression.hpp</name>
+  </compound>
+  <compound refid="call__expression_8cpp" kind="file"><name>call_expression.cpp</name>
+  </compound>
+  <compound refid="call__expression_8hpp" kind="file"><name>call_expression.hpp</name>
+  </compound>
+  <compound refid="expression_8hpp" kind="file"><name>expression.hpp</name>
+  </compound>
+  <compound refid="expression__chain_8cpp" kind="file"><name>expression_chain.cpp</name>
+  </compound>
+  <compound refid="expression__chain_8hpp" kind="file"><name>expression_chain.hpp</name>
+  </compound>
+  <compound refid="identifier__expression_8cpp" kind="file"><name>identifier_expression.cpp</name>
+  </compound>
+  <compound refid="identifier__expression_8hpp" kind="file"><name>identifier_expression.hpp</name>
+  </compound>
+  <compound refid="indexing__expression_8cpp" kind="file"><name>indexing_expression.cpp</name>
+  </compound>
+  <compound refid="indexing__expression_8hpp" kind="file"><name>indexing_expression.hpp</name>
+  </compound>
+  <compound refid="literal__expression_8cpp" kind="file"><name>literal_expression.cpp</name>
+  </compound>
+  <compound refid="literal__expression_8hpp" kind="file"><name>literal_expression.hpp</name>
+  </compound>
+  <compound refid="identifier_8cpp" kind="file"><name>identifier.cpp</name>
+  </compound>
+  <compound refid="identifier_8hpp" kind="file"><name>identifier.hpp</name>
+  </compound>
+  <compound refid="anonymous__block__instance_8cpp" kind="file"><name>anonymous_block_instance.cpp</name>
+  </compound>
+  <compound refid="anonymous__block__instance_8hpp" kind="file"><name>anonymous_block_instance.hpp</name>
+  </compound>
+  <compound refid="declaration__wrapper_8cpp" kind="file"><name>declaration_wrapper.cpp</name>
+  </compound>
+  <compound refid="declaration__wrapper_8hpp" kind="file"><name>declaration_wrapper.hpp</name>
+  </compound>
+  <compound refid="function__instance_8cpp" kind="file"><name>function_instance.cpp</name>
+    <member refid="function__instance_8cpp_1ac44a12eaa9c8403b828ad4e333216121" kind="function"><name>has_defaults</name></member>
+  </compound>
+  <compound refid="function__instance_8hpp" kind="file"><name>function_instance.hpp</name>
+  </compound>
+  <compound refid="list__wrapper_8cpp" kind="file"><name>list_wrapper.cpp</name>
+  </compound>
+  <compound refid="list__wrapper_8hpp" kind="file"><name>list_wrapper.hpp</name>
+  </compound>
+  <compound refid="struct__instance_8cpp" kind="file"><name>struct_instance.cpp</name>
+  </compound>
+  <compound refid="struct__instance_8hpp" kind="file"><name>struct_instance.hpp</name>
+  </compound>
+  <compound refid="intrinsic_8cpp" kind="file"><name>intrinsic.cpp</name>
+    <member refid="intrinsic_8cpp_1ad9aad948c8b4711606793a02289e0968" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1a59f80569f4e3a8218bf946a638aa102f" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1a185706425c5e12099fb29244ce81eacb" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1a6ecf2eb7410f17ceb98a2a6dabc09b52" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1a9dcce5ce5a9ab28f64520d9f6450a893" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1a2a5616ec0c2acb824b7289ac727fa33d" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1ac0fb60957c428e518b30912604647e75" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1a222950814dad05efc852954f860fd1de" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1ad7213fd708cdd2aedf0517f34b4d31cf" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1aabfedafe1899c8bedaae1281de18e84d" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1a4d679faa6994d026e02c7decb0386e40" kind="function"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="intrinsic_8cpp_1a95cdbec0fee0a9d5c1d8ff0c15b818db" kind="function"><name>is_type_of</name></member>
+    <member refid="intrinsic_8cpp_1aa70f9dbff2a5098b0817ed258cef7b31" kind="function"><name>make_unique</name></member>
+    <member refid="intrinsic_8cpp_1aa02acbe9ede487370f731fe4382bc173" kind="function"><name>make_unique</name></member>
+  </compound>
+  <compound refid="intrinsic_8hpp" kind="file"><name>intrinsic.hpp</name>
+  </compound>
+  <compound refid="intrinsic__binary_8cpp" kind="file"><name>intrinsic_binary.cpp</name>
+  </compound>
+  <compound refid="intrinsic__binary_8hpp" kind="file"><name>intrinsic_binary.hpp</name>
+  </compound>
+  <compound refid="intrinsic__compiler__list__indexer_8cpp" kind="file"><name>intrinsic_compiler_list_indexer.cpp</name>
+  </compound>
+  <compound refid="intrinsic__compiler__list__indexer_8hpp" kind="file"><name>intrinsic_compiler_list_indexer.hpp</name>
+  </compound>
+  <compound refid="intrinsic__constructor__bool_8cpp" kind="file"><name>intrinsic_constructor_bool.cpp</name>
+  </compound>
+  <compound refid="intrinsic__constructor__bool_8hpp" kind="file"><name>intrinsic_constructor_bool.hpp</name>
+  </compound>
+  <compound refid="intrinsic__constructor__list_8cpp" kind="file"><name>intrinsic_constructor_list.cpp</name>
+  </compound>
+  <compound refid="intrinsic__constructor__list_8hpp" kind="file"><name>intrinsic_constructor_list.hpp</name>
+  </compound>
+  <compound refid="intrinsic__constructor__num_8cpp" kind="file"><name>intrinsic_constructor_num.cpp</name>
+  </compound>
+  <compound refid="intrinsic__constructor__num_8hpp" kind="file"><name>intrinsic_constructor_num.hpp</name>
+  </compound>
+  <compound refid="intrinsic__for_8cpp" kind="file"><name>intrinsic_for.cpp</name>
+    <member refid="intrinsic__for_8cpp_1ad5f7400460ba3ef5c261403e1ffa5c8d" kind="function"><name>compile_time_for</name></member>
+    <member refid="intrinsic__for_8cpp_1ae113a816150e42b52ee41ce5e9416932" kind="function"><name>runtime_for</name></member>
+  </compound>
+  <compound refid="intrinsic__for_8hpp" kind="file"><name>intrinsic_for.hpp</name>
+  </compound>
+  <compound refid="intrinsic__function_8cpp" kind="file"><name>intrinsic_function.cpp</name>
+  </compound>
+  <compound refid="intrinsic__function_8hpp" kind="file"><name>intrinsic_function.hpp</name>
+  </compound>
+  <compound refid="intrinsic__if_8cpp" kind="file"><name>intrinsic_if.cpp</name>
+  </compound>
+  <compound refid="intrinsic__if_8hpp" kind="file"><name>intrinsic_if.hpp</name>
+  </compound>
+  <compound refid="intrinsic__list_8cpp" kind="file"><name>intrinsic_list.cpp</name>
+  </compound>
+  <compound refid="intrinsic__list_8hpp" kind="file"><name>intrinsic_list.hpp</name>
+  </compound>
+  <compound refid="intrinsic__list__fold_8cpp" kind="file"><name>intrinsic_list_fold.cpp</name>
+    <member refid="intrinsic__list__fold_8cpp_1a77f2bf50fedf6c994778a9d45429e6ed" kind="function"><name>compile_time_fold</name></member>
+    <member refid="intrinsic__list__fold_8cpp_1ad016cab1a0f5e9ba0c68608508a3e02c" kind="function"><name>runtime_fold</name></member>
+  </compound>
+  <compound refid="intrinsic__list__fold_8hpp" kind="file"><name>intrinsic_list_fold.hpp</name>
+  </compound>
+  <compound refid="intrinsic__nullary_8cpp" kind="file"><name>intrinsic_nullary.cpp</name>
+  </compound>
+  <compound refid="intrinsic__nullary_8hpp" kind="file"><name>intrinsic_nullary.hpp</name>
+  </compound>
+  <compound refid="intrinsic__unary_8cpp" kind="file"><name>intrinsic_unary.cpp</name>
+  </compound>
+  <compound refid="intrinsic__unary_8hpp" kind="file"><name>intrinsic_unary.hpp</name>
+  </compound>
+  <compound refid="metainfo_8cpp" kind="file"><name>metainfo.cpp</name>
+  </compound>
+  <compound refid="metainfo_8hpp" kind="file"><name>metainfo.hpp</name>
+  </compound>
+  <compound refid="object_8cpp" kind="file"><name>object.cpp</name>
+  </compound>
+  <compound refid="object_8hpp" kind="file"><name>object.hpp</name>
+  </compound>
+  <compound refid="object__model__builder_8cpp" kind="file"><name>object_model_builder.cpp</name>
+  </compound>
+  <compound refid="object__model__builder_8hpp" kind="file"><name>object_model_builder.hpp</name>
+  </compound>
+  <compound refid="port_8cpp" kind="file"><name>port.cpp</name>
+  </compound>
+  <compound refid="port_8hpp" kind="file"><name>port.hpp</name>
+  </compound>
+  <compound refid="scope_8cpp" kind="file"><name>scope.cpp</name>
+  </compound>
+  <compound refid="scope_8hpp" kind="file"><name>scope.hpp</name>
+  </compound>
+  <compound refid="type__annotation_8cpp" kind="file"><name>type_annotation.cpp</name>
+  </compound>
+  <compound refid="type__annotation_8hpp" kind="file"><name>type_annotation.hpp</name>
+  </compound>
+  <compound refid="source__information_8hpp" kind="file"><name>source_information.hpp</name>
+  </compound>
+  <compound refid="stringutil_8hpp" kind="file"><name>stringutil.hpp</name>
+    <member refid="stringutil_8hpp_1a28eb8ac118c523899d9986a95a682f54" kind="function"><name>operator&gt;&gt;</name></member>
+    <member refid="stringutil_8hpp_1a6f10c88af2bbdda9beb702900d291af3" kind="function"><name>split</name></member>
+  </compound>
+  <compound refid="token_8cpp" kind="file"><name>token.cpp</name>
+    <member refid="token_8cpp_1af6365ab914f166d771c6709a032c0690" kind="define"><name>UTF8_PEEK_NEXT</name></member>
+    <member refid="token_8cpp_1a0d86efc785c338bf6f4368cefaab6eb6" kind="define"><name>UTF8_NEXT</name></member>
+    <member refid="token_8cpp_1ad03f4018c78a3dc3bff3915cfdc08f95" kind="define"><name>UTF8_ADVANCE</name></member>
+    <member refid="token_8cpp_1aa171a490e160a1682a3b7ba5a9f0cc08" kind="define"><name>PRINTCASE</name></member>
+    <member refid="token_8cpp_1a420848b04dd717779907ab7e3c8d6688" kind="function"><name>element_tokens_to_string</name></member>
+    <member refid="token_8cpp_1aa2bafb5b41b5221d7ed5d113f8b82559" kind="function"><name>element_tokeniser_get_filename</name></member>
+    <member refid="token_8cpp_1ab65eb2128b285af73877db61f8a48448" kind="function"><name>element_tokeniser_get_input</name></member>
+    <member refid="token_8cpp_1a739f01a261b8511b249dfe632c55f8b9" kind="function"><name>element_tokeniser_get_token_count</name></member>
+    <member refid="token_8cpp_1a81dbe3a67959f84f0b8c9184ca4a4435" kind="function"><name>element_tokeniser_get_token</name></member>
+    <member refid="token_8cpp_1ab0ac5a88f66dc472a689bed6afc707c3" kind="function"><name>element_tokeniser_set_log_callback</name></member>
+    <member refid="token_8cpp_1a9352ea2c29aec60e709245ff0cb30e2f" kind="function"><name>reset_token</name></member>
+    <member refid="token_8cpp_1a3f299126fba816865153bfbe7e490d31" kind="function"><name>tokenise_number</name></member>
+    <member refid="token_8cpp_1a5ed2a9a81670514ff4fe8b73bea48b1f" kind="function"><name>tokenise_comment</name></member>
+    <member refid="token_8cpp_1a529a03922d9b348c598d11555f254623" kind="function"><name>isid_alpha</name></member>
+    <member refid="token_8cpp_1afa4ae2c7a00570d5d713fdbd456e99ae" kind="function"><name>isid_alnum</name></member>
+    <member refid="token_8cpp_1ac31afede59f1788cd65a985af6ce37ee" kind="function"><name>tokenise_identifier</name></member>
+    <member refid="token_8cpp_1a8e4b6bbe42bd3c0142c61535deed2fa1" kind="function"><name>add_token</name></member>
+    <member refid="token_8cpp_1af03771cfa86bd269f70c48b75029b51f" kind="function"><name>element_tokeniser_create</name></member>
+    <member refid="token_8cpp_1ae699ade58fc8e19931670f13caf80907" kind="function"><name>element_tokeniser_delete</name></member>
+    <member refid="token_8cpp_1ae0ccbd328c795cbbc24539091c21ed1f" kind="function"><name>element_tokeniser_clear</name></member>
+    <member refid="token_8cpp_1a112dc523555d512f35ccfb7608fb04ce" kind="function"><name>element_tokeniser_run</name></member>
+    <member refid="token_8cpp_1ab831b4a1faa6d01be2671600ef85fe39" kind="function"><name>element_tokeniser_print</name></member>
+    <member refid="token_8cpp_1a31d42b92310c7623b90846de7b54e45f" kind="function"><name>advance_to_end_of_line</name></member>
+  </compound>
+  <compound refid="token__internal_8hpp" kind="file"><name>token_internal.hpp</name>
+    <member refid="token__internal_8hpp_1af080c51903c975845d978bd6f068bee3" kind="function"><name>element_isalpha</name></member>
+    <member refid="token__internal_8hpp_1a7fec5c0eb2edbaa69fb8ac2d8cc2c3e6" kind="function"><name>element_isdigit</name></member>
+    <member refid="token__internal_8hpp_1a94deaac89dde846bc848ad3b2fbf6e79" kind="function"><name>element_isalnum</name></member>
+    <member refid="token__internal_8hpp_1ace9e207dda8c4b302032e24b9103f011" kind="function"><name>element_isspace</name></member>
+    <member refid="token__internal_8hpp_1a9898fd7022f8b52558483d8dbb48af16" kind="function"><name>element_iseol</name></member>
+  </compound>
+  <compound refid="typeutil_8hpp" kind="file"><name>typeutil.hpp</name>
+    <member refid="typeutil_8hpp_1acd15492d1f8460c9d93b18bf3660999c" kind="define"><name>DECLARE_TYPE_ID</name></member>
+    <member refid="typeutil_8hpp_1a178106158d66b5ceffa15d374d9fc98e" kind="define"><name>DEFINE_TYPE_ID</name></member>
+    <member refid="typeutil_8hpp_1a4a67544af467a732eb0c5459a8e2348b" kind="typedef"><name>element_type_id</name></member>
+  </compound>
+  <compound refid="dir_a8b8d0442aa6ae92882788403f92d504" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/ast</name>
+  </compound>
+  <compound refid="dir_7ad9087d036a2ccc0c19351c24348d15" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints</name>
+  </compound>
+  <compound refid="dir_2e945fc4f902524f51878bcfca6f2e30" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations</name>
+  </compound>
+  <compound refid="dir_1a6b75c82301606e5f43089928966b1a" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions</name>
+  </compound>
+  <compound refid="dir_e7f8b33ec6f4363227a8e261fc05cf5a" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree</name>
+  </compound>
+  <compound refid="dir_bd82d606a9cbdfe68392771341434aa1" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries</name>
+  </compound>
+  <compound refid="dir_7d45cd96d2d71fcb72639f0e9e60659a" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics</name>
+  </compound>
+  <compound refid="dir_83f6db18a1474dca3a8bf8c75d7c59b3" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement</name>
+  </compound>
+  <compound refid="dir_aaf54c7d10ede9cb6ff1dfd455ae999b" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt</name>
+  </compound>
+  <compound refid="dir_0a3a871b1bc03f78db32b431f1a22b16" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model</name>
+  </compound>
+  <compound refid="dir_9a5af55aaa128bd531c3b4831943669a" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/libelement/src</name>
+  </compound>
+</doxygenindex>

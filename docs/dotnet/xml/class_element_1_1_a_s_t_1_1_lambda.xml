@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_lambda" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::Lambda</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_expression" prot="public" virt="non-virtual">Element.AST.Expression</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_lambda_1aa028b743547be52abf83953ab4b2cf28" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_element_1_1_a_s_t_1_1_unidentifier" kindref="compound">Unidentifier</ref></type>
+        <definition>Unidentifier Element.AST.Lambda._</definition>
+        <argsstring></argsstring>
+        <name>_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" line="9" column="31" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_lambda_1a06ea56bec4556327e6606987baed414c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_port_list" kindref="compound">PortList</ref></type>
+        <definition>PortList Element.AST.Lambda.PortList</definition>
+        <argsstring></argsstring>
+        <name>PortList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" line="10" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_lambda_1ac4e7363a0b7d889d575d9ed9bd13c27e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_return_constraint" kindref="compound">ReturnConstraint</ref>?</type>
+        <definition>ReturnConstraint? Element.AST.Lambda.ReturnConstraint</definition>
+        <argsstring></argsstring>
+        <name>ReturnConstraint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" line="11" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_lambda_1a0288f850a24cb38bae6ac0d75d58da1a" prot="public" static="no" mutable="no">
+        <type>object</type>
+        <definition>object Element.AST.Lambda.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" line="12" column="24" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_lambda_1a8b13487b5cba1795d8973c535cae692c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Element.AST.Lambda.ValidateImpl</definition>
+        <argsstring>(ResultBuilder builder, Context context)</argsstring>
+        <name>ValidateImpl</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_ast_node_1a4df48c17a2f7b364d593d7291afad2a8">ValidateImpl</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref></type>
+          <declname>builder</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" line="16" column="33" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" bodystart="16" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_lambda_1a25a9a0e6393cf004f363cc1f9778cd1b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.Lambda.ExpressionImpl</definition>
+        <argsstring>(IScope parentScope, Context context)</argsstring>
+        <name>ExpressionImpl</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_expression_1a5835387289fcfc399d19bcee54a660b1">ExpressionImpl</reimplements>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref></type>
+          <declname>parentScope</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" line="32" column="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Expression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.Lambda</label>
+        <link refid="class_element_1_1_a_s_t_1_1_lambda"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Element.AST.PortList</label>
+        <link refid="class_element_1_1_a_s_t_1_1_port_list"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Expression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.Lambda</label>
+        <link refid="class_element_1_1_a_s_t_1_1_lambda"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>PortList</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="6">
+        <label>Element.AST.ReturnConstraint</label>
+        <link refid="class_element_1_1_a_s_t_1_1_return_constraint"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" line="6" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Lambda.cs" bodystart="5" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_lambda_1aa028b743547be52abf83953ab4b2cf28" prot="private" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>_</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_lambda_1a0288f850a24cb38bae6ac0d75d58da1a" prot="public" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>Body</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_lambda_1a25a9a0e6393cf004f363cc1f9778cd1b" prot="protected" virt="virtual"><scope>Element::AST::Lambda</scope><name>ExpressionImpl</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1aea3371152f46d75be233650ad347bc72" prot="public" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>IndexInSource</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_lambda_1a06ea56bec4556327e6606987baed414c" prot="public" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>PortList</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_1a7011cb19dce83497d1deca84347458f7" prot="public" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>ResolveExpression</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_lambda_1ac4e7363a0b7d889d575d9ed9bd13c27e" prot="public" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a6d91ea72f391505441e27fdb40c75aec" prot="public" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>SourceInfo</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1afd4482e89cf109b816465c92c7960dc5" prot="public" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a16e8a7969fb8eec8e70358c020f0cc2f" prot="public" virt="non-virtual"><scope>Element::AST::Lambda</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_lambda_1a8b13487b5cba1795d8973c535cae692c" prot="protected" virt="virtual"><scope>Element::AST::Lambda</scope><name>ValidateImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

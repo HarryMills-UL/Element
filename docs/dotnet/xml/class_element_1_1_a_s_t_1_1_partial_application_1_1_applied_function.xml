@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function" kind="class" language="C#" prot="private">
+    <compoundname>Element::AST::PartialApplication::AppliedFunction</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_function" prot="public" virt="non-virtual">Element.AST.Function</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1aa335a2dc86c4525584de8c5836cddc3b" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+        <definition>readonly IValue Element.AST.PartialApplication.AppliedFunction.Function</definition>
+        <argsstring></argsstring>
+        <name>Function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="27" column="36" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1a36593b2920731f133efc0d98d717ea13" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_element_1_1_a_s_t_1_1_list" kindref="compound">List</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>readonly List&lt;IValue&gt; Element.AST.PartialApplication.AppliedFunction.AppliedArguments</definition>
+        <argsstring></argsstring>
+        <name>AppliedArguments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="28" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1acd83120df4f886891bdde6fa66a3c7ff" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Element.AST.PartialApplication.AppliedFunction.CanBeFullyApplied</definition>
+        <argsstring></argsstring>
+        <name>CanBeFullyApplied</name>
+        <initializer>=&gt; AppliedArguments.Count &gt;= Function.InputPorts.Count</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="29" column="25" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1a4ade0ad43cb3bbf449f27ad817057f1a" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Element.AST.PartialApplication.AppliedFunction.SummaryString</definition>
+        <argsstring></argsstring>
+        <name>SummaryString</name>
+        <initializer>=&gt; $&quot;{Function} &lt;partially applied {AppliedArguments.Count}/{Function.InputPorts.Count}&gt;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="30" column="36" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1a146117bd9554ba2c1274beb05dbd5982" prot="public" static="no" mutable="no">
+        <type>override IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+        <definition>override IReadOnlyList&lt;ResolvedPort&gt; Element.AST.PartialApplication.AppliedFunction.InputPorts</definition>
+        <argsstring></argsstring>
+        <name>InputPorts</name>
+        <initializer>=&gt; Function.InputPorts.Skip(AppliedArguments.Count).ToList()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="32" column="43" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1acafd708e56748722167f09509f42f3ac" prot="public" static="no" mutable="no">
+        <type>override <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+        <definition>override IValue Element.AST.PartialApplication.AppliedFunction.ReturnConstraint</definition>
+        <argsstring></argsstring>
+        <name>ReturnConstraint</name>
+        <initializer>=&gt; Function.ReturnConstraint</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="33" column="36" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1a506391879e1e24c3031441f50323d434" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.PartialApplication.AppliedFunction.AppliedFunction</definition>
+        <argsstring>(IEnumerable&lt; IValue &gt; arguments, IValue function)</argsstring>
+        <name>AppliedFunction</name>
+        <param>
+          <type>IEnumerable&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="21" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1ab2a62e53db3314ba713f62bbeee76e32" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.PartialApplication.AppliedFunction.ResolveCall</definition>
+        <argsstring>(IReadOnlyList&lt; IValue &gt; arguments, Context context)</argsstring>
+        <name>ResolveCall</name>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="31" column="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Function</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.PartialApplication.AppliedFunction</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Function</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.PartialApplication.AppliedFunction</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Function</edgelabel>
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>AppliedArguments</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="6">
+        <label>Element.AST.List&lt; Element.AST.IValue &gt;</label>
+        <link refid="class_element_1_1_a_s_t_1_1_list"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" line="20" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/PartialApplication.cs" bodystart="19" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1a36593b2920731f133efc0d98d717ea13" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>AppliedArguments</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1a506391879e1e24c3031441f50323d434" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>AppliedFunction</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a8f8d89f12fd77ff195e7add981d12761" prot="public" virt="virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>Call</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1acd83120df4f886891bdde6fa66a3c7ff" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>CanBeFullyApplied</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1aa335a2dc86c4525584de8c5836cddc3b" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>Function</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ae64700fadafa1586918809b1bc976e8d" prot="public" virt="virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1a146117bd9554ba2c1274beb05dbd5982" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a241ab88a5fb22450652c36513a8cebc8" prot="protected" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>MakeNamedArgumentList</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>Members</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1af9bf5ace9faa286d1632cca2b061004d" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1ab2a62e53db3314ba713f62bbeee76e32" prot="protected" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>ResolveCall</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1acafd708e56748722167f09509f42f3ac" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_partial_application_1_1_applied_function_1a4ade0ad43cb3bbf449f27ad817057f1a" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a5bee967bcd50e708952864569598d2ca" prot="public" virt="non-virtual"><scope>Element::AST::PartialApplication::AppliedFunction</scope><name>TypeOf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

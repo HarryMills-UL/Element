@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_ea12bf4c1d141cd16cf636f1ca83ac74" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST</compoundname>
+    <innerdir refid="dir_214c369a5e17c13e2c55c57a0534f512">/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations</innerdir>
+    <innerdir refid="dir_8bde1908d4b4d81056e49af9dddcb800">/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions</innerdir>
+    <innerfile refid="_ast_node_8cs">AstNode.cs</innerfile>
+    <innerfile refid="_global_scope_8cs">GlobalScope.cs</innerfile>
+    <innerfile refid="_i_declaration_scope_8cs">IDeclarationScope.cs</innerfile>
+    <innerfile refid="_i_scope_8cs">IScope.cs</innerfile>
+    <innerfile refid="_parser_8cs">Parser.cs</innerfile>
+    <innerfile refid="_source_blob_8cs">SourceBlob.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/"/>
+  </compounddef>
+</doxygen>

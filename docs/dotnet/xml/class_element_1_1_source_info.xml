@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_source_info" kind="class" language="C#" prot="public">
+    <compoundname>Element::SourceInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_source_info_1a6f0419d2437824db6dc5ed9d1b1128fc" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Element.SourceInfo.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="40" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_source_info_1ac5062a72fb288668115050a8814c3a12" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Element.SourceInfo.OriginalText</definition>
+        <argsstring></argsstring>
+        <name>OriginalText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="41" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_source_info_1a0c14a144659ddf5e529c40db7778a6d6" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Element.SourceInfo.PreprocessedText</definition>
+        <argsstring></argsstring>
+        <name>PreprocessedText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="42" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_source_info_1af9529d2746a23adcaa3a1e0df6288e9e" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Element.SourceInfo.FirstNonEmptyLine</definition>
+        <argsstring></argsstring>
+        <name>FirstNonEmptyLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="43" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_source_info_1a180df0f353b6d8e2f3fd67741df2f1b3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Element.SourceInfo.Line</definition>
+        <argsstring></argsstring>
+        <name>Line</name>
+        <briefdescription>
+<para>Count line and column numbers for an index in the source text. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="48" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_source_info_1a3deb9d5412c5a18d08dfbe8c89664e76" prot="private" static="no" mutable="no">
+        <type>int int</type>
+        <definition>int int Element.SourceInfo.Column</definition>
+        <argsstring></argsstring>
+        <name>Column</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="48" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_source_info_1a1d5b7b13835bf8f36a97d9121101a5dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_element_1_1_source_info" kindref="compound">SourceInfo</ref></type>
+        <definition>static SourceInfo Element.SourceInfo.FromFilePath</definition>
+        <argsstring>(string path)</argsstring>
+        <name>FromFilePath</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="13" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_source_info_1a51f308038e358cdc711573b2ea58bc47" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_element_1_1_source_info" kindref="compound">SourceInfo</ref></type>
+        <definition>static SourceInfo Element.SourceInfo.FromFile</definition>
+        <argsstring>(FileInfo file)</argsstring>
+        <name>FromFile</name>
+        <param>
+          <type>FileInfo</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="19" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_source_info_1a7aceaac13441425d2e5bc4819c55f1e3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_element_1_1_source_info" kindref="compound">SourceInfo</ref></type>
+        <definition>static SourceInfo Element.SourceInfo.FromStream</definition>
+        <argsstring>(string sourceName, Stream stream)</argsstring>
+        <name>FromStream</name>
+        <param>
+          <type>string</type>
+          <declname>sourceName</declname>
+        </param>
+        <param>
+          <type>Stream</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="20" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_source_info_1a272632ad20cdbb1070746335ebfecff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.SourceInfo.SourceInfo</definition>
+        <argsstring>(string name, string text)</argsstring>
+        <name>SourceInfo</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="26" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="26" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_element_1_1_source_info_1a4d33bca67cd83988b6e6a7b280e9fd31" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int int int LineCharacterIndex</type>
+        <definition>int int int LineCharacterIndex Element.SourceInfo.CalculateLineAndColumnFromIndex</definition>
+        <argsstring>(int index, bool indexInPreprocessedText=true, int spacesPerTab=4)</argsstring>
+        <name>CalculateLineAndColumnFromIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>indexInPreprocessedText</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>spacesPerTab</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="48" column="59" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="48" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A single named element source. Could be a source file, a stream of source text or any arbitrary element source code string. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" line="12" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/SourceInfo.cs" bodystart="11" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_source_info_1a4d33bca67cd83988b6e6a7b280e9fd31" prot="private" virt="non-virtual"><scope>Element::SourceInfo</scope><name>CalculateLineAndColumnFromIndex</name></member>
+      <member refid="class_element_1_1_source_info_1a3deb9d5412c5a18d08dfbe8c89664e76" prot="private" virt="non-virtual"><scope>Element::SourceInfo</scope><name>Column</name></member>
+      <member refid="class_element_1_1_source_info_1af9529d2746a23adcaa3a1e0df6288e9e" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>FirstNonEmptyLine</name></member>
+      <member refid="class_element_1_1_source_info_1a51f308038e358cdc711573b2ea58bc47" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>FromFile</name></member>
+      <member refid="class_element_1_1_source_info_1a1d5b7b13835bf8f36a97d9121101a5dc" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>FromFilePath</name></member>
+      <member refid="class_element_1_1_source_info_1a7aceaac13441425d2e5bc4819c55f1e3" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>FromStream</name></member>
+      <member refid="class_element_1_1_source_info_1a180df0f353b6d8e2f3fd67741df2f1b3" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>Line</name></member>
+      <member refid="class_element_1_1_source_info_1a6f0419d2437824db6dc5ed9d1b1128fc" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>Name</name></member>
+      <member refid="class_element_1_1_source_info_1ac5062a72fb288668115050a8814c3a12" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>OriginalText</name></member>
+      <member refid="class_element_1_1_source_info_1a0c14a144659ddf5e529c40db7778a6d6" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>PreprocessedText</name></member>
+      <member refid="class_element_1_1_source_info_1a272632ad20cdbb1070746335ebfecff4" prot="public" virt="non-virtual"><scope>Element::SourceInfo</scope><name>SourceInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

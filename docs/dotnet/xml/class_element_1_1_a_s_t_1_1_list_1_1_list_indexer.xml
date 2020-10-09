@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer" kind="class" language="C#" prot="private">
+    <compoundname>Element::AST::List::ListIndexer</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_function" prot="public" virt="non-virtual">Element.AST.Function</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1a0e0fca173b3b8579a15202e64977a9f3" prot="private" static="no" mutable="no">
+        <type>readonly IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>readonly IReadOnlyList&lt;IValue&gt; Element.AST.List.ListIndexer._elements</definition>
+        <argsstring></argsstring>
+        <name>_elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" line="33" column="44" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1ae0a8dd089d186dafd02d7997eca6b39f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+        <definition>override IReadOnlyList&lt;ResolvedPort&gt; Element.AST.List.ListIndexer.InputPorts</definition>
+        <argsstring></argsstring>
+        <name>InputPorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" line="42" column="43" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1a60066c9218eaf3b6d08bb7197b15d963" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+        <definition>override IValue Element.AST.List.ListIndexer.ReturnConstraint</definition>
+        <argsstring></argsstring>
+        <name>ReturnConstraint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" line="43" column="36" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1aaecfc58c8ed2050aae0a5efca86702fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.List.ListIndexer.ListIndexer</definition>
+        <argsstring>(IReadOnlyList&lt; IValue &gt; elements, IReadOnlyList&lt; ResolvedPort &gt; inputPorts, IValue output)</argsstring>
+        <name>ListIndexer</name>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>elements</declname>
+        </param>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+          <declname>inputPorts</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" line="35" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1a1a5db45316bb0b1845d51eb41661e7e1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.List.ListIndexer.ResolveCall</definition>
+        <argsstring>(IReadOnlyList&lt; IValue &gt; arguments, Context context)</argsstring>
+        <name>ResolveCall</name>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" line="45" column="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Function</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.List.ListIndexer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Function</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.List.ListIndexer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" line="32" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/List.cs" bodystart="31" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1a0e0fca173b3b8579a15202e64977a9f3" prot="private" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>_elements</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a8f8d89f12fd77ff195e7add981d12761" prot="public" virt="virtual"><scope>Element::AST::List::ListIndexer</scope><name>Call</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::AST::List::ListIndexer</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual"><scope>Element::AST::List::ListIndexer</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ae64700fadafa1586918809b1bc976e8d" prot="public" virt="virtual"><scope>Element::AST::List::ListIndexer</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1ae0a8dd089d186dafd02d7997eca6b39f" prot="public" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1aaecfc58c8ed2050aae0a5efca86702fe" prot="public" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>ListIndexer</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a241ab88a5fb22450652c36513a8cebc8" prot="protected" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>MakeNamedArgumentList</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::AST::List::ListIndexer</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>Members</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1af9bf5ace9faa286d1632cca2b061004d" prot="public" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1a1a5db45316bb0b1845d51eb41661e7e1" prot="protected" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>ResolveCall</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_1_1_list_indexer_1a60066c9218eaf3b6d08bb7197b15d963" prot="public" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual"><scope>Element::AST::List::ListIndexer</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a3e34253191ba578143a47767b2b3b982" prot="public" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a5bee967bcd50e708952864569598d2ca" prot="public" virt="non-virtual"><scope>Element::AST::List::ListIndexer</scope><name>TypeOf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

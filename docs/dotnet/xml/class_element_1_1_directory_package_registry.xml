@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_directory_package_registry" kind="class" language="C#" prot="public">
+    <compoundname>Element::DirectoryPackageRegistry</compoundname>
+    <basecompoundref refid="interface_element_1_1_i_package_registry" prot="public" virt="non-virtual">Element.IPackageRegistry</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_directory_package_registry_1ab50b9222c41888ae753cc596b2010c5c" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; string, FileInfo[]&gt;</type>
+        <definition>readonly Dictionary&lt;string, FileInfo[]&gt; Element.DirectoryPackageRegistry._packagesByName</definition>
+        <argsstring></argsstring>
+        <name>_packagesByName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/DirectoryPackageRegistry.cs" line="21" column="37" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/DirectoryPackageRegistry.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_directory_package_registry_1aee33fa1edc2c19c278d5722554f971be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.DirectoryPackageRegistry.DirectoryPackageRegistry</definition>
+        <argsstring>(DirectoryInfo registryRootDirectory)</argsstring>
+        <name>DirectoryPackageRegistry</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>registryRootDirectory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/DirectoryPackageRegistry.cs" line="13" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/DirectoryPackageRegistry.cs" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_directory_package_registry_1a1bd054d3e19e07e813f70efa848dffb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="class_element_1_1_package_info" kindref="compound">PackageInfo</ref> &gt;</type>
+        <definition>Result&lt;PackageInfo&gt; Element.DirectoryPackageRegistry.LookupPackage</definition>
+        <argsstring>(PackageSpecifier specifier, Context context)</argsstring>
+        <name>LookupPackage</name>
+        <reimplements refid="interface_element_1_1_i_package_registry_1acec6baa1f5f1ecdb8b1ad181e668e3e8">LookupPackage</reimplements>
+        <param>
+          <type><ref refid="struct_element_1_1_package_specifier" kindref="compound">PackageSpecifier</ref></type>
+          <declname>specifier</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/DirectoryPackageRegistry.cs" line="23" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/DirectoryPackageRegistry.cs" bodystart="23" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Package registry implemented as a filesystem directory. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.DirectoryPackageRegistry</label>
+        <link refid="class_element_1_1_directory_package_registry"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPackageRegistry</label>
+        <link refid="interface_element_1_1_i_package_registry"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Element.DirectoryPackageRegistry</label>
+        <link refid="class_element_1_1_directory_package_registry"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPackageRegistry</label>
+        <link refid="interface_element_1_1_i_package_registry"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/DirectoryPackageRegistry.cs" line="12" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/DirectoryPackageRegistry.cs" bodystart="11" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_directory_package_registry_1ab50b9222c41888ae753cc596b2010c5c" prot="private" virt="non-virtual"><scope>Element::DirectoryPackageRegistry</scope><name>_packagesByName</name></member>
+      <member refid="class_element_1_1_directory_package_registry_1aee33fa1edc2c19c278d5722554f971be" prot="public" virt="non-virtual"><scope>Element::DirectoryPackageRegistry</scope><name>DirectoryPackageRegistry</name></member>
+      <member refid="class_element_1_1_directory_package_registry_1a1bd054d3e19e07e813f70efa848dffb8" prot="public" virt="non-virtual"><scope>Element::DirectoryPackageRegistry</scope><name>LookupPackage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

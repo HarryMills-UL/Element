@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_struct_block" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::StructBlock</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_declaration_block" prot="public" virt="non-virtual">Element.AST.DeclarationBlock</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_struct_block_1a4070705356a95ba354f4765cdc3ffc6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Element.AST.StructBlock.ValidateIdentifiers</definition>
+        <argsstring>(ResultBuilder builder, Identifier structIdentifier)</argsstring>
+        <name>ValidateIdentifiers</name>
+        <param>
+          <type><ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref></type>
+          <declname>builder</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+          <declname>structIdentifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/StructDeclaration.cs" line="91" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/StructDeclaration.cs" bodystart="91" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>FreeformBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_freeform_block"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Block</label>
+        <link refid="class_element_1_1_a_s_t_1_1_block"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.StructBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_struct_block"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IDeclarationScope</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope"/>
+      </node>
+      <node id="2">
+        <label>DeclarationBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_declaration_block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>FreeformBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_freeform_block"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Block</label>
+        <link refid="class_element_1_1_a_s_t_1_1_block"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.StructBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_struct_block"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IDeclarationScope</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope"/>
+      </node>
+      <node id="2">
+        <label>DeclarationBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_declaration_block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/StructDeclaration.cs" line="90" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/StructDeclaration.cs" bodystart="89" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_block_1a984d0c58b5111eff1f3a10c1af82fc58" prot="public" virt="non-virtual"><scope>Element::AST::StructBlock</scope><name>Declarations</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1aea3371152f46d75be233650ad347bc72" prot="public" virt="non-virtual"><scope>Element::AST::StructBlock</scope><name>IndexInSource</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_freeform_block_1a9eb4309baad5a7b483a0442bcf3de5e5" prot="public" virt="non-virtual"><scope>Element::AST::StructBlock</scope><name>Items</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_block_1aa95a1b9b846220ed1d149cc6fc758b81" prot="public" virt="non-virtual" ambiguityscope="Element::AST::FreeformBlock."><scope>Element::AST::StructBlock</scope><name>ResolveBlock</name></member>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope_1a8fceafb665f20f384242ba7bf42b6a59" prot="public" virt="non-virtual" ambiguityscope="Element::AST::IDeclarationScope."><scope>Element::AST::StructBlock</scope><name>ResolveBlock</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_block_1aee20394c923c051dd7acff43b010006e" prot="public" virt="non-virtual"><scope>Element::AST::StructBlock</scope><name>ResolveBlockWithCaptures</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a6d91ea72f391505441e27fdb40c75aec" prot="public" virt="non-virtual"><scope>Element::AST::StructBlock</scope><name>SourceInfo</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1afd4482e89cf109b816465c92c7960dc5" prot="public" virt="non-virtual"><scope>Element::AST::StructBlock</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a16e8a7969fb8eec8e70358c020f0cc2f" prot="public" virt="non-virtual"><scope>Element::AST::StructBlock</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_block_1a4070705356a95ba354f4765cdc3ffc6f" prot="public" virt="non-virtual"><scope>Element::AST::StructBlock</scope><name>ValidateIdentifiers</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_block_1add05f518735918e74276d40cde1e3643" prot="protected" virt="virtual"><scope>Element::AST::StructBlock</scope><name>ValidateImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_source_blob" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::SourceBlob</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_ast_node" prot="public" virt="non-virtual">Element.AST.AstNode</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable&lt; Declaration &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_source_blob_1ab1d35ea38bc905c449a3102c0d7b90cd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_list" kindref="compound">List</ref>&lt; <ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref> &gt;?</type>
+        <definition>List&lt;Declaration&gt;? Element.AST.SourceBlob._items</definition>
+        <argsstring></argsstring>
+        <name>_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/SourceBlob.cs" line="17" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/SourceBlob.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_source_blob_1a78dc6643e39fd4ae1567e15ac67356be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref> &gt;</type>
+        <definition>IEnumerator&lt;Declaration&gt; Element.AST.SourceBlob.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/SourceBlob.cs" line="20" column="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_source_blob_1a766e5126cf27ccaf78f48226617d2c9d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IEnumerator IEnumerable.</type>
+        <definition>IEnumerator IEnumerable. Element.AST.SourceBlob.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/SourceBlob.cs" line="21" column="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_source_blob_1a619e79e271b1eb441f9dcb5df1348d56" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Element.AST.SourceBlob.ValidateImpl</definition>
+        <argsstring>(ResultBuilder resultBuilder, Context context)</argsstring>
+        <name>ValidateImpl</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_ast_node_1a4df48c17a2f7b364d593d7291afad2a8">ValidateImpl</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref></type>
+          <declname>resultBuilder</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/SourceBlob.cs" line="23" column="33" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/SourceBlob.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a top-level blob of <ref refid="namespace_element" kindref="compound">Element</ref> source code. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="4">
+        <label>IEnumerable&lt; Declaration &gt;</label>
+      </node>
+      <node id="1">
+        <label>Element.AST.SourceBlob</label>
+        <link refid="class_element_1_1_a_s_t_1_1_source_blob"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="4">
+        <label>IEnumerable&lt; Declaration &gt;</label>
+      </node>
+      <node id="1">
+        <label>Element.AST.SourceBlob</label>
+        <link refid="class_element_1_1_a_s_t_1_1_source_blob"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/SourceBlob.cs" line="14" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/SourceBlob.cs" bodystart="13" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_source_blob_1ab1d35ea38bc905c449a3102c0d7b90cd" prot="private" virt="non-virtual"><scope>Element::AST::SourceBlob</scope><name>_items</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_source_blob_1a78dc6643e39fd4ae1567e15ac67356be" prot="public" virt="non-virtual"><scope>Element::AST::SourceBlob</scope><name>GetEnumerator</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_source_blob_1a766e5126cf27ccaf78f48226617d2c9d" prot="private" virt="non-virtual"><scope>Element::AST::SourceBlob</scope><name>GetEnumerator</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1aea3371152f46d75be233650ad347bc72" prot="public" virt="non-virtual"><scope>Element::AST::SourceBlob</scope><name>IndexInSource</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a6d91ea72f391505441e27fdb40c75aec" prot="public" virt="non-virtual"><scope>Element::AST::SourceBlob</scope><name>SourceInfo</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1afd4482e89cf109b816465c92c7960dc5" prot="public" virt="non-virtual"><scope>Element::AST::SourceBlob</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a16e8a7969fb8eec8e70358c020f0cc2f" prot="public" virt="non-virtual"><scope>Element::AST::SourceBlob</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_source_blob_1a619e79e271b1eb441f9dcb5df1348d56" prot="protected" virt="virtual"><scope>Element::AST::SourceBlob</scope><name>ValidateImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

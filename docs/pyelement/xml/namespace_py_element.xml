@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_py_element" kind="namespace" language="Python">
+    <compoundname>PyElement</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_py_element_8py_1ad20323dc8a32f442fb9d1ce515a36e70" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PyElement.STDLIB</definition>
+        <argsstring></argsstring>
+        <name>STDLIB</name>
+        <initializer>=  &quot;StdElement&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="6" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1a055e544d609501185ebb10ccca15599e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PyElement.grammar</definition>
+        <argsstring></argsstring>
+        <name>grammar</name>
+        <initializer>=  open(path.join(STDLIB, &quot;grammar.ebnf&quot;)).read()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1ab6918c0f0fedb8f91c0a011f31260543" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PyElement.model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <initializer>=  tatsu.compile(grammar)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="8" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1aea4248ae0f9db39ddeb7002f845787e0" prot="public" static="no" mutable="no">
+        <type>dictionary</type>
+        <definition>dictionary PyElement.intrinsics</definition>
+        <argsstring></argsstring>
+        <name>intrinsics</name>
+        <initializer>=  {
+    (&apos;add&apos;, &apos;operator&apos;, &apos;+&apos;),
+    (&apos;sub&apos;, &apos;operator&apos;, &apos;-&apos;),
+    (&apos;mul&apos;, &apos;operator&apos;, &apos;*&apos;),
+    (&apos;div&apos;, &apos;operator&apos;, &apos;/&apos;),
+    (&apos;mod&apos;, &apos;operator&apos;, &apos;%&apos;),
+    (&apos;pow&apos;, &apos;operator&apos;, &apos;**&apos;),
+    (&apos;sin&apos;, math.sin),
+    (&apos;ln&apos;, math.log),
+    (&apos;vec&apos;, &apos;vector&apos;),
+    #(&apos;zip&apos;, &apos;zip&apos;)
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="10" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1ac61b4a6a972437e0fecad57b0a0b37d6" prot="public" static="no" mutable="no">
+        <type>dictionary</type>
+        <definition>dictionary PyElement.eval_context</definition>
+        <argsstring></argsstring>
+        <name>eval_context</name>
+        <initializer>=  { }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="23" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1a2867b3fdf3409988a5ab78a5722ebb7b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PyElement.fn_suffix</definition>
+        <argsstring></argsstring>
+        <name>fn_suffix</name>
+        <initializer>=  &quot;_make_this_name_long_to_fool_the_optimizer&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="24" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1a7ae05254753c29a63b1f2943903ef8a4" prot="public" static="no" mutable="no">
+        <type>def</type>
+        <definition>def PyElement.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <initializer>=  new_context()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="348" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1a111455137f7ce0d930c1cca7abc6c86f" prot="public" static="no" mutable="no">
+        <type>def</type>
+        <definition>def PyElement.compiled</definition>
+        <argsstring></argsstring>
+        <name>compiled</name>
+        <initializer>=  compile(context, &apos;Random&apos;, &apos;return&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="351" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1aefa8720fbf8913b0184a4e52ea56a653" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple PyElement.inputs</definition>
+        <argsstring></argsstring>
+        <name>inputs</name>
+        <initializer>=  (123,)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="353" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1ad7835994911c420415cee9d0adb48794" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PyElement.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <initializer>=  time.clock()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="355" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1ab4121c50b815e7bc984fcf3684ddb1f8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyElement.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <initializer>=  1000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="356" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_py_element_8py_1a6af07349057e16bd00021e396750db74" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PyElement.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <initializer>=  time.clock()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="359" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_py_element_8py_1aade7d01f1f0a5ae77ac1270d88147f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.const_eval</definition>
+        <argsstring>(s)</argsstring>
+        <name>const_eval</name>
+        <param>
+          <type>s</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="29" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a5771bcf7c61e324c28856ba70d5bda40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.array_index</definition>
+        <argsstring>(output_name, args, index_fn)</argsstring>
+        <name>array_index</name>
+        <param>
+          <type>output_name</type>
+          <defname>output_name</defname>
+        </param>
+        <param>
+          <type>args</type>
+          <defname>args</defname>
+        </param>
+        <param>
+          <type>index_fn</type>
+          <defname>index_fn</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="35" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1ab4eabf6dc5c838d053264ff88f425787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.evaluate_vector_base</definition>
+        <argsstring>(length, output_name, args, index_fn)</argsstring>
+        <name>evaluate_vector_base</name>
+        <param>
+          <type>length</type>
+          <defname>length</defname>
+        </param>
+        <param>
+          <type>output_name</type>
+          <defname>output_name</defname>
+        </param>
+        <param>
+          <type>args</type>
+          <defname>args</defname>
+        </param>
+        <param>
+          <type>index_fn</type>
+          <defname>index_fn</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="43" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="43" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a0efba5dea169bbf9bb2aa517ba939829" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.vector_index</definition>
+        <argsstring>(elements, index)</argsstring>
+        <name>vector_index</name>
+        <param>
+          <type>elements</type>
+          <defname>elements</defname>
+        </param>
+        <param>
+          <type>index</type>
+          <defname>index</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="53" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="53" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a87b1df5c0683b6fa993215ac577d1998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.evaluate_vector</definition>
+        <argsstring>(elements, output_name, args)</argsstring>
+        <name>evaluate_vector</name>
+        <param>
+          <type>elements</type>
+          <defname>elements</defname>
+        </param>
+        <param>
+          <type>output_name</type>
+          <defname>output_name</defname>
+        </param>
+        <param>
+          <type>args</type>
+          <defname>args</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="75" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="75" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a291805c9c3f6bb571e3ecf7da6516cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.aggregate_intrinsic</definition>
+        <argsstring>(args)</argsstring>
+        <name>aggregate_intrinsic</name>
+        <param>
+          <type>args</type>
+          <defname>args</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="96" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="96" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1aae9850c8a897676fdfac0f254683fe7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.evaluate_intrinsic</definition>
+        <argsstring>(block, output_name, args)</argsstring>
+        <name>evaluate_intrinsic</name>
+        <param>
+          <type>block</type>
+          <defname>block</defname>
+        </param>
+        <param>
+          <type>output_name</type>
+          <defname>output_name</defname>
+        </param>
+        <param>
+          <type>args</type>
+          <defname>args</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="108" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="108" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a9b8ecac093618c600bbc9db723903b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.new_context</definition>
+        <argsstring>()</argsstring>
+        <name>new_context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="129" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="129" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a20c7c67c6a2d9aa1d1d8a7095a2ff567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.add_file</definition>
+        <argsstring>(context, path)</argsstring>
+        <name>add_file</name>
+        <param>
+          <type>context</type>
+          <defname>context</defname>
+        </param>
+        <param>
+          <type>path</type>
+          <defname>path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="139" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="139" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a4cbef0c5237fda6dbab19598395f6dcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.compile_driver</definition>
+        <argsstring>(block, driver_name)</argsstring>
+        <name>compile_driver</name>
+        <param>
+          <type>block</type>
+          <defname>block</defname>
+        </param>
+        <param>
+          <type>driver_name</type>
+          <defname>driver_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="163" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="163" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1ac36c26420ddd48b6ffa293ebe1012662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.evaluate_structural_after_call</definition>
+        <argsstring>(block, original_args, output_name, new_args)</argsstring>
+        <name>evaluate_structural_after_call</name>
+        <param>
+          <type>block</type>
+          <defname>block</defname>
+        </param>
+        <param>
+          <type>original_args</type>
+          <defname>original_args</defname>
+        </param>
+        <param>
+          <type>output_name</type>
+          <defname>output_name</defname>
+        </param>
+        <param>
+          <type>new_args</type>
+          <defname>new_args</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="183" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="183" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a39d2c4ddac5763906c15ad9f1d71b563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.setup_drivers</definition>
+        <argsstring>(block, arguments)</argsstring>
+        <name>setup_drivers</name>
+        <param>
+          <type>block</type>
+          <defname>block</defname>
+        </param>
+        <param>
+          <type>arguments</type>
+          <defname>arguments</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="188" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="188" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1af51dc475af054b1380074c69b02f3806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.evaluate_structural</definition>
+        <argsstring>(block, output_name, arguments)</argsstring>
+        <name>evaluate_structural</name>
+        <param>
+          <type>block</type>
+          <defname>block</defname>
+        </param>
+        <param>
+          <type>output_name</type>
+          <defname>output_name</defname>
+        </param>
+        <param>
+          <type>arguments</type>
+          <defname>arguments</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="196" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="196" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a906ff036712354e77a592897bb2d5eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.compile_expr</definition>
+        <argsstring>(block, expr_ast)</argsstring>
+        <name>compile_expr</name>
+        <param>
+          <type>block</type>
+          <defname>block</defname>
+        </param>
+        <param>
+          <type>expr_ast</type>
+          <defname>expr_ast</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="219" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="219" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1ae5db4058eedf4dbf6a4ed9cae9b89355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.iterate_subexpr</definition>
+        <argsstring>(expr)</argsstring>
+        <name>iterate_subexpr</name>
+        <param>
+          <type>expr</type>
+          <defname>expr</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="252" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="252" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1ab4e580d24154783ec199e4c1efff1fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.optimize</definition>
+        <argsstring>(expr)</argsstring>
+        <name>optimize</name>
+        <param>
+          <type>expr</type>
+          <defname>expr</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="265" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="265" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1ae598be8a869420bf445311b868cba542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.construct_output</definition>
+        <argsstring>(fn)</argsstring>
+        <name>construct_output</name>
+        <param>
+          <type>fn</type>
+          <defname>fn</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="278" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="278" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a68d158466d95be5ac6e99ac09c6c8d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.construct_array</definition>
+        <argsstring>(var, array)</argsstring>
+        <name>construct_array</name>
+        <param>
+          <type>var</type>
+          <defname>var</defname>
+        </param>
+        <param>
+          <type>array</type>
+          <defname>array</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="292" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="292" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a598241c220f619cf5ef8c2c9a9c206f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.construct_input</definition>
+        <argsstring>(context, i, var)</argsstring>
+        <name>construct_input</name>
+        <param>
+          <type>context</type>
+          <defname>context</defname>
+        </param>
+        <param>
+          <type>i</type>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>var</type>
+          <defname>var</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="300" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="300" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1a282d52b20d6112455ddd88c7d7951b39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.compile</definition>
+        <argsstring>(context, block_name, output_name)</argsstring>
+        <name>compile</name>
+        <param>
+          <type>context</type>
+          <defname>context</defname>
+        </param>
+        <param>
+          <type>block_name</type>
+          <defname>block_name</defname>
+        </param>
+        <param>
+          <type>output_name</type>
+          <defname>output_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="311" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="311" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="_py_element_8py_1afe3d19a0855d96775d57a37d8bc32783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def PyElement.Random</definition>
+        <argsstring>(n)</argsstring>
+        <name>Random</name>
+        <param>
+          <type>n</type>
+          <defname>n</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="335" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" bodystart="335" bodyend="347"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/PyElement/PyElement.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

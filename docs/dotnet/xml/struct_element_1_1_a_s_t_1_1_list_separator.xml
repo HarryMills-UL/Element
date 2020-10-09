@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="struct_element_1_1_a_s_t_1_1_list_separator" kind="struct" language="C#" prot="package">
+    <compoundname>Element::AST::ListSeparator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_element_1_1_a_s_t_1_1_list_separator_1a8cb5cee230a6caffcbbba9441f019559" prot="private" static="no" mutable="no">
+        <type>Unnamed</type>
+        <definition>Unnamed Element.AST.ListSeparator._</definition>
+        <argsstring></argsstring>
+        <name>_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ListOf.cs" line="22" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ListOf.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_element_1_1_a_s_t_1_1_list_separator_1ab2387cd5e25da56b97e2b0562d47f061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Element.AST.ListSeparator.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ListOf.cs" line="24" column="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ListOf.cs" line="21" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/ListOf.cs" bodystart="20" bodyend="25"/>
+    <listofallmembers>
+      <member refid="struct_element_1_1_a_s_t_1_1_list_separator_1a8cb5cee230a6caffcbbba9441f019559" prot="private" virt="non-virtual"><scope>Element::AST::ListSeparator</scope><name>_</name></member>
+      <member refid="struct_element_1_1_a_s_t_1_1_list_separator_1ab2387cd5e25da56b97e2b0562d47f061" prot="public" virt="non-virtual"><scope>Element::AST::ListSeparator</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

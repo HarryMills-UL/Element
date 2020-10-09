@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_741c6e43bb1faee480aed59d07562c08" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics</compoundname>
+    <innerdir refid="dir_ad5fa0d7181af8def73987787715c61f">/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Constraints</innerdir>
+    <innerdir refid="dir_be219d834ba9f75561b913f290532ac1">/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions</innerdir>
+    <innerdir refid="dir_e1095324209c471a05d430ab141b8f20">/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs</innerdir>
+    <innerfile refid="_i_intrinsic_implementation_8cs">IIntrinsicImplementation.cs</innerfile>
+    <innerfile refid="_intrinsic_implementation_cache_8cs">IntrinsicImplementationCache.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/"/>
+  </compounddef>
+</doxygen>

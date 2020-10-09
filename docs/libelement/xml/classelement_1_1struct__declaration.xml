@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classelement_1_1struct__declaration" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>element::struct_declaration</compoundname>
+    <basecompoundref refid="classelement_1_1declaration" prot="public" virt="non-virtual">element::declaration</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classelement_1_1struct__declaration_1abae712f3cb5e969761f68b1a61fd06fa" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>kind</name>
+        <enumvalue id="classelement_1_1struct__declaration_1abae712f3cb5e969761f68b1a61fd06faa8b9035807842a4e4dbe009f3f1478127" prot="public">
+          <name>custom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classelement_1_1struct__declaration_1abae712f3cb5e969761f68b1a61fd06faace668bdd53970633afdd53e88b772919" prot="public">
+          <name>intrinsic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="14" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classelement_1_1struct__declaration_1a18ccf7be7d8f5b6f51688a755c2f9de9" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1user__type" kindref="compound">user_type</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;user_type&gt; element::struct_declaration::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="46" column="25" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classelement_1_1struct__declaration_1a005160af89d291329f28a272090e812b" prot="private" static="no" mutable="no">
+        <type>kind</type>
+        <definition>kind element::struct_declaration::struct_kind</definition>
+        <argsstring></argsstring>
+        <name>struct_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="47" column="14" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1aa5690bfc84faea09b26237392f0c839b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>struct_declaration::struct_declaration</definition>
+        <argsstring>(identifier name, const scope *parent_scope, kind struct_kind)</argsstring>
+        <name>struct_declaration</name>
+        <param>
+          <type><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>kind</type>
+          <declname>struct_kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="20" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="15" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1aab22fe87ab607047ab59a085166dd88c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string struct_declaration::typeof_info</definition>
+        <argsstring>() const override</argsstring>
+        <name>typeof_info</name>
+        <reimplements refid="classelement_1_1object_1ad349d741b95f1a6fa5bbdd5188e8292b">typeof_info</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="22" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1a996888888671ceec7a7bb68622e40c19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string struct_declaration::to_code</definition>
+        <argsstring>(const int depth) const override</argsstring>
+        <name>to_code</name>
+        <reimplements refid="classelement_1_1object_1a930429a343359aaf0cf603d251ca53a2">to_code</reimplements>
+        <param>
+          <type>const int</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="23" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.cpp" bodystart="113" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1ade1bee2198e21a2ba0cfce304335537a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool struct_declaration::matches_constraint</definition>
+        <argsstring>(const compilation_context &amp;context, const constraint *constraint) const override</argsstring>
+        <name>matches_constraint</name>
+        <reimplements refid="classelement_1_1object_1a3ba311dae552affb306308617e394cf8">matches_constraint</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+          <declname>constraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="25" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="60" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1a6a2a0c7d78ba936cecd4c36f647b4a46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+        <definition>const constraint * struct_declaration::get_constraint</definition>
+        <argsstring>() const override</argsstring>
+        <name>get_constraint</name>
+        <reimplements refid="classelement_1_1object_1a3452e5e30891e487707a7fb300f6465d">get_constraint</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="26" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="74" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1ae009315f47ac40641fdedbf0c1cf65c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr struct_declaration::index</definition>
+        <argsstring>(const compilation_context &amp;context, const identifier &amp;name, const source_information &amp;source_info) const override</argsstring>
+        <name>index</name>
+        <reimplements refid="classelement_1_1object_1a542266c49533b394c8f7668748f6424a">index</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1identifier" kindref="compound">identifier</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="28" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="23" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1a8f44f6bf757e299811df64c6aaec30ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr struct_declaration::call</definition>
+        <argsstring>(const compilation_context &amp;context, std::vector&lt; object_const_shared_ptr &gt; compiled_args, const source_information &amp;source_info) const override</argsstring>
+        <name>call</name>
+        <reimplements refid="classelement_1_1object_1af6dbeefad4c697ab757864ae78fd831e">call</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; object_const_shared_ptr &gt;</type>
+          <declname>compiled_args</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="31" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="38" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1a103db6650bdbb9ed6bea8ccde8387dd4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr element::struct_declaration::compile</definition>
+        <argsstring>(const compilation_context &amp;context, const source_information &amp;source_info) const override</argsstring>
+        <name>compile</name>
+        <reimplements refid="classelement_1_1object_1aa562aac5d1f233abda4a5348ac38da73">compile</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="35" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" bodystart="35" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1a3813abf80084e4b167761b4e7f4f9b55" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool struct_declaration::serializable</definition>
+        <argsstring>(const compilation_context &amp;context) const override</argsstring>
+        <name>serializable</name>
+        <reimplements refid="classelement_1_1declaration_1a81bd001ce644bc329f3ae0bdff5e7718">serializable</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="38" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="86" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1af18c519541da5af3c01ec8b80562bd9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool struct_declaration::deserializable</definition>
+        <argsstring>(const compilation_context &amp;context) const override</argsstring>
+        <name>deserializable</name>
+        <reimplements refid="classelement_1_1declaration_1a8cc77ed9d14d592b274c5ef8095f828e">deserializable</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="39" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="92" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1acfa418793c01f2585b8105abff464377" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr struct_declaration::generate_placeholder</definition>
+        <argsstring>(const compilation_context &amp;context, int &amp;placeholder_index) const override</argsstring>
+        <name>generate_placeholder</name>
+        <reimplements refid="classelement_1_1declaration_1a155e76df8fb03187c5fa3cb50d5593c8">generate_placeholder</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>placeholder_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="40" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="120" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1a37feab62dc3f4fedb0d458a4f3a669dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool struct_declaration::is_intrinsic</definition>
+        <argsstring>() const override</argsstring>
+        <name>is_intrinsic</name>
+        <reimplements refid="classelement_1_1declaration_1a217a30a77e016ca9faebdddf94e1c338">is_intrinsic</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="42" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.cpp" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1struct__declaration_1a083803600ce32a39fa9c80630348e246" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string element::struct_declaration::get_name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="43" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>element::struct_declaration</label>
+        <link refid="classelement_1_1struct__declaration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+      </node>
+      <node id="2">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>element::struct_declaration</label>
+        <link refid="classelement_1_1struct__declaration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>element::identifier</label>
+        <link refid="classelement_1_1identifier"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>list_at_identifier</edgelabel>
+          <edgelabel>return_identifier</edgelabel>
+          <edgelabel>list_count_identifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>source_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element::source_information</label>
+        <link refid="classelement_1_1source__information"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" line="11" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp" bodystart="10" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classelement_1_1struct__declaration_1a8f44f6bf757e299811df64c6aaec30ef" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>call</name></member>
+      <member refid="classelement_1_1struct__declaration_1a103db6650bdbb9ed6bea8ccde8387dd4" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>compile</name></member>
+      <member refid="classelement_1_1declaration_1a8696b7fbe135b0587844522d5adc244a" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>declaration</name></member>
+      <member refid="classelement_1_1struct__declaration_1af18c519541da5af3c01ec8b80562bd9a" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>deserializable</name></member>
+      <member refid="classelement_1_1struct__declaration_1acfa418793c01f2585b8105abff464377" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>generate_placeholder</name></member>
+      <member refid="classelement_1_1struct__declaration_1a6a2a0c7d78ba936cecd4c36f647b4a46" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>get_constraint</name></member>
+      <member refid="classelement_1_1declaration_1aca9fee3dff59f5fc556a7c97582795cf" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>get_inputs</name></member>
+      <member refid="classelement_1_1struct__declaration_1a083803600ce32a39fa9c80630348e246" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>get_name</name></member>
+      <member refid="classelement_1_1declaration_1a73b170b0cd63360e464409f77ec5b19b" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>get_output</name></member>
+      <member refid="classelement_1_1declaration_1a8068d1e042ffa6c66071512f098f8e1b" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>get_scope</name></member>
+      <member refid="classelement_1_1declaration_1a1d2398978ddc2bcef7ab41431de63f7e" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>has_constraint</name></member>
+      <member refid="classelement_1_1declaration_1a610ac22456ae8b6373f67d0319ebe8fa" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>has_inputs</name></member>
+      <member refid="classelement_1_1declaration_1aef569b66836406fea14c09a544bd7768" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>has_output</name></member>
+      <member refid="classelement_1_1declaration_1aceb9f554853c91d5cc59275858fa407a" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>has_scope</name></member>
+      <member refid="classelement_1_1struct__declaration_1ae009315f47ac40641fdedbf0c1cf65c2" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>index</name></member>
+      <member refid="classelement_1_1declaration_1a475501035092573ccdedc3ec274251ad" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>inputs</name></member>
+      <member refid="classelement_1_1object_1ab44c28014a94092052f9cf9418eef340" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>is_constant</name></member>
+      <member refid="classelement_1_1struct__declaration_1a37feab62dc3f4fedb0d458a4f3a669dc" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>is_intrinsic</name></member>
+      <member refid="classelement_1_1declaration_1ab0a2dc970845b94bd83b509b29706ce6" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>is_variadic</name></member>
+      <member refid="classelement_1_1struct__declaration_1abae712f3cb5e969761f68b1a61fd06fa" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>kind</name></member>
+      <member refid="classelement_1_1declaration_1a3e154c96fa736c4770e27118ef5683d2" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>location</name></member>
+      <member refid="classelement_1_1struct__declaration_1ade1bee2198e21a2ba0cfce304335537a" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>matches_constraint</name></member>
+      <member refid="classelement_1_1declaration_1a4af44f9d6c056d99c61a8fad55568f5f" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>name</name></member>
+      <member refid="classelement_1_1object_1a0b77789880bc695115d2428b9b1f2fe6" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1aecee67e856bcf56ecaee3848c3b834fe" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1af31de89eb2a06fe7856ae3d8252fdd1b" prot="protected" virt="non-virtual"><scope>element::struct_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1a05f452496fc2f14d4844fefe0326e5cd" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>operator=</name></member>
+      <member refid="classelement_1_1object_1aec74730c57e08a37dc6a61992e84e543" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>operator=</name></member>
+      <member refid="classelement_1_1declaration_1a2c5271358044c7784a008b0f11945588" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>our_scope</name></member>
+      <member refid="classelement_1_1declaration_1ab6dd2fc24083358e423b900756a85cc7" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>output</name></member>
+      <member refid="classelement_1_1declaration_1a2e520b33e96f792b5323ed22ec616719" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>qualifier</name></member>
+      <member refid="classelement_1_1declaration_1a671dc39120f6cb09515ea119b0dc6900" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>recursive_handler</name></member>
+      <member refid="classelement_1_1struct__declaration_1a3813abf80084e4b167761b4e7f4f9b55" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>serializable</name></member>
+      <member refid="classelement_1_1object_1a8c377027f992c5b3440679941619c468" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>source_info</name></member>
+      <member refid="classelement_1_1struct__declaration_1aa5690bfc84faea09b26237392f0c839b" prot="public" virt="non-virtual"><scope>element::struct_declaration</scope><name>struct_declaration</name></member>
+      <member refid="classelement_1_1struct__declaration_1a005160af89d291329f28a272090e812b" prot="private" virt="non-virtual"><scope>element::struct_declaration</scope><name>struct_kind</name></member>
+      <member refid="classelement_1_1struct__declaration_1a996888888671ceec7a7bb68622e40c19" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>to_code</name></member>
+      <member refid="classelement_1_1object_1ac285622d5bdbf53d29ed531a7a50cd2a" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>to_instruction</name></member>
+      <member refid="classelement_1_1object_1a1c22bf6d69ae19c71d6b2bd0cedfd675" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>to_string</name></member>
+      <member refid="classelement_1_1struct__declaration_1a18ccf7be7d8f5b6f51688a755c2f9de9" prot="private" virt="non-virtual"><scope>element::struct_declaration</scope><name>type</name></member>
+      <member refid="classelement_1_1struct__declaration_1aab22fe87ab607047ab59a085166dd88c" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>typeof_info</name></member>
+      <member refid="classelement_1_1declaration_1a4ba869980bcec8cd2d6801837a54ca24" prot="protected" virt="non-virtual"><scope>element::struct_declaration</scope><name>wrapper</name></member>
+      <member refid="classelement_1_1object_1a9737ac6b6eef6c4e41d0a15ebf42762a" prot="public" virt="virtual"><scope>element::struct_declaration</scope><name>~object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

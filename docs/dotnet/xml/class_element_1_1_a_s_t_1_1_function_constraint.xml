@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_function_constraint" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::FunctionConstraint</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_value" prot="public" virt="non-virtual">Element.AST.Value</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_function_constraint_1a79852d78eee48bb3c4e2ff8289152209" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+        <definition>override IReadOnlyList&lt;ResolvedPort&gt; Element.AST.FunctionConstraint.InputPorts</definition>
+        <argsstring></argsstring>
+        <name>InputPorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" line="16" column="39" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_function_constraint_1a7eb6e04d65805dc28f3e9642e8c02e9b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+        <definition>override IValue Element.AST.FunctionConstraint.ReturnConstraint</definition>
+        <argsstring></argsstring>
+        <name>ReturnConstraint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" line="17" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_function_constraint_1a2652a16b1c71fd6bd9a4be45d3900f6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.FunctionConstraint.FunctionConstraint</definition>
+        <argsstring>(IReadOnlyList&lt; ResolvedPort &gt; inputPorts, IValue returnConstraint)</argsstring>
+        <name>FunctionConstraint</name>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+          <declname>inputPorts</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>returnConstraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" line="19" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_function_constraint_1a2984527cb35d6de64362d3ccd2b56246" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; bool &gt;</type>
+        <definition>override Result&lt;bool&gt; Element.AST.FunctionConstraint.MatchesConstraint</definition>
+        <argsstring>(IValue fn, Context context)</argsstring>
+        <name>MatchesConstraint</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4">MatchesConstraint</reimplements>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>fn</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" line="25" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" bodystart="25" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.FunctionConstraint</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function_constraint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="3">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.FunctionConstraint</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function_constraint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" line="15" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Constraint.cs" bodystart="14" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a8fbc4468318627c22f0d62c22e57dc46" prot="public" virt="virtual"><scope>Element::AST::FunctionConstraint</scope><name>Call</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::AST::FunctionConstraint</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual"><scope>Element::AST::FunctionConstraint</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_constraint_1a2652a16b1c71fd6bd9a4be45d3900f6e" prot="public" virt="non-virtual"><scope>Element::AST::FunctionConstraint</scope><name>FunctionConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ae64700fadafa1586918809b1bc976e8d" prot="public" virt="virtual"><scope>Element::AST::FunctionConstraint</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_constraint_1a79852d78eee48bb3c4e2ff8289152209" prot="public" virt="non-virtual"><scope>Element::AST::FunctionConstraint</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_constraint_1a2984527cb35d6de64362d3ccd2b56246" prot="public" virt="virtual"><scope>Element::AST::FunctionConstraint</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::AST::FunctionConstraint</scope><name>Members</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1af9bf5ace9faa286d1632cca2b061004d" prot="public" virt="non-virtual"><scope>Element::AST::FunctionConstraint</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_constraint_1a7eb6e04d65805dc28f3e9642e8c02e9b" prot="public" virt="non-virtual"><scope>Element::AST::FunctionConstraint</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual"><scope>Element::AST::FunctionConstraint</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a3e34253191ba578143a47767b2b3b982" prot="public" virt="non-virtual"><scope>Element::AST::FunctionConstraint</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::AST::FunctionConstraint</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a5bee967bcd50e708952864569598d2ca" prot="public" virt="non-virtual"><scope>Element::AST::FunctionConstraint</scope><name>TypeOf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

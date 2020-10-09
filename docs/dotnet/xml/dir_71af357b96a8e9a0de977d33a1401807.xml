@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_71af357b96a8e9a0de977d33a1401807" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/ExpressionGroup</compoundname>
+    <innerfile refid="_instruction_group_8cs">InstructionGroup.cs</innerfile>
+    <innerfile refid="_loop_8cs">Loop.cs</innerfile>
+    <innerfile refid="_persist_8cs">Persist.cs</innerfile>
+    <innerfile refid="_state_8cs">State.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/ExpressionGroup/"/>
+  </compounddef>
+</doxygen>

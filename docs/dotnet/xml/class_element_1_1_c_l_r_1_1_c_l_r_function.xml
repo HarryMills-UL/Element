@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_c_l_r_1_1_c_l_r_function" kind="class" language="C#" prot="public">
+    <compoundname>Element::CLR::CLRFunction</compoundname>
+    <innerclass refid="struct_element_1_1_c_l_r_1_1_c_l_r_function_1_1_compilation_data" prot="private">Element::CLR::CLRFunction::CompilationData</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1ae2ca02d6b71e999736bcfe31c686409b" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Unary.Op, Func&lt; LinqExpression, UnaryExpression &gt; &gt;</type>
+        <definition>readonly Dictionary&lt;Unary.Op, Func&lt;LinqExpression, UnaryExpression&gt; &gt; Element.CLR.CLRFunction._linqUnaryOps</definition>
+        <argsstring></argsstring>
+        <name>_linqUnaryOps</name>
+        <initializer>=
+		    new Dictionary&lt;Unary.Op, Func&lt;LinqExpression, UnaryExpression&gt;&gt;
+		    {
+			    {Unary.Op.Not, LinqExpression.Not}
+		    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="13" column="40" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1ab91761d315717be7433cda75315367d7" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Unary.Op, MethodInfo &gt;</type>
+        <definition>readonly Dictionary&lt;Unary.Op, MethodInfo&gt; Element.CLR.CLRFunction._unaryMethodOps</definition>
+        <argsstring></argsstring>
+        <name>_unaryMethodOps</name>
+        <initializer>= new Dictionary&lt;Unary.Op, MethodInfo&gt;
+	    {
+		    {Unary.Op.Ln, ((Func&lt;double, double&gt;)Math.Log).Method},
+		    {Unary.Op.Sin, ((Func&lt;double, double&gt;)Math.Sin).Method},
+		    {Unary.Op.ASin, ((Func&lt;double, double&gt;)Math.Asin).Method},
+		    {Unary.Op.Cos, ((Func&lt;double, double&gt;)Math.Cos).Method},
+		    {Unary.Op.ACos, ((Func&lt;double, double&gt;)Math.Acos).Method},
+		    {Unary.Op.Tan, ((Func&lt;double, double&gt;)Math.Tan).Method},
+		    {Unary.Op.ATan, ((Func&lt;double, double&gt;)Math.Atan).Method},
+	    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="19" column="40" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1a1e8126b0301c359034114107fe1b1b3d" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Binary.Op, Func&lt; LinqExpression, LinqExpression, BinaryExpression &gt; &gt;</type>
+        <definition>readonly Dictionary&lt;Binary.Op, Func&lt;LinqExpression, LinqExpression, BinaryExpression&gt; &gt; Element.CLR.CLRFunction._linqBinaryArithmeticOps</definition>
+        <argsstring></argsstring>
+        <name>_linqBinaryArithmeticOps</name>
+        <initializer>=
+			new Dictionary&lt;Binary.Op, Func&lt;LinqExpression, LinqExpression, BinaryExpression&gt;&gt;
+			{
+				{Binary.Op.Add, LinqExpression.Add},
+				{Binary.Op.Sub, LinqExpression.Subtract},
+				{Binary.Op.Mul, LinqExpression.Multiply},
+				{Binary.Op.Div, LinqExpression.Divide},
+				{Binary.Op.Rem, LinqExpression.Modulo},
+				{Binary.Op.Pow, LinqExpression.Power},
+			}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="30" column="40" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1aca2b38b93b4c0451d41cfb170a4e016e" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Binary.Op, Func&lt; LinqExpression, LinqExpression, BinaryExpression &gt; &gt;</type>
+        <definition>readonly Dictionary&lt;Binary.Op, Func&lt;LinqExpression, LinqExpression, BinaryExpression&gt; &gt; Element.CLR.CLRFunction._linqBinaryComparisonOps</definition>
+        <argsstring></argsstring>
+        <name>_linqBinaryComparisonOps</name>
+        <initializer>=
+			new Dictionary&lt;Binary.Op, Func&lt;LinqExpression, LinqExpression, BinaryExpression&gt;&gt;
+			{
+				{Binary.Op.Eq, LinqExpression.Equal},
+				{Binary.Op.NEq, LinqExpression.NotEqual},
+				{Binary.Op.Lt, LinqExpression.LessThan},
+				{Binary.Op.LEq, LinqExpression.LessThanOrEqual},
+				{Binary.Op.Gt, LinqExpression.GreaterThan},
+				{Binary.Op.GEq, LinqExpression.GreaterThanOrEqual}
+			}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="41" column="40" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1a65d75405d7b70a54f89e48fa4c80770d" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Binary.Op, Func&lt; LinqExpression, LinqExpression, BinaryExpression &gt; &gt;</type>
+        <definition>readonly Dictionary&lt;Binary.Op, Func&lt;LinqExpression, LinqExpression, BinaryExpression&gt; &gt; Element.CLR.CLRFunction._linqBinaryLogicalOps</definition>
+        <argsstring></argsstring>
+        <name>_linqBinaryLogicalOps</name>
+        <initializer>=
+			new Dictionary&lt;Binary.Op, Func&lt;LinqExpression, LinqExpression, BinaryExpression&gt;&gt;
+			{
+				{Binary.Op.And, LinqExpression.AndAlso},
+				{Binary.Op.Or, LinqExpression.OrElse},
+			}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="52" column="40" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1afdd14fddf06694703bebc58d077b824f" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Binary.Op, MethodInfo &gt;</type>
+        <definition>readonly Dictionary&lt;Binary.Op, MethodInfo&gt; Element.CLR.CLRFunction._binaryMethodOps</definition>
+        <argsstring></argsstring>
+        <name>_binaryMethodOps</name>
+        <initializer>= new Dictionary&lt;Binary.Op, MethodInfo&gt;
+		{
+			{Binary.Op.Log, ((Func&lt;double, double, double&gt;)Math.Log).Method},
+			{Binary.Op.Atan2, ((Func&lt;double, double, double&gt;)Math.Atan2).Method}
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="59" column="40" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1a5db714dbea687dfc5620599b896f80ff" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LinqExpression</type>
+        <definition>static LinqExpression Element.CLR.CLRFunction.Compile</definition>
+        <argsstring>(Instruction value, CompilationData data)</argsstring>
+        <name>Compile</name>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>CompilationData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="78" column="31" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="78" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1abcf17b5ca82e914ffa89748b3e81e937" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LinqExpression[]</type>
+        <definition>static LinqExpression [] Element.CLR.CLRFunction.CompileGroup</definition>
+        <argsstring>(InstructionGroup group, CompilationData data)</argsstring>
+        <name>CompileGroup</name>
+        <param>
+          <type><ref refid="class_element_1_1_instruction_group" kindref="compound">InstructionGroup</ref></type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>CompilationData</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="180" column="31" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="180" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1a2246e1d34ff251c8bc14bf2dda712dbd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; Delegate &gt;</type>
+        <definition>static Result&lt;Delegate&gt; Element.CLR.CLRFunction.Compile</definition>
+        <argsstring>(IValue value, Context context, Type delegateType, IBoundaryConverter? boundaryConverter=default)</argsstring>
+        <name>Compile</name>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_c_l_r_1_1_i_boundary_converter" kindref="compound">IBoundaryConverter</ref>?</type>
+          <declname>boundaryConverter</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="315" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="315" bodyend="407"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1a5e42b9786db66c46d97fb9ade66b1b29" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt;(<ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> CapturingValue, float[] CaptureArray)&gt;</type>
+        <definition>static Result&lt;(IValue CapturingValue, float[] CaptureArray)&gt; Element.CLR.CLRFunction.SourceArgumentsFromSerializedArray</definition>
+        <argsstring>(this IValue function, Context context)</argsstring>
+        <name>SourceArgumentsFromSerializedArray</name>
+        <param>
+          <type>this <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+<para>Replaces the inputs of a Function with expressions that map to a pre-allocated array. This is useful for applications where the exact inputs may be unknown or user-defined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>All the inputs to the function must be serializable and constant size (No dynamic lists). </para>
+<para><simplesect kind="return"><para>The result of calling the given function with all its inputs and a pre-allocated argument array. The function inputs are mapped directly to the arrays contents. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="274" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_c_l_r_1_1_c_l_r_function_1aa74e22da7f1fe3382fae6a8c63d21ff5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TDelegate &gt;</type>
+        <definition>static Result&lt;TDelegate&gt; Element.CLR.CLRFunction.Compile&lt; TDelegate &gt;</definition>
+        <argsstring>(this IValue value, Context context, IBoundaryConverter? boundaryConverter=default)</argsstring>
+        <name>Compile&lt; TDelegate &gt;</name>
+        <param>
+          <type>this <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_c_l_r_1_1_i_boundary_converter" kindref="compound">IBoundaryConverter</ref>?</type>
+          <declname>boundaryConverter</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="311" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="12" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" bodystart="11" bodyend="408"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1afdd14fddf06694703bebc58d077b824f" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>_binaryMethodOps</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1a1e8126b0301c359034114107fe1b1b3d" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>_linqBinaryArithmeticOps</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1aca2b38b93b4c0451d41cfb170a4e016e" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>_linqBinaryComparisonOps</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1a65d75405d7b70a54f89e48fa4c80770d" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>_linqBinaryLogicalOps</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1ae2ca02d6b71e999736bcfe31c686409b" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>_linqUnaryOps</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1ab91761d315717be7433cda75315367d7" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>_unaryMethodOps</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1a5db714dbea687dfc5620599b896f80ff" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>Compile</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1a2246e1d34ff251c8bc14bf2dda712dbd" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>Compile</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1aa74e22da7f1fe3382fae6a8c63d21ff5" prot="public" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>Compile&lt; TDelegate &gt;</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1abcf17b5ca82e914ffa89748b3e81e937" prot="private" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>CompileGroup</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_c_l_r_function_1a5e42b9786db66c46d97fb9ade66b1b29" prot="public" virt="non-virtual"><scope>Element::CLR::CLRFunction</scope><name>SourceArgumentsFromSerializedArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

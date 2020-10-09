@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_c464e85c0a501b9c2ede4bb4a0a75306" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET</compoundname>
+    <innerdir refid="dir_b3bbaa6a33d0cbde182f27db83af5f87">/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages</innerdir>
+    <innerdir refid="dir_ea12bf4c1d141cd16cf636f1ca83ac74">/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST</innerdir>
+    <innerdir refid="dir_89bd32495f234af63efdcf1e63a9b027">/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel</innerdir>
+    <innerdir refid="dir_bc08f4b26bb9d28424137065b4f4617e">/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions</innerdir>
+    <innerdir refid="dir_7a35eb55d64dd1605a9fab6e83193e76">/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets</innerdir>
+    <innerdir refid="dir_a1a18689b91e6401e8f8b2e010339b64">/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities</innerdir>
+    <innerdir refid="dir_70f60c208a9fef0a19f8635010affe9d">/Users/harry.mills/Documents/Repos/Element/Element.NET/Host</innerdir>
+    <innerdir refid="dir_f22d8b262b029d6d15486126a458623b">/Users/harry.mills/Documents/Repos/Element/Element.NET/obj</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/"/>
+  </compounddef>
+</doxygen>

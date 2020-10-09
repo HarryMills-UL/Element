@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_element_1_1_c_l_r" kind="namespace" language="C#">
+    <compoundname>Element::CLR</compoundname>
+    <innerclass refid="class_element_1_1_c_l_r_1_1_boundary_converter" prot="public">Element::CLR::BoundaryConverter</innerclass>
+    <innerclass refid="class_element_1_1_c_l_r_1_1_c_l_r_function" prot="public">Element::CLR::CLRFunction</innerclass>
+    <innerclass refid="class_element_1_1_c_l_r_1_1_element_struct_template_attribute" prot="public">Element::CLR::ElementStructTemplateAttribute</innerclass>
+    <innerclass refid="interface_element_1_1_c_l_r_1_1_i_boundary_converter" prot="public">Element::CLR::IBoundaryConverter</innerclass>
+    <innerclass refid="interface_element_1_1_c_l_r_1_1_i_c_l_r_expression" prot="public">Element::CLR::ICLRExpression</innerclass>
+    <innerclass refid="class_element_1_1_c_l_r_1_1_number_converter" prot="public">Element::CLR::NumberConverter</innerclass>
+    <innerclass refid="class_element_1_1_c_l_r_1_1_struct_converter" prot="public">Element::CLR::StructConverter</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_element_1_1_c_l_r_1a2b5fe5224f38034855cce0c82ff585fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; System.Linq.Expressions.Expression &gt;</type>
+        <definition>delegate Result&lt;System.Linq.Expressions.Expression&gt; Element.CLR.ConvertFunction</definition>
+        <argsstring>(IValue value, Type outputType, Context context)</argsstring>
+        <name>ConvertFunction</name>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>outputType</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" line="11" column="28" declfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" declline="11" declcolumn="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/CLRFunction.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

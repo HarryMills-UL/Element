@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structelement__lmnt__compiled__function" kind="struct" language="C++" prot="public">
+    <compoundname>element_lmnt_compiled_function</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structelement__lmnt__compiled__function_1a0d19a93671a9a246980690d6e0c3ef47" prot="public" static="no" mutable="no">
+        <type>const element_function *</type>
+        <definition>const element_function* element_lmnt_compiled_function::function</definition>
+        <argsstring></argsstring>
+        <name>function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="44" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__compiled__function_1a51f10995aebf7c82b3eb23524f5f7443" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structelement__lmnt__instruction" kindref="compound">element_lmnt_instruction</ref> &gt;</type>
+        <definition>std::vector&lt;element_lmnt_instruction&gt; element_lmnt_compiled_function::ops</definition>
+        <argsstring></argsstring>
+        <name>ops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="45" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__compiled__function_1ab4d81baa34cb63056c94a4763a45426b" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t element_lmnt_compiled_function::inputs_size</definition>
+        <argsstring></argsstring>
+        <name>inputs_size</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="46" column="12" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__compiled__function_1a6c2dceb1988ad1696aa71ac5c6454fd2" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t element_lmnt_compiled_function::outputs_size</definition>
+        <argsstring></argsstring>
+        <name>outputs_size</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="47" column="12" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__compiled__function_1a56df1ceb4879434a43f6c4d46db9b71b" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t element_lmnt_compiled_function::outputs_matched</definition>
+        <argsstring></argsstring>
+        <name>outputs_matched</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="48" column="12" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__compiled__function_1a57db34ceec4171f61fa81da5c3b39e92" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t element_lmnt_compiled_function::locals_size</definition>
+        <argsstring></argsstring>
+        <name>locals_size</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="49" column="12" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="43" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="42" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structelement__lmnt__compiled__function_1a0d19a93671a9a246980690d6e0c3ef47" prot="public" virt="non-virtual"><scope>element_lmnt_compiled_function</scope><name>function</name></member>
+      <member refid="structelement__lmnt__compiled__function_1ab4d81baa34cb63056c94a4763a45426b" prot="public" virt="non-virtual"><scope>element_lmnt_compiled_function</scope><name>inputs_size</name></member>
+      <member refid="structelement__lmnt__compiled__function_1a57db34ceec4171f61fa81da5c3b39e92" prot="public" virt="non-virtual"><scope>element_lmnt_compiled_function</scope><name>locals_size</name></member>
+      <member refid="structelement__lmnt__compiled__function_1a51f10995aebf7c82b3eb23524f5f7443" prot="public" virt="non-virtual"><scope>element_lmnt_compiled_function</scope><name>ops</name></member>
+      <member refid="structelement__lmnt__compiled__function_1a56df1ceb4879434a43f6c4d46db9b71b" prot="public" virt="non-virtual"><scope>element_lmnt_compiled_function</scope><name>outputs_matched</name></member>
+      <member refid="structelement__lmnt__compiled__function_1a6c2dceb1988ad1696aa71ac5c6454fd2" prot="public" virt="non-virtual"><scope>element_lmnt_compiled_function</scope><name>outputs_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

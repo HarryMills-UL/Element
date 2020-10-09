@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structrtti__type" kind="struct" language="C++" prot="public">
+    <compoundname>rtti_type</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structrtti__type_1a9e39e4a33b4fa119977acfb1aacf9117" prot="private" static="no" mutable="no">
+        <type>const element_type_id</type>
+        <definition>const element_type_id rtti_type&lt; T &gt;::m_type_id</definition>
+        <argsstring></argsstring>
+        <name>m_type_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" line="43" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structrtti__type_1a2162c625991b82bdb390809a16c8c649" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>element_type_id</type>
+        <definition>element_type_id rtti_type&lt; T &gt;::subtype</definition>
+        <argsstring>() const</argsstring>
+        <name>subtype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" line="17" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structrtti__type_1ad10b160dbb5d7b81ffddfcef4c2131f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TD</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool rtti_type&lt; T &gt;::is</definition>
+        <argsstring>() const</argsstring>
+        <name>is</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" line="20" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structrtti__type_1ae8a056e6d6a658d2e5ccf757da1c5031" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TD</type>
+          </param>
+        </templateparamlist>
+        <type>TD *</type>
+        <definition>TD* rtti_type&lt; T &gt;::as</definition>
+        <argsstring>()</argsstring>
+        <name>as</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" line="26" column="8" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="structrtti__type_1ac9b5c9bad7ef9069f612b0356a6ffffc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TD</type>
+          </param>
+        </templateparamlist>
+        <type>const TD *</type>
+        <definition>const TD* rtti_type&lt; T &gt;::as</definition>
+        <argsstring>() const</argsstring>
+        <name>as</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" line="32" column="14" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="structrtti__type_1a4ba3d8090b0e77409fbfa90f769a0324" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>rtti_type&lt; T &gt;::rtti_type</definition>
+        <argsstring>(element_type_id id)</argsstring>
+        <name>rtti_type</name>
+        <param>
+          <type>element_type_id</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" line="38" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" line="15" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/typeutil.hpp" bodystart="14" bodyend="44"/>
+    <listofallmembers>
+      <member refid="structrtti__type_1ae8a056e6d6a658d2e5ccf757da1c5031" prot="public" virt="non-virtual"><scope>rtti_type</scope><name>as</name></member>
+      <member refid="structrtti__type_1ac9b5c9bad7ef9069f612b0356a6ffffc" prot="public" virt="non-virtual"><scope>rtti_type</scope><name>as</name></member>
+      <member refid="structrtti__type_1ad10b160dbb5d7b81ffddfcef4c2131f2" prot="public" virt="non-virtual"><scope>rtti_type</scope><name>is</name></member>
+      <member refid="structrtti__type_1a9e39e4a33b4fa119977acfb1aacf9117" prot="private" virt="non-virtual"><scope>rtti_type</scope><name>m_type_id</name></member>
+      <member refid="structrtti__type_1a4ba3d8090b0e77409fbfa90f769a0324" prot="protected" virt="non-virtual"><scope>rtti_type</scope><name>rtti_type</name></member>
+      <member refid="structrtti__type_1a2162c625991b82bdb390809a16c8c649" prot="public" virt="non-virtual"><scope>rtti_type</scope><name>subtype</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_element_1_1_a_s_t_1_1_i_declaration_scope" kind="interface" language="C#" prot="public">
+    <compoundname>Element::AST::IDeclarationScope</compoundname>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_declaration_block" prot="public" virt="non-virtual">Element.AST.DeclarationBlock</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_global_scope" prot="public" virt="non-virtual">Element.AST.GlobalScope</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_element_1_1_a_s_t_1_1_i_declaration_scope_1a0c579eb052cae0a4545e97dc37991f87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref> &gt;</type>
+        <definition>IReadOnlyList&lt;Declaration&gt; Element.AST.IDeclarationScope.Declarations</definition>
+        <argsstring></argsstring>
+        <name>Declarations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="12" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_element_1_1_a_s_t_1_1_i_declaration_scope_1a8fceafb665f20f384242ba7bf42b6a59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_block" kindref="compound">ResolvedBlock</ref> &gt;</type>
+        <definition>Result&lt;ResolvedBlock&gt; Element.AST.IDeclarationScope.ResolveBlock</definition>
+        <argsstring>(IScope? parentScope, Context context)</argsstring>
+        <name>ResolveBlock</name>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_global_scope_1a4abe280c4f95f9bc807afd9d421c2f70">ResolveBlock</reimplementedby>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref>?</type>
+          <declname>parentScope</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="13" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A scope of declarations which can be resolved as a block. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.AST.IDeclarationScope</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope"/>
+      </node>
+      <node id="5">
+        <label>Element.AST.GlobalScope</label>
+        <link refid="class_element_1_1_a_s_t_1_1_global_scope"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Element.AST.DeclarationBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_declaration_block"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Element.AST.StructBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_struct_block"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Element.AST.NamespaceBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_namespace_block"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="11" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope_1a0c579eb052cae0a4545e97dc37991f87" prot="public" virt="non-virtual"><scope>Element::AST::IDeclarationScope</scope><name>Declarations</name></member>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope_1a8fceafb665f20f384242ba7bf42b6a59" prot="public" virt="non-virtual"><scope>Element::AST::IDeclarationScope</scope><name>ResolveBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

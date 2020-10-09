@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classelement_1_1user__type" kind="class" language="C++" prot="public">
+    <compoundname>element::user_type</compoundname>
+    <basecompoundref refid="classelement_1_1type" prot="public" virt="non-virtual">element::type</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classelement_1_1user__type_1ad030bcc0faab7fd9afccb21bbc1bdebd" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> *</type>
+        <definition>const declaration* element::user_type::declarer</definition>
+        <argsstring></argsstring>
+        <name>declarer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" line="21" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classelement_1_1user__type_1a558edcab2e9634a7c8693af4e23fd5e9" prot="private" static="no" mutable="no">
+        <type><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref></type>
+        <definition>identifier element::user_type::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" line="22" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classelement_1_1user__type_1ae7752cddc31726cc4ac9931872c3ec09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>element::user_type::DECLARE_TYPE_ID</definition>
+        <argsstring>()</argsstring>
+        <name>DECLARE_TYPE_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" line="11" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1user__type_1a20164d9cd0c8aa6a26a3187f47ee29e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>element::user_type::user_type</definition>
+        <argsstring>(identifier name, const declaration *declarer)</argsstring>
+        <name>user_type</name>
+        <param>
+          <type><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> *</type>
+          <declname>declarer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" line="12" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1user__type_1a03bf7189d88e4f188b8233689dd3f133" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string element::user_type::get_name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" line="18" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>element::user_type</label>
+        <link refid="classelement_1_1user__type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>rtti_type&lt; constraint &gt;</label>
+        <link refid="structrtti__type"/>
+      </node>
+      <node id="4">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+      </node>
+      <node id="2">
+        <label>element::type</label>
+        <link refid="classelement_1_1type"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::constraint</label>
+        <link refid="classelement_1_1constraint"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>element::user_type</label>
+        <link refid="classelement_1_1user__type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>rtti_type&lt; constraint &gt;</label>
+        <link refid="structrtti__type"/>
+      </node>
+      <node id="8">
+        <label>element::identifier</label>
+        <link refid="classelement_1_1identifier"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>list_at_identifier</edgelabel>
+          <edgelabel>return_identifier</edgelabel>
+          <edgelabel>list_count_identifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>source_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>element::source_information</label>
+        <link refid="classelement_1_1source__information"/>
+      </node>
+      <node id="2">
+        <label>element::type</label>
+        <link refid="classelement_1_1type"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::constraint</label>
+        <link refid="classelement_1_1constraint"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>declarer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" line="9" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classelement_1_1constraint_1a94ff236de2673057c72b23475bbaf3b9" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>any</name></member>
+      <member refid="structrtti__type_1ae8a056e6d6a658d2e5ccf757da1c5031" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>as</name></member>
+      <member refid="structrtti__type_1ac9b5c9bad7ef9069f612b0356a6ffffc" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>as</name></member>
+      <member refid="classelement_1_1type_1a96d8b486ab44b43fcd634a4f9e63314a" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>boolean</name></member>
+      <member refid="classelement_1_1object_1af6dbeefad4c697ab757864ae78fd831e" prot="public" virt="virtual"><scope>element::user_type</scope><name>call</name></member>
+      <member refid="classelement_1_1object_1aa562aac5d1f233abda4a5348ac38da73" prot="public" virt="virtual"><scope>element::user_type</scope><name>compile</name></member>
+      <member refid="classelement_1_1constraint_1a597a9dc041be2a1bf3a0bc7e74ca8239" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>constraint</name></member>
+      <member refid="classelement_1_1user__type_1ae7752cddc31726cc4ac9931872c3ec09" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>DECLARE_TYPE_ID</name></member>
+      <member refid="classelement_1_1user__type_1ad030bcc0faab7fd9afccb21bbc1bdebd" prot="private" virt="non-virtual"><scope>element::user_type</scope><name>declarer</name></member>
+      <member refid="classelement_1_1constraint_1a992c32b88bba87880b3962b7c16b2e3e" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>function</name></member>
+      <member refid="classelement_1_1constraint_1a411e7e1e3bd12caf29e56790913cd039" prot="public" virt="virtual"><scope>element::user_type</scope><name>get_constraint</name></member>
+      <member refid="classelement_1_1type_1ad07e93ef6b2d988e1ab9b2b35f029bdc" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>get_identifier</name></member>
+      <member refid="classelement_1_1object_1a82a0020492785cb186c7d09ea88aa79d" prot="public" virt="virtual"><scope>element::user_type</scope><name>get_inputs</name></member>
+      <member refid="classelement_1_1user__type_1a03bf7189d88e4f188b8233689dd3f133" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>get_name</name></member>
+      <member refid="classelement_1_1object_1a17cca83a78581c5e8b73652f57910d1a" prot="public" virt="virtual"><scope>element::user_type</scope><name>get_output</name></member>
+      <member refid="classelement_1_1object_1a410a20ebbac9643d6798ffa98a34ff17" prot="public" virt="virtual"><scope>element::user_type</scope><name>get_scope</name></member>
+      <member refid="classelement_1_1object_1a542266c49533b394c8f7668748f6424a" prot="public" virt="virtual"><scope>element::user_type</scope><name>index</name></member>
+      <member refid="structrtti__type_1ad10b160dbb5d7b81ffddfcef4c2131f2" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>is</name></member>
+      <member refid="classelement_1_1object_1ab44c28014a94092052f9cf9418eef340" prot="public" virt="virtual"><scope>element::user_type</scope><name>is_constant</name></member>
+      <member refid="classelement_1_1constraint_1a684c2afbf9217060904a9566c4d6ab20" prot="public" virt="virtual"><scope>element::user_type</scope><name>matches_constraint</name></member>
+      <member refid="classelement_1_1user__type_1a558edcab2e9634a7c8693af4e23fd5e9" prot="private" virt="non-virtual"><scope>element::user_type</scope><name>name</name></member>
+      <member refid="classelement_1_1type_1ab26e7c37e1e407154912595eb7244731" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>num</name></member>
+      <member refid="classelement_1_1object_1a0b77789880bc695115d2428b9b1f2fe6" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1aecee67e856bcf56ecaee3848c3b834fe" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1af31de89eb2a06fe7856ae3d8252fdd1b" prot="protected" virt="non-virtual"><scope>element::user_type</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1a05f452496fc2f14d4844fefe0326e5cd" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>operator=</name></member>
+      <member refid="classelement_1_1object_1aec74730c57e08a37dc6a61992e84e543" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>operator=</name></member>
+      <member refid="structrtti__type_1a4ba3d8090b0e77409fbfa90f769a0324" prot="protected" virt="non-virtual"><scope>element::user_type</scope><name>rtti_type</name></member>
+      <member refid="classelement_1_1object_1a8c377027f992c5b3440679941619c468" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>source_info</name></member>
+      <member refid="structrtti__type_1a2162c625991b82bdb390809a16c8c649" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>subtype</name></member>
+      <member refid="classelement_1_1constraint_1a013e01ab6fb858a2a9236dfd728dae69" prot="public" virt="virtual"><scope>element::user_type</scope><name>to_code</name></member>
+      <member refid="classelement_1_1object_1ac285622d5bdbf53d29ed531a7a50cd2a" prot="public" virt="virtual"><scope>element::user_type</scope><name>to_instruction</name></member>
+      <member refid="classelement_1_1object_1a1c22bf6d69ae19c71d6b2bd0cedfd675" prot="public" virt="virtual"><scope>element::user_type</scope><name>to_string</name></member>
+      <member refid="classelement_1_1type_1ae7e73411c6259491df91d00e1ddec200" prot="protected" virt="non-virtual"><scope>element::user_type</scope><name>type</name></member>
+      <member refid="classelement_1_1constraint_1a901b9b9bf504d51aacd4fc451f50e4f8" prot="public" virt="virtual"><scope>element::user_type</scope><name>typeof_info</name></member>
+      <member refid="classelement_1_1user__type_1a20164d9cd0c8aa6a26a3187f47ee29e9" prot="public" virt="non-virtual"><scope>element::user_type</scope><name>user_type</name></member>
+      <member refid="classelement_1_1object_1a9737ac6b6eef6c4e41d0a15ebf42762a" prot="public" virt="virtual"><scope>element::user_type</scope><name>~object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

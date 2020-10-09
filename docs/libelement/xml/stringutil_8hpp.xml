@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="stringutil_8hpp" kind="file" language="C++">
+    <compoundname>stringutil.hpp</compoundname>
+    <includes local="no">iterator</includes>
+    <includes local="no">string</includes>
+    <includes local="no">istream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>iterator</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="5">
+        <label>sstream</label>
+      </node>
+      <node id="4">
+        <label>istream</label>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/stringutil.hpp</label>
+        <link refid="stringutil_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_word_delimited_by" prot="public">WordDelimitedBy</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="stringutil_8hpp_1a28eb8ac118c523899d9986a95a682f54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>char</type>
+            <declname>c</declname>
+            <defname>c</defname>
+          </param>
+        </templateparamlist>
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;is, WordDelimitedBy&lt; c &gt; &amp;output)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="class_word_delimited_by" kindref="compound">WordDelimitedBy</ref>&lt; c &gt; &amp;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/stringutil.hpp" line="14" column="14" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/stringutil.hpp" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="stringutil_8hpp_1a6f10c88af2bbdda9beb702900d291af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>char</type>
+            <declname>delimiter</declname>
+            <defname>delimiter</defname>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; split</definition>
+        <argsstring>(std::string input_str)</argsstring>
+        <name>split</name>
+        <param>
+          <type>std::string</type>
+          <declname>input_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/stringutil.hpp" line="21" column="13" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/stringutil.hpp" bodystart="21" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iterator&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;istream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>delimiter&gt;</highlight></codeline>
+<codeline lineno="10" refid="class_word_delimited_by" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_word_delimited_by" kindref="compound">WordDelimitedBy</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::string</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{};</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">std::istream&amp;<sp/>operator&gt;&gt;(std::istream&amp;<sp/>is,<sp/><ref refid="class_word_delimited_by" kindref="compound">WordDelimitedBy&lt;c&gt;</ref>&amp;<sp/>output)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>std::getline(is,<sp/>output,<sp/>c);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>is;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>delimiter&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">std::vector&lt;std::string&gt;<sp/>split(std::string<sp/>input_str)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>std::istringstream<sp/>iss(input_str);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>std::istream_iterator&lt;WordDelimitedBy&lt;delimiter&gt;&gt;(iss),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::istream_iterator&lt;<ref refid="class_word_delimited_by" kindref="compound">WordDelimitedBy&lt;delimiter&gt;</ref>&gt;()<sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/stringutil.hpp"/>
+  </compounddef>
+</doxygen>

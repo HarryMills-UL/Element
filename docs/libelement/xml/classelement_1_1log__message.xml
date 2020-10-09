@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classelement_1_1log__message" kind="class" language="C++" prot="public">
+    <compoundname>element::log_message</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classelement_1_1log__message_1a92131634936b70250b736df95720ecf5" prot="public" static="no" mutable="no">
+        <type>const element_result</type>
+        <definition>const element_result element::log_message::result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="105" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classelement_1_1log__message_1a51d5e75235a898a8de0ad02735126b4e" prot="private" static="no" mutable="no">
+        <type>element_log_message</type>
+        <definition>element_log_message element::log_message::log_msg</definition>
+        <argsstring></argsstring>
+        <name>log_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="108" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classelement_1_1log__message_1a690a6b9002103f7f3a5c76f726eefb18" prot="private" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string element::log_message::msg</definition>
+        <argsstring></argsstring>
+        <name>msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="109" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classelement_1_1log__message_1a61989d871a0ef40a0eeca47007644177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>element::log_message::log_message</definition>
+        <argsstring>(element_log_message log_msg, std::string msg)</argsstring>
+        <name>log_message</name>
+        <param>
+          <type>element_log_message</type>
+          <declname>log_msg</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="91" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1log__message_1a3f69403c7eb231b4995f36019dd71051" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const element_log_message &amp;</type>
+        <definition>const element_log_message&amp; element::log_message::get_log_message</definition>
+        <argsstring>() const</argsstring>
+        <name>get_log_message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="100" column="36" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="89" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="88" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classelement_1_1log__message_1a3f69403c7eb231b4995f36019dd71051" prot="public" virt="non-virtual"><scope>element::log_message</scope><name>get_log_message</name></member>
+      <member refid="classelement_1_1log__message_1a61989d871a0ef40a0eeca47007644177" prot="public" virt="non-virtual"><scope>element::log_message</scope><name>log_message</name></member>
+      <member refid="classelement_1_1log__message_1a51d5e75235a898a8de0ad02735126b4e" prot="private" virt="non-virtual"><scope>element::log_message</scope><name>log_msg</name></member>
+      <member refid="classelement_1_1log__message_1a690a6b9002103f7f3a5c76f726eefb18" prot="private" virt="non-virtual"><scope>element::log_message</scope><name>msg</name></member>
+      <member refid="classelement_1_1log__message_1a92131634936b70250b736df95720ecf5" prot="public" virt="non-virtual"><scope>element::log_message</scope><name>result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

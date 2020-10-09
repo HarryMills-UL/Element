@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_94493a6800bbd18e7fc8d489ac170e8c" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents</compoundname>
+    <innerfile refid="_block_8cs">Block.cs</innerfile>
+    <innerfile refid="_expression_body_8cs">ExpressionBody.cs</innerfile>
+    <innerfile refid="_identifier_8cs">Identifier.cs</innerfile>
+    <innerfile refid="_list_of_8cs">ListOf.cs</innerfile>
+    <innerfile refid="_nothing_8cs">Nothing.cs</innerfile>
+    <innerfile refid="_port_8cs">Port.cs</innerfile>
+    <innerfile refid="_port_list_8cs">PortList.cs</innerfile>
+    <innerfile refid="_return_constraint_8cs">ReturnConstraint.cs</innerfile>
+    <innerfile refid="_unidentifier_8cs">Unidentifier.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/"/>
+  </compounddef>
+</doxygen>

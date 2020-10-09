@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interpreter__internal_8hpp" kind="file" language="C++">
+    <compoundname>interpreter_internal.hpp</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">string</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">unordered_map</includes>
+    <includes local="yes">element/interpreter.h</includes>
+    <includes refid="common__internal_8hpp" local="yes">common_internal.hpp</includes>
+    <includes refid="scope_8hpp" local="yes">object_model/scope.hpp</includes>
+    <includedby refid="interpreter_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter.cpp</includedby>
+    <includedby refid="compilation__context_8hpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/compilation_context.hpp</includedby>
+    <includedby refid="log__errors_8hpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp</includedby>
+    <includedby refid="intrinsic_8hpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.hpp</includedby>
+    <includedby refid="compiler_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.cpp</includedby>
+    <includedby refid="literal__expression_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/literal_expression.cpp</includedby>
+    <includedby refid="token_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/token.cpp</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>functional</label>
+      </node>
+      <node id="12">
+        <label>fmt/format.h</label>
+      </node>
+      <node id="26">
+        <label>declarations/declaration.hpp</label>
+        <link refid="declaration_8hpp_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>instruction_tree/fwd.hpp</label>
+        <link refid="instruction__tree_2fwd_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>common_internal.hpp</label>
+        <link refid="common__internal_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>cassert</label>
+      </node>
+      <node id="24">
+        <label>source_information.hpp</label>
+        <link refid="source__information_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp</label>
+        <link refid="interpreter__internal_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>element/common.h</label>
+      </node>
+      <node id="6">
+        <label>element/interpreter.h</label>
+      </node>
+      <node id="13">
+        <label>element/token.h</label>
+      </node>
+      <node id="18">
+        <label>optional</label>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+      <node id="27">
+        <label>object_model/call_stack.hpp</label>
+        <link refid="call__stack_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>fwd.hpp</label>
+        <link refid="object__model_2fwd_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>identifier.hpp</label>
+        <link refid="identifier_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>utility</label>
+      </node>
+      <node id="21">
+        <label>port.hpp</label>
+        <link refid="port_8hpp_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>ast/fwd.hpp</label>
+        <link refid="ast_2fwd_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>iostream</label>
+      </node>
+      <node id="5">
+        <label>unordered_map</label>
+      </node>
+      <node id="17">
+        <label>object.hpp</label>
+        <link refid="object_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>object_model/scope.hpp</label>
+        <link refid="scope_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>type_annotation.hpp</label>
+        <link refid="type__annotation_8hpp_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="10">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_if.hpp</label>
+        <link refid="intrinsic__if_8hpp_source"/>
+      </node>
+      <node id="7">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_nullary.hpp</label>
+        <link refid="intrinsic__nullary_8hpp_source"/>
+      </node>
+      <node id="3">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp</label>
+        <link refid="error__map_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_num.hpp</label>
+        <link refid="intrinsic__constructor__num_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/compilation_context.hpp</label>
+        <link refid="compilation__context_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp</label>
+        <link refid="interpreter__internal_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_binary.hpp</label>
+        <link refid="intrinsic__binary_8hpp_source"/>
+      </node>
+      <node id="13">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_for.hpp</label>
+        <link refid="intrinsic__for_8hpp_source"/>
+      </node>
+      <node id="14">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_compiler_list_indexer.hpp</label>
+        <link refid="intrinsic__compiler__list__indexer_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_bool.hpp</label>
+        <link refid="intrinsic__constructor__bool_8hpp_source"/>
+      </node>
+      <node id="4">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp</label>
+        <link refid="intrinsic__function_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list.hpp</label>
+        <link refid="intrinsic__list_8hpp_source"/>
+      </node>
+      <node id="16">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp</label>
+        <link refid="log__errors_8hpp_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list_fold.hpp</label>
+        <link refid="intrinsic__list__fold_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_unary.hpp</label>
+        <link refid="intrinsic__unary_8hpp_source"/>
+      </node>
+      <node id="15">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_list.hpp</label>
+        <link refid="intrinsic__constructor__list_8hpp_source"/>
+      </node>
+      <node id="17">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.hpp</label>
+        <link refid="intrinsic_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structelement__declaration" prot="public">element_declaration</innerclass>
+    <innerclass refid="structelement__object" prot="public">element_object</innerclass>
+    <innerclass refid="structelement__metainfo" prot="public">element_metainfo</innerclass>
+    <innerclass refid="structelement__interpreter__ctx" prot="public">element_interpreter_ctx</innerclass>
+    <innerclass refid="structelement__interpreter__ctx_1_1_deleter" prot="public">element_interpreter_ctx::Deleter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//STD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unordered_map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//SELF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;element/interpreter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;common_internal.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/scope.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structelement__declaration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structelement__declaration" kindref="compound">element_declaration</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">element::declaration</ref>*<sp/>decl;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structelement__object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structelement__object" kindref="compound">element_object</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;const<sp/>element::object&gt;<sp/>obj;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structelement__metainfo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structelement__metainfo" kindref="compound">element_metainfo</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//todo:<sp/>decide<sp/>what<sp/>kinda<sp/>stuff<sp/>to<sp/>associate<sp/>here,<sp/>just<sp/>need<sp/>typeof<sp/>for<sp/>now</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>code;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//the<sp/>code<sp/>associated<sp/>with<sp/>this<sp/>thing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>typeof;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//internal<sp/>type<sp/>representation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>source_type;<sp/></highlight><highlight class="comment">//the<sp/>type<sp/>as<sp/>it<sp/>is<sp/>in<sp/>source,<sp/>i.e.<sp/>something<sp/>the<sp/>user<sp/>could<sp/>use<sp/>in<sp/>an<sp/>element<sp/>source<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structelement__interpreter__ctx" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>parse_only<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>prelude_loaded<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;element_log_ctx&gt;<sp/>logger;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;element::source_context&gt;<sp/>src_context;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;element::scope&gt;<sp/>global_scope;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="structelement__interpreter__ctx_1_1_deleter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structelement__interpreter__ctx_1_1_deleter" kindref="compound">Deleter</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>operator()(<ref refid="classelement_1_1intrinsic" kindref="compound">element::intrinsic</ref>*<sp/>i);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>operator()(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1intrinsic" kindref="compound">element::intrinsic</ref>*<sp/>i);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>intrinsic_map_type<sp/>=<sp/>std::unordered_map&lt;const<sp/>element::declaration*,<sp/>std::unique_ptr&lt;const<sp/>element::intrinsic,<sp/>Deleter&gt;&gt;;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>intrinsic_map_type<sp/>intrinsic_map;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result<sp/>load_into_scope(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename,<sp/><ref refid="classelement_1_1scope" kindref="compound">element::scope</ref>*);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result<sp/>load(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&lt;input&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result<sp/>load_file(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>file);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result<sp/>load_files(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;&amp;<sp/>files);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result<sp/>load_package(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>package);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result<sp/>load_packages(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;&amp;<sp/>packages);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result<sp/>load_prelude();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result<sp/>clear();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_log_callback(LogCallback<sp/>callback,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>user_data);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>log(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>message_code,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>message,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>filename<sp/>=<sp/>std::string())<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>log(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>message)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_anonymous_block" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::AnonymousBlock</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_expression" prot="public" virt="non-virtual">Element.AST.Expression</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_anonymous_block_1a494fca50582f9b468a6bccc31f2d3522" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_comma_separated_block" kindref="compound">CommaSeparatedBlock</ref></type>
+        <definition>CommaSeparatedBlock Element.AST.AnonymousBlock.Block</definition>
+        <argsstring></argsstring>
+        <name>Block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/AnonymousBlock.cs" line="9" column="37" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/AnonymousBlock.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_anonymous_block_1a457a06de264cd201be406fe5d1308927" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override void</type>
+        <definition>override void Element.AST.AnonymousBlock.ValidateImpl</definition>
+        <argsstring>(ResultBuilder builder, Context context)</argsstring>
+        <name>ValidateImpl</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_ast_node_1a4df48c17a2f7b364d593d7291afad2a8">ValidateImpl</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref></type>
+          <declname>builder</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/AnonymousBlock.cs" line="12" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_anonymous_block_1aaa7d85278cc1998e1940f92a01619d75" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.AnonymousBlock.ExpressionImpl</definition>
+        <argsstring>(IScope parentScope, Context context)</argsstring>
+        <name>ExpressionImpl</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_expression_1a5835387289fcfc399d19bcee54a660b1">ExpressionImpl</reimplements>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref></type>
+          <declname>parentScope</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/AnonymousBlock.cs" line="13" column="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Expression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.AnonymousBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_anonymous_block"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Expression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.AnonymousBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_anonymous_block"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/AnonymousBlock.cs" line="6" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/AnonymousBlock.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_anonymous_block_1a494fca50582f9b468a6bccc31f2d3522" prot="public" virt="non-virtual"><scope>Element::AST::AnonymousBlock</scope><name>Block</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_anonymous_block_1aaa7d85278cc1998e1940f92a01619d75" prot="protected" virt="virtual"><scope>Element::AST::AnonymousBlock</scope><name>ExpressionImpl</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1aea3371152f46d75be233650ad347bc72" prot="public" virt="non-virtual"><scope>Element::AST::AnonymousBlock</scope><name>IndexInSource</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_1a7011cb19dce83497d1deca84347458f7" prot="public" virt="non-virtual"><scope>Element::AST::AnonymousBlock</scope><name>ResolveExpression</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a6d91ea72f391505441e27fdb40c75aec" prot="public" virt="non-virtual"><scope>Element::AST::AnonymousBlock</scope><name>SourceInfo</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1afd4482e89cf109b816465c92c7960dc5" prot="public" virt="non-virtual"><scope>Element::AST::AnonymousBlock</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a16e8a7969fb8eec8e70358c020f0cc2f" prot="public" virt="non-virtual"><scope>Element::AST::AnonymousBlock</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_anonymous_block_1a457a06de264cd201be406fe5d1308927" prot="protected" virt="virtual"><scope>Element::AST::AnonymousBlock</scope><name>ValidateImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

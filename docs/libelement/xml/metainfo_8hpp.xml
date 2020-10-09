@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="metainfo_8hpp" kind="file" language="C++">
+    <compoundname>metainfo.hpp</compoundname>
+    <includedby refid="metainfo_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.cpp</includedby>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.hpp"/>
+  </compounddef>
+</doxygen>

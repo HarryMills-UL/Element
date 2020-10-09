@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="namespace_py_element" kind="namespace"><name>PyElement</name>
+    <member refid="_py_element_8py_1ad20323dc8a32f442fb9d1ce515a36e70" kind="variable"><name>STDLIB</name></member>
+    <member refid="_py_element_8py_1a055e544d609501185ebb10ccca15599e" kind="variable"><name>grammar</name></member>
+    <member refid="_py_element_8py_1ab6918c0f0fedb8f91c0a011f31260543" kind="variable"><name>model</name></member>
+    <member refid="_py_element_8py_1aea4248ae0f9db39ddeb7002f845787e0" kind="variable"><name>intrinsics</name></member>
+    <member refid="_py_element_8py_1ac61b4a6a972437e0fecad57b0a0b37d6" kind="variable"><name>eval_context</name></member>
+    <member refid="_py_element_8py_1a2867b3fdf3409988a5ab78a5722ebb7b" kind="variable"><name>fn_suffix</name></member>
+    <member refid="_py_element_8py_1a7ae05254753c29a63b1f2943903ef8a4" kind="variable"><name>context</name></member>
+    <member refid="_py_element_8py_1a111455137f7ce0d930c1cca7abc6c86f" kind="variable"><name>compiled</name></member>
+    <member refid="_py_element_8py_1aefa8720fbf8913b0184a4e52ea56a653" kind="variable"><name>inputs</name></member>
+    <member refid="_py_element_8py_1ad7835994911c420415cee9d0adb48794" kind="variable"><name>start</name></member>
+    <member refid="_py_element_8py_1ab4121c50b815e7bc984fcf3684ddb1f8" kind="variable"><name>count</name></member>
+    <member refid="_py_element_8py_1a6af07349057e16bd00021e396750db74" kind="variable"><name>end</name></member>
+    <member refid="_py_element_8py_1aade7d01f1f0a5ae77ac1270d88147f84" kind="function"><name>const_eval</name></member>
+    <member refid="_py_element_8py_1a5771bcf7c61e324c28856ba70d5bda40" kind="function"><name>array_index</name></member>
+    <member refid="_py_element_8py_1ab4eabf6dc5c838d053264ff88f425787" kind="function"><name>evaluate_vector_base</name></member>
+    <member refid="_py_element_8py_1a0efba5dea169bbf9bb2aa517ba939829" kind="function"><name>vector_index</name></member>
+    <member refid="_py_element_8py_1a87b1df5c0683b6fa993215ac577d1998" kind="function"><name>evaluate_vector</name></member>
+    <member refid="_py_element_8py_1a291805c9c3f6bb571e3ecf7da6516cfe" kind="function"><name>aggregate_intrinsic</name></member>
+    <member refid="_py_element_8py_1aae9850c8a897676fdfac0f254683fe7a" kind="function"><name>evaluate_intrinsic</name></member>
+    <member refid="_py_element_8py_1a9b8ecac093618c600bbc9db723903b69" kind="function"><name>new_context</name></member>
+    <member refid="_py_element_8py_1a20c7c67c6a2d9aa1d1d8a7095a2ff567" kind="function"><name>add_file</name></member>
+    <member refid="_py_element_8py_1a4cbef0c5237fda6dbab19598395f6dcb" kind="function"><name>compile_driver</name></member>
+    <member refid="_py_element_8py_1ac36c26420ddd48b6ffa293ebe1012662" kind="function"><name>evaluate_structural_after_call</name></member>
+    <member refid="_py_element_8py_1a39d2c4ddac5763906c15ad9f1d71b563" kind="function"><name>setup_drivers</name></member>
+    <member refid="_py_element_8py_1af51dc475af054b1380074c69b02f3806" kind="function"><name>evaluate_structural</name></member>
+    <member refid="_py_element_8py_1a906ff036712354e77a592897bb2d5eb5" kind="function"><name>compile_expr</name></member>
+    <member refid="_py_element_8py_1ae5db4058eedf4dbf6a4ed9cae9b89355" kind="function"><name>iterate_subexpr</name></member>
+    <member refid="_py_element_8py_1ab4e580d24154783ec199e4c1efff1fa8" kind="function"><name>optimize</name></member>
+    <member refid="_py_element_8py_1ae598be8a869420bf445311b868cba542" kind="function"><name>construct_output</name></member>
+    <member refid="_py_element_8py_1a68d158466d95be5ac6e99ac09c6c8d2b" kind="function"><name>construct_array</name></member>
+    <member refid="_py_element_8py_1a598241c220f619cf5ef8c2c9a9c206f2" kind="function"><name>construct_input</name></member>
+    <member refid="_py_element_8py_1a282d52b20d6112455ddd88c7d7951b39" kind="function"><name>compile</name></member>
+    <member refid="_py_element_8py_1afe3d19a0855d96775d57a37d8bc32783" kind="function"><name>Random</name></member>
+  </compound>
+  <compound refid="_py_element_8py" kind="file"><name>PyElement.py</name>
+  </compound>
+  <compound refid="dir_192b3b378f86cea33a308ac6026553b7" kind="dir"><name>/Users/harry.mills/Documents/Repos/Element/PyElement</name>
+  </compound>
+</doxygenindex>

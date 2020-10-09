@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classelement_1_1expression" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>element::expression</compoundname>
+    <derivedcompoundref refid="classelement_1_1anonymous__block__expression" prot="public" virt="non-virtual">element::anonymous_block_expression</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1call__expression" prot="public" virt="non-virtual">element::call_expression</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1identifier__expression" prot="public" virt="non-virtual">element::identifier_expression</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1indexing__expression" prot="public" virt="non-virtual">element::indexing_expression</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1literal__expression" prot="public" virt="non-virtual">element::literal_expression</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classelement_1_1expression_1a6623caad8c6bcbf657f38881b802a3bb" prot="public" static="no" mutable="no">
+        <type><ref refid="classelement_1_1source__information" kindref="compound">source_information</ref></type>
+        <definition>source_information element::expression::source_info</definition>
+        <argsstring></argsstring>
+        <name>source_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="33" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classelement_1_1expression_1a47256e1a3b45c743dafff76a919eb2fe" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> *</type>
+        <definition>const expression_chain* element::expression::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="36" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classelement_1_1expression_1a1309da73a62696f5f083769ecd5ff9aa" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>element::expression::expression</definition>
+        <argsstring>(const expression_chain *parent)</argsstring>
+        <name>expression</name>
+        <param>
+          <type>const <ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="16" column="18" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1expression_1a5c627a38ed8e6e0d6d8e813d562b90cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual element::expression::~expression</definition>
+        <argsstring>()=default</argsstring>
+        <name>~expression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="22" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1expression_1ab7419c3672a17e32acea3f1c10575ea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>element::expression::expression</definition>
+        <argsstring>(const expression &amp;)=delete</argsstring>
+        <name>expression</name>
+        <param>
+          <type>const <ref refid="classelement_1_1expression" kindref="compound">expression</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="25" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1expression_1a90f3706cbd6bcee57d023232d9a6410c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>element::expression::expression</definition>
+        <argsstring>(expression &amp;&amp;)=delete</argsstring>
+        <name>expression</name>
+        <param>
+          <type><ref refid="classelement_1_1expression" kindref="compound">expression</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="26" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1expression_1a2dec6ae72d4f1845775d53865de5a328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classelement_1_1expression" kindref="compound">expression</ref> &amp;</type>
+        <definition>expression&amp; element::expression::operator=</definition>
+        <argsstring>(const expression &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classelement_1_1expression" kindref="compound">expression</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="27" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1expression_1ab83edc8cf33cce9535a0b970916035fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classelement_1_1expression" kindref="compound">expression</ref> &amp;</type>
+        <definition>expression&amp; element::expression::operator=</definition>
+        <argsstring>(expression &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classelement_1_1expression" kindref="compound">expression</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="28" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1expression_1a62ef52663af5183fef99aa31384196ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string element::expression::to_code</definition>
+        <argsstring>(const int depth=0) const =0</argsstring>
+        <name>to_code</name>
+        <reimplementedby refid="classelement_1_1literal__expression_1a378b6704c5b706f97423403991ee18f3">to_code</reimplementedby>
+        <reimplementedby refid="classelement_1_1indexing__expression_1a79b5c088bb961023d0fc2f5160e1e015">to_code</reimplementedby>
+        <reimplementedby refid="classelement_1_1identifier__expression_1a2b72a2ee83d73f4353bfa08db3a43b45">to_code</reimplementedby>
+        <reimplementedby refid="classelement_1_1call__expression_1aadd61804bd95bd83c5481d8f33332c1f">to_code</reimplementedby>
+        <reimplementedby refid="classelement_1_1anonymous__block__expression_1ab5bd59a6d571e0a6368a42bfe992a5b4">to_code</reimplementedby>
+        <param>
+          <type>const int</type>
+          <declname>depth</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="30" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1expression_1a3366d576405a80f459529de059098927" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>virtual object_const_shared_ptr element::expression::resolve</definition>
+        <argsstring>(const compilation_context &amp;context, const object *obj)=0</argsstring>
+        <name>resolve</name>
+        <reimplementedby refid="classelement_1_1literal__expression_1a5117cc9860063a77ed27b1ee7033af89">resolve</reimplementedby>
+        <reimplementedby refid="classelement_1_1indexing__expression_1a3fb58cd725a875ba5c7e487023e7afe5">resolve</reimplementedby>
+        <reimplementedby refid="classelement_1_1identifier__expression_1ab92ca2286d679eded4fb8afe4f285ec4">resolve</reimplementedby>
+        <reimplementedby refid="classelement_1_1call__expression_1a279684dae4855d4a5d14e333b7f1f148">resolve</reimplementedby>
+        <reimplementedby refid="classelement_1_1anonymous__block__expression_1a4c081d57ea701e4c07291a5abd7111ec">resolve</reimplementedby>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1object" kindref="compound">object</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="31" column="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>element::expression</label>
+        <link refid="classelement_1_1expression"/>
+      </node>
+      <node id="2">
+        <label>element::anonymous_block_expression</label>
+        <link refid="classelement_1_1anonymous__block__expression"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>element::literal_expression</label>
+        <link refid="classelement_1_1literal__expression"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>element::indexing_expression</label>
+        <link refid="classelement_1_1indexing__expression"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element::identifier_expression</label>
+        <link refid="classelement_1_1identifier__expression"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::call_expression</label>
+        <link refid="classelement_1_1call__expression"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>element::expression_chain</label>
+        <link refid="classelement_1_1expression__chain"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>declarer</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>captures</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>element::capture_stack</label>
+        <link refid="classelement_1_1capture__stack"/>
+      </node>
+      <node id="1">
+        <label>element::expression</label>
+        <link refid="classelement_1_1expression"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>source_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>element::identifier</label>
+        <link refid="classelement_1_1identifier"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>list_at_identifier</edgelabel>
+          <edgelabel>return_identifier</edgelabel>
+          <edgelabel>list_count_identifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>source_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element::source_information</label>
+        <link refid="classelement_1_1source__information"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" line="14" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression.hpp" bodystart="13" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classelement_1_1expression_1a1309da73a62696f5f083769ecd5ff9aa" prot="public" virt="non-virtual"><scope>element::expression</scope><name>expression</name></member>
+      <member refid="classelement_1_1expression_1ab7419c3672a17e32acea3f1c10575ea4" prot="public" virt="non-virtual"><scope>element::expression</scope><name>expression</name></member>
+      <member refid="classelement_1_1expression_1a90f3706cbd6bcee57d023232d9a6410c" prot="public" virt="non-virtual"><scope>element::expression</scope><name>expression</name></member>
+      <member refid="classelement_1_1expression_1a2dec6ae72d4f1845775d53865de5a328" prot="public" virt="non-virtual"><scope>element::expression</scope><name>operator=</name></member>
+      <member refid="classelement_1_1expression_1ab83edc8cf33cce9535a0b970916035fa" prot="public" virt="non-virtual"><scope>element::expression</scope><name>operator=</name></member>
+      <member refid="classelement_1_1expression_1a47256e1a3b45c743dafff76a919eb2fe" prot="protected" virt="non-virtual"><scope>element::expression</scope><name>parent</name></member>
+      <member refid="classelement_1_1expression_1a3366d576405a80f459529de059098927" prot="public" virt="pure-virtual"><scope>element::expression</scope><name>resolve</name></member>
+      <member refid="classelement_1_1expression_1a6623caad8c6bcbf657f38881b802a3bb" prot="public" virt="non-virtual"><scope>element::expression</scope><name>source_info</name></member>
+      <member refid="classelement_1_1expression_1a62ef52663af5183fef99aa31384196ef" prot="public" virt="pure-virtual"><scope>element::expression</scope><name>to_code</name></member>
+      <member refid="classelement_1_1expression_1a5c627a38ed8e6e0d6d8e813d562b90cb" prot="public" virt="virtual"><scope>element::expression</scope><name>~expression</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

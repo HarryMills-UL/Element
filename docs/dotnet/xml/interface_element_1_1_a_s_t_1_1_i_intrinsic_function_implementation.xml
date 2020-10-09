@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation" kind="interface" language="C#" prot="public" abstract="yes">
+    <compoundname>Element::AST::IIntrinsicFunctionImplementation</compoundname>
+    <basecompoundref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation" prot="public" virt="non-virtual">Element.AST.IIntrinsicImplementation</basecompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_binary" prot="public" virt="non-virtual">Element.AST.Binary</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_fold" prot="public" virt="non-virtual">Element.AST.Fold</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_for" prot="public" virt="non-virtual">Element.AST.For</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_if" prot="public" virt="non-virtual">Element.AST.If</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_list" prot="public" virt="non-virtual">Element.AST.List</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_memberwise" prot="public" virt="non-virtual">Element.AST.Memberwise</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_nullary" prot="public" virt="non-virtual">Element.AST.Nullary</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_unary" prot="public" virt="non-virtual">Element.AST.Unary</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation_1a0e946c457d748074777a5e08cbcc15d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Element.AST.IIntrinsicFunctionImplementation.IsVariadic</definition>
+        <argsstring></argsstring>
+        <name>IsVariadic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" line="25" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation_1a48ae77f25232889944e9d02bbb522fd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>abstract Result&lt;IValue&gt; Element.AST.IIntrinsicFunctionImplementation.Call</definition>
+        <argsstring>(IReadOnlyList&lt; IValue &gt; arguments, Context context)</argsstring>
+        <name>Call</name>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_nullary_1a7a09d29b242f88b1575b8c135894cc54">Call</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_fold_1aa1409a1ead85ffc49e0cd531056640b0">Call</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_memberwise_1a489bc5827282ad4910e2095c90c20673">Call</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_for_1ac28bc2f15614d7b306216a7d6539f655">Call</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_if_1a5c2c935500c5d796c3a3a9ccafc09afa">Call</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_list_1acb6239755ca14d82983b75fb4786da95">Call</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_binary_1af5f093b9765f5d2f30e0c8009963a598">Call</reimplementedby>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" line="24" column="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>Element.AST.Memberwise</label>
+        <link refid="class_element_1_1_a_s_t_1_1_memberwise"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Element.AST.List</label>
+        <link refid="class_element_1_1_a_s_t_1_1_list"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Element.AST.If</label>
+        <link refid="class_element_1_1_a_s_t_1_1_if"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Element.AST.Binary</label>
+        <link refid="class_element_1_1_a_s_t_1_1_binary"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.IIntrinsicFunctionImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Element.AST.Unary</label>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Element.AST.Fold</label>
+        <link refid="class_element_1_1_a_s_t_1_1_fold"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Element.AST.Nullary</label>
+        <link refid="class_element_1_1_a_s_t_1_1_nullary"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+      <node id="5">
+        <label>Element.AST.For</label>
+        <link refid="class_element_1_1_a_s_t_1_1_for"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Element.AST.IIntrinsicFunctionImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" line="23" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" bodystart="22" bodyend="26"/>
+    <listofallmembers>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation_1a48ae77f25232889944e9d02bbb522fd7" prot="public" virt="pure-virtual"><scope>Element::AST::IIntrinsicFunctionImplementation</scope><name>Call</name></member>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation_1a7ee42b277c948de7cb64946cdbb27fc4" prot="public" virt="non-virtual"><scope>Element::AST::IIntrinsicFunctionImplementation</scope><name>Identifier</name></member>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation_1a0e946c457d748074777a5e08cbcc15d5" prot="public" virt="non-virtual"><scope>Element::AST::IIntrinsicFunctionImplementation</scope><name>IsVariadic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="instruction__tree_2fwd_8hpp" kind="file" language="C++">
+    <compoundname>fwd.hpp</compoundname>
+    <includes local="no">memory</includes>
+    <includedby refid="common__internal_8hpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp</includedby>
+    <includedby refid="instructions_8hpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.hpp</includedby>
+    <includedby refid="list__wrapper_8hpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/fwd.hpp</label>
+        <link refid="instruction__tree_2fwd_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="13">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_if.hpp</label>
+        <link refid="intrinsic__if_8hpp_source"/>
+      </node>
+      <node id="10">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_nullary.hpp</label>
+        <link refid="intrinsic__nullary_8hpp_source"/>
+      </node>
+      <node id="35">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/expression_chain.hpp</label>
+        <link refid="expression__chain_8hpp_source"/>
+      </node>
+      <node id="34">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error.hpp</label>
+        <link refid="error_8hpp_source"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp</label>
+        <link refid="error__map_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp</label>
+        <link refid="compiler_8hpp_source"/>
+      </node>
+      <node id="47">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp</label>
+        <link refid="object__model__builder_8hpp_source"/>
+      </node>
+      <node id="28">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp</label>
+        <link refid="declaration_8hpp_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/literal_expression.hpp</label>
+        <link refid="literal__expression_8hpp_source"/>
+      </node>
+      <node id="9">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_num.hpp</label>
+        <link refid="intrinsic__constructor__num_8hpp_source"/>
+      </node>
+      <node id="37">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/any_constraint.hpp</label>
+        <link refid="any__constraint_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/fwd.hpp</label>
+        <link refid="instruction__tree_2fwd_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp</label>
+        <link refid="common__internal_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/namespace_declaration.hpp</label>
+        <link refid="namespace__declaration_8hpp_source"/>
+      </node>
+      <node id="26">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/compilation_context.hpp</label>
+        <link refid="compilation__context_8hpp_source"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/anonymous_block_instance.hpp</label>
+        <link refid="anonymous__block__instance_8hpp_source"/>
+      </node>
+      <node id="25">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp</label>
+        <link refid="interpreter__internal_8hpp_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_binary.hpp</label>
+        <link refid="intrinsic__binary_8hpp_source"/>
+      </node>
+      <node id="4">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.hpp</label>
+        <link refid="instructions_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/struct_instance.hpp</label>
+        <link refid="struct__instance_8hpp_source"/>
+      </node>
+      <node id="16">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_for.hpp</label>
+        <link refid="intrinsic__for_8hpp_source"/>
+      </node>
+      <node id="31">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/declaration_wrapper.hpp</label>
+        <link refid="declaration__wrapper_8hpp_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_compiler_list_indexer.hpp</label>
+        <link refid="intrinsic__compiler__list__indexer_8hpp_source"/>
+      </node>
+      <node id="46">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp</label>
+        <link refid="list__wrapper_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_bool.hpp</label>
+        <link refid="intrinsic__constructor__bool_8hpp_source"/>
+      </node>
+      <node id="48">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp</label>
+        <link refid="token__internal_8hpp_source"/>
+      </node>
+      <node id="45">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/function_instance.hpp</label>
+        <link refid="function__instance_8hpp_source"/>
+      </node>
+      <node id="29">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp</label>
+        <link refid="function__declaration_8hpp_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/bool_type.hpp</label>
+        <link refid="bool__type_8hpp_source"/>
+      </node>
+      <node id="40">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/num_type.hpp</label>
+        <link refid="num__type_8hpp_source"/>
+      </node>
+      <node id="22">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/fwd.hpp</label>
+        <link refid="ast_2fwd_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_function_constraint.hpp</label>
+        <link refid="user__function__constraint_8hpp_source"/>
+      </node>
+      <node id="7">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp</label>
+        <link refid="intrinsic__function_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions/anonymous_block_expression.hpp</label>
+        <link refid="anonymous__block__expression_8hpp_source"/>
+      </node>
+      <node id="3">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_internal.hpp</label>
+        <link refid="ast__internal_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list.hpp</label>
+        <link refid="intrinsic__list_8hpp_source"/>
+      </node>
+      <node id="20">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp</label>
+        <link refid="log__errors_8hpp_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/struct_declaration.hpp</label>
+        <link refid="struct__declaration_8hpp_source"/>
+      </node>
+      <node id="15">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list_fold.hpp</label>
+        <link refid="intrinsic__list__fold_8hpp_source"/>
+      </node>
+      <node id="11">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_unary.hpp</label>
+        <link refid="intrinsic__unary_8hpp_source"/>
+      </node>
+      <node id="41">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/user_type.hpp</label>
+        <link refid="user__type_8hpp_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp</label>
+        <link refid="constraint__declaration_8hpp_source"/>
+      </node>
+      <node id="23">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.hpp</label>
+        <link refid="object_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/type.hpp</label>
+        <link refid="type_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/scope.hpp</label>
+        <link refid="scope_8hpp_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp</label>
+        <link refid="evaluator_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_list.hpp</label>
+        <link refid="intrinsic__constructor__list_8hpp_source"/>
+      </node>
+      <node id="21">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.hpp</label>
+        <link refid="intrinsic_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints/constraint.hpp</label>
+        <link refid="constraint_8hpp_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="instruction__tree_2fwd_8hpp_1aba4c43ade207aeb5a6ce3ecbebb9c665" prot="public" static="no">
+        <type>std::shared_ptr&lt; const <ref refid="structelement__instruction" kindref="compound">element_instruction</ref> &gt;</type>
+        <definition>using instruction_const_shared_ptr =  std::shared_ptr&lt;const element_instruction&gt;</definition>
+        <argsstring></argsstring>
+        <name>instruction_const_shared_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/fwd.hpp" line="8" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/fwd.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structelement__instruction" kindref="compound">element_instruction</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">element_compiler_ctx;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>instruction_const_shared_ptr<sp/>=<sp/>std::shared_ptr&lt;const<sp/>element_instruction&gt;;</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/fwd.hpp"/>
+  </compounddef>
+</doxygen>

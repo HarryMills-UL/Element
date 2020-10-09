@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_expression" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Element::AST::Expression</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_ast_node" prot="public" virt="non-virtual">Element.AST.AstNode</basecompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_anonymous_block" prot="public" virt="non-virtual">Element.AST.AnonymousBlock</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_expression_chain" prot="public" virt="non-virtual">Element.AST.ExpressionChain</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_lambda" prot="public" virt="non-virtual">Element.AST.Lambda</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_expression_1a7011cb19dce83497d1deca84347458f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>Result&lt;IValue&gt; Element.AST.Expression.ResolveExpression</definition>
+        <argsstring>(IScope parentScope, Context context)</argsstring>
+        <name>ResolveExpression</name>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref></type>
+          <declname>parentScope</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Expression.cs" line="9" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Expression.cs" bodystart="9" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_expression_1a5835387289fcfc399d19bcee54a660b1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>abstract Result&lt;IValue&gt; Element.AST.Expression.ExpressionImpl</definition>
+        <argsstring>(IScope parentScope, Context context)</argsstring>
+        <name>ExpressionImpl</name>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_anonymous_block_1aaa7d85278cc1998e1940f92a01619d75">ExpressionImpl</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_lambda_1a25a9a0e6393cf004f363cc1f9778cd1b">ExpressionImpl</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_expression_chain_1ad7ea49d1b8ee9f920e80775addd090b5">ExpressionImpl</reimplementedby>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref></type>
+          <declname>parentScope</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Expression.cs" line="17" column="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.AST.Expression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Element.AST.Lambda</label>
+        <link refid="class_element_1_1_a_s_t_1_1_lambda"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Element.AST.AnonymousBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_anonymous_block"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="5">
+        <label>Element.AST.ExpressionChain</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression_chain"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Element.AST.Expression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Expression.cs" line="8" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/Expression.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_1a5835387289fcfc399d19bcee54a660b1" prot="protected" virt="pure-virtual"><scope>Element::AST::Expression</scope><name>ExpressionImpl</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1aea3371152f46d75be233650ad347bc72" prot="public" virt="non-virtual"><scope>Element::AST::Expression</scope><name>IndexInSource</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_1a7011cb19dce83497d1deca84347458f7" prot="public" virt="non-virtual"><scope>Element::AST::Expression</scope><name>ResolveExpression</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a6d91ea72f391505441e27fdb40c75aec" prot="public" virt="non-virtual"><scope>Element::AST::Expression</scope><name>SourceInfo</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1afd4482e89cf109b816465c92c7960dc5" prot="public" virt="non-virtual"><scope>Element::AST::Expression</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a16e8a7969fb8eec8e70358c020f0cc2f" prot="public" virt="non-virtual"><scope>Element::AST::Expression</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a4df48c17a2f7b364d593d7291afad2a8" prot="protected" virt="pure-virtual"><scope>Element::AST::Expression</scope><name>ValidateImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

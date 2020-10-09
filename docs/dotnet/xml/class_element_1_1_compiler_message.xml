@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_compiler_message" kind="class" language="C#" prot="public">
+    <compoundname>Element::CompilerMessage</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_element_1_1_compiler_message_1a7adc50b345628dc2384671f9fa5adb6e" prot="private" static="yes" mutable="no">
+        <type>readonly TomlTable</type>
+        <definition>readonly TomlTable Element.CompilerMessage._messageToml</definition>
+        <argsstring></argsstring>
+        <name>_messageToml</name>
+        <initializer>= Toml.Parse(File.ReadAllText(&quot;Messages.toml&quot;)).ToModel()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="65" column="43" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_compiler_message_1a0f468e959da248aa3199ef47e62e51e2" prot="private" static="no" mutable="no">
+        <type>string?</type>
+        <definition>string? Element.CompilerMessage._message</definition>
+        <argsstring></argsstring>
+        <name>_message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="104" column="24" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_compiler_message_1a3c14ee246b41895274e89d70acbaf2e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Element.CompilerMessage.MessageCode</definition>
+        <argsstring></argsstring>
+        <name>MessageCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="106" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_compiler_message_1aa12a2bb2ee5920896ef4efec58352dc7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>MessageLevel?</type>
+        <definition>MessageLevel? Element.CompilerMessage.MessageLevel</definition>
+        <argsstring></argsstring>
+        <name>MessageLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="107" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_compiler_message_1abc38df4e5a9391ee7c8d61d4a2c29829" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? Element.CompilerMessage.Context</definition>
+        <argsstring></argsstring>
+        <name>Context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="108" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_compiler_message_1ae49700a1d234720655eaafef475cdfa4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IReadOnlyCollection&lt; <ref refid="struct_element_1_1_trace_site" kindref="compound">TraceSite</ref> &gt;?</type>
+        <definition>IReadOnlyCollection&lt;TraceSite&gt;? Element.CompilerMessage.TraceStack</definition>
+        <argsstring></argsstring>
+        <name>TraceStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="109" column="36" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_element_1_1_compiler_message_1a552c354c75eb499b88580d0d34e627b2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Element.CompilerMessage.TryGetMessageToml</definition>
+        <argsstring>(MessageCode messageCode, out TomlTable? message)</argsstring>
+        <name>TryGetMessageToml</name>
+        <param>
+          <type>MessageCode</type>
+          <declname>messageCode</declname>
+        </param>
+        <param>
+          <type>out TomlTable?</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="67" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_compiler_message_1a8774afb6b47610d16fd24248cdeabe93" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Element.CompilerMessage.TryGetMessageName</definition>
+        <argsstring>(MessageCode messageCode, out string? name)</argsstring>
+        <name>TryGetMessageName</name>
+        <param>
+          <type>MessageCode</type>
+          <declname>messageCode</declname>
+        </param>
+        <param>
+          <type>out string?</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="73" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_compiler_message_1a05b532a81ae5489fc8b98eac4c40f43b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Element.CompilerMessage.TryGetMessageLevel</definition>
+        <argsstring>(MessageCode messageCode, out MessageLevel level)</argsstring>
+        <name>TryGetMessageLevel</name>
+        <param>
+          <type>MessageCode</type>
+          <declname>messageCode</declname>
+        </param>
+        <param>
+          <type>out MessageLevel</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="79" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_compiler_message_1a78ae289cebaa2f131730530fc4c70bf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.CompilerMessage.CompilerMessage</definition>
+        <argsstring>(string message, MessageLevel? messageLevel=null)</argsstring>
+        <name>CompilerMessage</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>MessageLevel?</type>
+          <declname>messageLevel</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="86" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_compiler_message_1acedbd0c92edc616c588a05408c8ae2c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.CompilerMessage.CompilerMessage</definition>
+        <argsstring>(MessageCode messageCode, string? context, IReadOnlyCollection&lt; TraceSite &gt;? traceStack=null)</argsstring>
+        <name>CompilerMessage</name>
+        <param>
+          <type>MessageCode</type>
+          <declname>messageCode</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>IReadOnlyCollection&lt; <ref refid="struct_element_1_1_trace_site" kindref="compound">TraceSite</ref> &gt;?</type>
+          <declname>traceStack</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="87" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_compiler_message_1a5651d16780b270ab6f64c489e048e74c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.CompilerMessage.CompilerMessage</definition>
+        <argsstring>(int? messageCode, MessageLevel? messageLevel, string? context, IReadOnlyCollection&lt; TraceSite &gt;? traceStack)</argsstring>
+        <name>CompilerMessage</name>
+        <param>
+          <type>int?</type>
+          <declname>messageCode</declname>
+        </param>
+        <param>
+          <type>MessageLevel?</type>
+          <declname>messageLevel</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>IReadOnlyCollection&lt; <ref refid="struct_element_1_1_trace_site" kindref="compound">TraceSite</ref> &gt;?</type>
+          <declname>traceStack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="90" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="90" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_compiler_message_1a2e4637906b0693d9c1e8e49eb0b55739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Element.CompilerMessage.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="111" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_compiler_message_1ae29fc5fb04050870da24870d55d18207" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Element.CompilerMessage.ToString</definition>
+        <argsstring>(bool stackTrace)</argsstring>
+        <name>ToString</name>
+        <param>
+          <type>bool</type>
+          <declname>stackTrace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="113" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="113" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="64" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="63" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_compiler_message_1a0f468e959da248aa3199ef47e62e51e2" prot="private" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>_message</name></member>
+      <member refid="class_element_1_1_compiler_message_1a7adc50b345628dc2384671f9fa5adb6e" prot="private" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>_messageToml</name></member>
+      <member refid="class_element_1_1_compiler_message_1a78ae289cebaa2f131730530fc4c70bf9" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>CompilerMessage</name></member>
+      <member refid="class_element_1_1_compiler_message_1acedbd0c92edc616c588a05408c8ae2c5" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>CompilerMessage</name></member>
+      <member refid="class_element_1_1_compiler_message_1a5651d16780b270ab6f64c489e048e74c" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>CompilerMessage</name></member>
+      <member refid="class_element_1_1_compiler_message_1abc38df4e5a9391ee7c8d61d4a2c29829" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>Context</name></member>
+      <member refid="class_element_1_1_compiler_message_1a3c14ee246b41895274e89d70acbaf2e9" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>MessageCode</name></member>
+      <member refid="class_element_1_1_compiler_message_1aa12a2bb2ee5920896ef4efec58352dc7" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>MessageLevel</name></member>
+      <member refid="class_element_1_1_compiler_message_1a2e4637906b0693d9c1e8e49eb0b55739" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_compiler_message_1ae29fc5fb04050870da24870d55d18207" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_compiler_message_1ae49700a1d234720655eaafef475cdfa4" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>TraceStack</name></member>
+      <member refid="class_element_1_1_compiler_message_1a05b532a81ae5489fc8b98eac4c40f43b" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>TryGetMessageLevel</name></member>
+      <member refid="class_element_1_1_compiler_message_1a8774afb6b47610d16fd24248cdeabe93" prot="public" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>TryGetMessageName</name></member>
+      <member refid="class_element_1_1_compiler_message_1a552c354c75eb499b88580d0d34e627b2" prot="private" virt="non-virtual"><scope>Element::CompilerMessage</scope><name>TryGetMessageToml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

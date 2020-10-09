@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceast__idx_1_1lambda" kind="namespace" language="C++">
+    <compoundname>ast_idx::lambda</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ast__indexes_8hpp_1a6b9bd74fcf26ea0f09b595b1a8bb1c6f" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t ast_idx::lambda::inputs</definition>
+        <argsstring></argsstring>
+        <name>inputs</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" line="14" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ast__indexes_8hpp_1a83f2a11c6bf8f30c37f229b53fa4006f" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t ast_idx::lambda::output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" line="15" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ast__indexes_8hpp_1ad0c6074757d2d02c3ee177041f6fa063" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t ast_idx::lambda::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" line="16" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" line="13" column="1"/>
+  </compounddef>
+</doxygen>

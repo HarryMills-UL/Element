@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="function__declaration_8hpp" kind="file" language="C++">
+    <compoundname>function_declaration.hpp</compoundname>
+    <includes local="no">variant</includes>
+    <includes refid="declaration_8hpp" local="yes">declaration.hpp</includes>
+    <includes refid="constraint_8hpp" local="yes">object_model/constraints/constraint.hpp</includes>
+    <includedby refid="interpreter_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter.cpp</includedby>
+    <includedby refid="compilation__context_8hpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/compilation_context.hpp</includedby>
+    <includedby refid="compilation__context_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/compilation_context.cpp</includedby>
+    <includedby refid="function__declaration_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp</includedby>
+    <includedby refid="function__instance_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/function_instance.cpp</includedby>
+    <includedby refid="intrinsic_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp</includedby>
+    <includedby refid="intrinsic__for_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_for.cpp</includedby>
+    <includedby refid="intrinsic__list_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list.cpp</includedby>
+    <includedby refid="intrinsic__list__fold_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list_fold.cpp</includedby>
+    <includedby refid="metainfo_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.cpp</includedby>
+    <includedby refid="object_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp</includedby>
+    <includedby refid="object__model__builder_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="15">
+        <label>fmt/format.h</label>
+      </node>
+      <node id="3">
+        <label>declaration.hpp</label>
+        <link refid="declaration_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>variant</label>
+      </node>
+      <node id="18">
+        <label>instruction_tree/fwd.hpp</label>
+        <link refid="instruction__tree_2fwd_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>common_internal.hpp</label>
+        <link refid="common__internal_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>cassert</label>
+      </node>
+      <node id="23">
+        <label>source_information.hpp</label>
+        <link refid="source__information_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="11">
+        <label>map</label>
+      </node>
+      <node id="17">
+        <label>element/common.h</label>
+      </node>
+      <node id="16">
+        <label>element/token.h</label>
+      </node>
+      <node id="8">
+        <label>optional</label>
+      </node>
+      <node id="7">
+        <label>vector</label>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp</label>
+        <link refid="function__declaration_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>object_model/call_stack.hpp</label>
+        <link refid="call__stack_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>fwd.hpp</label>
+        <link refid="object__model_2fwd_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>identifier.hpp</label>
+        <link refid="identifier_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>utility</label>
+      </node>
+      <node id="20">
+        <label>port.hpp</label>
+        <link refid="port_8hpp_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ast/fwd.hpp</label>
+        <link refid="ast_2fwd_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>cstdlib</label>
+      </node>
+      <node id="14">
+        <label>iostream</label>
+      </node>
+      <node id="28">
+        <label>typeutil.hpp</label>
+        <link refid="typeutil_8hpp_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>type_traits</label>
+      </node>
+      <node id="4">
+        <label>object_model/object.hpp</label>
+        <link refid="object_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>object_model/scope.hpp</label>
+        <link refid="scope_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>type_annotation.hpp</label>
+        <link refid="type__annotation_8hpp_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>memory</label>
+      </node>
+      <node id="27">
+        <label>object_model/constraints/constraint.hpp</label>
+        <link refid="constraint_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="10">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_if.hpp</label>
+        <link refid="intrinsic__if_8hpp_source"/>
+      </node>
+      <node id="7">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_nullary.hpp</label>
+        <link refid="intrinsic__nullary_8hpp_source"/>
+      </node>
+      <node id="3">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp</label>
+        <link refid="error__map_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_num.hpp</label>
+        <link refid="intrinsic__constructor__num_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/compilation_context.hpp</label>
+        <link refid="compilation__context_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_binary.hpp</label>
+        <link refid="intrinsic__binary_8hpp_source"/>
+      </node>
+      <node id="13">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_for.hpp</label>
+        <link refid="intrinsic__for_8hpp_source"/>
+      </node>
+      <node id="14">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_compiler_list_indexer.hpp</label>
+        <link refid="intrinsic__compiler__list__indexer_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_bool.hpp</label>
+        <link refid="intrinsic__constructor__bool_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp</label>
+        <link refid="function__declaration_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp</label>
+        <link refid="intrinsic__function_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list.hpp</label>
+        <link refid="intrinsic__list_8hpp_source"/>
+      </node>
+      <node id="12">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list_fold.hpp</label>
+        <link refid="intrinsic__list__fold_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_unary.hpp</label>
+        <link refid="intrinsic__unary_8hpp_source"/>
+      </node>
+      <node id="15">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_list.hpp</label>
+        <link refid="intrinsic__constructor__list_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classelement_1_1function__declaration" prot="public">element::function_declaration</innerclass>
+    <innernamespace refid="namespaceelement">element</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//STD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;variant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//SELF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;declaration.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/constraints/constraint.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">element</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="classelement_1_1function__declaration" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classelement_1_1function__declaration" kindref="compound">function_declaration</ref><sp/>final<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>kind</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expression_bodied,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scope_bodied,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classelement_1_1intrinsic" kindref="compound">intrinsic</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classelement_1_1function__declaration" kindref="compound">function_declaration</ref>(<ref refid="classelement_1_1identifier" kindref="compound">identifier</ref><sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1scope" kindref="compound">scope</ref>*<sp/>parent_scope,<sp/>kind<sp/>function_kind);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>matches_constraint(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref>&amp;<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1constraint" kindref="compound">constraint</ref>*<sp/><ref refid="classelement_1_1constraint" kindref="compound">constraint</ref>)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1constraint" kindref="compound">constraint</ref>*<sp/>get_constraint()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>std::string<sp/>typeof_info()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>std::string<sp/>to_code(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>depth)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_variadic()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>object_const_shared_ptr<sp/>call(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref>&amp;<sp/>context,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;object_const_shared_ptr&gt;<sp/>compiled_args,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1source__information" kindref="compound">source_information</ref>&amp;<sp/>source_info)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>object_const_shared_ptr<sp/>compile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref>&amp;<sp/>context,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1source__information" kindref="compound">source_information</ref>&amp;<sp/>source_info)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>valid_at_boundary(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref>&amp;<sp/>context)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_intrinsic()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::variant&lt;std::unique_ptr&lt;object&gt;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">*&gt;<sp/>body;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::unique_ptr&lt;constraint&gt;<sp/>constraint_;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kind<sp/>function_kind;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>element</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_i_package_registry_8cs" kind="file" language="C#">
+    <compoundname>IPackageRegistry.cs</compoundname>
+    <innerclass refid="interface_element_1_1_i_package_registry" prot="public">Element::IPackageRegistry</innerclass>
+    <innernamespace refid="namespace_element">Element</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_element" kindref="compound">Element</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="interface_element_1_1_i_package_registry" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_element_1_1_i_package_registry" kindref="compound">IPackageRegistry</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_element_1_1_result" kindref="compound">Result&lt;PackageInfo&gt;</ref><sp/>LookupPackage(<ref refid="struct_element_1_1_package_specifier" kindref="compound">PackageSpecifier</ref><sp/>specifier,<sp/><ref refid="class_element_1_1_context" kindref="compound">Context</ref><sp/>context);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/IPackageRegistry.cs"/>
+  </compounddef>
+</doxygen>

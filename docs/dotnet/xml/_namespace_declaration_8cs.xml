@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_namespace_declaration_8cs" kind="file" language="C#">
+    <compoundname>NamespaceDeclaration.cs</compoundname>
+    <innerclass refid="class_element_1_1_a_s_t_1_1_namespace_declaration" prot="public">Element::AST::NamespaceDeclaration</innerclass>
+    <innerclass refid="class_element_1_1_a_s_t_1_1_namespace_block" prot="public">Element::AST::NamespaceBlock</innerclass>
+    <innernamespace refid="namespace_element">Element</innernamespace>
+    <innernamespace refid="namespace_element_1_1_a_s_t">Element::AST</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_element_1_1_a_s_t" kindref="compound">Element.AST</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_element_1_1_a_s_t_1_1_namespace_declaration" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_element_1_1_a_s_t_1_1_namespace_declaration" kindref="compound">NamespaceDeclaration</ref><sp/>:<sp/><ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>IntrinsicQualifier<sp/>=&gt;<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.Empty;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Qualifier<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;namespace&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>Type[]<sp/>BodyAlternatives<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}<sp/>=<sp/>{typeof(<ref refid="class_element_1_1_a_s_t_1_1_namespace_block" kindref="compound">NamespaceBlock</ref>)};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/><ref refid="struct_element_1_1_result" kindref="compound">Result&lt;IValue&gt;</ref><sp/>ResolveImpl(<ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref><sp/>scope,<sp/><ref refid="class_element_1_1_context" kindref="compound">Context</ref><sp/>context)<sp/>=&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((<ref refid="class_element_1_1_a_s_t_1_1_namespace_block" kindref="compound">NamespaceBlock</ref>)Body).ResolveBlock(scope,<sp/>context)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Map(resolvedScope<sp/>=&gt;<sp/>(<ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref>)</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_element_1_1_a_s_t_1_1_namespace" kindref="compound">Namespace</ref>(resolvedScope));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ValidateDeclaration(<ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref><sp/>builder,<sp/><ref refid="class_element_1_1_context" kindref="compound">Context</ref><sp/>context)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_element_1_1_a_s_t_1_1_port_list" kindref="compound">PortList</ref>?.Validate(builder,<sp/>context);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_element_1_1_a_s_t_1_1_return_constraint" kindref="compound">ReturnConstraint</ref>?.Validate(builder,<sp/>context);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Body<sp/>is<sp/><ref refid="class_element_1_1_a_s_t_1_1_namespace_block" kindref="compound">NamespaceBlock</ref><sp/>block)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block.Validate(builder,<sp/>context);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>block.ValidateIdentifiers(builder);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="class_element_1_1_a_s_t_1_1_namespace_block" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_element_1_1_a_s_t_1_1_namespace_block" kindref="compound">NamespaceBlock</ref><sp/>:<sp/><ref refid="class_element_1_1_a_s_t_1_1_declaration_block" kindref="compound">DeclarationBlock</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ValidateIdentifiers(<ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref><sp/>builder)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>decl<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>Items<sp/>??<sp/>Enumerable.Empty&lt;<ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref>&gt;())</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decl.Identifier.Validate(builder,Array.Empty&lt;<ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>&gt;(),<sp/>Array.Empty&lt;<ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>&gt;());</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs"/>
+  </compounddef>
+</doxygen>

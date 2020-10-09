@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_0a3a871b1bc03f78db32b431f1a22b16" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model</compoundname>
+    <innerdir refid="dir_7ad9087d036a2ccc0c19351c24348d15">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/constraints</innerdir>
+    <innerdir refid="dir_2e945fc4f902524f51878bcfca6f2e30">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations</innerdir>
+    <innerdir refid="dir_1a6b75c82301606e5f43089928966b1a">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/expressions</innerdir>
+    <innerdir refid="dir_bd82d606a9cbdfe68392771341434aa1">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries</innerdir>
+    <innerdir refid="dir_7d45cd96d2d71fcb72639f0e9e60659a">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics</innerdir>
+    <innerfile refid="call__stack_8cpp">call_stack.cpp</innerfile>
+    <innerfile refid="call__stack_8hpp">call_stack.hpp</innerfile>
+    <innerfile refid="capture__stack_8cpp">capture_stack.cpp</innerfile>
+    <innerfile refid="capture__stack_8hpp">capture_stack.hpp</innerfile>
+    <innerfile refid="compilation__context_8cpp">compilation_context.cpp</innerfile>
+    <innerfile refid="compilation__context_8hpp">compilation_context.hpp</innerfile>
+    <innerfile refid="error_8cpp">error.cpp</innerfile>
+    <innerfile refid="error_8hpp">error.hpp</innerfile>
+    <innerfile refid="error__map_8cpp">error_map.cpp</innerfile>
+    <innerfile refid="error__map_8hpp">error_map.hpp</innerfile>
+    <innerfile refid="object__model_2fwd_8hpp">fwd.hpp</innerfile>
+    <innerfile refid="identifier_8cpp">identifier.cpp</innerfile>
+    <innerfile refid="identifier_8hpp">identifier.hpp</innerfile>
+    <innerfile refid="metainfo_8cpp">metainfo.cpp</innerfile>
+    <innerfile refid="metainfo_8hpp">metainfo.hpp</innerfile>
+    <innerfile refid="object_8cpp">object.cpp</innerfile>
+    <innerfile refid="object_8hpp">object.hpp</innerfile>
+    <innerfile refid="object__model__builder_8cpp">object_model_builder.cpp</innerfile>
+    <innerfile refid="object__model__builder_8hpp">object_model_builder.hpp</innerfile>
+    <innerfile refid="port_8cpp">port.cpp</innerfile>
+    <innerfile refid="port_8hpp">port.hpp</innerfile>
+    <innerfile refid="scope_8cpp">scope.cpp</innerfile>
+    <innerfile refid="scope_8hpp">scope.hpp</innerfile>
+    <innerfile refid="type__annotation_8cpp">type_annotation.cpp</innerfile>
+    <innerfile refid="type__annotation_8hpp">type_annotation.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/"/>
+  </compounddef>
+</doxygen>

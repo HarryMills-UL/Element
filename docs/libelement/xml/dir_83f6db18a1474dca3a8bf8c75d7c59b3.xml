@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_83f6db18a1474dca3a8bf8c75d7c59b3" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/libelement</compoundname>
+    <innerdir refid="dir_9a5af55aaa128bd531c3b4831943669a">/Users/harry.mills/Documents/Repos/Element/libelement/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/"/>
+  </compounddef>
+</doxygen>

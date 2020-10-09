@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="struct_element_1_1_package_manifest" kind="struct" language="C#" prot="public">
+    <compoundname>Element::PackageManifest</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_element_1_1_package_manifest_1a13e34c66bca1ed83c3c676b24a53639a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Element.PackageManifest.FileExtension</definition>
+        <argsstring></argsstring>
+        <name>FileExtension</name>
+        <initializer>= &quot;.bond&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" line="11" column="39" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_element_1_1_package_manifest_1ae7de95c6353f2169d7d27597501bd6b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Element.PackageManifest.Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" line="30" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_element_1_1_package_manifest_1aac0cfc38ee63d49b209dfbbe37fd034e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.PackageManifest.PackageManifest</definition>
+        <argsstring>(string version)</argsstring>
+        <name>PackageManifest</name>
+        <param>
+          <type>string</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" line="13" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_element_1_1_package_manifest_1a74a8c239cdf96c8e0101b607ee0b2f6c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="struct_element_1_1_package_manifest" kindref="compound">PackageManifest</ref> &gt;</type>
+        <definition>static Result&lt;PackageManifest&gt; Element.PackageManifest.ParseFromJsonString</definition>
+        <argsstring>(string json, Context context)</argsstring>
+        <name>ParseFromJsonString</name>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" line="18" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" bodystart="18" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The json manifest file of an element package (.bond). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" line="10" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/PackageManifest.cs" bodystart="9" bodyend="31"/>
+    <listofallmembers>
+      <member refid="struct_element_1_1_package_manifest_1a13e34c66bca1ed83c3c676b24a53639a" prot="public" virt="non-virtual"><scope>Element::PackageManifest</scope><name>FileExtension</name></member>
+      <member refid="struct_element_1_1_package_manifest_1aac0cfc38ee63d49b209dfbbe37fd034e" prot="public" virt="non-virtual"><scope>Element::PackageManifest</scope><name>PackageManifest</name></member>
+      <member refid="struct_element_1_1_package_manifest_1a74a8c239cdf96c8e0101b607ee0b2f6c" prot="public" virt="non-virtual"><scope>Element::PackageManifest</scope><name>ParseFromJsonString</name></member>
+      <member refid="struct_element_1_1_package_manifest_1ae7de95c6353f2169d7d27597501bd6b9" prot="public" virt="non-virtual"><scope>Element::PackageManifest</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

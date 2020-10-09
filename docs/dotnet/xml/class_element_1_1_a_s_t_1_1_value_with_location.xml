@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_value_with_location" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::ValueWithLocation</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_value_with_location_1a3fbd651bcefb6787b9248079cc333975" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+        <definition>Identifier Element.AST.ValueWithLocation.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="29" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_value_with_location_1a1d756c1f74e776d70ed029a81680ad27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>[]</type>
+        <definition>Identifier [] Element.AST.ValueWithLocation.IdentifiersInPath</definition>
+        <argsstring></argsstring>
+        <name>IdentifiersInPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="30" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_value_with_location_1ae959223ef1a5142bed90937441cf38b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Element.AST.ValueWithLocation.FullPath</definition>
+        <argsstring></argsstring>
+        <name>FullPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="31" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_value_with_location_1a736f5d31bf36afdc6b8b6afdb38d3ff6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+        <definition>IValue Element.AST.ValueWithLocation.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="32" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_value_with_location_1a495656ec7ad05a2bb3d9fa35c4b1ed09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.ValueWithLocation.ValueWithLocation</definition>
+        <argsstring>(Identifier[] identifiersInPath, IValue value)</argsstring>
+        <name>ValueWithLocation</name>
+        <param>
+          <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>[]</type>
+          <declname>identifiersInPath</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="21" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="21" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_element_1_1_a_s_t_1_1_value" kindref="compound">Value</ref> retaining it&apos;s full path in source and identifiers within, including it&apos;s own identifier. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="20" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="19" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_value_with_location_1ae959223ef1a5142bed90937441cf38b5" prot="public" virt="non-virtual"><scope>Element::AST::ValueWithLocation</scope><name>FullPath</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_with_location_1a3fbd651bcefb6787b9248079cc333975" prot="public" virt="non-virtual"><scope>Element::AST::ValueWithLocation</scope><name>Identifier</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_with_location_1a1d756c1f74e776d70ed029a81680ad27" prot="public" virt="non-virtual"><scope>Element::AST::ValueWithLocation</scope><name>IdentifiersInPath</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_with_location_1a736f5d31bf36afdc6b8b6afdb38d3ff6" prot="public" virt="non-virtual"><scope>Element::AST::ValueWithLocation</scope><name>Value</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_with_location_1a495656ec7ad05a2bb3d9fa35c4b1ed09" prot="public" virt="non-virtual"><scope>Element::AST::ValueWithLocation</scope><name>ValueWithLocation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

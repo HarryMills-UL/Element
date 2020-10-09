@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structelement__lmnt__archive__ctx" kind="struct" language="C++" prot="public">
+    <compoundname>element_lmnt_archive_ctx</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structelement__lmnt__archive__ctx_1a0705a4847c175983ad99df4429ad820f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structelement__lmnt__compiled__function" kindref="compound">element_lmnt_compiled_function</ref> &gt;</type>
+        <definition>std::vector&lt;element_lmnt_compiled_function&gt; element_lmnt_archive_ctx::functions</definition>
+        <argsstring></argsstring>
+        <name>functions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="54" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__archive__ctx_1a6f2d99646273d3635019e15f43b715bc" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; lmnt_value &gt;</type>
+        <definition>std::vector&lt;lmnt_value&gt; element_lmnt_archive_ctx::constants</definition>
+        <argsstring></argsstring>
+        <name>constants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="55" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__archive__ctx_1a2ec6e01bbbf01f85a48b429f6f7d9843" prot="public" static="no" mutable="no">
+        <type>std::unordered_map&lt; const <ref refid="structelement__lmnt__compiled__function" kindref="compound">element_lmnt_compiled_function</ref> *, std::unordered_map&lt; const <ref refid="structelement__instruction" kindref="compound">element_instruction</ref> *, <ref refid="structelement__lmnt__stack__entry" kindref="compound">element_lmnt_stack_entry</ref> &gt; &gt;</type>
+        <definition>std::unordered_map&lt;const element_lmnt_compiled_function*, std::unordered_map&lt;const element_instruction*, element_lmnt_stack_entry&gt; &gt; element_lmnt_archive_ctx::entries</definition>
+        <argsstring></argsstring>
+        <name>entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="56" column="24" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structelement__lmnt__archive__ctx_1a72a47f2cfe24ba29ad35b4e0e4d37830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t element_lmnt_archive_ctx::get_constant</definition>
+        <argsstring>(lmnt_value v)</argsstring>
+        <name>get_constant</name>
+        <param>
+          <type>lmnt_value</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="58" column="12" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="58" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="53" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="52" bodyend="66"/>
+    <listofallmembers>
+      <member refid="structelement__lmnt__archive__ctx_1a6f2d99646273d3635019e15f43b715bc" prot="public" virt="non-virtual"><scope>element_lmnt_archive_ctx</scope><name>constants</name></member>
+      <member refid="structelement__lmnt__archive__ctx_1a2ec6e01bbbf01f85a48b429f6f7d9843" prot="public" virt="non-virtual"><scope>element_lmnt_archive_ctx</scope><name>entries</name></member>
+      <member refid="structelement__lmnt__archive__ctx_1a0705a4847c175983ad99df4429ad820f" prot="public" virt="non-virtual"><scope>element_lmnt_archive_ctx</scope><name>functions</name></member>
+      <member refid="structelement__lmnt__archive__ctx_1a72a47f2cfe24ba29ad35b4e0e4d37830" prot="public" virt="non-virtual"><scope>element_lmnt_archive_ctx</scope><name>get_constant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

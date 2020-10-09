@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structevaluator__ctx_1_1boundary" kind="struct" language="C++" prot="public">
+    <compoundname>evaluator_ctx::boundary</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structevaluator__ctx_1_1boundary_1a9e24aba2d2f050c1d602a3ab8bde7c3a" prot="public" static="no" mutable="no">
+        <type>const element_value *</type>
+        <definition>const element_value* evaluator_ctx::boundary::inputs</definition>
+        <argsstring></argsstring>
+        <name>inputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" line="12" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structevaluator__ctx_1_1boundary_1a366e6e4d0564c842681dc6a7ab862e9d" prot="public" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t evaluator_ctx::boundary::inputs_count</definition>
+        <argsstring></argsstring>
+        <name>inputs_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" line="13" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" line="11" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structevaluator__ctx_1_1boundary_1a9e24aba2d2f050c1d602a3ab8bde7c3a" prot="public" virt="non-virtual"><scope>evaluator_ctx::boundary</scope><name>inputs</name></member>
+      <member refid="structevaluator__ctx_1_1boundary_1a366e6e4d0564c842681dc6a7ab862e9d" prot="public" virt="non-virtual"><scope>evaluator_ctx::boundary</scope><name>inputs_count</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

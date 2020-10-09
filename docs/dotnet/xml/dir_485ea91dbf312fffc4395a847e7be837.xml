@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_485ea91dbf312fffc4395a847e7be837" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers</compoundname>
+    <innerfile refid="_common_subexpression_extraction_8cs">CommonSubexpressionExtraction.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/"/>
+  </compounddef>
+</doxygen>

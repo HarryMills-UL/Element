@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_ad5fa0d7181af8def73987787715c61f" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Constraints</compoundname>
+    <innerfile refid="_any_constraint_8cs">AnyConstraint.cs</innerfile>
+    <innerfile refid="_nothing_constraint_8cs">NothingConstraint.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Constraints/"/>
+  </compounddef>
+</doxygen>

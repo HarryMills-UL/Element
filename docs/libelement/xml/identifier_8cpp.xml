@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="identifier_8cpp" kind="file" language="C++">
+    <compoundname>identifier.cpp</compoundname>
+    <includes refid="identifier_8hpp" local="yes">identifier.hpp</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/identifier.cpp</label>
+        <link refid="identifier_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>identifier.hpp</label>
+        <link refid="identifier_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;identifier.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">element;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref><sp/>identifier::return_identifier{<sp/></highlight><highlight class="stringliteral">&quot;return&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref><sp/>identifier::list_count_identifier{<sp/></highlight><highlight class="stringliteral">&quot;count&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref><sp/>identifier::list_at_identifier{<sp/></highlight><highlight class="stringliteral">&quot;at&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/identifier.cpp"/>
+  </compounddef>
+</doxygen>

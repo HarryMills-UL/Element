@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structelement__lmnt__stack__entry" kind="struct" language="C++" prot="public">
+    <compoundname>element_lmnt_stack_entry</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>entry_type</name>
+        <enumvalue id="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4a617ac08757d38a5a7ed91c224f0e90a0" prot="public">
+          <name>constant</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4aa43c1b0aa53a0c908810c06ab1ff3967" prot="public">
+          <name>input</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4a78e6221f6393d1356681db398f14ce6d" prot="public">
+          <name>output</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4af5ddaf0ca7929578b408c909429f68f2" prot="public">
+          <name>local</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="23" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="22" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structelement__lmnt__stack__entry_1a747b86b4e15ad5284e8b73779a3cf138" prot="public" static="no" mutable="no">
+        <type>entry_type</type>
+        <definition>entry_type element_lmnt_stack_entry::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="29" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__stack__entry_1a3a89e7336b612e548b8ba708ecd13fe9" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t element_lmnt_stack_entry::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="30" column="12" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__lmnt__stack__entry_1aa62006866444657db520abdb2215b8fc" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t element_lmnt_stack_entry::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="31" column="12" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" line="21" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/lmnt/compiler.hpp" bodystart="20" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structelement__lmnt__stack__entry_1a2422f48ea41a6af4b19a4a1e715a8ae4" prot="public" virt="non-virtual"><scope>element_lmnt_stack_entry</scope><name>entry_type</name></member>
+      <member refid="structelement__lmnt__stack__entry_1a3a89e7336b612e548b8ba708ecd13fe9" prot="public" virt="non-virtual"><scope>element_lmnt_stack_entry</scope><name>index</name></member>
+      <member refid="structelement__lmnt__stack__entry_1aa62006866444657db520abdb2215b8fc" prot="public" virt="non-virtual"><scope>element_lmnt_stack_entry</scope><name>size</name></member>
+      <member refid="structelement__lmnt__stack__entry_1a747b86b4e15ad5284e8b73779a3cf138" prot="public" virt="non-virtual"><scope>element_lmnt_stack_entry</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

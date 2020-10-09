@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_7a35eb55d64dd1605a9fab6e83193e76" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets</compoundname>
+    <innerdir refid="dir_2156deec068e2336f06bd66b5d2fd03d">/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/C</innerdir>
+    <innerdir refid="dir_ab06416a23e656c032ce6fc30597c72e">/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR</innerdir>
+    <innerdir refid="dir_45e2d6b5ebf36b30e4e225708bdb6696">/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/LMNT</innerdir>
+    <innerdir refid="dir_225169a556d760561ebbcb00917b88b7">/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/"/>
+  </compounddef>
+</doxygen>

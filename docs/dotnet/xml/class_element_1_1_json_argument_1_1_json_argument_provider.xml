@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_json_argument_1_1_json_argument_provider" kind="class" language="C#" prot="public">
+    <compoundname>Element::JsonArgument::JsonArgumentProvider</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_json_argument_1_1_json_argument_provider_1ac5fceec7c5c03e7989fb0fd464d6886b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref></type>
+        <definition>static Result Element.JsonArgument.JsonArgumentProvider.ProvideArguments</definition>
+        <argsstring>(this JObject configuration, IReadOnlyList&lt; ResolvedPort &gt; topLevelFunctionPorts, float[] arguments, Context context)</argsstring>
+        <name>ProvideArguments</name>
+        <param>
+          <type>this JObject</type>
+          <declname>configuration</declname>
+        </param>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+          <declname>topLevelFunctionPorts</declname>
+        </param>
+        <param>
+          <type>float[]</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities/JsonArgumentProvider.cs" line="14" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities/JsonArgumentProvider.cs" bodystart="14" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_json_argument_1_1_json_argument_provider_1a685c90be3e128eb05c87231fd3dce953" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; JObject &gt;</type>
+        <definition>static Result&lt;JObject&gt; Element.JsonArgument.JsonArgumentProvider.ParseFromJsonFile</definition>
+        <argsstring>(this string filePath, Context context)</argsstring>
+        <name>ParseFromJsonFile</name>
+        <param>
+          <type>this string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities/JsonArgumentProvider.cs" line="88" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities/JsonArgumentProvider.cs" bodystart="88" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_json_argument_1_1_json_argument_provider_1add17513f0d060d0fdd04dcd011381cac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; JObject &gt;</type>
+        <definition>static Result&lt;JObject&gt; Element.JsonArgument.JsonArgumentProvider.ParseFromJsonString</definition>
+        <argsstring>(this string json, Context context)</argsstring>
+        <name>ParseFromJsonString</name>
+        <param>
+          <type>this string</type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities/JsonArgumentProvider.cs" line="103" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities/JsonArgumentProvider.cs" bodystart="103" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides function arguments from a JObject loaded from file or a json string. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities/JsonArgumentProvider.cs" line="13" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/TargetUtilities/JsonArgumentProvider.cs" bodystart="12" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_json_argument_1_1_json_argument_provider_1a685c90be3e128eb05c87231fd3dce953" prot="public" virt="non-virtual"><scope>Element::JsonArgument::JsonArgumentProvider</scope><name>ParseFromJsonFile</name></member>
+      <member refid="class_element_1_1_json_argument_1_1_json_argument_provider_1add17513f0d060d0fdd04dcd011381cac" prot="public" virt="non-virtual"><scope>Element::JsonArgument::JsonArgumentProvider</scope><name>ParseFromJsonString</name></member>
+      <member refid="class_element_1_1_json_argument_1_1_json_argument_provider_1ac5fceec7c5c03e7989fb0fd464d6886b" prot="public" virt="non-virtual"><scope>Element::JsonArgument::JsonArgumentProvider</scope><name>ProvideArguments</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

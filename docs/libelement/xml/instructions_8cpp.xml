@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="instructions_8cpp" kind="file" language="C++">
+    <compoundname>instructions.cpp</compoundname>
+    <includes refid="instructions_8hpp" local="yes">instructions.hpp</includes>
+    <includes local="no">utility</includes>
+    <includes refid="compilation__context_8hpp" local="yes">object_model/compilation_context.hpp</includes>
+    <includes refid="error_8hpp" local="yes">object_model/error.hpp</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>fmt/format.h</label>
+      </node>
+      <node id="21">
+        <label>element/ast.h</label>
+      </node>
+      <node id="45">
+        <label>object_model/error.hpp</label>
+        <link refid="error_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>declarations/declaration.hpp</label>
+        <link refid="declaration_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>variant</label>
+      </node>
+      <node id="20">
+        <label>instruction_tree/fwd.hpp</label>
+        <link refid="instruction__tree_2fwd_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>../common_internal.hpp</label>
+        <link refid="common__internal_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>cassert</label>
+      </node>
+      <node id="6">
+        <label>numeric</label>
+      </node>
+      <node id="35">
+        <label>object_model/compilation_context.hpp</label>
+        <link refid="compilation__context_8hpp_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>source_information.hpp</label>
+        <link refid="source__information_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="12">
+        <label>ast_indexes.hpp</label>
+        <link refid="ast__indexes_8hpp_source"/>
+      </node>
+      <node id="14">
+        <label>map</label>
+      </node>
+      <node id="38">
+        <label>interpreter_internal.hpp</label>
+        <link refid="interpreter__internal_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>instructions.hpp</label>
+        <link refid="instructions_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>element/common.h</label>
+      </node>
+      <node id="39">
+        <label>element/interpreter.h</label>
+      </node>
+      <node id="18">
+        <label>element/token.h</label>
+      </node>
+      <node id="29">
+        <label>optional</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp</label>
+        <link refid="instructions_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>declarations/function_declaration.hpp</label>
+        <link refid="function__declaration_8hpp_source"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>call_stack.hpp</label>
+        <link refid="call__stack_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>fwd.hpp</label>
+        <link refid="object__model_2fwd_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>identifier.hpp</label>
+        <link refid="identifier_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>utility</label>
+      </node>
+      <node id="11">
+        <label>sstream</label>
+      </node>
+      <node id="31">
+        <label>port.hpp</label>
+        <link refid="port_8hpp_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>capture_stack.hpp</label>
+        <link refid="capture__stack_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>configuration.hpp</label>
+      </node>
+      <node id="22">
+        <label>../ast/fwd.hpp</label>
+        <link refid="ast_2fwd_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>cstdlib</label>
+      </node>
+      <node id="16">
+        <label>iostream</label>
+      </node>
+      <node id="23">
+        <label>typeutil.hpp</label>
+        <link refid="typeutil_8hpp_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>unordered_map</label>
+      </node>
+      <node id="8">
+        <label>../ast/ast_internal.hpp</label>
+        <link refid="ast__internal_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>type_traits</label>
+      </node>
+      <node id="28">
+        <label>object_model/object.hpp</label>
+        <link refid="object_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>object_model/constraints/type.hpp</label>
+        <link refid="type_8hpp_source"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>object_model/scope.hpp</label>
+        <link refid="scope_8hpp_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>type_annotation.hpp</label>
+        <link refid="type__annotation_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>memory</label>
+      </node>
+      <node id="27">
+        <label>constraint.hpp</label>
+        <link refid="constraint_8hpp_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="instructions_8cpp_1a9e2d3aba9125b6912f91d86e9ce11d04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_constant, 1U&lt;&lt; 0)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__constant" kindref="compound">element_instruction_constant</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="9" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="9" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1a520aafbaf6c6c0d48ac1a8180c04961a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_input, 1U&lt;&lt; 1)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__input" kindref="compound">element_instruction_input</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="10" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="10" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1a64da2f1e1c78e76de54f376fe11c4c0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_serialised_structure, 1U&lt;&lt; 2)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__serialised__structure" kindref="compound">element_instruction_serialised_structure</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="11" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="11" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1a74061e8b52d48bb1e3b5b2f92d9d0c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_nullary, 1U&lt;&lt; 3)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__nullary" kindref="compound">element_instruction_nullary</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="12" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="12" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1ae05586b465220e876789cc932643fd90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_unary, 1U&lt;&lt; 4)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__unary" kindref="compound">element_instruction_unary</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="13" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="13" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1a392d9a8b22fecb70e549d5ce37e57636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_binary, 1U&lt;&lt; 5)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__binary" kindref="compound">element_instruction_binary</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="14" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="14" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1a958cb1d9658c1e36261b8460cf6ef601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_if, 1U&lt;&lt; 6)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__if" kindref="compound">element_instruction_if</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="15" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="15" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1ad6b24ac46bf03b21b300d0f17e46e46f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_select, 1U&lt;&lt; 7)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__select" kindref="compound">element_instruction_select</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="16" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="16" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1a602bba71bc798f14ae1c050e9e6b5ae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_indexer, 1U&lt;&lt; 8)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__indexer" kindref="compound">element_instruction_indexer</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="17" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="17" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1a5faa848d3eab918d3bcb2ae75a67f34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_for, 1U&lt;&lt; 9)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__for" kindref="compound">element_instruction_for</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="18" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="18" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="instructions_8cpp_1a17d8655d87b6e4fc3ad9fa8fa5a47d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element_instruction_fold, 1U&lt;&lt; 10)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="structelement__instruction__fold" kindref="compound">element_instruction_fold</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" line="19" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp" declline="19" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;instructions.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//SELF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/compilation_context.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/error.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__constant" kindref="compound">element_instruction_constant</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>0);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__input" kindref="compound">element_instruction_input</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>1);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__serialised__structure" kindref="compound">element_instruction_serialised_structure</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>2);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__nullary" kindref="compound">element_instruction_nullary</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>3);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__unary" kindref="compound">element_instruction_unary</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>4);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__binary" kindref="compound">element_instruction_binary</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>5);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__if" kindref="compound">element_instruction_if</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>6);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__select" kindref="compound">element_instruction_select</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>7);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__indexer" kindref="compound">element_instruction_indexer</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>8);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__for" kindref="compound">element_instruction_for</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>9);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="structelement__instruction__fold" kindref="compound">element_instruction_fold</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>10);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">std::shared_ptr&lt;const<sp/>element::object&gt;<sp/>element_instruction::compile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1compilation__context" kindref="compound">element::compilation_context</ref>&amp;<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1source__information" kindref="compound">element::source_information</ref>&amp;<sp/>source_info)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="22"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shared_from_this();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">std::shared_ptr&lt;const<sp/>element::object&gt;<sp/>element_instruction::index(</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1compilation__context" kindref="compound">element::compilation_context</ref>&amp;<sp/>context,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1identifier" kindref="compound">element::identifier</ref>&amp;<sp/>name,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1source__information" kindref="compound">element::source_information</ref>&amp;<sp/>source_info)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="30"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!actual_type)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//find<sp/>the<sp/>declaration<sp/>of<sp/>the<sp/>type<sp/>that<sp/>we<sp/>are</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>actual_type_decl<sp/>=<sp/>context.get_global_scope()-&gt;find(actual_type-&gt;get_identifier(),<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!actual_type_decl)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO:<sp/>Handle<sp/>as<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(!</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>find<sp/>declaration<sp/>of<sp/>our<sp/>actual<sp/>type,<sp/>did<sp/>the<sp/>user<sp/>declare<sp/>the<sp/>intrinsic?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>index_type(actual_type_decl,<sp/>shared_from_this(),<sp/>context,<sp/>name,<sp/>source_info);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">element_instruction_constant::element_instruction_constant(element_value<sp/>val)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="structelement__instruction" kindref="compound">element_instruction</ref>(type_id,<sp/>element::type::num.get())</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>m_value(val)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">element::object_const_shared_ptr<sp/>element_instruction_constant::call(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1compilation__context" kindref="compound">element::compilation_context</ref>&amp;<sp/>context,<sp/>std::vector&lt;element::object_const_shared_ptr&gt;<sp/>compiled_args,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1source__information" kindref="compound">element::source_information</ref>&amp;<sp/>source_info)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="56"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::make_shared&lt;element::error&gt;(</highlight><highlight class="stringliteral">&quot;Tried<sp/>to<sp/>call<sp/>something<sp/>that<sp/>isn&apos;t<sp/>a<sp/>function&quot;</highlight><highlight class="normal">,<sp/>ELEMENT_ERROR_INVALID_CALL_NONFUNCTION,<sp/>source_info);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">element_instruction_if::element_instruction_if(instruction_const_shared_ptr<sp/>predicate,<sp/>instruction_const_shared_ptr<sp/>if_true,<sp/>instruction_const_shared_ptr<sp/>if_false)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="structelement__instruction" kindref="compound">element_instruction</ref>(type_id,<sp/>nullptr)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(if_true-&gt;actual_type<sp/>!=<sp/>if_false-&gt;actual_type)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(!</highlight><highlight class="stringliteral">&quot;the<sp/>resulting<sp/>type<sp/>of<sp/>the<sp/>two<sp/>branches<sp/>of<sp/>an<sp/>if-instruction<sp/>must<sp/>be<sp/>the<sp/>same&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_type<sp/>=<sp/>if_true-&gt;actual_type;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(predicate));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(if_true));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(if_false));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">element_instruction_for::element_instruction_for(instruction_const_shared_ptr<sp/>initial,<sp/>instruction_const_shared_ptr<sp/>condition,<sp/>instruction_const_shared_ptr<sp/>body)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="structelement__instruction" kindref="compound">element_instruction</ref>(type_id,<sp/>nullptr)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_type<sp/>=<sp/>initial-&gt;actual_type;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(initial));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(condition));</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(body));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">element_instruction_fold::element_instruction_fold(instruction_const_shared_ptr<sp/>list,<sp/>instruction_const_shared_ptr<sp/>initial,<sp/>instruction_const_shared_ptr<sp/>accumulator)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="structelement__instruction" kindref="compound">element_instruction</ref>(type_id,<sp/>nullptr)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>actual_type<sp/>=<sp/>initial-&gt;actual_type;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(list));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(initial));</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dependents.emplace_back(std::move(accumulator));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">element_instruction_indexer::element_instruction_indexer(std::shared_ptr&lt;const<sp/>element_instruction_for&gt;<sp/>for_instruction,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/><ref refid="classelement_1_1type" kindref="compound">element::type_const_ptr</ref><sp/>type)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="structelement__instruction" kindref="compound">element_instruction</ref>(type_id,<sp/>type)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>for_instruction{<sp/>std::move(for_instruction)<sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>index{<sp/>index<sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">element_instruction_select::element_instruction_select(instruction_const_shared_ptr<sp/>selector,<sp/>std::vector&lt;instruction_const_shared_ptr&gt;<sp/>options)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="structelement__instruction" kindref="compound">element_instruction</ref>(type_id,<sp/>nullptr)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>selector(std::move(selector))</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>options(std::move(options))</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(this-&gt;selector);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>option<sp/>:<sp/>this-&gt;options)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(option);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/instructions.cpp"/>
+  </compounddef>
+</doxygen>

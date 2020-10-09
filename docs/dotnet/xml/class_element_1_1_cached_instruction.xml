@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_cached_instruction" kind="class" language="C#" prot="public">
+    <compoundname>Element::CachedInstruction</compoundname>
+    <basecompoundref refid="class_element_1_1_instruction" prot="public" virt="non-virtual">Element.Instruction</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_cached_instruction_1ae2be83a20733fffb9a4332ff8f0cbaad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Element.CachedInstruction.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" line="14" column="12" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_cached_instruction_1af6092505342ac3362702a441eee60e87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+        <definition>Instruction Element.CachedInstruction.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" line="15" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_cached_instruction_1abbdf9e88fdf5e2f81895c65fb4d749ac" prot="public" static="no" mutable="no">
+        <type>override IEnumerable&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref> &gt;</type>
+        <definition>override IEnumerable&lt;Instruction&gt; Element.CachedInstruction.Dependent</definition>
+        <argsstring></argsstring>
+        <name>Dependent</name>
+        <initializer>=&gt; new[] {<ref refid="class_element_1_1_a_s_t_1_1_value" kindref="compound">Value</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" line="17" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_cached_instruction_1a1b5bd1600699296c9789d4e6452d93d4" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Element.CachedInstruction.SummaryString</definition>
+        <argsstring></argsstring>
+        <name>SummaryString</name>
+        <initializer>=&gt; $&quot;C{Id}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" line="19" column="24" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_cached_instruction_1a9d4034371d4441634c9087ca95e91f88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.CachedInstruction.CachedInstruction</definition>
+        <argsstring>(int id, Instruction value)</argsstring>
+        <name>CachedInstruction</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" line="8" column="8" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_cached_instruction_1ab2cd3406346cf225f13762224f210f1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Element.CachedInstruction.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" line="20" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_cached_instruction_1a136f0e54d881539db99c864f4561688b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Element.CachedInstruction.Equals</definition>
+        <argsstring>(Instruction other)</argsstring>
+        <name>Equals</name>
+        <reimplements refid="class_element_1_1_instruction_1a35f95bfd828cd266cb1e32631e9ae5ef">Equals</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" line="22" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="2">
+        <label>Instruction</label>
+        <link refid="class_element_1_1_instruction"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.CachedInstruction</label>
+        <link refid="class_element_1_1_cached_instruction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEquatable&lt; Instruction &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="7">
+        <label>Element.AST.IIntrinsicStructImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Instruction</label>
+        <link refid="class_element_1_1_instruction"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>StructImplementation</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.CachedInstruction</label>
+        <link refid="class_element_1_1_cached_instruction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IEquatable&lt; Instruction &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/CachedInstruction.cs" bodystart="6" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_instruction_1a3432d656a9a58e31341593d1cc240509" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>AllDependent</name></member>
+      <member refid="class_element_1_1_cached_instruction_1a9d4034371d4441634c9087ca95e91f88" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>CachedInstruction</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a8fbc4468318627c22f0d62c22e57dc46" prot="public" virt="virtual"><scope>Element::CachedInstruction</scope><name>Call</name></member>
+      <member refid="class_element_1_1_instruction_1aee5ec53353dc4a92225f286084fa89d7" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>CountUses</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::CachedInstruction</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_cached_instruction_1abbdf9e88fdf5e2f81895c65fb4d749ac" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>Dependent</name></member>
+      <member refid="class_element_1_1_instruction_1a27ee04a4c394e8507e3818d20f4eb27b" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual" ambiguityscope="Element::AST::Value."><scope>Element::CachedInstruction</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_cached_instruction_1a136f0e54d881539db99c864f4561688b" prot="public" virt="virtual"><scope>Element::CachedInstruction</scope><name>Equals</name></member>
+      <member refid="class_element_1_1_instruction_1a8083175845c97edcca3884618a39554d" prot="public" virt="non-virtual" ambiguityscope="Element::Instruction."><scope>Element::CachedInstruction</scope><name>Equals</name></member>
+      <member refid="class_element_1_1_cached_instruction_1ab2cd3406346cf225f13762224f210f1e" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>GetHashCode</name></member>
+      <member refid="class_element_1_1_cached_instruction_1ae2be83a20733fffb9a4332ff8f0cbaad" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>Id</name></member>
+      <member refid="class_element_1_1_instruction_1a4d2256b835fdae629b97aed2f21d48eb" prot="public" virt="virtual"><scope>Element::CachedInstruction</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ac3be9fa21309cd961a11fc67e4fe39af" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_instruction_1a436dd31eb46f399166a0d0a5fb46e6c8" prot="protected" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>Instruction</name></member>
+      <member refid="class_element_1_1_instruction_1a36f1ae7ef150a6eb28c4f7b8b62ca4b9" prot="protected" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>ListJoinNormalizedForm</name></member>
+      <member refid="class_element_1_1_instruction_1a0a8a3f6fbd0cbfc4b6e91eedc9bebdcd" prot="protected" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>ListJoinToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::CachedInstruction</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>Members</name></member>
+      <member refid="class_element_1_1_instruction_1a6dbc8b32154aa10f30375628ba954eef" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aaf9449e5d86cceb21ff322b52f97e01f" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_instruction_1a8f53d61c6e1ec3eca7456b5c7572d496" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual" ambiguityscope="Element::AST::Value."><scope>Element::CachedInstruction</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_instruction_1acc96b260beb5e69e983f78b6dda85221" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>StructImplementation</name></member>
+      <member refid="class_element_1_1_cached_instruction_1a1b5bd1600699296c9789d4e6452d93d4" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_instruction_1a8f10301a69ea8c8e051d32ba13be691b" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>TypeOf</name></member>
+      <member refid="class_element_1_1_cached_instruction_1af6092505342ac3362702a441eee60e87" prot="public" virt="non-virtual"><scope>Element::CachedInstruction</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_custom_function" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::CustomFunction</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_function" prot="public" virt="non-virtual">Element.AST.Function</basecompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_expression_bodied_function" prot="public" virt="non-virtual">Element.AST.ExpressionBodiedFunction</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_scope_bodied_function" prot="public" virt="non-virtual">Element.AST.ScopeBodiedFunction</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_custom_function_1a10e7e5c3a07809b807db4aaf603b4237" prot="protected" static="no" mutable="no">
+        <type>readonly <ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref></type>
+        <definition>readonly IScope Element.AST.CustomFunction._parent</definition>
+        <argsstring></argsstring>
+        <name>_parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="55" column="35" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_custom_function_1a80a288d57a3ccaeab384fa9d5fa8264a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+        <definition>override IReadOnlyList&lt;ResolvedPort&gt; Element.AST.CustomFunction.InputPorts</definition>
+        <argsstring></argsstring>
+        <name>InputPorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="64" column="39" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_custom_function_1a7d2beb29551a6e8be949f37f0c312f2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+        <definition>override IValue Element.AST.CustomFunction.ReturnConstraint</definition>
+        <argsstring></argsstring>
+        <name>ReturnConstraint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="65" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_custom_function_1a543bdd95e6db0a8296ca649364e3cd0c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.CustomFunction.CustomFunction</definition>
+        <argsstring>(IReadOnlyList&lt; ResolvedPort &gt; inputPorts, IValue returnConstraint, IScope parent)</argsstring>
+        <name>CustomFunction</name>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+          <declname>inputPorts</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>returnConstraint</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="57" column="19" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Function</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.CustomFunction</label>
+        <link refid="class_element_1_1_a_s_t_1_1_custom_function"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Element.AST.ScopeBodiedFunction</label>
+        <link refid="class_element_1_1_a_s_t_1_1_scope_bodied_function"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="5">
+        <label>Element.AST.ExpressionBodiedFunction</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression_bodied_function"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Function</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.CustomFunction</label>
+        <link refid="class_element_1_1_a_s_t_1_1_custom_function"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="6">
+        <label>Element.AST.IScope</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_scope"/>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="54" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="53" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_custom_function_1a10e7e5c3a07809b807db4aaf603b4237" prot="protected" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>_parent</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a8f8d89f12fd77ff195e7add981d12761" prot="public" virt="virtual"><scope>Element::AST::CustomFunction</scope><name>Call</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_custom_function_1a543bdd95e6db0a8296ca649364e3cd0c" prot="protected" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>CustomFunction</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::AST::CustomFunction</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual"><scope>Element::AST::CustomFunction</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ae64700fadafa1586918809b1bc976e8d" prot="public" virt="virtual"><scope>Element::AST::CustomFunction</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_custom_function_1a80a288d57a3ccaeab384fa9d5fa8264a" prot="public" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a241ab88a5fb22450652c36513a8cebc8" prot="protected" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>MakeNamedArgumentList</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::AST::CustomFunction</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>Members</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1af9bf5ace9faa286d1632cca2b061004d" prot="public" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a46f7e4629d1fc717ad972a0b47498ef6" prot="protected" virt="pure-virtual"><scope>Element::AST::CustomFunction</scope><name>ResolveCall</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_custom_function_1a7d2beb29551a6e8be949f37f0c312f2a" prot="public" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual"><scope>Element::AST::CustomFunction</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a3e34253191ba578143a47767b2b3b982" prot="public" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a5bee967bcd50e708952864569598d2ca" prot="public" virt="non-virtual"><scope>Element::AST::CustomFunction</scope><name>TypeOf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

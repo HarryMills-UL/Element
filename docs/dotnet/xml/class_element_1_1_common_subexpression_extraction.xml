@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_common_subexpression_extraction" kind="class" language="C#" prot="public">
+    <compoundname>Element::CommonSubexpressionExtraction</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_element_1_1_common_subexpression_extraction_1aac81049813df0824f6f67428c0898b89" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Mode</name>
+        <enumvalue id="class_element_1_1_common_subexpression_extraction_1aac81049813df0824f6f67428c0898b89a5242d4cbd418361d14af6778a8b509fe" prot="public">
+          <name>EveryOperation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_common_subexpression_extraction_1aac81049813df0824f6f67428c0898b89a50c15091d6e01c24c6561ebf849194e2" prot="public">
+          <name>OnlyMultipleUses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" line="9" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_common_subexpression_extraction_1a5094a00788c4e4c26ab7494d0d3f4649" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Element.CommonSubexpressionExtraction.Cache</definition>
+        <argsstring>(this Instruction[] inputs, Mode mode, Dictionary&lt; Instruction, CachedInstruction &gt; cache)</argsstring>
+        <name>Cache</name>
+        <param>
+          <type>this <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref>[]</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>Mode</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref>, <ref refid="class_element_1_1_cached_instruction" kindref="compound">CachedInstruction</ref> &gt;</type>
+          <declname>cache</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" line="14" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_common_subexpression_extraction_1a9c3e2c4ef9ab57e95be113fc40317743" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+        <definition>static Instruction Element.CommonSubexpressionExtraction.Cache</definition>
+        <argsstring>(this Instruction value, Dictionary&lt; Instruction, CachedInstruction &gt; cache)</argsstring>
+        <name>Cache</name>
+        <param>
+          <type>this <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref>, <ref refid="class_element_1_1_cached_instruction" kindref="compound">CachedInstruction</ref> &gt;</type>
+          <declname>cache</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" line="26" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" bodystart="26" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_element_1_1_common_subexpression_extraction_1ac7eb074681a8857ce25759bd4783d9d8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_element_1_1_instruction_group" kindref="compound">InstructionGroup</ref></type>
+        <definition>static InstructionGroup Element.CommonSubexpressionExtraction.OptimizeGroup</definition>
+        <argsstring>(Dictionary&lt; Instruction, CachedInstruction &gt; cache, InstructionGroup group)</argsstring>
+        <name>OptimizeGroup</name>
+        <param>
+          <type>Dictionary&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref>, <ref refid="class_element_1_1_cached_instruction" kindref="compound">CachedInstruction</ref> &gt;</type>
+          <declname>cache</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_instruction_group" kindref="compound">InstructionGroup</ref></type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" line="53" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_common_subexpression_extraction_1a84adc7365a0b08b6f5064739344da94f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+        <definition>static Instruction Element.CommonSubexpressionExtraction.FoldBackSingleUses</definition>
+        <argsstring>(CachedInstruction[] singleUses, Instruction value)</argsstring>
+        <name>FoldBackSingleUses</name>
+        <param>
+          <type><ref refid="class_element_1_1_cached_instruction" kindref="compound">CachedInstruction</ref>[]</type>
+          <declname>singleUses</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" line="65" column="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Optimizers/CommonSubexpressionExtraction.cs" bodystart="6" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_common_subexpression_extraction_1a5094a00788c4e4c26ab7494d0d3f4649" prot="public" virt="non-virtual"><scope>Element::CommonSubexpressionExtraction</scope><name>Cache</name></member>
+      <member refid="class_element_1_1_common_subexpression_extraction_1a9c3e2c4ef9ab57e95be113fc40317743" prot="public" virt="non-virtual"><scope>Element::CommonSubexpressionExtraction</scope><name>Cache</name></member>
+      <member refid="class_element_1_1_common_subexpression_extraction_1a84adc7365a0b08b6f5064739344da94f" prot="private" virt="non-virtual"><scope>Element::CommonSubexpressionExtraction</scope><name>FoldBackSingleUses</name></member>
+      <member refid="class_element_1_1_common_subexpression_extraction_1aac81049813df0824f6f67428c0898b89" prot="public" virt="non-virtual"><scope>Element::CommonSubexpressionExtraction</scope><name>Mode</name></member>
+      <member refid="class_element_1_1_common_subexpression_extraction_1ac7eb074681a8857ce25759bd4783d9d8" prot="private" virt="non-virtual"><scope>Element::CommonSubexpressionExtraction</scope><name>OptimizeGroup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

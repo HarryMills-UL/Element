@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classelement_1_1intrinsic__function" kind="class" language="C++" prot="public">
+    <compoundname>element::intrinsic_function</compoundname>
+    <basecompoundref refid="classelement_1_1intrinsic" prot="public" virt="non-virtual">element::intrinsic</basecompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__binary" prot="public" virt="non-virtual">element::intrinsic_binary</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__compiler__list__indexer" prot="public" virt="non-virtual">element::intrinsic_compiler_list_indexer</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__constructor__bool" prot="public" virt="non-virtual">element::intrinsic_constructor_bool</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__constructor__list" prot="public" virt="non-virtual">element::intrinsic_constructor_list</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__constructor__num" prot="public" virt="non-virtual">element::intrinsic_constructor_num</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__for" prot="public" virt="non-virtual">element::intrinsic_for</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__if" prot="public" virt="non-virtual">element::intrinsic_if</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__list" prot="public" virt="non-virtual">element::intrinsic_list</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__list__fold" prot="public" virt="non-virtual">element::intrinsic_list_fold</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__nullary" prot="public" virt="non-virtual">element::intrinsic_nullary</derivedcompoundref>
+    <derivedcompoundref refid="classelement_1_1intrinsic__unary" prot="public" virt="non-virtual">element::intrinsic_unary</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classelement_1_1intrinsic__function_1adb99dbfe29f1afaebe631e3ebe7d4a3e" prot="protected" static="no" mutable="no">
+        <type><ref refid="classelement_1_1type" kindref="compound">type_const_ptr</ref></type>
+        <definition>type_const_ptr element::intrinsic_function::return_type</definition>
+        <argsstring></argsstring>
+        <name>return_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" line="19" column="24" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classelement_1_1intrinsic__function_1ac6b81d1f64c9d2b0d8c933354f5a95da" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool element::intrinsic_function::variadic</definition>
+        <argsstring></argsstring>
+        <name>variadic</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" line="20" column="14" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classelement_1_1intrinsic__function_1a5c0047bd8132aff623e64e1c915e9f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>intrinsic_function::intrinsic_function</definition>
+        <argsstring>(element_type_id id, type_const_ptr return_type, bool variadic=false)</argsstring>
+        <name>intrinsic_function</name>
+        <param>
+          <type>element_type_id</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1type" kindref="compound">type_const_ptr</ref></type>
+          <declname>return_type</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>variadic</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" line="13" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.cpp" bodystart="5" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1intrinsic__function_1ade7386116500af97be31a5150c823a64" prot="public" static="no" const="yes" explicit="no" inline="yes" final="yes" virt="virtual">
+        <type><ref refid="classelement_1_1type" kindref="compound">type_const_ptr</ref></type>
+        <definition>type_const_ptr element::intrinsic_function::get_type</definition>
+        <argsstring>() const final</argsstring>
+        <name>get_type</name>
+        <reimplements refid="classelement_1_1intrinsic_1aa5c60778353f03920ab6ac6f88a6a18f">get_type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" line="14" column="25" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1intrinsic__function_1af467108b9d30343391aec61a1a0fb91c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool element::intrinsic_function::is_variadic</definition>
+        <argsstring>() const</argsstring>
+        <name>is_variadic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" line="15" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>element::intrinsic_if</label>
+        <link refid="classelement_1_1intrinsic__if"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>element::intrinsic_for</label>
+        <link refid="classelement_1_1intrinsic__for"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>element::intrinsic_list_fold</label>
+        <link refid="classelement_1_1intrinsic__list__fold"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>element::intrinsic_binary</label>
+        <link refid="classelement_1_1intrinsic__binary"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>rtti_type&lt; intrinsic &gt;</label>
+        <link refid="structrtti__type"/>
+      </node>
+      <node id="12">
+        <label>element::intrinsic_list</label>
+        <link refid="classelement_1_1intrinsic__list"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>element::intrinsic_constructor_list</label>
+        <link refid="classelement_1_1intrinsic__constructor__list"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>element::intrinsic</label>
+        <link refid="classelement_1_1intrinsic"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>element::intrinsic_constructor_num</label>
+        <link refid="classelement_1_1intrinsic__constructor__num"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+      </node>
+      <node id="15">
+        <label>element::intrinsic_unary</label>
+        <link refid="classelement_1_1intrinsic__unary"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>element::intrinsic_constructor_bool</label>
+        <link refid="classelement_1_1intrinsic__constructor__bool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>element::intrinsic_nullary</label>
+        <link refid="classelement_1_1intrinsic__nullary"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>element::intrinsic_compiler_list_indexer</label>
+        <link refid="classelement_1_1intrinsic__compiler__list__indexer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>element::intrinsic_function</label>
+        <link refid="classelement_1_1intrinsic__function"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>rtti_type&lt; intrinsic &gt;</label>
+        <link refid="structrtti__type"/>
+      </node>
+      <node id="2">
+        <label>element::intrinsic</label>
+        <link refid="classelement_1_1intrinsic"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>rtti_type&lt; constraint &gt;</label>
+        <link refid="structrtti__type"/>
+      </node>
+      <node id="10">
+        <label>element::identifier</label>
+        <link refid="classelement_1_1identifier"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>list_at_identifier</edgelabel>
+          <edgelabel>return_identifier</edgelabel>
+          <edgelabel>list_count_identifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>source_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element::source_information</label>
+        <link refid="classelement_1_1source__information"/>
+      </node>
+      <node id="6">
+        <label>element::type</label>
+        <link refid="classelement_1_1type"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>element::constraint</label>
+        <link refid="classelement_1_1constraint"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>declarer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>element::intrinsic_function</label>
+        <link refid="classelement_1_1intrinsic__function"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>return_type</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" line="11" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" bodystart="10" bodyend="21"/>
+    <listofallmembers>
+      <member refid="structrtti__type_1ae8a056e6d6a658d2e5ccf757da1c5031" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>as</name></member>
+      <member refid="structrtti__type_1ac9b5c9bad7ef9069f612b0356a6ffffc" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>as</name></member>
+      <member refid="classelement_1_1object_1af6dbeefad4c697ab757864ae78fd831e" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>call</name></member>
+      <member refid="classelement_1_1object_1aa562aac5d1f233abda4a5348ac38da73" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>compile</name></member>
+      <member refid="classelement_1_1object_1a3452e5e30891e487707a7fb300f6465d" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>get_constraint</name></member>
+      <member refid="classelement_1_1object_1a82a0020492785cb186c7d09ea88aa79d" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>get_inputs</name></member>
+      <member refid="classelement_1_1intrinsic_1a8b18e4724f1e669eee15e822005419c8" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>get_intrinsic</name></member>
+      <member refid="classelement_1_1object_1a17cca83a78581c5e8b73652f57910d1a" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>get_output</name></member>
+      <member refid="classelement_1_1object_1a410a20ebbac9643d6798ffa98a34ff17" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>get_scope</name></member>
+      <member refid="classelement_1_1intrinsic__function_1ade7386116500af97be31a5150c823a64" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>get_type</name></member>
+      <member refid="classelement_1_1object_1a542266c49533b394c8f7668748f6424a" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>index</name></member>
+      <member refid="classelement_1_1intrinsic_1ac1c6392504b4d1c96d2d1ecdbd778595" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>intrinsic</name></member>
+      <member refid="classelement_1_1intrinsic__function_1a5c0047bd8132aff623e64e1c915e9f4f" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>intrinsic_function</name></member>
+      <member refid="structrtti__type_1ad10b160dbb5d7b81ffddfcef4c2131f2" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>is</name></member>
+      <member refid="classelement_1_1object_1ab44c28014a94092052f9cf9418eef340" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>is_constant</name></member>
+      <member refid="classelement_1_1intrinsic__function_1af467108b9d30343391aec61a1a0fb91c" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>is_variadic</name></member>
+      <member refid="classelement_1_1object_1a3ba311dae552affb306308617e394cf8" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>matches_constraint</name></member>
+      <member refid="classelement_1_1object_1a0b77789880bc695115d2428b9b1f2fe6" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1aecee67e856bcf56ecaee3848c3b834fe" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1af31de89eb2a06fe7856ae3d8252fdd1b" prot="protected" virt="non-virtual"><scope>element::intrinsic_function</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1a05f452496fc2f14d4844fefe0326e5cd" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>operator=</name></member>
+      <member refid="classelement_1_1object_1aec74730c57e08a37dc6a61992e84e543" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>operator=</name></member>
+      <member refid="classelement_1_1intrinsic_1ab7356d6ee4a2017e33136dc0b2a20e6b" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>register_intrinsic</name></member>
+      <member refid="classelement_1_1intrinsic__function_1adb99dbfe29f1afaebe631e3ebe7d4a3e" prot="protected" virt="non-virtual"><scope>element::intrinsic_function</scope><name>return_type</name></member>
+      <member refid="structrtti__type_1a4ba3d8090b0e77409fbfa90f769a0324" prot="protected" virt="non-virtual"><scope>element::intrinsic_function</scope><name>rtti_type</name></member>
+      <member refid="classelement_1_1object_1a8c377027f992c5b3440679941619c468" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>source_info</name></member>
+      <member refid="structrtti__type_1a2162c625991b82bdb390809a16c8c649" prot="public" virt="non-virtual"><scope>element::intrinsic_function</scope><name>subtype</name></member>
+      <member refid="classelement_1_1object_1a930429a343359aaf0cf603d251ca53a2" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>to_code</name></member>
+      <member refid="classelement_1_1object_1ac285622d5bdbf53d29ed531a7a50cd2a" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>to_instruction</name></member>
+      <member refid="classelement_1_1object_1a1c22bf6d69ae19c71d6b2bd0cedfd675" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>to_string</name></member>
+      <member refid="classelement_1_1intrinsic_1a7721b8c8d6b437767856f3a306595efb" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>typeof_info</name></member>
+      <member refid="classelement_1_1intrinsic__function_1ac6b81d1f64c9d2b0d8c933354f5a95da" prot="protected" virt="non-virtual"><scope>element::intrinsic_function</scope><name>variadic</name></member>
+      <member refid="classelement_1_1object_1a9737ac6b6eef6c4e41d0a15ebf42762a" prot="public" virt="virtual"><scope>element::intrinsic_function</scope><name>~object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structelement__log__ctx" kind="struct" language="C++" prot="public">
+    <compoundname>element_log_ctx</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structelement__log__ctx_1a72c70f7fc05fd42135bac20ca276cc96" prot="public" static="no" mutable="no">
+        <type>LogCallback</type>
+        <definition>LogCallback element_log_ctx::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="39" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__log__ctx_1a98b58cc20805488781730ab11d81b018" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* element_log_ctx::user_data</definition>
+        <argsstring></argsstring>
+        <name>user_data</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="40" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__log__ctx_1a904aad1f5aaf86653e899d403cfb16d4" prot="public" static="no" mutable="yes">
+        <type>int</type>
+        <definition>int element_log_ctx::compilation_step_indent_level</definition>
+        <argsstring></argsstring>
+        <name>compilation_step_indent_level</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="78" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structelement__log__ctx_1afe0ce62c8a4fac089a9f81ff2a4d1902" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log</definition>
+        <argsstring>(const std::string &amp;message, const element_stage stage) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>const element_stage</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="42" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common.cpp" bodystart="472" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1a65046602e3e10ea13d472456c06afe0c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log</definition>
+        <argsstring>(const element_tokeniser_ctx &amp;context, element_result code, const std::string &amp;message, int length=0, element_log_message *related_message=nullptr) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>const <ref refid="structelement__tokeniser__ctx" kindref="compound">element_tokeniser_ctx</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>element_result</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>element_log_message *</type>
+          <declname>related_message</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="43" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common.cpp" bodystart="430" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1ae446071f1128e31400583c0c19e2a9e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log</definition>
+        <argsstring>(const element_interpreter_ctx &amp;context, element_result code, const std::string &amp;message, const std::string &amp;filename) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>element_result</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="44" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common.cpp" bodystart="455" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1a44b7c8ac40f043a5fb9fed814ec5ee8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log</definition>
+        <argsstring>(const element_parser_ctx &amp;context, element_result code, const std::string &amp;message, const element_ast *nearest_ast=nullptr) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>const <ref refid="structelement__parser__ctx" kindref="compound">element_parser_ctx</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>element_result</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *</type>
+          <declname>nearest_ast</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="45" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common.cpp" bodystart="488" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1a3de87340f55e0faa187c1f8a3e1aa3ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log</definition>
+        <argsstring>(const element_compiler_ctx &amp;context, element_result code, const std::string &amp;message, const element_ast *nearest_ast=nullptr) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>const element_compiler_ctx &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>element_result</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *</type>
+          <declname>nearest_ast</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="46" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common.cpp" bodystart="538" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1a9f4d181f3d93b2a52a96e87692c6d165" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log</definition>
+        <argsstring>(const element_log_message &amp;log) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>const element_log_message &amp;</type>
+          <declname>log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="47" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common.cpp" bodystart="579" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1a5e22858a19273a789ca2490892c5b132" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log</definition>
+        <argsstring>(const element::log_message &amp;log) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>const <ref refid="classelement_1_1log__message" kindref="compound">element::log_message</ref> &amp;</type>
+          <declname>log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="48" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common.cpp" bodystart="587" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1a3b1ea12128014fed59cee6e3b484c077" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename String</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void element_log_ctx::log_step</definition>
+        <argsstring>(String &amp;&amp;str, Args &amp;&amp;... args) const</argsstring>
+        <name>log_step</name>
+        <param>
+          <type>String &amp;&amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="51" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="51" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1ab9d5dc168ae7f2c189f1760c6bcc937f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log_step_indent</definition>
+        <argsstring>() const</argsstring>
+        <name>log_step_indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="67" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__log__ctx_1ad3c1c697a61ec3ad312532510f55d52b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_log_ctx::log_step_unindent</definition>
+        <argsstring>() const</argsstring>
+        <name>log_step_unindent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="72" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="72" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="38" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" bodystart="37" bodyend="79"/>
+    <listofallmembers>
+      <member refid="structelement__log__ctx_1a72c70f7fc05fd42135bac20ca276cc96" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>callback</name></member>
+      <member refid="structelement__log__ctx_1a904aad1f5aaf86653e899d403cfb16d4" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>compilation_step_indent_level</name></member>
+      <member refid="structelement__log__ctx_1afe0ce62c8a4fac089a9f81ff2a4d1902" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log</name></member>
+      <member refid="structelement__log__ctx_1a65046602e3e10ea13d472456c06afe0c" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log</name></member>
+      <member refid="structelement__log__ctx_1ae446071f1128e31400583c0c19e2a9e9" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log</name></member>
+      <member refid="structelement__log__ctx_1a44b7c8ac40f043a5fb9fed814ec5ee8b" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log</name></member>
+      <member refid="structelement__log__ctx_1a3de87340f55e0faa187c1f8a3e1aa3ea" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log</name></member>
+      <member refid="structelement__log__ctx_1a9f4d181f3d93b2a52a96e87692c6d165" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log</name></member>
+      <member refid="structelement__log__ctx_1a5e22858a19273a789ca2490892c5b132" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log</name></member>
+      <member refid="structelement__log__ctx_1a3b1ea12128014fed59cee6e3b484c077" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log_step</name></member>
+      <member refid="structelement__log__ctx_1ab9d5dc168ae7f2c189f1760c6bcc937f" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log_step_indent</name></member>
+      <member refid="structelement__log__ctx_1ad3c1c697a61ec3ad312532510f55d52b" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>log_step_unindent</name></member>
+      <member refid="structelement__log__ctx_1a98b58cc20805488781730ab11d81b018" prot="public" virt="non-virtual"><scope>element_log_ctx</scope><name>user_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

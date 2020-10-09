@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_declaration_block" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::DeclarationBlock</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_freeform_block" prot="public" virt="non-virtual">Element.AST.FreeformBlock</basecompoundref>
+    <basecompoundref refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope" prot="public" virt="non-virtual">Element.AST.IDeclarationScope</basecompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_namespace_block" prot="public" virt="non-virtual">Element.AST.NamespaceBlock</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_struct_block" prot="public" virt="non-virtual">Element.AST.StructBlock</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_declaration_block_1a984d0c58b5111eff1f3a10c1af82fc58" prot="public" static="no" mutable="no">
+        <type>IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref> &gt;</type>
+        <definition>IReadOnlyList&lt;Declaration&gt; Element.AST.DeclarationBlock.Declarations</definition>
+        <argsstring></argsstring>
+        <name>Declarations</name>
+        <initializer>=&gt; Items as IReadOnlyList&lt;<ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref>&gt; ?? Array.Empty&lt;<ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/Block.cs" line="66" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/Block.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FreeformBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_freeform_block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Block</label>
+        <link refid="class_element_1_1_a_s_t_1_1_block"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.DeclarationBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_declaration_block"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="8">
+        <label>Element.AST.StructBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_struct_block"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IDeclarationScope</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope"/>
+      </node>
+      <node id="7">
+        <label>Element.AST.NamespaceBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_namespace_block"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FreeformBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_freeform_block"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Block</label>
+        <link refid="class_element_1_1_a_s_t_1_1_block"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.DeclarationBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_declaration_block"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="6">
+        <label>IDeclarationScope</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/Block.cs" line="65" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/Block.cs" bodystart="64" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_block_1a984d0c58b5111eff1f3a10c1af82fc58" prot="public" virt="non-virtual"><scope>Element::AST::DeclarationBlock</scope><name>Declarations</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1aea3371152f46d75be233650ad347bc72" prot="public" virt="non-virtual"><scope>Element::AST::DeclarationBlock</scope><name>IndexInSource</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_freeform_block_1a9eb4309baad5a7b483a0442bcf3de5e5" prot="public" virt="non-virtual"><scope>Element::AST::DeclarationBlock</scope><name>Items</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_block_1aa95a1b9b846220ed1d149cc6fc758b81" prot="public" virt="non-virtual" ambiguityscope="Element::AST::FreeformBlock."><scope>Element::AST::DeclarationBlock</scope><name>ResolveBlock</name></member>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope_1a8fceafb665f20f384242ba7bf42b6a59" prot="public" virt="non-virtual" ambiguityscope="Element::AST::IDeclarationScope."><scope>Element::AST::DeclarationBlock</scope><name>ResolveBlock</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_block_1aee20394c923c051dd7acff43b010006e" prot="public" virt="non-virtual"><scope>Element::AST::DeclarationBlock</scope><name>ResolveBlockWithCaptures</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a6d91ea72f391505441e27fdb40c75aec" prot="public" virt="non-virtual"><scope>Element::AST::DeclarationBlock</scope><name>SourceInfo</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1afd4482e89cf109b816465c92c7960dc5" prot="public" virt="non-virtual"><scope>Element::AST::DeclarationBlock</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a16e8a7969fb8eec8e70358c020f0cc2f" prot="public" virt="non-virtual"><scope>Element::AST::DeclarationBlock</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_block_1add05f518735918e74276d40cde1e3643" prot="protected" virt="virtual"><scope>Element::AST::DeclarationBlock</scope><name>ValidateImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

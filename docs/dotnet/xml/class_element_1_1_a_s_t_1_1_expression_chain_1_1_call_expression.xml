@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::ExpressionChain::CallExpression</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_sub_expression" prot="public" virt="non-virtual">Element.AST.ExpressionChain.SubExpression</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression_1ae74c29ede57028839b848fc9f7806d23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_list_of" kindref="compound">ListOf</ref>&lt; <ref refid="class_element_1_1_a_s_t_1_1_expression" kindref="compound">Expression</ref> &gt;</type>
+        <definition>ListOf&lt;Expression&gt; Element.AST.ExpressionChain.CallExpression.Expressions</definition>
+        <argsstring></argsstring>
+        <name>Expressions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/ExpressionChain.cs" line="69" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/ExpressionChain.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression_1aea19ddcac49cc3968648ef979cc7e3e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Element.AST.ExpressionChain.CallExpression.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/ExpressionChain.cs" line="72" column="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression_1ae7e432cdb15d0137efc6f32ed15ba280" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Element.AST.ExpressionChain.CallExpression.ValidateImpl</definition>
+        <argsstring>(ResultBuilder builder, Context context)</argsstring>
+        <name>ValidateImpl</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_ast_node_1a4df48c17a2f7b364d593d7291afad2a8">ValidateImpl</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref></type>
+          <declname>builder</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/ExpressionChain.cs" line="74" column="37" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/ExpressionChain.cs" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression_1ac202ab07e18d393b59024cbc57541fe7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.ExpressionChain.CallExpression.SubExpressionImpl</definition>
+        <argsstring>(IValue previous, IScope scope, Context context)</argsstring>
+        <name>SubExpressionImpl</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_sub_expression_1a768df7a9d3454cbcade2f626b30036d2">SubExpressionImpl</reimplements>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>previous</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref></type>
+          <declname>scope</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/ExpressionChain.cs" line="82" column="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="2">
+        <label>SubExpression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_sub_expression"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.ExpressionChain.CallExpression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="2">
+        <label>SubExpression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_sub_expression"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.ExpressionChain.CallExpression</label>
+        <link refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/ExpressionChain.cs" line="66" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Expressions/ExpressionChain.cs" bodystart="65" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression_1ae74c29ede57028839b848fc9f7806d23" prot="public" virt="non-virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>Expressions</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1aea3371152f46d75be233650ad347bc72" prot="public" virt="non-virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>IndexInSource</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_sub_expression_1aa3dc2695981526e8d3375a8f24934c5b" prot="public" virt="non-virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>ResolveSubExpression</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a6d91ea72f391505441e27fdb40c75aec" prot="public" virt="non-virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>SourceInfo</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression_1ac202ab07e18d393b59024cbc57541fe7" prot="protected" virt="virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>SubExpressionImpl</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression_1aea19ddcac49cc3968648ef979cc7e3e9" prot="public" virt="non-virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1afd4482e89cf109b816465c92c7960dc5" prot="public" virt="non-virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a16e8a7969fb8eec8e70358c020f0cc2f" prot="public" virt="non-virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_expression_chain_1_1_call_expression_1ae7e432cdb15d0137efc6f32ed15ba280" prot="protected" virt="virtual"><scope>Element::AST::ExpressionChain::CallExpression</scope><name>ValidateImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classelement_1_1function__declaration" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>element::function_declaration</compoundname>
+    <basecompoundref refid="classelement_1_1declaration" prot="public" virt="non-virtual">element::declaration</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>kind</name>
+        <enumvalue id="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416a2c8407132baf0892c4189ec401b73909" prot="public">
+          <name>expression_bodied</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416a622b5ce8009300677fdd6b97e4e24581" prot="public">
+          <name>scope_bodied</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416ace668bdd53970633afdd53e88b772919" prot="public">
+          <name>intrinsic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="16" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" bodystart="15" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classelement_1_1function__declaration_1a528bc8e878e3314420a00719531cd852" prot="public" static="no" mutable="no">
+        <type>std::variant&lt; std::unique_ptr&lt; <ref refid="classelement_1_1object" kindref="compound">object</ref> &gt;, const <ref refid="classelement_1_1object" kindref="compound">object</ref> * &gt;</type>
+        <definition>std::variant&lt;std::unique_ptr&lt;object&gt;, const object*&gt; element::function_declaration::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="42" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classelement_1_1function__declaration_1a06343e14fd8aa9ac4d2a0e89aa5d8f29" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;constraint&gt; element::function_declaration::constraint_</definition>
+        <argsstring></argsstring>
+        <name>constraint_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="45" column="25" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classelement_1_1function__declaration_1a63178b101de9072473228096cbaddbb6" prot="private" static="no" mutable="no">
+        <type>kind</type>
+        <definition>kind element::function_declaration::function_kind</definition>
+        <argsstring></argsstring>
+        <name>function_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="46" column="14" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classelement_1_1function__declaration_1a4566b12454c64404ef49f4ddcd761192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>function_declaration::function_declaration</definition>
+        <argsstring>(identifier name, const scope *parent_scope, kind function_kind)</argsstring>
+        <name>function_declaration</name>
+        <param>
+          <type><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>kind</type>
+          <declname>function_kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="23" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1aef4a832206e8bcab214e8cd95f7d2948" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool function_declaration::matches_constraint</definition>
+        <argsstring>(const compilation_context &amp;context, const constraint *constraint) const override</argsstring>
+        <name>matches_constraint</name>
+        <reimplements refid="classelement_1_1object_1a3ba311dae552affb306308617e394cf8">matches_constraint</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+          <declname>constraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="25" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1add97c4df923342e9b2ae70f07a0e4437" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+        <definition>const constraint * function_declaration::get_constraint</definition>
+        <argsstring>() const override</argsstring>
+        <name>get_constraint</name>
+        <reimplements refid="classelement_1_1object_1a3452e5e30891e487707a7fb300f6465d">get_constraint</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="26" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1af0b183a0342c67d8684525e2b3962929" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string function_declaration::typeof_info</definition>
+        <argsstring>() const override</argsstring>
+        <name>typeof_info</name>
+        <reimplements refid="classelement_1_1object_1ad349d741b95f1a6fa5bbdd5188e8292b">typeof_info</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="28" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.cpp" bodystart="41" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1aad27533d671d736f955ce75909afd90e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string function_declaration::to_code</definition>
+        <argsstring>(const int depth) const override</argsstring>
+        <name>to_code</name>
+        <reimplements refid="classelement_1_1object_1a930429a343359aaf0cf603d251ca53a2">to_code</reimplements>
+        <param>
+          <type>const int</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="29" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.cpp" bodystart="167" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1af0c75e5d22cc72b1f4881bfe23d4bf44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool function_declaration::is_variadic</definition>
+        <argsstring>() const override</argsstring>
+        <name>is_variadic</name>
+        <reimplements refid="classelement_1_1declaration_1ab0a2dc970845b94bd83b509b29706ce6">is_variadic</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="30" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1a4020725cd1f1cc4034a1cfc74107065a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr function_declaration::call</definition>
+        <argsstring>(const compilation_context &amp;context, std::vector&lt; object_const_shared_ptr &gt; compiled_args, const source_information &amp;source_info) const override</argsstring>
+        <name>call</name>
+        <reimplements refid="classelement_1_1object_1af6dbeefad4c697ab757864ae78fd831e">call</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; object_const_shared_ptr &gt;</type>
+          <declname>compiled_args</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="32" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp" bodystart="29" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1af8f8c39ecb4fd69822b038eb0a424caf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr function_declaration::compile</definition>
+        <argsstring>(const compilation_context &amp;context, const source_information &amp;source_info) const override</argsstring>
+        <name>compile</name>
+        <reimplements refid="classelement_1_1object_1aa562aac5d1f233abda4a5348ac38da73">compile</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="36" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1a9d7549971a9b70367a421f46c4ee9106" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool function_declaration::valid_at_boundary</definition>
+        <argsstring>(const compilation_context &amp;context) const</argsstring>
+        <name>valid_at_boundary</name>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="39" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp" bodystart="57" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1function__declaration_1a6f383548bd1dee00a603e969e4f7cad1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool function_declaration::is_intrinsic</definition>
+        <argsstring>() const override</argsstring>
+        <name>is_intrinsic</name>
+        <reimplements refid="classelement_1_1declaration_1a217a30a77e016ca9faebdddf94e1c338">is_intrinsic</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="40" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+      </node>
+      <node id="2">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>element::function_declaration</label>
+        <link refid="classelement_1_1function__declaration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>element::identifier</label>
+        <link refid="classelement_1_1identifier"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>list_at_identifier</edgelabel>
+          <edgelabel>return_identifier</edgelabel>
+          <edgelabel>list_count_identifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>source_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>element::function_declaration</label>
+        <link refid="classelement_1_1function__declaration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element::source_information</label>
+        <link refid="classelement_1_1source__information"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" line="13" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/function_declaration.hpp" bodystart="12" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classelement_1_1function__declaration_1a528bc8e878e3314420a00719531cd852" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>body</name></member>
+      <member refid="classelement_1_1function__declaration_1a4020725cd1f1cc4034a1cfc74107065a" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>call</name></member>
+      <member refid="classelement_1_1function__declaration_1af8f8c39ecb4fd69822b038eb0a424caf" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>compile</name></member>
+      <member refid="classelement_1_1function__declaration_1a06343e14fd8aa9ac4d2a0e89aa5d8f29" prot="private" virt="non-virtual"><scope>element::function_declaration</scope><name>constraint_</name></member>
+      <member refid="classelement_1_1declaration_1a8696b7fbe135b0587844522d5adc244a" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>declaration</name></member>
+      <member refid="classelement_1_1declaration_1a8cc77ed9d14d592b274c5ef8095f828e" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>deserializable</name></member>
+      <member refid="classelement_1_1function__declaration_1a4566b12454c64404ef49f4ddcd761192" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>function_declaration</name></member>
+      <member refid="classelement_1_1function__declaration_1a63178b101de9072473228096cbaddbb6" prot="private" virt="non-virtual"><scope>element::function_declaration</scope><name>function_kind</name></member>
+      <member refid="classelement_1_1declaration_1a155e76df8fb03187c5fa3cb50d5593c8" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>generate_placeholder</name></member>
+      <member refid="classelement_1_1function__declaration_1add97c4df923342e9b2ae70f07a0e4437" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>get_constraint</name></member>
+      <member refid="classelement_1_1declaration_1aca9fee3dff59f5fc556a7c97582795cf" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>get_inputs</name></member>
+      <member refid="classelement_1_1declaration_1a73b170b0cd63360e464409f77ec5b19b" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>get_output</name></member>
+      <member refid="classelement_1_1declaration_1a8068d1e042ffa6c66071512f098f8e1b" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>get_scope</name></member>
+      <member refid="classelement_1_1declaration_1a1d2398978ddc2bcef7ab41431de63f7e" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>has_constraint</name></member>
+      <member refid="classelement_1_1declaration_1a610ac22456ae8b6373f67d0319ebe8fa" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>has_inputs</name></member>
+      <member refid="classelement_1_1declaration_1aef569b66836406fea14c09a544bd7768" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>has_output</name></member>
+      <member refid="classelement_1_1declaration_1aceb9f554853c91d5cc59275858fa407a" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>has_scope</name></member>
+      <member refid="classelement_1_1object_1a542266c49533b394c8f7668748f6424a" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>index</name></member>
+      <member refid="classelement_1_1declaration_1a475501035092573ccdedc3ec274251ad" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>inputs</name></member>
+      <member refid="classelement_1_1object_1ab44c28014a94092052f9cf9418eef340" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>is_constant</name></member>
+      <member refid="classelement_1_1function__declaration_1a6f383548bd1dee00a603e969e4f7cad1" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>is_intrinsic</name></member>
+      <member refid="classelement_1_1function__declaration_1af0c75e5d22cc72b1f4881bfe23d4bf44" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>is_variadic</name></member>
+      <member refid="classelement_1_1function__declaration_1a9ff2ea9d37771c1d18b6c6e91f072416" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>kind</name></member>
+      <member refid="classelement_1_1declaration_1a3e154c96fa736c4770e27118ef5683d2" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>location</name></member>
+      <member refid="classelement_1_1function__declaration_1aef4a832206e8bcab214e8cd95f7d2948" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>matches_constraint</name></member>
+      <member refid="classelement_1_1declaration_1a4af44f9d6c056d99c61a8fad55568f5f" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>name</name></member>
+      <member refid="classelement_1_1object_1a0b77789880bc695115d2428b9b1f2fe6" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1aecee67e856bcf56ecaee3848c3b834fe" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1af31de89eb2a06fe7856ae3d8252fdd1b" prot="protected" virt="non-virtual"><scope>element::function_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1a05f452496fc2f14d4844fefe0326e5cd" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>operator=</name></member>
+      <member refid="classelement_1_1object_1aec74730c57e08a37dc6a61992e84e543" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>operator=</name></member>
+      <member refid="classelement_1_1declaration_1a2c5271358044c7784a008b0f11945588" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>our_scope</name></member>
+      <member refid="classelement_1_1declaration_1ab6dd2fc24083358e423b900756a85cc7" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>output</name></member>
+      <member refid="classelement_1_1declaration_1a2e520b33e96f792b5323ed22ec616719" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>qualifier</name></member>
+      <member refid="classelement_1_1declaration_1a671dc39120f6cb09515ea119b0dc6900" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>recursive_handler</name></member>
+      <member refid="classelement_1_1declaration_1a81bd001ce644bc329f3ae0bdff5e7718" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>serializable</name></member>
+      <member refid="classelement_1_1object_1a8c377027f992c5b3440679941619c468" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>source_info</name></member>
+      <member refid="classelement_1_1function__declaration_1aad27533d671d736f955ce75909afd90e" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>to_code</name></member>
+      <member refid="classelement_1_1object_1ac285622d5bdbf53d29ed531a7a50cd2a" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>to_instruction</name></member>
+      <member refid="classelement_1_1object_1a1c22bf6d69ae19c71d6b2bd0cedfd675" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>to_string</name></member>
+      <member refid="classelement_1_1function__declaration_1af0b183a0342c67d8684525e2b3962929" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>typeof_info</name></member>
+      <member refid="classelement_1_1function__declaration_1a9d7549971a9b70367a421f46c4ee9106" prot="public" virt="non-virtual"><scope>element::function_declaration</scope><name>valid_at_boundary</name></member>
+      <member refid="classelement_1_1declaration_1a4ba869980bcec8cd2d6801837a54ca24" prot="protected" virt="non-virtual"><scope>element::function_declaration</scope><name>wrapper</name></member>
+      <member refid="classelement_1_1object_1a9737ac6b6eef6c4e41d0a15ebf42762a" prot="public" virt="virtual"><scope>element::function_declaration</scope><name>~object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

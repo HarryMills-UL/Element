@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_element" kind="namespace" language="C#">
+    <compoundname>Element</compoundname>
+    <innerclass refid="class_element_1_1_atomic_host" prot="public">Element::AtomicHost</innerclass>
+    <innerclass refid="class_element_1_1_basic_instruction_group" prot="public">Element::BasicInstructionGroup</innerclass>
+    <innerclass refid="class_element_1_1_binary" prot="public">Element::Binary</innerclass>
+    <innerclass refid="class_element_1_1_cached_instruction" prot="public">Element::CachedInstruction</innerclass>
+    <innerclass refid="class_element_1_1_common_subexpression_extraction" prot="public">Element::CommonSubexpressionExtraction</innerclass>
+    <innerclass refid="class_element_1_1_compiler_input" prot="public">Element::CompilerInput</innerclass>
+    <innerclass refid="class_element_1_1_compiler_message" prot="public">Element::CompilerMessage</innerclass>
+    <innerclass refid="struct_element_1_1_compiler_options" prot="public">Element::CompilerOptions</innerclass>
+    <innerclass refid="class_element_1_1_constant" prot="public">Element::Constant</innerclass>
+    <innerclass refid="class_element_1_1_context" prot="public">Element::Context</innerclass>
+    <innerclass refid="class_element_1_1_directory_package_registry" prot="public">Element::DirectoryPackageRegistry</innerclass>
+    <innerclass refid="interface_element_1_1_i_host" prot="public">Element::IHost</innerclass>
+    <innerclass refid="class_element_1_1_instruction" prot="public">Element::Instruction</innerclass>
+    <innerclass refid="class_element_1_1_instruction_group" prot="public">Element::InstructionGroup</innerclass>
+    <innerclass refid="class_element_1_1_instruction_group_element" prot="public">Element::InstructionGroupElement</innerclass>
+    <innerclass refid="class_element_1_1_internal_compiler_exception" prot="public">Element::InternalCompilerException</innerclass>
+    <innerclass refid="interface_element_1_1_i_package_registry" prot="public">Element::IPackageRegistry</innerclass>
+    <innerclass refid="class_element_1_1_lambda_equality_comparer" prot="public">Element::LambdaEqualityComparer</innerclass>
+    <innerclass refid="class_element_1_1_loop" prot="public">Element::Loop</innerclass>
+    <innerclass refid="class_element_1_1_package_info" prot="public">Element::PackageInfo</innerclass>
+    <innerclass refid="struct_element_1_1_package_manifest" prot="public">Element::PackageManifest</innerclass>
+    <innerclass refid="struct_element_1_1_package_specifier" prot="public">Element::PackageSpecifier</innerclass>
+    <innerclass refid="class_element_1_1_persistent_host" prot="public">Element::PersistentHost</innerclass>
+    <innerclass refid="struct_element_1_1_result" prot="public">Element::Result</innerclass>
+    <innerclass refid="class_element_1_1_result_builder" prot="public">Element::ResultBuilder</innerclass>
+    <innerclass refid="class_element_1_1_result_extensions" prot="public">Element::ResultExtensions</innerclass>
+    <innerclass refid="class_element_1_1_source_context" prot="public">Element::SourceContext</innerclass>
+    <innerclass refid="class_element_1_1_source_info" prot="public">Element::SourceInfo</innerclass>
+    <innerclass refid="class_element_1_1_state" prot="public">Element::State</innerclass>
+    <innerclass refid="class_element_1_1_switch" prot="public">Element::Switch</innerclass>
+    <innerclass refid="struct_element_1_1_trace_site" prot="public">Element::TraceSite</innerclass>
+    <innerclass refid="class_element_1_1_unary" prot="public">Element::Unary</innerclass>
+    <innernamespace refid="namespace_element_1_1_a_s_t">Element::AST</innernamespace>
+    <innernamespace refid="namespace_element_1_1_c_l_r">Element::CLR</innernamespace>
+    <innernamespace refid="namespace_element_1_1_json_argument">Element::JsonArgument</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_element_1a19c9d878f82a1af344685565e9f32a1b" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>MessageCode</name>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba505a83f220c02df2f85c3810cd9ceb38" prot="public">
+          <name>Success</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba01bab7378e999023cd0f9129042fb739" prot="public">
+          <name>FileAccessError</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baa4f9397c9cd927471d39f39c5a48ceb3" prot="public">
+          <name>ArgumentNotFound</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baa73df58f6426f63ced856eebd82f704d" prot="public">
+          <name>ArgumentOutOfRange</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1babad18673c2b7c9bf67f4f57879b8e1e9" prot="public">
+          <name>InvalidCast</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1babfaef30f1c8011c5cefa38ae470fb7aa" prot="public">
+          <name>UnknownError</name>
+          <initializer>= 9999</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bae41199faa7290c167f70f314c5e6c165" prot="public">
+          <name>ParseError</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba0db162ba3c384ca4b046ff09be30cb73" prot="public">
+          <name>DuplicateSourceFile</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bab58e78cfd992ba8e20653e24f9933d02" prot="public">
+          <name>MultipleDefinitions</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bad37b4027cd8442a9ff41109affbbc2e4" prot="public">
+          <name>IntrinsicNotFound</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba509892a28893c9085c7876a745eff443" prot="public">
+          <name>MissingPorts</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba354bdebc993ece5085e592b623b234a5" prot="public">
+          <name>InvalidIdentifier</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba03edf04665e84f4fd756ec73cb0b905d" prot="public">
+          <name>StructCannotHaveReturnType</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baf13fc77961a19d28dca3ca2e240c96b6" prot="public">
+          <name>IntrinsicCannotHaveBody</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bab1d09f1a96eb7096212153d0bfe36316" prot="public">
+          <name>MissingFunctionBody</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bab9eb25a6b30695e1ae76dad92fe8be07" prot="public">
+          <name>MultipleIntrinsicLocations</name>
+          <initializer>= 29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba7876ef56f0a01828cc58f16e57a60931" prot="public">
+          <name>FunctionMissingReturn</name>
+          <initializer>= 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bab766e554030c48e9cdca7562038e7913" prot="public">
+          <name>PortListCannotContainDiscards</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba267537112f5282a0e109a9e5752b9dfc" prot="public">
+          <name>PortListDeclaresDefaultArgumentBeforeNonDefault</name>
+          <initializer>= 33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba04292b1d7e48e5ff3b5817d0e81a949c" prot="public">
+          <name>IntrinsicConstraintCannotSpecifyFunctionSignature</name>
+          <initializer>= 34</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba64353c9071b50ec2fe6b90ed122471a8" prot="public">
+          <name>SerializationError</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baf8c84dbcf08538f2e4192cc44c733b96" prot="public">
+          <name>InvalidCompileTarget</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baeba9185206cd2f1514a7cd8785a0ca7d" prot="public">
+          <name>LocalShadowing</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bafd5c4469f737bd080dec95ca893b1f89" prot="public">
+          <name>ArgumentCountMismatch</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba6f31893b4ea2648fa99a2b1d03a52acf" prot="public">
+          <name>IdentifierNotFound</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1babbee672251b9525376b8d6350935ff26" prot="public">
+          <name>ConstraintNotSatisfied</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba19188ff833f11012730eb309ccf6322b" prot="public">
+          <name>InvalidBoundaryFunction</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bab12aab2ed2d54a5d13abb04863510b37" prot="public">
+          <name>RecursionNotAllowed</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baefb74200f7dca71d5f3b5445050f8c54" prot="public">
+          <name>MissingBoundaryConverter</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba137bf8cff2d59f0883c600f9524b3eed" prot="public">
+          <name>TypeError</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1bad5424357a96fe33edf31ffbee617d83f" prot="public">
+          <name>InvalidExpression</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba472291498a8aff770408d257c952c89c" prot="public">
+          <name>InvalidReturnType</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba3c7032458d09ea3c00441586bad65444" prot="public">
+          <name>InvalidBoundaryData</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba11bc1370f1670a9b22d151ef534e0dff" prot="public">
+          <name>CannotBeUsedAsInstanceFunction</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baab1a82dee55bd99732b6682edf57d949" prot="public">
+          <name>FunctionCannotBeUncurried</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baabb4cf6772b58e0c302c2f7f8e045cbf" prot="public">
+          <name>NotCompileConstant</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba65ffeb99fc0ff285b4548f963593fa2d" prot="public">
+          <name>InfiniteLoop</name>
+          <initializer>= 35</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1baff8457cc13639efd14e24b889ac04e33" prot="public">
+          <name>NotFunction</name>
+          <initializer>= 36</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba2bcdd10d2b4732998c03752654060ac7" prot="public">
+          <name>NotIndexable</name>
+          <initializer>= 37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a19c9d878f82a1af344685565e9f32a1ba5f0db72c7b936ddfdb882dbcb002c103" prot="public">
+          <name>NotConstraint</name>
+          <initializer>= 38</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" line="13" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/CompilerMessage.cs" bodystart="12" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_element_1a64c8ed4bc7bdbc5caf8c12b751164421" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>MessageLevel</name>
+        <enumvalue id="namespace_element_1a64c8ed4bc7bdbc5caf8c12b751164421ad4a9fa383ab700c5bdd6f31cf7df0faf" prot="public">
+          <name>Verbose</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a64c8ed4bc7bdbc5caf8c12b751164421aa82be0f551b8708bc08eb33cd9ded0cf" prot="public">
+          <name>Information</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a64c8ed4bc7bdbc5caf8c12b751164421a0eaadb4fcb48a0a0ed7bc9868be9fbaa" prot="public">
+          <name>Warning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_element_1a64c8ed4bc7bdbc5caf8c12b751164421a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/MessageLevel.cs" line="4" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/MessageLevel.cs" bodystart="3" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_element_1a9dc3a93ad8486e646982fd629a6d86e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref> &gt;</type>
+        <definition>delegate Result&lt;Instruction&gt; Element.ConditionFunction</definition>
+        <argsstring>(IReadOnlyCollection&lt; Instruction &gt; state)</argsstring>
+        <name>ConditionFunction</name>
+        <param>
+          <type>IReadOnlyCollection&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref> &gt;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/ExpressionGroup/InstructionGroup.cs" line="30" column="24" declfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/ExpressionGroup/InstructionGroup.cs" declline="30" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_element_1a29f008832510bcb01f7ab73b53a82d2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; IEnumerable&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref> &gt; &gt;</type>
+        <definition>delegate Result&lt;IEnumerable&lt;Instruction&gt; &gt; Element.IterationFunction</definition>
+        <argsstring>(IReadOnlyCollection&lt; Instruction &gt; previous)</argsstring>
+        <name>IterationFunction</name>
+        <param>
+          <type>IReadOnlyCollection&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref> &gt;</type>
+          <declname>previous</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/ExpressionGroup/InstructionGroup.cs" line="31" column="24" declfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/ExpressionGroup/InstructionGroup.cs" declline="31" declcolumn="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/CompilerInput.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

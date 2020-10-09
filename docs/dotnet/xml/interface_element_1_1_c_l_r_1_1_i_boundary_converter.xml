@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_element_1_1_c_l_r_1_1_i_boundary_converter" kind="interface" language="C#" prot="public">
+    <compoundname>Element::CLR::IBoundaryConverter</compoundname>
+    <derivedcompoundref refid="class_element_1_1_c_l_r_1_1_boundary_converter" prot="public" virt="non-virtual">Element.CLR.BoundaryConverter</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_c_l_r_1_1_number_converter" prot="public" virt="non-virtual">Element.CLR.NumberConverter</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_c_l_r_1_1_struct_converter" prot="public" virt="non-virtual">Element.CLR.StructConverter</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_element_1_1_c_l_r_1_1_i_boundary_converter_1aa7a7e66a64483f3d9e9539e72f8e89df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>Result&lt;IValue&gt; Element.CLR.IBoundaryConverter.LinqToElement</definition>
+        <argsstring>(LExpression parameter, IBoundaryConverter root, Context context)</argsstring>
+        <name>LinqToElement</name>
+        <reimplementedby refid="class_element_1_1_c_l_r_1_1_struct_converter_1a0989aece02ceb5fd3a59211949af3f8e">LinqToElement</reimplementedby>
+        <param>
+          <type>LExpression</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_c_l_r_1_1_i_boundary_converter" kindref="compound">IBoundaryConverter</ref></type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" line="15" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_element_1_1_c_l_r_1_1_i_boundary_converter_1aadbc593faa152aa492069279726b02c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; LExpression &gt;</type>
+        <definition>Result&lt;LExpression&gt; Element.CLR.IBoundaryConverter.ElementToLinq</definition>
+        <argsstring>(IValue value, Type outputType, ConvertFunction convertFunction, Context context)</argsstring>
+        <name>ElementToLinq</name>
+        <reimplementedby refid="class_element_1_1_c_l_r_1_1_number_converter_1a4d95ca23d1f97287a40bdc8079178495">ElementToLinq</reimplementedby>
+        <reimplementedby refid="class_element_1_1_c_l_r_1_1_struct_converter_1a7eab70273ca4804b5d6a73cace9e6072">ElementToLinq</reimplementedby>
+        <reimplementedby refid="class_element_1_1_c_l_r_1_1_boundary_converter_1ae9a0891e77c2e21249c332418fd96ba9">ElementToLinq</reimplementedby>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>outputType</declname>
+        </param>
+        <param>
+          <type>ConvertFunction</type>
+          <declname>convertFunction</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" line="16" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.CLR.IBoundaryConverter</label>
+        <link refid="interface_element_1_1_c_l_r_1_1_i_boundary_converter"/>
+      </node>
+      <node id="2">
+        <label>Element.CLR.BoundaryConverter</label>
+        <link refid="class_element_1_1_c_l_r_1_1_boundary_converter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Element.CLR.StructConverter</label>
+        <link refid="class_element_1_1_c_l_r_1_1_struct_converter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Element.CLR.NumberConverter</label>
+        <link refid="class_element_1_1_c_l_r_1_1_number_converter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" line="14" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="interface_element_1_1_c_l_r_1_1_i_boundary_converter_1aadbc593faa152aa492069279726b02c2" prot="public" virt="non-virtual"><scope>Element::CLR::IBoundaryConverter</scope><name>ElementToLinq</name></member>
+      <member refid="interface_element_1_1_c_l_r_1_1_i_boundary_converter_1aa7a7e66a64483f3d9e9539e72f8e89df" prot="public" virt="non-virtual"><scope>Element::CLR::IBoundaryConverter</scope><name>LinqToElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

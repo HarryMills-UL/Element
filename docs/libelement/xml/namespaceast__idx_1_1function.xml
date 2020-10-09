@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceast__idx_1_1function" kind="namespace" language="C++">
+    <compoundname>ast_idx::function</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ast__indexes_8hpp_1aabbe84fcf259b86dc8cd56799aab367a" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t ast_idx::function::declaration</definition>
+        <argsstring></argsstring>
+        <name>declaration</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" line="8" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ast__indexes_8hpp_1aaff2758b9fc56ce9495c53040fe51950" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t ast_idx::function::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" line="9" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/ast/ast_indexes.hpp" line="7" column="1"/>
+  </compounddef>
+</doxygen>

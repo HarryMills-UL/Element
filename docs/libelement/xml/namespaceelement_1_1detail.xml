@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceelement_1_1detail" kind="namespace" language="C++">
+    <compoundname>element::detail</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="log__errors_8cpp_1a401ea9a6307d99b59e7dd29599d24ed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool element::detail::register_log_errors</definition>
+        <argsstring>()</argsstring>
+        <name>register_log_errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.cpp" line="5" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.cpp" bodystart="5" bodyend="252" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" declline="212" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="error__map_8hpp_1ad5f9b2878d173d0cfef4584dd60f9979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool element::detail::register_errors</definition>
+        <argsstring>()</argsstring>
+        <name>register_errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" line="125" column="14" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.cpp" bodystart="3" bodyend="88" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" declline="125" declcolumn="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.cpp" line="4" column="1"/>
+  </compounddef>
+</doxygen>

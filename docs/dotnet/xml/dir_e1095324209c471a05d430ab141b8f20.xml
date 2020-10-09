@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_e1095324209c471a05d430ab141b8f20" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs</compoundname>
+    <innerfile refid="_bool_struct_8cs">BoolStruct.cs</innerfile>
+    <innerfile refid="_list_struct_8cs">ListStruct.cs</innerfile>
+    <innerfile refid="_num_struct_8cs">NumStruct.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/"/>
+  </compounddef>
+</doxygen>

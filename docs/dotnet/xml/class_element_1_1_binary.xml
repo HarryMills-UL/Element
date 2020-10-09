@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_binary" kind="class" language="C#" prot="public">
+    <compoundname>Element::Binary</compoundname>
+    <basecompoundref refid="class_element_1_1_instruction" prot="public" virt="non-virtual">Element.Instruction</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Op</name>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7ac33315685a0cba3ce53be378b3c7874b" prot="public">
+          <name>And</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a3a2d5fe857d8f9541136a124c2edec6c" prot="public">
+          <name>Or</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a3718b5ecf60aa0dba49e150e96cb1fc3" prot="public">
+          <name>Eq</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7af27cd6656e2a46007ddac7452d9b04c9" prot="public">
+          <name>NEq</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a50033c15af7795cd6617f117b29d6922" prot="public">
+          <name>Lt</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a73c491454494309d267c0ebf14dfbfa0" prot="public">
+          <name>LEq</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a086cb8308e5a36e7c4ed1f8873ad801f" prot="public">
+          <name>Gt</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a6d24d9aa0d6e77e791e6803aae71b8dd" prot="public">
+          <name>GEq</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7aec211f7c20af43e742bf2570c3cb84f9" prot="public">
+          <name>Add</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7ae80155eceb940c89e2de63ad05868db2" prot="public">
+          <name>Sub</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a62b6d55816cf737bfc6f42e60df1a3f2" prot="public">
+          <name>Mul</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a43d11850893d2fe84a1e618121c1cc0a" prot="public">
+          <name>Div</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7ad046ddfbf2c9c0952699c5496918570b" prot="public">
+          <name>Rem</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a8be6d3e955290ee50c00a4bc92aa7749" prot="public">
+          <name>Pow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a78d811e98514cd165dda532286610fd2" prot="public">
+          <name>Min</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a6a061313d22e51e0f25b7cd4dc065233" prot="public">
+          <name>Max</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7ace0be71e33226e4c1db2bcea5959f16b" prot="public">
+          <name>Log</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7a5816dfcaf3b6dbb486ef9c8c006ff613" prot="public">
+          <name>Atan2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="14" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="13" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_element_1_1_binary_1ade40ac971f74fdeb2bbdae7c676fabe6" prot="private" static="yes" mutable="no">
+        <type>readonly HashSet&lt; Op &gt;</type>
+        <definition>readonly HashSet&lt;Op&gt; Element.Binary._boolOps</definition>
+        <argsstring></argsstring>
+        <name>_boolOps</name>
+        <initializer>= new HashSet&lt;Op&gt;{
+			Op.And,
+			Op.Or,
+			Op.Eq,
+			Op.NEq,
+			Op.Lt,
+			Op.LEq,
+			Op.Gt,
+			Op.GEq
+		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="38" column="33" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_binary_1a400399a6b150e85d12d54775c6de3098" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Op</type>
+        <definition>Op Element.Binary.Operation</definition>
+        <argsstring></argsstring>
+        <name>Operation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="140" column="11" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_binary_1a3fc760733825aad6b6a9c956f92d6de9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+        <definition>Instruction Element.Binary.OpA</definition>
+        <argsstring></argsstring>
+        <name>OpA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="141" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_binary_1a3d357892f1d9426c030cf9b7ff5adcb3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+        <definition>Instruction Element.Binary.OpB</definition>
+        <argsstring></argsstring>
+        <name>OpB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="142" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="142" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_binary_1afa0b8a69452c7830e4a93cc77396838d" prot="public" static="no" mutable="no">
+        <type>override IEnumerable&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref> &gt;</type>
+        <definition>override IEnumerable&lt;Instruction&gt; Element.Binary.Dependent</definition>
+        <argsstring></argsstring>
+        <name>Dependent</name>
+        <initializer>=&gt; new[] {OpA, OpB}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="144" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_binary_1a06f8618096b5750858c4af3fbfeac596" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Element.Binary.SummaryString</definition>
+        <argsstring></argsstring>
+        <name>SummaryString</name>
+        <initializer>=&gt; $&quot;{Operation}({OpA}, {OpB})&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="146" column="24" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_binary_1a29a747aaf9f656beb5c5a7055666a584" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>static Constant Element.Binary.Evaluate</definition>
+        <argsstring>(Op op, float a, float b)</argsstring>
+        <name>Evaluate</name>
+        <param>
+          <type>Op</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="49" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_binary_1a2d994c9770359c8d5b8652cf1fd33def" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+        <definition>static Instruction Element.Binary.CreateAndOptimize</definition>
+        <argsstring>(Op op, Instruction opA, Instruction opB)</argsstring>
+        <name>CreateAndOptimize</name>
+        <param>
+          <type>Op</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>opA</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>opB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="76" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="76" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_element_1_1_binary_1ac4f56a1e78fbdca03cabdccce0422238" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Binary.Binary</definition>
+        <argsstring>(Op operation, Instruction opA, Instruction opB)</argsstring>
+        <name>Binary</name>
+        <param>
+          <type>Op</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>opA</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>opB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="121" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="121" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_binary_1a1a16efa7baed29efb4accdd60f0a7f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Element.Binary.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="147" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_binary_1a3114c0cd8c4e3ac78f12b9a21925b43e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Element.Binary.Equals</definition>
+        <argsstring>(Instruction other)</argsstring>
+        <name>Equals</name>
+        <reimplements refid="class_element_1_1_instruction_1a35f95bfd828cd266cb1e32631e9ae5ef">Equals</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="149" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>2-arity function, i.e. f(a, b) = expr </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.Binary</label>
+        <link refid="class_element_1_1_binary"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="2">
+        <label>Instruction</label>
+        <link refid="class_element_1_1_instruction"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEquatable&lt; Instruction &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Element.Binary</label>
+        <link refid="class_element_1_1_binary"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="7">
+        <label>Element.AST.IIntrinsicStructImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Instruction</label>
+        <link refid="class_element_1_1_instruction"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>StructImplementation</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IEquatable&lt; Instruction &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" line="12" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Binary.cs" bodystart="11" bodyend="155"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_binary_1ade40ac971f74fdeb2bbdae7c676fabe6" prot="private" virt="non-virtual"><scope>Element::Binary</scope><name>_boolOps</name></member>
+      <member refid="class_element_1_1_instruction_1a3432d656a9a58e31341593d1cc240509" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>AllDependent</name></member>
+      <member refid="class_element_1_1_binary_1ac4f56a1e78fbdca03cabdccce0422238" prot="private" virt="non-virtual"><scope>Element::Binary</scope><name>Binary</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a8fbc4468318627c22f0d62c22e57dc46" prot="public" virt="virtual"><scope>Element::Binary</scope><name>Call</name></member>
+      <member refid="class_element_1_1_instruction_1aee5ec53353dc4a92225f286084fa89d7" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>CountUses</name></member>
+      <member refid="class_element_1_1_binary_1a2d994c9770359c8d5b8652cf1fd33def" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>CreateAndOptimize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::Binary</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_binary_1afa0b8a69452c7830e4a93cc77396838d" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>Dependent</name></member>
+      <member refid="class_element_1_1_instruction_1a27ee04a4c394e8507e3818d20f4eb27b" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual" ambiguityscope="Element::AST::Value."><scope>Element::Binary</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_binary_1a3114c0cd8c4e3ac78f12b9a21925b43e" prot="public" virt="virtual"><scope>Element::Binary</scope><name>Equals</name></member>
+      <member refid="class_element_1_1_instruction_1a8083175845c97edcca3884618a39554d" prot="public" virt="non-virtual" ambiguityscope="Element::Instruction."><scope>Element::Binary</scope><name>Equals</name></member>
+      <member refid="class_element_1_1_binary_1a29a747aaf9f656beb5c5a7055666a584" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>Evaluate</name></member>
+      <member refid="class_element_1_1_binary_1a1a16efa7baed29efb4accdd60f0a7f87" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>GetHashCode</name></member>
+      <member refid="class_element_1_1_instruction_1a4d2256b835fdae629b97aed2f21d48eb" prot="public" virt="virtual"><scope>Element::Binary</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ac3be9fa21309cd961a11fc67e4fe39af" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_instruction_1a436dd31eb46f399166a0d0a5fb46e6c8" prot="protected" virt="non-virtual"><scope>Element::Binary</scope><name>Instruction</name></member>
+      <member refid="class_element_1_1_instruction_1a36f1ae7ef150a6eb28c4f7b8b62ca4b9" prot="protected" virt="non-virtual"><scope>Element::Binary</scope><name>ListJoinNormalizedForm</name></member>
+      <member refid="class_element_1_1_instruction_1a0a8a3f6fbd0cbfc4b6e91eedc9bebdcd" prot="protected" virt="non-virtual"><scope>Element::Binary</scope><name>ListJoinToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::Binary</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>Members</name></member>
+      <member refid="class_element_1_1_instruction_1a6dbc8b32154aa10f30375628ba954eef" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_binary_1a2b0834008be124e8d94dd5e3e6bab4e7" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>Op</name></member>
+      <member refid="class_element_1_1_binary_1a3fc760733825aad6b6a9c956f92d6de9" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>OpA</name></member>
+      <member refid="class_element_1_1_binary_1a3d357892f1d9426c030cf9b7ff5adcb3" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>OpB</name></member>
+      <member refid="class_element_1_1_binary_1a400399a6b150e85d12d54775c6de3098" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>Operation</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aaf9449e5d86cceb21ff322b52f97e01f" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_instruction_1a8f53d61c6e1ec3eca7456b5c7572d496" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual" ambiguityscope="Element::AST::Value."><scope>Element::Binary</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_instruction_1acc96b260beb5e69e983f78b6dda85221" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>StructImplementation</name></member>
+      <member refid="class_element_1_1_binary_1a06f8618096b5750858c4af3fbfeac596" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_instruction_1a8f10301a69ea8c8e051d32ba13be691b" prot="public" virt="non-virtual"><scope>Element::Binary</scope><name>TypeOf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

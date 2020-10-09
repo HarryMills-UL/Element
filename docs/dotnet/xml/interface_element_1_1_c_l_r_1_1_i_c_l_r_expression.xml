@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_element_1_1_c_l_r_1_1_i_c_l_r_expression" kind="interface" language="C#" prot="public">
+    <compoundname>Element::CLR::ICLRExpression</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_element_1_1_c_l_r_1_1_i_c_l_r_expression_1a7f10c35f221e3d562f03c24855d6faac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.Linq.Expressions.Expression</type>
+        <definition>System.Linq.Expressions.Expression Element.CLR.ICLRExpression.Compile</definition>
+        <argsstring>(Func&lt; Instruction, System.Linq.Expressions.Expression &gt; compileOther)</argsstring>
+        <name>Compile</name>
+        <param>
+          <type>Func&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref>, System.Linq.Expressions.Expression &gt;</type>
+          <declname>compileOther</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/ICLRExpression.cs" line="10" column="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Something that can be compiled to a linq expression. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/ICLRExpression.cs" line="9" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/ICLRExpression.cs" bodystart="8" bodyend="11"/>
+    <listofallmembers>
+      <member refid="interface_element_1_1_c_l_r_1_1_i_c_l_r_expression_1a7f10c35f221e3d562f03c24855d6faac" prot="public" virt="non-virtual"><scope>Element::CLR::ICLRExpression</scope><name>Compile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

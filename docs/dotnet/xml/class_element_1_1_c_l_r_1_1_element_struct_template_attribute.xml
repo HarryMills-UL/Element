@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_c_l_r_1_1_element_struct_template_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Element::CLR::ElementStructTemplateAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_c_l_r_1_1_element_struct_template_attribute_1a271960961945c54a6f57fa4374ab0247" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Element.CLR.ElementStructTemplateAttribute.ElementTypeExpression</definition>
+        <argsstring></argsstring>
+        <name>ElementTypeExpression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" line="61" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_c_l_r_1_1_element_struct_template_attribute_1a5106eb0f0b49360822f5bb4733c5744c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.CLR.ElementStructTemplateAttribute.ElementStructTemplateAttribute</definition>
+        <argsstring>(string elementTypeExpression)</argsstring>
+        <name>ElementStructTemplateAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>elementTypeExpression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" line="62" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Element.CLR.ElementStructTemplateAttribute</label>
+        <link refid="class_element_1_1_c_l_r_1_1_element_struct_template_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Element.CLR.ElementStructTemplateAttribute</label>
+        <link refid="class_element_1_1_c_l_r_1_1_element_struct_template_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" line="60" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!4-Targets/CLR/IBoundaryConverter.cs" bodystart="59" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_c_l_r_1_1_element_struct_template_attribute_1a5106eb0f0b49360822f5bb4733c5744c" prot="public" virt="non-virtual"><scope>Element::CLR::ElementStructTemplateAttribute</scope><name>ElementStructTemplateAttribute</name></member>
+      <member refid="class_element_1_1_c_l_r_1_1_element_struct_template_attribute_1a271960961945c54a6f57fa4374ab0247" prot="public" virt="non-virtual"><scope>Element::CLR::ElementStructTemplateAttribute</scope><name>ElementTypeExpression</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

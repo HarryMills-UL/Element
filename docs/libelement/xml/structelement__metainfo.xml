@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structelement__metainfo" kind="struct" language="C++" prot="public">
+    <compoundname>element_metainfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structelement__metainfo_1a2cb8e3a076aa3a29a23d1745d3d7e6cf" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string element_metainfo::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp" line="28" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__metainfo_1a56b8e905e77b71d47b654590fe3ba51d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string element_metainfo::typeof</definition>
+        <argsstring></argsstring>
+        <name>typeof</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp" line="29" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__metainfo_1a0828bc7344993384737361f414c3f819" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string element_metainfo::source_type</definition>
+        <argsstring></argsstring>
+        <name>source_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp" line="30" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp" line="25" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter_internal.hpp" bodystart="24" bodyend="31"/>
+    <listofallmembers>
+      <member refid="structelement__metainfo_1a2cb8e3a076aa3a29a23d1745d3d7e6cf" prot="public" virt="non-virtual"><scope>element_metainfo</scope><name>code</name></member>
+      <member refid="structelement__metainfo_1a0828bc7344993384737361f414c3f819" prot="public" virt="non-virtual"><scope>element_metainfo</scope><name>source_type</name></member>
+      <member refid="structelement__metainfo_1a56b8e905e77b71d47b654590fe3ba51d" prot="public" virt="non-virtual"><scope>element_metainfo</scope><name>typeof</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

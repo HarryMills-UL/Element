@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_element_1_1_i_package_registry" kind="interface" language="C#" prot="public">
+    <compoundname>Element::IPackageRegistry</compoundname>
+    <derivedcompoundref refid="class_element_1_1_directory_package_registry" prot="public" virt="non-virtual">Element.DirectoryPackageRegistry</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_element_1_1_i_package_registry_1acec6baa1f5f1ecdb8b1ad181e668e3e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="class_element_1_1_package_info" kindref="compound">PackageInfo</ref> &gt;</type>
+        <definition>Result&lt;PackageInfo&gt; Element.IPackageRegistry.LookupPackage</definition>
+        <argsstring>(PackageSpecifier specifier, Context context)</argsstring>
+        <name>LookupPackage</name>
+        <reimplementedby refid="class_element_1_1_directory_package_registry_1a1bd054d3e19e07e813f70efa848dffb8">LookupPackage</reimplementedby>
+        <param>
+          <type><ref refid="struct_element_1_1_package_specifier" kindref="compound">PackageSpecifier</ref></type>
+          <declname>specifier</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/IPackageRegistry.cs" line="8" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A registry for obtaining element packages via package specifiers. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.IPackageRegistry</label>
+        <link refid="interface_element_1_1_i_package_registry"/>
+      </node>
+      <node id="2">
+        <label>Element.DirectoryPackageRegistry</label>
+        <link refid="class_element_1_1_directory_package_registry"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/IPackageRegistry.cs" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!0-SourcesAndPackages/IPackageRegistry.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interface_element_1_1_i_package_registry_1acec6baa1f5f1ecdb8b1ad181e668e3e8" prot="public" virt="non-virtual"><scope>Element::IPackageRegistry</scope><name>LookupPackage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

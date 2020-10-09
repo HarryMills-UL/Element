@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_intrinsic_function" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::IntrinsicFunction</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_function" prot="public" virt="non-virtual">Element.AST.Function</basecompoundref>
+    <basecompoundref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_value" prot="public" virt="non-virtual">Element.AST.IIntrinsicValue</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_intrinsic_function_1a2d92f4b88efcb2e57df92e409681aed4" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation" kindref="compound">IIntrinsicImplementation</ref> IIntrinsicValue.</type>
+        <definition>IIntrinsicImplementation IIntrinsicValue. Element.AST.IntrinsicFunction.Implementation</definition>
+        <argsstring></argsstring>
+        <name>Implementation</name>
+        <initializer>=&gt; _implementation</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="38" column="49" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_intrinsic_function_1a3923b21bd983e6c09f932caaf25b0cde" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation" kindref="compound">IIntrinsicFunctionImplementation</ref></type>
+        <definition>readonly IIntrinsicFunctionImplementation Element.AST.IntrinsicFunction._implementation</definition>
+        <argsstring></argsstring>
+        <name>_implementation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="39" column="59" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_intrinsic_function_1a05bab9fa30f2a150fe1f8c481b64e100" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+        <definition>override IReadOnlyList&lt;ResolvedPort&gt; Element.AST.IntrinsicFunction.InputPorts</definition>
+        <argsstring></argsstring>
+        <name>InputPorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="49" column="39" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_intrinsic_function_1a58685e59af23c950e8974fe8b25a4cfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+        <definition>override IValue Element.AST.IntrinsicFunction.ReturnConstraint</definition>
+        <argsstring></argsstring>
+        <name>ReturnConstraint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="50" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_intrinsic_function_1ae9e4a9727b8c9314bdfa69515a01e348" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.IntrinsicFunction.IntrinsicFunction</definition>
+        <argsstring>(IIntrinsicFunctionImplementation implementation, IReadOnlyList&lt; ResolvedPort &gt; inputPorts, IValue returnConstraint)</argsstring>
+        <name>IntrinsicFunction</name>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation" kindref="compound">IIntrinsicFunctionImplementation</ref></type>
+          <declname>implementation</declname>
+        </param>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="class_element_1_1_a_s_t_1_1_resolved_port" kindref="compound">ResolvedPort</ref> &gt;</type>
+          <declname>inputPorts</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>returnConstraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="41" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="41" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_intrinsic_function_1a0f9f96e9f87e7ff2dbe670aefb0ea075" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.IntrinsicFunction.ResolveCall</definition>
+        <argsstring>(IReadOnlyList&lt; IValue &gt; arguments, Context context)</argsstring>
+        <name>ResolveCall</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_function_1a46f7e4629d1fc717ad972a0b47498ef6">ResolveCall</reimplements>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="48" column="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Function</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.IntrinsicFunction</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_function"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IIntrinsicValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_value"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Function</label>
+        <link refid="class_element_1_1_a_s_t_1_1_function"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.IntrinsicFunction</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_function"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IIntrinsicValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_value"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" line="37" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Function.cs" bodystart="36" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_intrinsic_function_1a3923b21bd983e6c09f932caaf25b0cde" prot="private" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>_implementation</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a8f8d89f12fd77ff195e7add981d12761" prot="public" virt="virtual"><scope>Element::AST::IntrinsicFunction</scope><name>Call</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::AST::IntrinsicFunction</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual"><scope>Element::AST::IntrinsicFunction</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_intrinsic_function_1a2d92f4b88efcb2e57df92e409681aed4" prot="private" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>Implementation</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ae64700fadafa1586918809b1bc976e8d" prot="public" virt="virtual"><scope>Element::AST::IntrinsicFunction</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_intrinsic_function_1a05bab9fa30f2a150fe1f8c481b64e100" prot="public" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_intrinsic_function_1ae9e4a9727b8c9314bdfa69515a01e348" prot="public" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>IntrinsicFunction</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_function_1a241ab88a5fb22450652c36513a8cebc8" prot="protected" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>MakeNamedArgumentList</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::AST::IntrinsicFunction</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>Members</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1af9bf5ace9faa286d1632cca2b061004d" prot="public" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_intrinsic_function_1a0f9f96e9f87e7ff2dbe670aefb0ea075" prot="protected" virt="virtual"><scope>Element::AST::IntrinsicFunction</scope><name>ResolveCall</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_intrinsic_function_1a58685e59af23c950e8974fe8b25a4cfa" prot="public" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual"><scope>Element::AST::IntrinsicFunction</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a3e34253191ba578143a47767b2b3b982" prot="public" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a5bee967bcd50e708952864569598d2ca" prot="public" virt="non-virtual"><scope>Element::AST::IntrinsicFunction</scope><name>TypeOf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

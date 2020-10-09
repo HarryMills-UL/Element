@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_list_struct" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::ListStruct</compoundname>
+    <basecompoundref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation" prot="public" virt="non-virtual">Element.AST.IIntrinsicStructImplementation</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_list_struct_1a8b26ca287910fd7551cdc30b0d2e9edd" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+        <definition>readonly Identifier Element.AST.ListStruct.IndexerId</definition>
+        <argsstring></argsstring>
+        <name>IndexerId</name>
+        <initializer>= new <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>(&quot;at&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="9" column="43" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_list_struct_1a453298ed5d11c916e35c8239b845c8ee" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+        <definition>readonly Identifier Element.AST.ListStruct.CountId</definition>
+        <argsstring></argsstring>
+        <name>CountId</name>
+        <initializer>= new <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>(&quot;count&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="10" column="43" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_list_struct_1ad43a939f3a4abc91a0ff352736c949e3" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_list_struct" kindref="compound">ListStruct</ref></type>
+        <definition>ListStruct Element.AST.ListStruct.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <initializer>= new <ref refid="class_element_1_1_a_s_t_1_1_list_struct" kindref="compound">ListStruct</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="17" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_list_struct_1abf62961be22b5cc3367614b1623cb4da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+        <definition>Identifier Element.AST.ListStruct.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="18" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_list_struct_1ae8c4055175d9646a6bbb6e7c51637caa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.ListStruct.ListStruct</definition>
+        <argsstring>()</argsstring>
+        <name>ListStruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="12" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_list_struct_1acdbffc59eb6091a8e51308d0bc2ad4a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>Result&lt;IValue&gt; Element.AST.ListStruct.Construct</definition>
+        <argsstring>(Struct @struct, IReadOnlyList&lt; IValue &gt; arguments, Context context)</argsstring>
+        <name>Construct</name>
+        <reimplements refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation_1aeeef87d3c453a6b90a24809caf6bd2b5">Construct</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_a_s_t_1_1_struct" kindref="compound">Struct</ref> @</type>
+          <declname>struct</declname>
+        </param>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="20" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_list_struct_1abf86226c9db0387a3e6cb0b7391d1403" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; bool &gt;</type>
+        <definition>Result&lt;bool&gt; Element.AST.ListStruct.MatchesConstraint</definition>
+        <argsstring>(Struct @struct, IValue value, Context context)</argsstring>
+        <name>MatchesConstraint</name>
+        <reimplements refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation_1ab2652b827f981c0bc85c55e5a8d9a90c">MatchesConstraint</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_a_s_t_1_1_struct" kindref="compound">Struct</ref> @</type>
+          <declname>struct</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="21" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_list_struct_1a614045252e83bc819a52bd7a48e353bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>Result&lt;IValue&gt; Element.AST.ListStruct.DefaultValue</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>DefaultValue</name>
+        <reimplements refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation_1af6a1f52f0389e0db397497fcdc242b81">DefaultValue</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="22" column="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_list_struct_1a30d64abf0ebadf0456f5152eaf566d4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; int &gt;</type>
+        <definition>static Result&lt;int&gt; Element.AST.ListStruct.ConstantCount</definition>
+        <argsstring>(StructInstance listInstance, Context context)</argsstring>
+        <name>ConstantCount</name>
+        <param>
+          <type><ref refid="class_element_1_1_a_s_t_1_1_struct_instance" kindref="compound">StructInstance</ref></type>
+          <declname>listInstance</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="24" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_list_struct_1a140e93c41016bdafd4310ea2cdef3aa8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref>[]&gt;</type>
+        <definition>static Result&lt;IValue[]&gt; Element.AST.ListStruct.EvaluateElements</definition>
+        <argsstring>(StructInstance listInstance, Context context)</argsstring>
+        <name>EvaluateElements</name>
+        <param>
+          <type><ref refid="class_element_1_1_a_s_t_1_1_struct_instance" kindref="compound">StructInstance</ref></type>
+          <declname>listInstance</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="35" column="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.AST.ListStruct</label>
+        <link refid="class_element_1_1_a_s_t_1_1_list_struct"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIntrinsicStructImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEquatable&lt; Identifier &gt;</label>
+      </node>
+      <node id="4">
+        <label>Element.AST.Identifier</label>
+        <link refid="struct_element_1_1_a_s_t_1_1_identifier"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IExpressionChainStart</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_expression_chain_start"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.ListStruct</label>
+        <link refid="class_element_1_1_a_s_t_1_1_list_struct"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>IndexerId</edgelabel>
+          <edgelabel>CountId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIntrinsicStructImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" line="8" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Structs/ListStruct.cs" bodystart="7" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1a30d64abf0ebadf0456f5152eaf566d4f" prot="public" virt="non-virtual"><scope>Element::AST::ListStruct</scope><name>ConstantCount</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1acdbffc59eb6091a8e51308d0bc2ad4a1" prot="public" virt="virtual"><scope>Element::AST::ListStruct</scope><name>Construct</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1a453298ed5d11c916e35c8239b845c8ee" prot="public" virt="non-virtual"><scope>Element::AST::ListStruct</scope><name>CountId</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1a614045252e83bc819a52bd7a48e353bd" prot="public" virt="virtual"><scope>Element::AST::ListStruct</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1a140e93c41016bdafd4310ea2cdef3aa8" prot="public" virt="non-virtual"><scope>Element::AST::ListStruct</scope><name>EvaluateElements</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1abf62961be22b5cc3367614b1623cb4da" prot="public" virt="non-virtual"><scope>Element::AST::ListStruct</scope><name>Identifier</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1a8b26ca287910fd7551cdc30b0d2e9edd" prot="public" virt="non-virtual"><scope>Element::AST::ListStruct</scope><name>IndexerId</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1ad43a939f3a4abc91a0ff352736c949e3" prot="public" virt="non-virtual"><scope>Element::AST::ListStruct</scope><name>Instance</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1ae8c4055175d9646a6bbb6e7c51637caa" prot="private" virt="non-virtual"><scope>Element::AST::ListStruct</scope><name>ListStruct</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_list_struct_1abf86226c9db0387a3e6cb0b7391d1403" prot="public" virt="virtual"><scope>Element::AST::ListStruct</scope><name>MatchesConstraint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

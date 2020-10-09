@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_declaration_scope_extensions" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::DeclarationScopeExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_declaration_scope_extensions_1a50f479a694b80c1ad5136c34209f0adb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="class_element_1_1_a_s_t_1_1_list" kindref="compound">List</ref>&lt; <ref refid="class_element_1_1_a_s_t_1_1_value_with_location" kindref="compound">ValueWithLocation</ref> &gt; &gt;</type>
+        <definition>static Result&lt;List&lt;ValueWithLocation&gt; &gt; Element.AST.DeclarationScopeExtensions.EnumerateValues</definition>
+        <argsstring>(this IDeclarationScope declarationScope, Context context, Predicate&lt; Declaration &gt; declarationFilter=null, Predicate&lt; ValueWithLocation &gt; resolvedValueFilter=null)</argsstring>
+        <name>EnumerateValues</name>
+        <param>
+          <type>this <ref refid="interface_element_1_1_a_s_t_1_1_i_declaration_scope" kindref="compound">IDeclarationScope</ref></type>
+          <declname>declarationScope</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Predicate&lt; <ref refid="class_element_1_1_a_s_t_1_1_declaration" kindref="compound">Declaration</ref> &gt;</type>
+          <declname>declarationFilter</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>Predicate&lt; <ref refid="class_element_1_1_a_s_t_1_1_value_with_location" kindref="compound">ValueWithLocation</ref> &gt;</type>
+          <declname>resolvedValueFilter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Enumerates top-level and nested declarations that match the filter, resolving them to IValues. Will not recurse into function scopes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="41" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="41" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" line="36" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IDeclarationScope.cs" bodystart="35" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_scope_extensions_1a50f479a694b80c1ad5136c34209f0adb" prot="public" virt="non-virtual"><scope>Element::AST::DeclarationScopeExtensions</scope><name>EnumerateValues</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

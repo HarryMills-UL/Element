@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classelement_1_1constraint__declaration" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>element::constraint_declaration</compoundname>
+    <basecompoundref refid="classelement_1_1declaration" prot="public" virt="non-virtual">element::declaration</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classelement_1_1constraint__declaration_1acf07796b2f44e1ee50e8b8c762da7db1" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>kind</name>
+        <enumvalue id="classelement_1_1constraint__declaration_1acf07796b2f44e1ee50e8b8c762da7db1a8b9035807842a4e4dbe009f3f1478127" prot="public">
+          <name>custom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classelement_1_1constraint__declaration_1acf07796b2f44e1ee50e8b8c762da7db1ace668bdd53970633afdd53e88b772919" prot="public">
+          <name>intrinsic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="13" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classelement_1_1constraint__declaration_1ac927110dfadbe4328fc81030e55535f9" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;constraint&gt; element::constraint_declaration::constraint_</definition>
+        <argsstring></argsstring>
+        <name>constraint_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="33" column="25" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classelement_1_1constraint__declaration_1afa8dd5690816946874184c4ff2d58798" prot="private" static="no" mutable="no">
+        <type>kind</type>
+        <definition>kind element::constraint_declaration::constraint_kind</definition>
+        <argsstring></argsstring>
+        <name>constraint_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="34" column="14" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classelement_1_1constraint__declaration_1aa1d7f3bdaabf9b18d3b14df9bd516bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>constraint_declaration::constraint_declaration</definition>
+        <argsstring>(identifier name, const scope *parent_scope, kind constraint_kind)</argsstring>
+        <name>constraint_declaration</name>
+        <param>
+          <type><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref></type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>kind</type>
+          <declname>constraint_kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="19" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.cpp" bodystart="8" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1constraint__declaration_1a494669f29fa81a6bd0d45f171f6730e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool constraint_declaration::matches_constraint</definition>
+        <argsstring>(const compilation_context &amp;context, const constraint *constraint) const override</argsstring>
+        <name>matches_constraint</name>
+        <reimplements refid="classelement_1_1object_1a3ba311dae552affb306308617e394cf8">matches_constraint</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+          <declname>constraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="21" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1constraint__declaration_1a7a6ea4e6ad97df3b615ed0250d1f0818" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+        <definition>const constraint * constraint_declaration::get_constraint</definition>
+        <argsstring>() const override</argsstring>
+        <name>get_constraint</name>
+        <reimplements refid="classelement_1_1object_1a3452e5e30891e487707a7fb300f6465d">get_constraint</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="22" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.cpp" bodystart="21" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1constraint__declaration_1a856abdbbd378ea61fdd6eb1f7aa333af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string constraint_declaration::typeof_info</definition>
+        <argsstring>() const override</argsstring>
+        <name>typeof_info</name>
+        <reimplements refid="classelement_1_1object_1ad349d741b95f1a6fa5bbdd5188e8292b">typeof_info</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="24" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1constraint__declaration_1ab16b88b6ad3c09e6ec04178e489e10d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string constraint_declaration::to_code</definition>
+        <argsstring>(const int depth) const override</argsstring>
+        <name>to_code</name>
+        <reimplements refid="classelement_1_1object_1a930429a343359aaf0cf603d251ca53a2">to_code</reimplements>
+        <param>
+          <type>const int</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="25" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/metainfo.cpp" bodystart="139" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1constraint__declaration_1a20a0fa899680299fd5060e15bc3704c6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr element::constraint_declaration::compile</definition>
+        <argsstring>(const compilation_context &amp;context, const source_information &amp;source_info) const override</argsstring>
+        <name>compile</name>
+        <reimplements refid="classelement_1_1object_1aa562aac5d1f233abda4a5348ac38da73">compile</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="27" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" bodystart="27" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1constraint__declaration_1a8b9080d0a569a30f9655d28926d6f0ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool constraint_declaration::is_intrinsic</definition>
+        <argsstring>() const override</argsstring>
+        <name>is_intrinsic</name>
+        <reimplements refid="classelement_1_1declaration_1a217a30a77e016ca9faebdddf94e1c338">is_intrinsic</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="30" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+      </node>
+      <node id="2">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>element::constraint_declaration</label>
+        <link refid="classelement_1_1constraint__declaration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>element::identifier</label>
+        <link refid="classelement_1_1identifier"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>list_at_identifier</edgelabel>
+          <edgelabel>return_identifier</edgelabel>
+          <edgelabel>list_count_identifier</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>source_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>element::declaration</label>
+        <link refid="classelement_1_1declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element::source_information</label>
+        <link refid="classelement_1_1source__information"/>
+      </node>
+      <node id="1">
+        <label>element::constraint_declaration</label>
+        <link refid="classelement_1_1constraint__declaration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" line="10" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/constraint_declaration.hpp" bodystart="9" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classelement_1_1object_1af6dbeefad4c697ab757864ae78fd831e" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>call</name></member>
+      <member refid="classelement_1_1constraint__declaration_1a20a0fa899680299fd5060e15bc3704c6" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>compile</name></member>
+      <member refid="classelement_1_1constraint__declaration_1ac927110dfadbe4328fc81030e55535f9" prot="private" virt="non-virtual"><scope>element::constraint_declaration</scope><name>constraint_</name></member>
+      <member refid="classelement_1_1constraint__declaration_1aa1d7f3bdaabf9b18d3b14df9bd516bda" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>constraint_declaration</name></member>
+      <member refid="classelement_1_1constraint__declaration_1afa8dd5690816946874184c4ff2d58798" prot="private" virt="non-virtual"><scope>element::constraint_declaration</scope><name>constraint_kind</name></member>
+      <member refid="classelement_1_1declaration_1a8696b7fbe135b0587844522d5adc244a" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>declaration</name></member>
+      <member refid="classelement_1_1declaration_1a8cc77ed9d14d592b274c5ef8095f828e" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>deserializable</name></member>
+      <member refid="classelement_1_1declaration_1a155e76df8fb03187c5fa3cb50d5593c8" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>generate_placeholder</name></member>
+      <member refid="classelement_1_1constraint__declaration_1a7a6ea4e6ad97df3b615ed0250d1f0818" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>get_constraint</name></member>
+      <member refid="classelement_1_1declaration_1aca9fee3dff59f5fc556a7c97582795cf" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>get_inputs</name></member>
+      <member refid="classelement_1_1declaration_1a73b170b0cd63360e464409f77ec5b19b" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>get_output</name></member>
+      <member refid="classelement_1_1declaration_1a8068d1e042ffa6c66071512f098f8e1b" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>get_scope</name></member>
+      <member refid="classelement_1_1declaration_1a1d2398978ddc2bcef7ab41431de63f7e" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>has_constraint</name></member>
+      <member refid="classelement_1_1declaration_1a610ac22456ae8b6373f67d0319ebe8fa" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>has_inputs</name></member>
+      <member refid="classelement_1_1declaration_1aef569b66836406fea14c09a544bd7768" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>has_output</name></member>
+      <member refid="classelement_1_1declaration_1aceb9f554853c91d5cc59275858fa407a" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>has_scope</name></member>
+      <member refid="classelement_1_1object_1a542266c49533b394c8f7668748f6424a" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>index</name></member>
+      <member refid="classelement_1_1declaration_1a475501035092573ccdedc3ec274251ad" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>inputs</name></member>
+      <member refid="classelement_1_1object_1ab44c28014a94092052f9cf9418eef340" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>is_constant</name></member>
+      <member refid="classelement_1_1constraint__declaration_1a8b9080d0a569a30f9655d28926d6f0ef" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>is_intrinsic</name></member>
+      <member refid="classelement_1_1declaration_1ab0a2dc970845b94bd83b509b29706ce6" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>is_variadic</name></member>
+      <member refid="classelement_1_1constraint__declaration_1acf07796b2f44e1ee50e8b8c762da7db1" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>kind</name></member>
+      <member refid="classelement_1_1declaration_1a3e154c96fa736c4770e27118ef5683d2" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>location</name></member>
+      <member refid="classelement_1_1constraint__declaration_1a494669f29fa81a6bd0d45f171f6730e7" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>matches_constraint</name></member>
+      <member refid="classelement_1_1declaration_1a4af44f9d6c056d99c61a8fad55568f5f" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>name</name></member>
+      <member refid="classelement_1_1object_1a0b77789880bc695115d2428b9b1f2fe6" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1aecee67e856bcf56ecaee3848c3b834fe" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1af31de89eb2a06fe7856ae3d8252fdd1b" prot="protected" virt="non-virtual"><scope>element::constraint_declaration</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1a05f452496fc2f14d4844fefe0326e5cd" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>operator=</name></member>
+      <member refid="classelement_1_1object_1aec74730c57e08a37dc6a61992e84e543" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>operator=</name></member>
+      <member refid="classelement_1_1declaration_1a2c5271358044c7784a008b0f11945588" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>our_scope</name></member>
+      <member refid="classelement_1_1declaration_1ab6dd2fc24083358e423b900756a85cc7" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>output</name></member>
+      <member refid="classelement_1_1declaration_1a2e520b33e96f792b5323ed22ec616719" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>qualifier</name></member>
+      <member refid="classelement_1_1declaration_1a671dc39120f6cb09515ea119b0dc6900" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>recursive_handler</name></member>
+      <member refid="classelement_1_1declaration_1a81bd001ce644bc329f3ae0bdff5e7718" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>serializable</name></member>
+      <member refid="classelement_1_1object_1a8c377027f992c5b3440679941619c468" prot="public" virt="non-virtual"><scope>element::constraint_declaration</scope><name>source_info</name></member>
+      <member refid="classelement_1_1constraint__declaration_1ab16b88b6ad3c09e6ec04178e489e10d9" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>to_code</name></member>
+      <member refid="classelement_1_1object_1ac285622d5bdbf53d29ed531a7a50cd2a" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>to_instruction</name></member>
+      <member refid="classelement_1_1object_1a1c22bf6d69ae19c71d6b2bd0cedfd675" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>to_string</name></member>
+      <member refid="classelement_1_1constraint__declaration_1a856abdbbd378ea61fdd6eb1f7aa333af" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>typeof_info</name></member>
+      <member refid="classelement_1_1declaration_1a4ba869980bcec8cd2d6801837a54ca24" prot="protected" virt="non-virtual"><scope>element::constraint_declaration</scope><name>wrapper</name></member>
+      <member refid="classelement_1_1object_1a9737ac6b6eef6c4e41d0a15ebf42762a" prot="public" virt="virtual"><scope>element::constraint_declaration</scope><name>~object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

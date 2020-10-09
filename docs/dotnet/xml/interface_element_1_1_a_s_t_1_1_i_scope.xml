@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_element_1_1_a_s_t_1_1_i_scope" kind="interface" language="C#" prot="public" abstract="yes">
+    <compoundname>Element::AST::IScope</compoundname>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_global_scope" prot="public" virt="non-virtual">Element.AST.GlobalScope</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_resolved_block" prot="public" virt="non-virtual">Element.AST.ResolvedBlock</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_struct" prot="public" virt="non-virtual">Element.AST.Struct</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_element_1_1_a_s_t_1_1_i_scope_1aa4f477b6aef9b93ffe1f60b268ff8f3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>abstract Result&lt;IValue&gt; Element.AST.IScope.Lookup</definition>
+        <argsstring>(Identifier id, Context context)</argsstring>
+        <name>Lookup</name>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_struct_1a9966e29156b674b3c5d54486405b9c20">Lookup</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_resolved_block_1a59356b87454c213d84e0f4b56b012291">Lookup</reimplementedby>
+        <reimplementedby refid="class_element_1_1_a_s_t_1_1_global_scope_1a7f9961ff399f273dd8a8465e0f4e0d56">Lookup</reimplementedby>
+        <param>
+          <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IScope.cs" line="8" column="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Lexical scope which can perform lookup. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>Element.AST.Struct</label>
+        <link refid="class_element_1_1_a_s_t_1_1_struct"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Element.AST.ResolvedBlock</label>
+        <link refid="class_element_1_1_a_s_t_1_1_resolved_block"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Element.AST.IntrinsicStruct</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_struct"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.IScope</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_scope"/>
+      </node>
+      <node id="2">
+        <label>Element.AST.GlobalScope</label>
+        <link refid="class_element_1_1_a_s_t_1_1_global_scope"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Element.AST.CustomStruct</label>
+        <link refid="class_element_1_1_a_s_t_1_1_custom_struct"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IScope.cs" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/IScope.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_scope_1aa4f477b6aef9b93ffe1f60b268ff8f3c" prot="public" virt="pure-virtual"><scope>Element::AST::IScope</scope><name>Lookup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

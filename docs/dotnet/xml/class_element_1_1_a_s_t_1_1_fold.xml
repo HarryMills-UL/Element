@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_fold" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::Fold</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_intrinsic_value" prot="public" virt="non-virtual">Element.AST.IntrinsicValue</basecompoundref>
+    <basecompoundref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation" prot="public" virt="non-virtual">Element.AST.IIntrinsicFunctionImplementation</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_fold_1a3b2886462d932c8038961ada585304e0" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_fold" kindref="compound">Fold</ref></type>
+        <definition>Fold Element.AST.Fold.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <initializer>= new <ref refid="class_element_1_1_a_s_t_1_1_fold" kindref="compound">Fold</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" line="12" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_fold_1ae898ce7eb9412e96373466e4047f29f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+        <definition>override Identifier Element.AST.Fold.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" line="13" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_fold_1a2ba3bab1842c3fc3d082a150a05a33b8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Element.AST.Fold.IsVariadic</definition>
+        <argsstring></argsstring>
+        <name>IsVariadic</name>
+        <initializer>=&gt; false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" line="14" column="13" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_fold_1ad83b00ec4ecc9ca31bdb31ccbbcb3ec8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.Fold.Fold</definition>
+        <argsstring>()</argsstring>
+        <name>Fold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" line="7" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_fold_1aa1409a1ead85ffc49e0cd531056640b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.Fold.Call</definition>
+        <argsstring>(IReadOnlyList&lt; IValue &gt; arguments, Context context)</argsstring>
+        <name>Call</name>
+        <reimplements refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation_1a48ae77f25232889944e9d02bbb522fd7">Call</reimplements>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>arguments</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" line="15" column="24" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" bodystart="15" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="2">
+        <label>IntrinsicValue</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_value"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IIntrinsicFunctionImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.Fold</label>
+        <link refid="class_element_1_1_a_s_t_1_1_fold"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+      <node id="5">
+        <label>IIntrinsicValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_value"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="2">
+        <label>IntrinsicValue</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_value"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>Implementation</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>IIntrinsicFunctionImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_function_implementation"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Element.AST.IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.Fold</label>
+        <link refid="class_element_1_1_a_s_t_1_1_fold"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+      <node id="6">
+        <label>IIntrinsicValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_value"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" line="6" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/Functions/Fold.cs" bodystart="5" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_fold_1aa1409a1ead85ffc49e0cd531056640b0" prot="public" virt="virtual"><scope>Element::AST::Fold</scope><name>Call</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::AST::Fold</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual"><scope>Element::AST::Fold</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_fold_1ad83b00ec4ecc9ca31bdb31ccbbcb3ec8" prot="private" virt="non-virtual"><scope>Element::AST::Fold</scope><name>Fold</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_fold_1ae898ce7eb9412e96373466e4047f29f9" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>Identifier</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_intrinsic_value_1a73795489979053af16d83fdfc44188a8" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>Implementation</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ae64700fadafa1586918809b1bc976e8d" prot="public" virt="virtual"><scope>Element::AST::Fold</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ac3be9fa21309cd961a11fc67e4fe39af" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_fold_1a3b2886462d932c8038961ada585304e0" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>Instance</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_fold_1a2ba3bab1842c3fc3d082a150a05a33b8" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>IsVariadic</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::AST::Fold</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>Members</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1af9bf5ace9faa286d1632cca2b061004d" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aaf9449e5d86cceb21ff322b52f97e01f" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual"><scope>Element::AST::Fold</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a3e34253191ba578143a47767b2b3b982" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a5bee967bcd50e708952864569598d2ca" prot="public" virt="non-virtual"><scope>Element::AST::Fold</scope><name>TypeOf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

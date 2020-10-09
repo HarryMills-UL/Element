@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="struct_element_1_1_a_s_t_1_1_unidentifier" kind="struct" language="C#" prot="public">
+    <compoundname>Element::AST::Unidentifier</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_element_1_1_a_s_t_1_1_unidentifier_1a437d9071b6cd7ee36f0889df250ca38e" prot="private" static="no" mutable="no">
+        <type>Unnamed</type>
+        <definition>Unnamed Element.AST.Unidentifier._</definition>
+        <argsstring></argsstring>
+        <name>_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/Unidentifier.cs" line="9" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/Unidentifier.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/Unidentifier.cs" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/DeclarationComponents/Unidentifier.cs" bodystart="6" bodyend="11"/>
+    <listofallmembers>
+      <member refid="struct_element_1_1_a_s_t_1_1_unidentifier_1a437d9071b6cd7ee36f0889df250ca38e" prot="private" virt="non-virtual"><scope>Element::AST::Unidentifier</scope><name>_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

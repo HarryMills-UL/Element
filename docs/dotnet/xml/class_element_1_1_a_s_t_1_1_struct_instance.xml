@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_struct_instance" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::StructInstance</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_value" prot="public" virt="non-virtual">Element.AST.Value</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_struct_instance_1a952a72b6571e661a1674120e96604f69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_a_s_t_1_1_struct" kindref="compound">Struct</ref></type>
+        <definition>Struct Element.AST.StructInstance.DeclaringStruct</definition>
+        <argsstring></argsstring>
+        <name>DeclaringStruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="74" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_struct_instance_1a17ec8aa6c41ba1ebe985838aeb54c088" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_element_1_1_a_s_t_1_1_resolved_block" kindref="compound">ResolvedBlock</ref></type>
+        <definition>readonly ResolvedBlock Element.AST.StructInstance._resolvedBlock</definition>
+        <argsstring></argsstring>
+        <name>_resolvedBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="76" column="40" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_struct_instance_1a50adb21873311e47917fa3b068025376" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Element.AST.StructInstance.TypeOf</definition>
+        <argsstring></argsstring>
+        <name>TypeOf</name>
+        <initializer>=&gt; DeclaringStruct.Identifier.String</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="88" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_struct_instance_1a99367dd0b216b23da4d550889deda519" prot="public" static="no" mutable="no">
+        <type>override IReadOnlyList&lt; <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref> &gt;</type>
+        <definition>override IReadOnlyList&lt;Identifier&gt; Element.AST.StructInstance.Members</definition>
+        <argsstring></argsstring>
+        <name>Members</name>
+        <initializer>=&gt; _resolvedBlock.Members</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="93" column="39" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_struct_instance_1ac5c7ea4cc564e6ce159eb1b3f62558b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="class_element_1_1_a_s_t_1_1_struct_instance" kindref="compound">StructInstance</ref> &gt;</type>
+        <definition>static Result&lt;StructInstance&gt; Element.AST.StructInstance.Create</definition>
+        <argsstring>(Struct declaringStruct, IReadOnlyList&lt; IValue &gt; fieldValues, Context context)</argsstring>
+        <name>Create</name>
+        <param>
+          <type><ref refid="class_element_1_1_a_s_t_1_1_struct" kindref="compound">Struct</ref></type>
+          <declname>declaringStruct</declname>
+        </param>
+        <param>
+          <type>IReadOnlyList&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>fieldValues</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="78" column="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_struct_instance_1a96b76cc9da36e1e3fbfc83eee7200631" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.AST.StructInstance.StructInstance</definition>
+        <argsstring>(Struct declaringStruct, IEnumerable&lt; IValue &gt; fieldValues)</argsstring>
+        <name>StructInstance</name>
+        <param>
+          <type><ref refid="class_element_1_1_a_s_t_1_1_struct" kindref="compound">Struct</ref></type>
+          <declname>declaringStruct</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+          <declname>fieldValues</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="82" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" bodystart="82" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_struct_instance_1aba28bb1b01f702d159a4f14dc4203fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.StructInstance.Index</definition>
+        <argsstring>(Identifier id, Context context)</argsstring>
+        <name>Index</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_value_1ae64700fadafa1586918809b1bc976e8d">Index</reimplements>
+        <param>
+          <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="89" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_struct_instance_1a58fbbbd601e4bbbcacf64c12e716037c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Element.AST.StructInstance.Serialize</definition>
+        <argsstring>(ResultBuilder&lt; List&lt; Element.Instruction &gt;&gt; resultBuilder, Context context)</argsstring>
+        <name>Serialize</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b">Serialize</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref>&lt; <ref refid="class_element_1_1_a_s_t_1_1_list" kindref="compound">List</ref>&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Element.Instruction</ref> &gt;&gt;</type>
+          <declname>resultBuilder</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="95" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" bodystart="95" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_struct_instance_1a973e0445cf0b8c0ffcf5a8bd6ad2f2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.StructInstance.Deserialize</definition>
+        <argsstring>(Func&lt; Element.Instruction &gt; nextValue, Context context)</argsstring>
+        <name>Deserialize</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb">Deserialize</reimplements>
+        <param>
+          <type>Func&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Element.Instruction</ref> &gt;</type>
+          <declname>nextValue</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="107" column="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.StructInstance</label>
+        <link refid="class_element_1_1_a_s_t_1_1_struct_instance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="3">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="1">
+        <label>Element.AST.StructInstance</label>
+        <link refid="class_element_1_1_a_s_t_1_1_struct_instance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" line="73" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/Struct.cs" bodystart="72" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1a17ec8aa6c41ba1ebe985838aeb54c088" prot="private" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>_resolvedBlock</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a8fbc4468318627c22f0d62c22e57dc46" prot="public" virt="virtual"><scope>Element::AST::StructInstance</scope><name>Call</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1ac5c7ea4cc564e6ce159eb1b3f62558b2" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>Create</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1a952a72b6571e661a1674120e96604f69" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>DeclaringStruct</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::AST::StructInstance</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1a973e0445cf0b8c0ffcf5a8bd6ad2f2db" prot="public" virt="virtual"><scope>Element::AST::StructInstance</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1aba28bb1b01f702d159a4f14dc4203fa8" prot="public" virt="virtual"><scope>Element::AST::StructInstance</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ac3be9fa21309cd961a11fc67e4fe39af" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::AST::StructInstance</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1a99367dd0b216b23da4d550889deda519" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>Members</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1af9bf5ace9faa286d1632cca2b061004d" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aaf9449e5d86cceb21ff322b52f97e01f" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1a58fbbbd601e4bbbcacf64c12e716037c" prot="public" virt="virtual"><scope>Element::AST::StructInstance</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1a96b76cc9da36e1e3fbfc83eee7200631" prot="private" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>StructInstance</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a3e34253191ba578143a47767b2b3b982" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_struct_instance_1a50adb21873311e47917fa3b068025376" prot="public" virt="non-virtual"><scope>Element::AST::StructInstance</scope><name>TypeOf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

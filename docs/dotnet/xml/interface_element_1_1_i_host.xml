@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_element_1_1_i_host" kind="interface" language="C#" prot="public">
+    <compoundname>Element::IHost</compoundname>
+    <derivedcompoundref refid="class_element_1_1_atomic_host" prot="public" virt="non-virtual">Element.AtomicHost</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_persistent_host" prot="public" virt="non-virtual">Element.PersistentHost</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_element_1_1_i_host_1a888eaa174a152dd652d23b8f851f1c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result Element.IHost.Parse</definition>
+        <argsstring>(CompilerInput input)</argsstring>
+        <name>Parse</name>
+        <reimplementedby refid="class_element_1_1_atomic_host_1a690be9bbad431846c5d0db7bb6ea9e49">Parse</reimplementedby>
+        <reimplementedby refid="class_element_1_1_persistent_host_1ad5c7d969ed15ea774c05e670ee40ca97">Parse</reimplementedby>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/IHost.cs" line="5" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_element_1_1_i_host_1ae85fdd7b63f2e5ff1a90e2b3eaaea78c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; float[]&gt;</type>
+        <definition>Result&lt;float[]&gt; Element.IHost.Evaluate</definition>
+        <argsstring>(CompilerInput input, string expression)</argsstring>
+        <name>Evaluate</name>
+        <reimplementedby refid="class_element_1_1_atomic_host_1a267dbaa6336daca47e57badb75557c13">Evaluate</reimplementedby>
+        <reimplementedby refid="class_element_1_1_persistent_host_1aa5a10174c1ef1f7ae4d239d39910e899">Evaluate</reimplementedby>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/IHost.cs" line="6" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_element_1_1_i_host_1a404ad939a8cb7fc8ddb7fe2c74fdbfa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; string &gt;</type>
+        <definition>Result&lt;string&gt; Element.IHost.Typeof</definition>
+        <argsstring>(CompilerInput input, string expression)</argsstring>
+        <name>Typeof</name>
+        <reimplementedby refid="class_element_1_1_atomic_host_1a25f581baae148e4c4c3bc23b824be0d0">Typeof</reimplementedby>
+        <reimplementedby refid="class_element_1_1_persistent_host_1a620b78eb91f8961cacd22b37e90c382e">Typeof</reimplementedby>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/IHost.cs" line="7" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_element_1_1_i_host_1a104c0e1f00de7e1d04d3ff8490b9de1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; string &gt;</type>
+        <definition>Result&lt;string&gt; Element.IHost.Summary</definition>
+        <argsstring>(CompilerInput input, string expression)</argsstring>
+        <name>Summary</name>
+        <reimplementedby refid="class_element_1_1_atomic_host_1af04d31843a3efc22df505c38804eac94">Summary</reimplementedby>
+        <reimplementedby refid="class_element_1_1_persistent_host_1a5c3f10ea41803e6bbf65d86d4d3e6bdf">Summary</reimplementedby>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/IHost.cs" line="8" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_element_1_1_i_host_1a5a58e077aa5868a53182e38601abbbf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; string &gt;</type>
+        <definition>Result&lt;string&gt; Element.IHost.NormalForm</definition>
+        <argsstring>(CompilerInput input, string expression)</argsstring>
+        <name>NormalForm</name>
+        <reimplementedby refid="class_element_1_1_atomic_host_1ac72ca9662ee807f7d31dd8dc6c76bf62">NormalForm</reimplementedby>
+        <reimplementedby refid="class_element_1_1_persistent_host_1aacfd8a098250b06afadea6ad00de7a2a">NormalForm</reimplementedby>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/IHost.cs" line="9" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Element.AtomicHost</label>
+        <link refid="class_element_1_1_atomic_host"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Element.PersistentHost</label>
+        <link refid="class_element_1_1_persistent_host"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.IHost</label>
+        <link refid="interface_element_1_1_i_host"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/IHost.cs" line="4" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/IHost.cs" bodystart="3" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_element_1_1_i_host_1ae85fdd7b63f2e5ff1a90e2b3eaaea78c" prot="public" virt="non-virtual"><scope>Element::IHost</scope><name>Evaluate</name></member>
+      <member refid="interface_element_1_1_i_host_1a5a58e077aa5868a53182e38601abbbf3" prot="public" virt="non-virtual"><scope>Element::IHost</scope><name>NormalForm</name></member>
+      <member refid="interface_element_1_1_i_host_1a888eaa174a152dd652d23b8f851f1c62" prot="public" virt="non-virtual"><scope>Element::IHost</scope><name>Parse</name></member>
+      <member refid="interface_element_1_1_i_host_1a104c0e1f00de7e1d04d3ff8490b9de1f" prot="public" virt="non-virtual"><scope>Element::IHost</scope><name>Summary</name></member>
+      <member refid="interface_element_1_1_i_host_1a404ad939a8cb7fc8ddb7fe2c74fdbfa4" prot="public" virt="non-virtual"><scope>Element::IHost</scope><name>Typeof</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_parser" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::Parser</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_parser_1a6da1da509bc41a01eb108f5b2356d3fd" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+        <definition>Identifier Element.AST.Parser.ReturnIdentifier</definition>
+        <argsstring></argsstring>
+        <name>ReturnIdentifier</name>
+        <initializer>= new <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>(&quot;return&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" line="14" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_parser_1aa8764adec0747920cab5d76d89791e17" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>[]</type>
+        <definition>readonly Identifier [] Element.AST.Parser.GloballyReservedIdentifiers</definition>
+        <argsstring></argsstring>
+        <name>GloballyReservedIdentifiers</name>
+        <initializer>=
+        {
+            new <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>(&quot;_&quot;),
+            new <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>(&quot;intrinsic&quot;),
+            new <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>(&quot;namespace&quot;),
+            new <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>(&quot;struct&quot;),
+            ReturnIdentifier,
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" line="16" column="43" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_parser_1aae13ef2addbf5142f04a0c5c28d0acf0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Element.AST.Parser.Preprocess</definition>
+        <argsstring>(string text)</argsstring>
+        <name>Preprocess</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" line="25" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_parser_1ae5aed59ef8ddff292c02ed101d17465f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+        <definition>static Result&lt;T&gt; Element.AST.Parser.Parse&lt; T &gt;</definition>
+        <argsstring>(SourceInfo source, Context context, bool noParseTrace=false)</argsstring>
+        <name>Parse&lt; T &gt;</name>
+        <param>
+          <type><ref refid="class_element_1_1_source_info" kindref="compound">SourceInfo</ref></type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>noParseTrace</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" line="27" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" bodystart="27" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_parser_1a0d49ad6b99ab9018736bfa4ad71b48bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Element.AST.Parser.Validate</definition>
+        <argsstring>(this Identifier identifier, ResultBuilder builder, Identifier[] blacklist, Identifier[] whitelist)</argsstring>
+        <name>Validate</name>
+        <param>
+          <type>this <ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref></type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref></type>
+          <declname>builder</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>[]</type>
+          <declname>blacklist</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_element_1_1_a_s_t_1_1_identifier" kindref="compound">Identifier</ref>[]</type>
+          <declname>whitelist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" line="40" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" bodystart="40" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides methods to parse source text into <ref refid="namespace_element_1_1_a_s_t" kindref="compound">AST</ref> objects. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>IEquatable&lt; Identifier &gt;</label>
+      </node>
+      <node id="1">
+        <label>Element.AST.Parser</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>GloballyReservedIdentifiers</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Element.AST.Identifier</label>
+        <link refid="struct_element_1_1_a_s_t_1_1_identifier"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IExpressionChainStart</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_expression_chain_start"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" line="13" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Parser.cs" bodystart="12" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_parser_1aa8764adec0747920cab5d76d89791e17" prot="public" virt="non-virtual"><scope>Element::AST::Parser</scope><name>GloballyReservedIdentifiers</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_parser_1ae5aed59ef8ddff292c02ed101d17465f" prot="public" virt="non-virtual"><scope>Element::AST::Parser</scope><name>Parse&lt; T &gt;</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_parser_1aae13ef2addbf5142f04a0c5c28d0acf0" prot="public" virt="non-virtual"><scope>Element::AST::Parser</scope><name>Preprocess</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_parser_1a6da1da509bc41a01eb108f5b2356d3fd" prot="public" virt="non-virtual"><scope>Element::AST::Parser</scope><name>ReturnIdentifier</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_parser_1a0d49ad6b99ab9018736bfa4ad71b48bd" prot="public" virt="non-virtual"><scope>Element::AST::Parser</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

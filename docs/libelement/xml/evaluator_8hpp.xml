@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="evaluator_8hpp" kind="file" language="C++">
+    <compoundname>evaluator.hpp</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">cstdlib</includes>
+    <includes local="yes">element/interpreter.h</includes>
+    <includes refid="instructions_8hpp" local="yes">instruction_tree/instructions.hpp</includes>
+    <includedby refid="evaluator_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp</includedby>
+    <includedby refid="interpreter_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/interpreter.cpp</includedby>
+    <includedby refid="intrinsic__function_8hpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp</includedby>
+    <includedby refid="intrinsic_8cpp" local="yes">/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>functional</label>
+      </node>
+      <node id="19">
+        <label>fmt/format.h</label>
+      </node>
+      <node id="23">
+        <label>element/ast.h</label>
+      </node>
+      <node id="22">
+        <label>instruction_tree/fwd.hpp</label>
+        <link refid="instruction__tree_2fwd_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>../common_internal.hpp</label>
+        <link refid="common__internal_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>cassert</label>
+      </node>
+      <node id="8">
+        <label>numeric</label>
+      </node>
+      <node id="34">
+        <label>source_information.hpp</label>
+        <link refid="source__information_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>ast_indexes.hpp</label>
+        <link refid="ast__indexes_8hpp_source"/>
+      </node>
+      <node id="16">
+        <label>map</label>
+      </node>
+      <node id="5">
+        <label>instruction_tree/instructions.hpp</label>
+        <link refid="instructions_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>element/common.h</label>
+      </node>
+      <node id="4">
+        <label>element/interpreter.h</label>
+      </node>
+      <node id="20">
+        <label>element/token.h</label>
+      </node>
+      <node id="30">
+        <label>optional</label>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+      <node id="31">
+        <label>fwd.hpp</label>
+        <link refid="object__model_2fwd_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>identifier.hpp</label>
+        <link refid="identifier_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>utility</label>
+      </node>
+      <node id="13">
+        <label>sstream</label>
+      </node>
+      <node id="32">
+        <label>port.hpp</label>
+        <link refid="port_8hpp_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>../ast/fwd.hpp</label>
+        <link refid="ast_2fwd_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cstdlib</label>
+      </node>
+      <node id="18">
+        <label>iostream</label>
+      </node>
+      <node id="25">
+        <label>typeutil.hpp</label>
+        <link refid="typeutil_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>unordered_map</label>
+      </node>
+      <node id="10">
+        <label>../ast/ast_internal.hpp</label>
+        <link refid="ast__internal_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>type_traits</label>
+      </node>
+      <node id="29">
+        <label>object_model/object.hpp</label>
+        <link refid="object_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>object_model/constraints/type.hpp</label>
+        <link refid="type_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp</label>
+        <link refid="evaluator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>type_annotation.hpp</label>
+        <link refid="type__annotation_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>memory</label>
+      </node>
+      <node id="28">
+        <label>constraint.hpp</label>
+        <link refid="constraint_8hpp_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_if.hpp</label>
+        <link refid="intrinsic__if_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_nullary.hpp</label>
+        <link refid="intrinsic__nullary_8hpp_source"/>
+      </node>
+      <node id="4">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_num.hpp</label>
+        <link refid="intrinsic__constructor__num_8hpp_source"/>
+      </node>
+      <node id="7">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_binary.hpp</label>
+        <link refid="intrinsic__binary_8hpp_source"/>
+      </node>
+      <node id="11">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_for.hpp</label>
+        <link refid="intrinsic__for_8hpp_source"/>
+      </node>
+      <node id="12">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_compiler_list_indexer.hpp</label>
+        <link refid="intrinsic__compiler__list__indexer_8hpp_source"/>
+      </node>
+      <node id="3">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_bool.hpp</label>
+        <link refid="intrinsic__constructor__bool_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp</label>
+        <link refid="intrinsic__function_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list.hpp</label>
+        <link refid="intrinsic__list_8hpp_source"/>
+      </node>
+      <node id="10">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_list_fold.hpp</label>
+        <link refid="intrinsic__list__fold_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_unary.hpp</label>
+        <link refid="intrinsic__unary_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp</label>
+        <link refid="evaluator_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_constructor_list.hpp</label>
+        <link refid="intrinsic__constructor__list_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="evaluator_8hpp_1aec0089d6c57d4e1886109893e27b22c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>element_result</type>
+        <definition>element_result element_evaluate</definition>
+        <argsstring>(element_interpreter_ctx &amp;context, instruction_const_shared_ptr fn, const std::vector&lt; element_value &gt; &amp;inputs, std::vector&lt; element_value &gt; &amp;outputs, element_evaluator_options opts)</argsstring>
+        <name>element_evaluate</name>
+        <param>
+          <type><ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>instruction_const_shared_ptr</type>
+          <declname>fn</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; element_value &gt; &amp;</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; element_value &gt; &amp;</type>
+          <declname>outputs</declname>
+        </param>
+        <param>
+          <type>element_evaluator_options</type>
+          <declname>opts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" line="10" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="154" bodyend="163" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" declline="10" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="evaluator_8hpp_1a21b0cf183b7e88a467c475b45f6b143b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>element_result</type>
+        <definition>element_result element_evaluate</definition>
+        <argsstring>(element_interpreter_ctx &amp;context, instruction_const_shared_ptr fn, const element_value *inputs, size_t inputs_count, element_value *outputs, size_t &amp;outputs_count, element_evaluator_options opts)</argsstring>
+        <name>element_evaluate</name>
+        <param>
+          <type><ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>instruction_const_shared_ptr</type>
+          <declname>fn</declname>
+        </param>
+        <param>
+          <type>const element_value *</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>inputs_count</declname>
+        </param>
+        <param>
+          <type>element_value *</type>
+          <declname>outputs</declname>
+        </param>
+        <param>
+          <type>size_t &amp;</type>
+          <declname>outputs_count</declname>
+        </param>
+        <param>
+          <type>element_evaluator_options</type>
+          <declname>opts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" line="17" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="165" bodyend="179" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" declline="17" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="evaluator_8hpp_1a153275d0e64c63095f5847ccf51eae53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>element_value</type>
+        <definition>element_value element_evaluate_nullary</definition>
+        <argsstring>(element_instruction_nullary::op op)</argsstring>
+        <name>element_evaluate_nullary</name>
+        <param>
+          <type>element_instruction_nullary::op</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" line="24" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="181" bodyend="202" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" declline="24" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="evaluator_8hpp_1a274f57ee153750409bab435d226867a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>element_value</type>
+        <definition>element_value element_evaluate_unary</definition>
+        <argsstring>(element_instruction_unary::op op, element_value a)</argsstring>
+        <name>element_evaluate_unary</name>
+        <param>
+          <type>element_instruction_unary::op</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>element_value</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" line="25" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="204" bodyend="237" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" declline="25" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="evaluator_8hpp_1a2aa83407b5040457ecf55042af61f49b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>element_value</type>
+        <definition>element_value element_evaluate_binary</definition>
+        <argsstring>(element_instruction_binary::op op, element_value a, element_value b)</argsstring>
+        <name>element_evaluate_binary</name>
+        <param>
+          <type>element_instruction_binary::op</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>element_value</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>element_value</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" line="26" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="239" bodyend="288" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" declline="26" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="evaluator_8hpp_1a6fe4958a3a9ca717b38ff9d396d5f9a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>element_value</type>
+        <definition>element_value element_evaluate_if</definition>
+        <argsstring>(element_value predicate, element_value if_true, element_value if_false)</argsstring>
+        <name>element_evaluate_if</name>
+        <param>
+          <type>element_value</type>
+          <declname>predicate</declname>
+        </param>
+        <param>
+          <type>element_value</type>
+          <declname>if_true</declname>
+        </param>
+        <param>
+          <type>element_value</type>
+          <declname>if_false</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" line="27" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="291" bodyend="295" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" declline="27" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="evaluator_8hpp_1aee70587635c2e601d8a02e6e58080fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; element_value &gt;</type>
+        <definition>std::vector&lt;element_value&gt; element_evaluate_for</definition>
+        <argsstring>(evaluator_ctx &amp;context, const instruction_const_shared_ptr &amp;initial, const instruction_const_shared_ptr &amp;condition, const instruction_const_shared_ptr &amp;)</argsstring>
+        <name>element_evaluate_for</name>
+        <param>
+          <type><ref refid="structevaluator__ctx" kindref="compound">evaluator_ctx</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const instruction_const_shared_ptr &amp;</type>
+          <declname>initial</declname>
+        </param>
+        <param>
+          <type>const instruction_const_shared_ptr &amp;</type>
+          <declname>condition</declname>
+        </param>
+        <param>
+          <type>const instruction_const_shared_ptr &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" line="28" column="13" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="297" bodyend="344" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" declline="28" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="evaluator_8hpp_1a606d014300d1930a631a6a52dccf339d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>instruction_const_shared_ptr</type>
+        <definition>instruction_const_shared_ptr element_evaluate_select</definition>
+        <argsstring>(element_value selector, std::vector&lt; instruction_const_shared_ptr &gt; options)</argsstring>
+        <name>element_evaluate_select</name>
+        <param>
+          <type>element_value</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; instruction_const_shared_ptr &gt;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" line="29" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.cpp" bodystart="346" bodyend="351" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp" declline="29" declcolumn="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdlib&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;element/interpreter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;instruction_tree/instructions.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structevaluator__ctx" kindref="compound">evaluator_ctx</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">element_result<sp/>element_evaluate(</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref>&amp;<sp/>context,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>instruction_const_shared_ptr<sp/>fn,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;element_value&gt;&amp;<sp/>inputs,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;element_value&gt;&amp;<sp/>outputs,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>element_evaluator_options<sp/>opts);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">element_result<sp/>element_evaluate(</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref>&amp;<sp/>context,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>instruction_const_shared_ptr<sp/>fn,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>element_value*<sp/>inputs,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>inputs_count,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>element_value*<sp/>outputs,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&amp;<sp/>outputs_count,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>element_evaluator_options<sp/>opts);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">element_value<sp/>element_evaluate_nullary(element_instruction_nullary::op<sp/>op);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">element_value<sp/>element_evaluate_unary(element_instruction_unary::op<sp/>op,<sp/>element_value<sp/>a);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">element_value<sp/>element_evaluate_binary(element_instruction_binary::op<sp/>op,<sp/>element_value<sp/>a,<sp/>element_value<sp/>b);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">element_value<sp/>element_evaluate_if(element_value<sp/>predicate,<sp/>element_value<sp/>if_true,<sp/>element_value<sp/>if_false);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">std::vector&lt;element_value&gt;<sp/>element_evaluate_for(<ref refid="structevaluator__ctx" kindref="compound">evaluator_ctx</ref>&amp;<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>instruction_const_shared_ptr&amp;<sp/>initial,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>instruction_const_shared_ptr&amp;<sp/>condition,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>instruction_const_shared_ptr&amp;);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">instruction_const_shared_ptr<sp/>element_evaluate_select(element_value<sp/>selector,<sp/>std::vector&lt;instruction_const_shared_ptr&gt;<sp/>options);</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/instruction_tree/evaluator.hpp"/>
+  </compounddef>
+</doxygen>

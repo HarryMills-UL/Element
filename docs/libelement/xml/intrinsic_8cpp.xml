@@ -1,0 +1,998 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="intrinsic_8cpp" kind="file" language="C++">
+    <compoundname>intrinsic.cpp</compoundname>
+    <includes refid="intrinsic_8hpp" local="yes">intrinsic.hpp</includes>
+    <includes local="no">fmt/format.h</includes>
+    <includes refid="intrinsic__constructor__bool_8hpp" local="yes">intrinsic_constructor_bool.hpp</includes>
+    <includes refid="intrinsic__constructor__num_8hpp" local="yes">intrinsic_constructor_num.hpp</includes>
+    <includes refid="intrinsic__nullary_8hpp" local="yes">intrinsic_nullary.hpp</includes>
+    <includes refid="intrinsic__unary_8hpp" local="yes">intrinsic_unary.hpp</includes>
+    <includes refid="intrinsic__binary_8hpp" local="yes">intrinsic_binary.hpp</includes>
+    <includes refid="intrinsic__if_8hpp" local="yes">intrinsic_if.hpp</includes>
+    <includes refid="intrinsic__list_8hpp" local="yes">intrinsic_list.hpp</includes>
+    <includes refid="intrinsic__list__fold_8hpp" local="yes">intrinsic_list_fold.hpp</includes>
+    <includes refid="intrinsic__for_8hpp" local="yes">intrinsic_for.hpp</includes>
+    <includes refid="intrinsic__compiler__list__indexer_8hpp" local="yes">intrinsic_compiler_list_indexer.hpp</includes>
+    <includes refid="intrinsic__constructor__list_8hpp" local="yes">intrinsic_constructor_list.hpp</includes>
+    <includes refid="compilation__context_8hpp" local="yes">object_model/compilation_context.hpp</includes>
+    <includes refid="type_8hpp" local="yes">object_model/constraints/type.hpp</includes>
+    <includes refid="function__declaration_8hpp" local="yes">object_model/declarations/function_declaration.hpp</includes>
+    <includes refid="constraint__declaration_8hpp" local="yes">object_model/declarations/constraint_declaration.hpp</includes>
+    <includes refid="struct__declaration_8hpp" local="yes">object_model/declarations/struct_declaration.hpp</includes>
+    <includes refid="instructions_8hpp" local="yes">instruction_tree/instructions.hpp</includes>
+    <includes refid="evaluator_8hpp" local="yes">instruction_tree/evaluator.hpp</includes>
+    <incdepgraph>
+      <node id="54">
+        <label>intrinsic_if.hpp</label>
+        <link refid="intrinsic__if_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>functional</label>
+      </node>
+      <node id="51">
+        <label>intrinsic_nullary.hpp</label>
+        <link refid="intrinsic__nullary_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>fmt/format.h</label>
+      </node>
+      <node id="20">
+        <label>element/ast.h</label>
+      </node>
+      <node id="33">
+        <label>declarations/declaration.hpp</label>
+        <link refid="declaration_8hpp_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>variant</label>
+      </node>
+      <node id="50">
+        <label>intrinsic_constructor_num.hpp</label>
+        <link refid="intrinsic__constructor__num_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>instruction_tree/fwd.hpp</label>
+        <link refid="instruction__tree_2fwd_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>common_internal.hpp</label>
+        <link refid="common__internal_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>cassert</label>
+      </node>
+      <node id="48">
+        <label>numeric</label>
+      </node>
+      <node id="40">
+        <label>object_model/compilation_context.hpp</label>
+        <link refid="compilation__context_8hpp_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>source_information.hpp</label>
+        <link refid="source__information_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>ast_indexes.hpp</label>
+        <link refid="ast__indexes_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="22">
+        <label>interpreter_internal.hpp</label>
+        <link refid="interpreter__internal_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>intrinsic_binary.hpp</label>
+        <link refid="intrinsic__binary_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>instruction_tree/instructions.hpp</label>
+        <link refid="instructions_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>intrinsic_for.hpp</label>
+        <link refid="intrinsic__for_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>object_model/intermediaries/declaration_wrapper.hpp</label>
+        <link refid="declaration__wrapper_8hpp_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>element/common.h</label>
+      </node>
+      <node id="58">
+        <label>intrinsic_compiler_list_indexer.hpp</label>
+        <link refid="intrinsic__compiler__list__indexer_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>element/interpreter.h</label>
+      </node>
+      <node id="14">
+        <label>element/token.h</label>
+      </node>
+      <node id="38">
+        <label>intrinsic_constructor_bool.hpp</label>
+        <link refid="intrinsic__constructor__bool_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>optional</label>
+      </node>
+      <node id="12">
+        <label>vector</label>
+      </node>
+      <node id="43">
+        <label>declarations/function_declaration.hpp</label>
+        <link refid="function__declaration_8hpp_source"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>object_model/call_stack.hpp</label>
+        <link refid="call__stack_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>fwd.hpp</label>
+        <link refid="object__model_2fwd_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>identifier.hpp</label>
+        <link refid="identifier_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>utility</label>
+      </node>
+      <node id="18">
+        <label>sstream</label>
+      </node>
+      <node id="29">
+        <label>port.hpp</label>
+        <link refid="port_8hpp_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp</label>
+        <link refid="intrinsic_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>capture_stack.hpp</label>
+        <link refid="capture__stack_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>configuration.hpp</label>
+      </node>
+      <node id="27">
+        <label>ast/fwd.hpp</label>
+        <link refid="ast_2fwd_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>cstdlib</label>
+      </node>
+      <node id="13">
+        <label>iostream</label>
+      </node>
+      <node id="35">
+        <label>typeutil.hpp</label>
+        <link refid="typeutil_8hpp_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>intrinsic_function.hpp</label>
+        <link refid="intrinsic__function_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>unordered_map</label>
+      </node>
+      <node id="17">
+        <label>ast/ast_internal.hpp</label>
+        <link refid="ast__internal_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>intrinsic_list.hpp</label>
+        <link refid="intrinsic__list_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>log_errors.hpp</label>
+        <link refid="log__errors_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>object_model/declarations/struct_declaration.hpp</label>
+        <link refid="struct__declaration_8hpp_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>intrinsic_list_fold.hpp</label>
+        <link refid="intrinsic__list__fold_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>intrinsic_unary.hpp</label>
+        <link refid="intrinsic__unary_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>object_model/constraints/user_type.hpp</label>
+        <link refid="user__type_8hpp_source"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>object_model/declarations/constraint_declaration.hpp</label>
+        <link refid="constraint__declaration_8hpp_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>type_traits</label>
+      </node>
+      <node id="25">
+        <label>object.hpp</label>
+        <link refid="object_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>object_model/constraints/type.hpp</label>
+        <link refid="type_8hpp_source"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>object_model/scope.hpp</label>
+        <link refid="scope_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>instruction_tree/evaluator.hpp</label>
+        <link refid="evaluator_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>intrinsic_constructor_list.hpp</label>
+        <link refid="intrinsic__constructor__list_8hpp_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>intrinsic.hpp</label>
+        <link refid="intrinsic_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>type_annotation.hpp</label>
+        <link refid="type__annotation_8hpp_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>memory</label>
+      </node>
+      <node id="45">
+        <label>object_model/constraints/constraint.hpp</label>
+        <link refid="constraint_8hpp_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="intrinsic_8cpp_1ad9aad948c8b4711606793a02289e0968" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_nullary, 1U&lt;&lt; 0)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__nullary" kindref="compound">element::intrinsic_nullary</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="28" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="28" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1a59f80569f4e3a8218bf946a638aa102f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_unary, 1U&lt;&lt; 1)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__unary" kindref="compound">element::intrinsic_unary</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="29" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="29" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1a185706425c5e12099fb29244ce81eacb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_binary, 1U&lt;&lt; 2)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__binary" kindref="compound">element::intrinsic_binary</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="30" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="30" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1a6ecf2eb7410f17ceb98a2a6dabc09b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_if, 1U&lt;&lt; 3)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__if" kindref="compound">element::intrinsic_if</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="31" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="31" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1a9dcce5ce5a9ab28f64520d9f6450a893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_constructor_num, 1U&lt;&lt; 4)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__constructor__num" kindref="compound">element::intrinsic_constructor_num</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="32" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="32" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1a2a5616ec0c2acb824b7289ac727fa33d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_constructor_bool, 1U&lt;&lt; 5)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__constructor__bool" kindref="compound">element::intrinsic_constructor_bool</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="33" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="33" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1ac0fb60957c428e518b30912604647e75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_constructor_list, 1U&lt;&lt; 6)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__constructor__list" kindref="compound">element::intrinsic_constructor_list</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="34" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="34" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1a222950814dad05efc852954f860fd1de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_list, 1U&lt;&lt; 7)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__list" kindref="compound">element::intrinsic_list</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>7</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="35" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="35" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1ad7213fd708cdd2aedf0517f34b4d31cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_compiler_list_indexer, 1U&lt;&lt; 8)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__compiler__list__indexer" kindref="compound">element::intrinsic_compiler_list_indexer</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="36" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="36" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1aabfedafe1899c8bedaae1281de18e84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_for, 1U&lt;&lt; 9)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__for" kindref="compound">element::intrinsic_for</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="37" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="37" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1a4d679faa6994d026e02c7decb0386e40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_TYPE_ID</definition>
+        <argsstring>(element::intrinsic_list_fold, 1U&lt;&lt; 10)</argsstring>
+        <name>DEFINE_TYPE_ID</name>
+        <param>
+          <type><ref refid="classelement_1_1intrinsic__list__fold" kindref="compound">element::intrinsic_list_fold</ref></type>
+        </param>
+        <param>
+          <type>1U&lt;&lt;</type>
+          <declname>10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="38" column="1" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" declline="38" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1a95cdbec0fee0a9d5c1d8ff0c15b818db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool is_type_of</definition>
+        <argsstring>(const declaration *decl)</argsstring>
+        <name>is_type_of</name>
+        <param>
+          <type>const <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> *</type>
+          <declname>decl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="41" column="13" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1aa70f9dbff2a5098b0817ed258cef7b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Class</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>std::unique_ptr&lt; const <ref refid="classelement_1_1intrinsic" kindref="compound">intrinsic</ref>, <ref refid="structelement__interpreter__ctx_1_1_deleter" kindref="compound">element_interpreter_ctx::Deleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;const intrinsic, element_interpreter_ctx::Deleter&gt; make_unique</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>make_unique</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="47" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8cpp_1aa02acbe9ede487370f731fe4382bc173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Class</type>
+          </param>
+        </templateparamlist>
+        <type>std::unique_ptr&lt; const <ref refid="classelement_1_1intrinsic" kindref="compound">intrinsic</ref>, <ref refid="structelement__interpreter__ctx_1_1_deleter" kindref="compound">element_interpreter_ctx::Deleter</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;const intrinsic, element_interpreter_ctx::Deleter&gt; make_unique</definition>
+        <argsstring>()</argsstring>
+        <name>make_unique</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" line="54" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" bodystart="54" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;intrinsic.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//LIBS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fmt/format.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//SELF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_constructor_bool.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_constructor_num.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_nullary.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_unary.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_binary.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_if.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_list.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_list_fold.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_for.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_compiler_list_indexer.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrinsic_constructor_list.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/compilation_context.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/constraints/type.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/declarations/function_declaration.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/declarations/constraint_declaration.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object_model/declarations/struct_declaration.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;instruction_tree/instructions.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;instruction_tree/evaluator.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">element;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__nullary" kindref="compound">element::intrinsic_nullary</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>0);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__unary" kindref="compound">element::intrinsic_unary</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>1);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__binary" kindref="compound">element::intrinsic_binary</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>2);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__if" kindref="compound">element::intrinsic_if</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>3);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__constructor__num" kindref="compound">element::intrinsic_constructor_num</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>4);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__constructor__bool" kindref="compound">element::intrinsic_constructor_bool</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>5);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__constructor__list" kindref="compound">element::intrinsic_constructor_list</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>6);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__list" kindref="compound">element::intrinsic_list</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>7);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__compiler__list__indexer" kindref="compound">element::intrinsic_compiler_list_indexer</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>8);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__for" kindref="compound">element::intrinsic_for</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>9);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">DEFINE_TYPE_ID(<ref refid="classelement_1_1intrinsic__list__fold" kindref="compound">element::intrinsic_list_fold</ref>,<sp/>1U<sp/>&lt;&lt;<sp/>10);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_type_of(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dynamic_cast&lt;const<sp/>T*&gt;(decl)<sp/>?<sp/>true<sp/>:<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Class,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">std::unique_ptr&lt;const<sp/>intrinsic,<sp/>element_interpreter_ctx::Deleter&gt;<sp/>make_unique(Args&amp;&amp;...<sp/>args)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>static_assert(std::is_base_of_v&lt;intrinsic,<sp/>Class&gt;,<sp/></highlight><highlight class="stringliteral">&quot;must<sp/>be<sp/>derived<sp/>from<sp/>intrinsic&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;const<sp/>intrinsic,<sp/>element_interpreter_ctx::Deleter&gt;(static_cast&lt;const<sp/>intrinsic*&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Class(std::forward&lt;Args&gt;(args)...)));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Class&gt;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">std::unique_ptr&lt;const<sp/>intrinsic,<sp/>element_interpreter_ctx::Deleter&gt;<sp/>make_unique()</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>static_assert(std::is_base_of_v&lt;intrinsic,<sp/>Class&gt;,<sp/></highlight><highlight class="stringliteral">&quot;must<sp/>be<sp/>derived<sp/>from<sp/>intrinsic&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;const<sp/>intrinsic,<sp/>element_interpreter_ctx::Deleter&gt;(static_cast&lt;const<sp/>intrinsic*&gt;(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Class()));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//TODO:<sp/>This<sp/>is<sp/>a<sp/>horrible,<sp/>temporary<sp/>hack.<sp/>Remove<sp/>and<sp/>replace<sp/>once<sp/>we<sp/>start<sp/>dealing<sp/>with<sp/>constraints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::unordered_map&lt;std::string,<sp/>std::function&lt;std::unique_ptr&lt;const<sp/>intrinsic,<sp/>element_interpreter_ctx::Deleter&gt;(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*)&gt;&gt;<sp/>intrinsic::validation_func_map{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Num&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;struct_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_constructor_num&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Bool&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;struct_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_constructor_bool&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;List&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;struct_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_constructor_list&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Tuple&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;struct_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_not_implemented&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;add&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::add,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;sub&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::sub,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mul&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::mul,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;div&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::div,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;pow&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::pow,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;rem&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::rem,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;min&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::min,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;max&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::max,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;abs&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::abs,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ceil&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::ceil,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;floor&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::floor,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;sin&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::sin,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;cos&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::cos,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;tan&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::tan,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;asin&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::asin,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;acos&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::acos,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;atan&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::atan,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;atan2&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::atan2,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ln&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::ln,<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;log&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::log,<sp/>type::num.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NaN&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_nullary&gt;(element_nullary_op::nan,<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;PositiveInfinity&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_nullary&gt;(element_nullary_op::positive_infinity,<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;NegativeInfinity&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_nullary&gt;(element_nullary_op::negative_infinity,<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;eq&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::eq,<sp/>type::boolean.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;neq&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::neq,<sp/>type::boolean.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;lt&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::lt,<sp/>type::boolean.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;leq&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::leq,<sp/>type::boolean.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;gt&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::gt,<sp/>type::boolean.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;geq&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::geq,<sp/>type::boolean.get(),<sp/>type::num.get(),<sp/>type::num.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;if&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_if&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;not&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_unary&gt;(element_unary_op::not_,<sp/>type::boolean.get(),<sp/>type::boolean.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;and&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::and_,<sp/>type::boolean.get(),<sp/>type::boolean.get(),<sp/>type::boolean.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;or&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_binary&gt;(element_binary_op::or_,<sp/>type::boolean.get(),<sp/>type::boolean.get(),<sp/>type::boolean.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;True&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_nullary&gt;(element_nullary_op::true_value,<sp/>type::boolean.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;False&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_nullary&gt;(element_nullary_op::false_value,<sp/>type::boolean.get())<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;list&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_list&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;fold&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_list_fold&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;memberwise&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_not_implemented&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;for&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_for&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;persist&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_not_implemented&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//constraints</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Any&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;constraint_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_not_implemented&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//compiler-implemented<sp/>hidden<sp/>thingies<sp/>that<sp/>aren&apos;t<sp/>intrinsic<sp/>but<sp/>kinda<sp/>are</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;@list_indexer&quot;</highlight><highlight class="normal">,<sp/>[](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref>*<sp/>decl)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(is_type_of&lt;function_declaration&gt;(decl)<sp/>?<sp/>make_unique&lt;intrinsic_compiler_list_indexer&gt;()<sp/>:<sp/>nullptr);<sp/>}<sp/>},</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">intrinsic::intrinsic(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>element_type_id<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="structrtti__type" kindref="compound">rtti_type</ref>(id)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">std::pair&lt;std::vector&lt;object_const_shared_ptr&gt;,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&gt;<sp/>element::generate_placeholder_inputs(</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref>&amp;<sp/><ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref>,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;port&gt;&amp;<sp/>inputs,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>element_result&amp;<sp/>out_result,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index_offset)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>std::pair&lt;std::vector&lt;object_const_shared_ptr&gt;,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">&gt;<sp/>placeholder_inputs;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>placeholder_index<sp/>=<sp/>index_offset;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>input<sp/>:<sp/>inputs)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>placeholder<sp/>=<sp/>input.generate_placeholder(<ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref>,<sp/>placeholder_index);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!placeholder)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out_result<sp/>=<sp/>ELEMENT_ERROR_UNKNOWN;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>placeholder_inputs.first.push_back(std::move(placeholder));</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>placeholder_inputs.second<sp/>=<sp/>placeholder_index;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>placeholder_inputs;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp"/>
+  </compounddef>
+</doxygen>

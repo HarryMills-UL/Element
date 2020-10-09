@@ -1,0 +1,899 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="struct_element_1_1_result" kind="struct" language="C#" prot="public">
+    <compoundname>Element::Result</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable&lt; Result&lt; T &gt;&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_element_1_1_result_1a6deca1765503512c4f46195963b17a87" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result Element.Result&lt; T &gt;.Success</definition>
+        <argsstring></argsstring>
+        <name>Success</name>
+        <initializer>= new <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>(Array.Empty&lt;<ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref>&gt;())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="67" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_element_1_1_result_1add85e0a6d5054974d5db0605ced67b28" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Element.Result&lt; T &gt;::IsError</definition>
+        <argsstring></argsstring>
+        <name>IsError</name>
+        <initializer>=&gt; !IsSuccess</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="78" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_element_1_1_result_1aadbbc5df2df15f9c881de19480bbfc92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;</type>
+        <definition>IReadOnlyCollection&lt; CompilerMessage &gt; Element.Result&lt; T &gt;::Messages</definition>
+        <argsstring></argsstring>
+        <name>Messages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="79" column="36" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_element_1_1_result_1ae18c4e72479a13bb43c12ee3f21d51a1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Element.Result&lt; T &gt;::IsSuccess</definition>
+        <argsstring></argsstring>
+        <name>IsSuccess</name>
+        <initializer>=&gt; !IsError</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="77" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_element_1_1_result_1aa427f93ea4727e7463119f0e9b790ee2" prot="private" static="no" mutable="no">
+        <type>readonly T</type>
+        <definition>readonly T Element.Result&lt; T &gt;._value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="202" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_element_1_1_result_1ab8c7ec9b40389c00f29b379d5a0922fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result?</definition>
+        <argsstring>(CompilerMessage? message)</argsstring>
+        <name>Result?</name>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref>?</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="68" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1aea1062918f1593c7948108d19914bca5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result</definition>
+        <argsstring>(IReadOnlyCollection&lt; CompilerMessage &gt; messages)</argsstring>
+        <name>Result</name>
+        <param>
+          <type>IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;</type>
+          <declname>messages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="69" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="69" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a41adf1e5d2f8966ee66655f9be541d55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Element.Result&lt; T &gt;.Switch</definition>
+        <argsstring>(Action&lt; IReadOnlyCollection&lt; CompilerMessage &gt;&gt; onResult, Action&lt; IReadOnlyCollection&lt; CompilerMessage &gt;&gt; onError)</argsstring>
+        <name>Switch</name>
+        <param>
+          <type>Action&lt; IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;&gt;</type>
+          <declname>onResult</declname>
+        </param>
+        <param>
+          <type>Action&lt; IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;&gt;</type>
+          <declname>onError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="81" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a270de36ba554c7e4c37162eef40337de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Element.Result&lt; T &gt;.Match&lt; TResult &gt;</definition>
+        <argsstring>(Func&lt; IReadOnlyCollection&lt; CompilerMessage &gt;, TResult &gt; onResult, Func&lt; IReadOnlyCollection&lt; CompilerMessage &gt;, TResult &gt; onError)</argsstring>
+        <name>Match&lt; TResult &gt;</name>
+        <param>
+          <type>Func&lt; IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;, TResult &gt;</type>
+          <declname>onResult</declname>
+        </param>
+        <param>
+          <type>Func&lt; IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;, TResult &gt;</type>
+          <declname>onError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="86" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a1631545a1d185b7fba3e1286a4269df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result Element.Result&lt; T &gt;.And</definition>
+        <argsstring>(Func&lt; Result &gt; action)</argsstring>
+        <name>And</name>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref> &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="87" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a9f05ff7c878147b08be7afa839c7c018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+        <definition>Result&lt;TResult&gt; Element.Result&lt; T &gt;.Map&lt; TResult &gt;</definition>
+        <argsstring>(Func&lt; TResult &gt; mapFunc)</argsstring>
+        <name>Map&lt; TResult &gt;</name>
+        <param>
+          <type>Func&lt; TResult &gt;</type>
+          <declname>mapFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="88" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1abca578c973e10754ff81268165172f88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+        <definition>Result&lt;TResult&gt; Element.Result&lt; T &gt;.Bind&lt; TResult &gt;</definition>
+        <argsstring>(Func&lt; Result&lt; TResult &gt;&gt; bindFunc)</argsstring>
+        <name>Bind&lt; TResult &gt;</name>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;&gt;</type>
+          <declname>bindFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="89" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a298b54b8b9692246b4af0ff1d8e8cf81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+        <definition>Result&lt;TResult&gt; Element.Result&lt; T &gt;.Merge&lt; TResult &gt;</definition>
+        <argsstring>(in Result&lt; TResult &gt; newResult)</argsstring>
+        <name>Merge&lt; TResult &gt;</name>
+        <param>
+          <type>in <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+          <declname>newResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="90" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a4e3626b8bc4c96756c26f9c653b8275e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result</definition>
+        <argsstring>(T value)</argsstring>
+        <name>Result</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="168" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="168" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a698a7762eca8e632e22eab463d340919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result</definition>
+        <argsstring>(T value, IReadOnlyCollection&lt; CompilerMessage &gt; messages)</argsstring>
+        <name>Result</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;</type>
+          <declname>messages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="175" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="175" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a7212bc50fa08d009316068d18b085cc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result?</definition>
+        <argsstring>(T value, CompilerMessage? message)</argsstring>
+        <name>Result?</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref>?</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="182" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="182" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a339b4615b817a0dcbdd7f23857970fbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result?</definition>
+        <argsstring>(Result&lt; T &gt; value, CompilerMessage? message)</argsstring>
+        <name>Result?</name>
+        <param>
+          <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref>?</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="183" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1ae766242cd08df268ad8d17006986242b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result</definition>
+        <argsstring>(Result&lt; T &gt; value, IReadOnlyCollection&lt; CompilerMessage &gt; messages)</argsstring>
+        <name>Result</name>
+        <param>
+          <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;</type>
+          <declname>messages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="184" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="184" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1ab8c7ec9b40389c00f29b379d5a0922fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result?</definition>
+        <argsstring>(CompilerMessage? message)</argsstring>
+        <name>Result?</name>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref>?</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="186" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1aea1062918f1593c7948108d19914bca5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Result&lt; T &gt;.Result</definition>
+        <argsstring>(IReadOnlyCollection&lt; CompilerMessage &gt; messages)</argsstring>
+        <name>Result</name>
+        <param>
+          <type>IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;</type>
+          <declname>messages</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="188" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="188" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1acbae7e2c1ffa830a4e9a353703ab5f51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Element.Result&lt; T &gt;.Switch</definition>
+        <argsstring>(Action&lt; T, IReadOnlyCollection&lt; CompilerMessage &gt;&gt; onResult, Action&lt; IReadOnlyCollection&lt; CompilerMessage &gt;&gt; onError)</argsstring>
+        <name>Switch</name>
+        <param>
+          <type>Action&lt; T, IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;&gt;</type>
+          <declname>onResult</declname>
+        </param>
+        <param>
+          <type>Action&lt; IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;&gt;</type>
+          <declname>onError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="204" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a6a271fedb61b6b0e09d28a522266e44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TResult</type>
+        <definition>TResult Element.Result&lt; T &gt;.Match&lt; TResult &gt;</definition>
+        <argsstring>(Func&lt; T, IReadOnlyCollection&lt; CompilerMessage &gt;, TResult &gt; onResult, Func&lt; IReadOnlyCollection&lt; CompilerMessage &gt;, TResult &gt; onError)</argsstring>
+        <name>Match&lt; TResult &gt;</name>
+        <param>
+          <type>Func&lt; T, IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;, TResult &gt;</type>
+          <declname>onResult</declname>
+        </param>
+        <param>
+          <type>Func&lt; IReadOnlyCollection&lt; <ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref> &gt;, TResult &gt;</type>
+          <declname>onError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="210" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1acc0e7a114f31c3a732391f8d093fa8c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+        <definition>Result&lt;T&gt; Element.Result&lt; T &gt;.Then</definition>
+        <argsstring>(Action&lt; T &gt; action)</argsstring>
+        <name>Then</name>
+        <param>
+          <type>Action&lt; T &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="212" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="212" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1aa32916450b90f56601a2244a9c6b8ff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+        <definition>Result&lt;T&gt; Element.Result&lt; T &gt;.Then</definition>
+        <argsstring>(Func&lt; T, Result &gt; action)</argsstring>
+        <name>Then</name>
+        <param>
+          <type>Func&lt; T, <ref refid="struct_element_1_1_result" kindref="compound">Result</ref> &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="218" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a8689e8f1484e2404f1883d5318522ed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+        <definition>Result&lt;T&gt; Element.Result&lt; T &gt;.Then</definition>
+        <argsstring>(Func&lt; T, Result&lt; T &gt;&gt; action)</argsstring>
+        <name>Then</name>
+        <param>
+          <type>Func&lt; T, <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;&gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="219" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a6947d4d06c27517b77af74b9d4ac98f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt;(T, T1)&gt;</type>
+        <definition>Result&lt;(T, T1)&gt; Element.Result&lt; T &gt;.Accumulate&lt; T1 &gt;</definition>
+        <argsstring>(Func&lt; Result&lt; T1 &gt;&gt; a)</argsstring>
+        <name>Accumulate&lt; T1 &gt;</name>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T1 &gt;&gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="221" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="221" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a14f709433d53e1dab3312d2907982440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt;(T, T1, T2)&gt;</type>
+        <definition>Result&lt;(T, T1, T2)&gt; Element.Result&lt; T &gt;.Accumulate&lt; T1, T2 &gt;</definition>
+        <argsstring>(Func&lt; Result&lt; T1 &gt;&gt; a, Func&lt; Result&lt; T2 &gt;&gt; b)</argsstring>
+        <name>Accumulate&lt; T1, T2 &gt;</name>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T1 &gt;&gt;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T2 &gt;&gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="228" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="228" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1ab3a6a80b0a1b9cdda08a97472a74b3be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt;(T, T1, T2, T3)&gt;</type>
+        <definition>Result&lt;(T, T1, T2, T3)&gt; Element.Result&lt; T &gt;.Accumulate&lt; T1, T2, T3 &gt;</definition>
+        <argsstring>(Func&lt; Result&lt; T1 &gt;&gt; a, Func&lt; Result&lt; T2 &gt;&gt; b, Func&lt; Result&lt; T3 &gt;&gt; c)</argsstring>
+        <name>Accumulate&lt; T1, T2, T3 &gt;</name>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T1 &gt;&gt;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T2 &gt;&gt;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T3 &gt;&gt;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="239" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="239" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a2552b88605e2262984006c36a5d11500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+        <definition>Result&lt;TResult&gt; Element.Result&lt; T &gt;.Map&lt; TResult &gt;</definition>
+        <argsstring>(Func&lt; T, TResult &gt; mapFunc)</argsstring>
+        <name>Map&lt; TResult &gt;</name>
+        <param>
+          <type>Func&lt; T, TResult &gt;</type>
+          <declname>mapFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="252" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1aaae94bc37e1535374736b003b1a9faa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result Element.Result&lt; T &gt;.Bind</definition>
+        <argsstring>(Func&lt; T, Result &gt; action)</argsstring>
+        <name>Bind</name>
+        <param>
+          <type>Func&lt; T, <ref refid="struct_element_1_1_result" kindref="compound">Result</ref> &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="253" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1ae621adbfbcb081146617a899bb616b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+        <definition>Result&lt;TResult&gt; Element.Result&lt; T &gt;.Bind&lt; TResult &gt;</definition>
+        <argsstring>(Func&lt; T, Result&lt; TResult &gt;&gt; bindFunc)</argsstring>
+        <name>Bind&lt; TResult &gt;</name>
+        <param>
+          <type>Func&lt; T, <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;&gt;</type>
+          <declname>bindFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="254" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a7e01ff377eff9086a922abe4f8094fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+        <definition>Result&lt;T&gt; Element.Result&lt; T &gt;.Check</definition>
+        <argsstring>(Func&lt; T, Result &gt; checkFunc)</argsstring>
+        <name>Check</name>
+        <param>
+          <type>Func&lt; T, <ref refid="struct_element_1_1_result" kindref="compound">Result</ref> &gt;</type>
+          <declname>checkFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="255" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1aba059f8127d329437f11c3ba4e6d20b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+        <definition>Result&lt;T&gt; Element.Result&lt; T &gt;.Assert</definition>
+        <argsstring>(Predicate&lt; T &gt; assertPredicate, string exceptionErrorMessageIfFalse)</argsstring>
+        <name>Assert</name>
+        <param>
+          <type>Predicate&lt; T &gt;</type>
+          <declname>assertPredicate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>exceptionErrorMessageIfFalse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="257" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="257" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a25640fcdc06435cf6ed9a9095863f6fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+        <definition>Result&lt;TResult&gt; Element.Result&lt; T &gt;.Cast&lt; TResult &gt;</definition>
+        <argsstring>(Context context, string? contextString=null)</argsstring>
+        <name>Cast&lt; TResult &gt;</name>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>contextString</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="263" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="263" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1af2a5b0c66d2d68a9011662051229887f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+        <definition>Result&lt;T&gt; Element.Result&lt; T &gt;.Else</definition>
+        <argsstring>(Func&lt; Result&lt; T &gt;&gt; elseFunc)</argsstring>
+        <name>Else</name>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;&gt;</type>
+          <declname>elseFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="271" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="271" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a460d5993c536248783e27c5ad0459b68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+        <definition>Result&lt;T&gt; Element.Result&lt; T &gt;.ElseIf</definition>
+        <argsstring>(bool condition, Func&lt; Result&lt; T &gt;&gt; elseFunc)</argsstring>
+        <name>ElseIf</name>
+        <param>
+          <type>bool</type>
+          <declname>condition</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;&gt;</type>
+          <declname>elseFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="278" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a3e185b57764bf6671a40552f7682bd1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T Element.Result&lt; T &gt;.ResultOr</definition>
+        <argsstring>(T alternative)</argsstring>
+        <name>ResultOr</name>
+        <param>
+          <type>T</type>
+          <declname>alternative</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="280" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a9dbe208b0bdc2e48d6c00d3cdb2f6847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Element.Result&lt; T &gt;.Equals</definition>
+        <argsstring>(Result&lt; T &gt; other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="284" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1abc1bc2f57577c48134f1b363047b31d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Element.Result&lt; T &gt;.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="286" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a732375e440da0da80336eab58e0a8af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Element.Result&lt; T &gt;.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="291" column="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_element_1_1_result_1ac6ec7f3bc827ac66866d9ade3120c5f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Element.Result&lt; T &gt;.operator Result</definition>
+        <argsstring>(CompilerMessage? message)</argsstring>
+        <name>operator Result</name>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref>?</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="75" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a19818dc97944b99e809ea8205016ffaa" prot="public" static="yes" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Element.Result&lt; T &gt;.operator Result</definition>
+        <argsstring>(Result&lt; T &gt; result)</argsstring>
+        <name>operator Result</name>
+        <param>
+          <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; T &gt;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="195" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a00209fa74ad987de15c0639bf68cfb58" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Element.Result&lt; T &gt;.operator Result&lt; T &gt;</definition>
+        <argsstring>(T v)</argsstring>
+        <name>operator Result&lt; T &gt;</name>
+        <param>
+          <type>T</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="196" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_element_1_1_result_1a7f8a4d46eae9b1f2b4803eb81ba11062" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Element.Result&lt; T &gt;.operator Result&lt; T &gt;</definition>
+        <argsstring>(CompilerMessage? message)</argsstring>
+        <name>operator Result&lt; T &gt;</name>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_message" kindref="compound">CompilerMessage</ref>?</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="197" column="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="struct_element_1_1_result_1a298b54b8b9692246b4af0ff1d8e8cf81" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+        <definition>Result&lt;TResult&gt; Element.Result&lt; T &gt;.Merge&lt; TResult &gt;</definition>
+        <argsstring>(in Result&lt; TResult &gt; newResult)</argsstring>
+        <name>Merge&lt; TResult &gt;</name>
+        <param>
+          <type>in <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; TResult &gt;</type>
+          <declname>newResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="282" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.Result&lt; T &gt;</label>
+        <link refid="struct_element_1_1_result"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable&lt; Result&lt; T &gt;&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Element.Result&lt; T &gt;</label>
+        <link refid="struct_element_1_1_result"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable&lt; Result&lt; T &gt;&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" line="167" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/CompilationUtilities/Result.cs" bodystart="166" bodyend="292"/>
+    <listofallmembers>
+      <member refid="struct_element_1_1_result_1aa427f93ea4727e7463119f0e9b790ee2" prot="private" virt="non-virtual"><scope>Element::Result</scope><name>_value</name></member>
+      <member refid="struct_element_1_1_result_1a6947d4d06c27517b77af74b9d4ac98f7" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Accumulate&lt; T1 &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a14f709433d53e1dab3312d2907982440" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Accumulate&lt; T1, T2 &gt;</name></member>
+      <member refid="struct_element_1_1_result_1ab3a6a80b0a1b9cdda08a97472a74b3be" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Accumulate&lt; T1, T2, T3 &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a1631545a1d185b7fba3e1286a4269df7" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>And</name></member>
+      <member refid="struct_element_1_1_result_1aba059f8127d329437f11c3ba4e6d20b0" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Assert</name></member>
+      <member refid="struct_element_1_1_result_1aaae94bc37e1535374736b003b1a9faa6" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Bind</name></member>
+      <member refid="struct_element_1_1_result_1abca578c973e10754ff81268165172f88" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Bind&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1ae621adbfbcb081146617a899bb616b9e" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Bind&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a25640fcdc06435cf6ed9a9095863f6fe" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Cast&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a7e01ff377eff9086a922abe4f8094fa7" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Check</name></member>
+      <member refid="struct_element_1_1_result_1af2a5b0c66d2d68a9011662051229887f" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Else</name></member>
+      <member refid="struct_element_1_1_result_1a460d5993c536248783e27c5ad0459b68" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>ElseIf</name></member>
+      <member refid="struct_element_1_1_result_1a9dbe208b0bdc2e48d6c00d3cdb2f6847" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Equals</name></member>
+      <member refid="struct_element_1_1_result_1abc1bc2f57577c48134f1b363047b31d4" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Equals</name></member>
+      <member refid="struct_element_1_1_result_1a732375e440da0da80336eab58e0a8af9" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>GetHashCode</name></member>
+      <member refid="struct_element_1_1_result_1add85e0a6d5054974d5db0605ced67b28" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>IsError</name></member>
+      <member refid="struct_element_1_1_result_1ae18c4e72479a13bb43c12ee3f21d51a1" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>IsSuccess</name></member>
+      <member refid="struct_element_1_1_result_1a9f05ff7c878147b08be7afa839c7c018" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Map&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a2552b88605e2262984006c36a5d11500" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Map&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a270de36ba554c7e4c37162eef40337de" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Match&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a6a271fedb61b6b0e09d28a522266e44d" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Match&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a298b54b8b9692246b4af0ff1d8e8cf81" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Merge&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a298b54b8b9692246b4af0ff1d8e8cf81" prot="private" virt="non-virtual"><scope>Element::Result</scope><name>Merge&lt; TResult &gt;</name></member>
+      <member refid="struct_element_1_1_result_1aadbbc5df2df15f9c881de19480bbfc92" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Messages</name></member>
+      <member refid="struct_element_1_1_result_1ac6ec7f3bc827ac66866d9ade3120c5f4" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>operator Result</name></member>
+      <member refid="struct_element_1_1_result_1a19818dc97944b99e809ea8205016ffaa" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>operator Result</name></member>
+      <member refid="struct_element_1_1_result_1a00209fa74ad987de15c0639bf68cfb58" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>operator Result&lt; T &gt;</name></member>
+      <member refid="struct_element_1_1_result_1a7f8a4d46eae9b1f2b4803eb81ba11062" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>operator Result&lt; T &gt;</name></member>
+      <member refid="struct_element_1_1_result_1aea1062918f1593c7948108d19914bca5" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result</name></member>
+      <member refid="struct_element_1_1_result_1a4e3626b8bc4c96756c26f9c653b8275e" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result</name></member>
+      <member refid="struct_element_1_1_result_1a698a7762eca8e632e22eab463d340919" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result</name></member>
+      <member refid="struct_element_1_1_result_1ae766242cd08df268ad8d17006986242b" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result</name></member>
+      <member refid="struct_element_1_1_result_1aea1062918f1593c7948108d19914bca5" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result</name></member>
+      <member refid="struct_element_1_1_result_1ab8c7ec9b40389c00f29b379d5a0922fd" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result?</name></member>
+      <member refid="struct_element_1_1_result_1a7212bc50fa08d009316068d18b085cc2" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result?</name></member>
+      <member refid="struct_element_1_1_result_1a339b4615b817a0dcbdd7f23857970fbf" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result?</name></member>
+      <member refid="struct_element_1_1_result_1ab8c7ec9b40389c00f29b379d5a0922fd" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Result?</name></member>
+      <member refid="struct_element_1_1_result_1a3e185b57764bf6671a40552f7682bd1b" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>ResultOr</name></member>
+      <member refid="struct_element_1_1_result_1a6deca1765503512c4f46195963b17a87" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Success</name></member>
+      <member refid="struct_element_1_1_result_1a41adf1e5d2f8966ee66655f9be541d55" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Switch</name></member>
+      <member refid="struct_element_1_1_result_1acbae7e2c1ffa830a4e9a353703ab5f51" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Switch</name></member>
+      <member refid="struct_element_1_1_result_1acc0e7a114f31c3a732391f8d093fa8c1" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Then</name></member>
+      <member refid="struct_element_1_1_result_1aa32916450b90f56601a2244a9c6b8ff5" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Then</name></member>
+      <member refid="struct_element_1_1_result_1a8689e8f1484e2404f1883d5318522ed8" prot="public" virt="non-virtual"><scope>Element::Result</scope><name>Then</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structelement__tokeniser__ctx" kind="struct" language="C++" prot="public">
+    <compoundname>element_tokeniser_ctx</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1aadcfb5eaf9cb3319cb1949b8a6b7f6af" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="structelement__log__ctx" kindref="compound">element_log_ctx</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;element_log_ctx&gt; element_tokeniser_ctx::logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="14" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1ad1a3ec6e789f30518ed1ad83ec066509" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* element_tokeniser_ctx::raw_filename</definition>
+        <argsstring></argsstring>
+        <name>raw_filename</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="15" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1ac3f52e69f4578a19841eed6c2011a49b" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string element_tokeniser_ctx::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="16" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1aedba310d542d048657fd7704c5c9ddc3" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string element_tokeniser_ctx::input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="17" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1a1c9ff78d05a88379c2e738f3d8212ed4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int element_tokeniser_ctx::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="18" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1aed301249c2984fd98a34316e2a35dada" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int element_tokeniser_ctx::line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="19" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1a0a9fd6abd53ad541b20f787f4a7580fa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int element_tokeniser_ctx::line_start_position</definition>
+        <argsstring></argsstring>
+        <name>line_start_position</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="20" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1aa3c4e377fe5cb1c51d144f3640de3095" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int element_tokeniser_ctx::character</definition>
+        <argsstring></argsstring>
+        <name>character</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="21" column="9" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1adab0ee776203337281285836d3956360" prot="public" static="no" mutable="no">
+        <type>element_token</type>
+        <definition>element_token element_tokeniser_ctx::cur_token</definition>
+        <argsstring></argsstring>
+        <name>cur_token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="22" column="19" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1a930ba27146e375bbc30e6f54f9d94623" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; element_token &gt;</type>
+        <definition>std::vector&lt;element_token&gt; element_tokeniser_ctx::tokens</definition>
+        <argsstring></argsstring>
+        <name>tokens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="23" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structelement__tokeniser__ctx_1a144ae2f071fe8d5f736b0a18fe78963e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; element_tokeniser_ctx::line_number_to_line_pos</definition>
+        <argsstring></argsstring>
+        <name>line_number_to_line_pos</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="24" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structelement__tokeniser__ctx_1a54ce637c402578e9bd81fb90599aa9c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string element_tokeniser_ctx::text</definition>
+        <argsstring>(const element_token *t) const</argsstring>
+        <name>text</name>
+        <param>
+          <type>const element_token *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="26" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__tokeniser__ctx_1ae726433879f50338a9ea9b387208b047" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string element_tokeniser_ctx::text_on_line</definition>
+        <argsstring>(int line) const</argsstring>
+        <name>text_on_line</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="31" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token.cpp" bodystart="568" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__tokeniser__ctx_1a4f5735962aec884eb1a7eacfb3eb384a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_tokeniser_ctx::log</definition>
+        <argsstring>(int message_code, const std::string &amp;message) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>int</type>
+          <declname>message_code</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="33" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__tokeniser__ctx_1ac4f792c72026806499a2a50e0423fd77" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_tokeniser_ctx::log</definition>
+        <argsstring>(int message_code, const std::string &amp;message, int length, element_log_message *related_message) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>int</type>
+          <declname>message_code</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>element_log_message *</type>
+          <declname>related_message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="41" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__tokeniser__ctx_1a06bdac1e1b2316482e8527a4c6a93c17" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_tokeniser_ctx::log</definition>
+        <argsstring>(const std::string &amp;message) const</argsstring>
+        <name>log</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="49" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__tokeniser__ctx_1a3dbaab2fc757db9e28808cee56239369" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void element_tokeniser_ctx::set_log_callback</definition>
+        <argsstring>(LogCallback callback, void *user_data)</argsstring>
+        <name>set_log_callback</name>
+        <param>
+          <type>LogCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="57" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="57" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="structelement__tokeniser__ctx_1a12747be60ab95af6c3ab27b73d030383" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>element_tokeniser_ctx::element_tokeniser_ctx</definition>
+        <argsstring>()</argsstring>
+        <name>element_tokeniser_ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="64" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="64" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" line="13" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/token_internal.hpp" bodystart="12" bodyend="75"/>
+    <listofallmembers>
+      <member refid="structelement__tokeniser__ctx_1aa3c4e377fe5cb1c51d144f3640de3095" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>character</name></member>
+      <member refid="structelement__tokeniser__ctx_1adab0ee776203337281285836d3956360" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>cur_token</name></member>
+      <member refid="structelement__tokeniser__ctx_1a12747be60ab95af6c3ab27b73d030383" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>element_tokeniser_ctx</name></member>
+      <member refid="structelement__tokeniser__ctx_1ac3f52e69f4578a19841eed6c2011a49b" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>filename</name></member>
+      <member refid="structelement__tokeniser__ctx_1aedba310d542d048657fd7704c5c9ddc3" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>input</name></member>
+      <member refid="structelement__tokeniser__ctx_1aed301249c2984fd98a34316e2a35dada" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>line</name></member>
+      <member refid="structelement__tokeniser__ctx_1a144ae2f071fe8d5f736b0a18fe78963e" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>line_number_to_line_pos</name></member>
+      <member refid="structelement__tokeniser__ctx_1a0a9fd6abd53ad541b20f787f4a7580fa" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>line_start_position</name></member>
+      <member refid="structelement__tokeniser__ctx_1a4f5735962aec884eb1a7eacfb3eb384a" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>log</name></member>
+      <member refid="structelement__tokeniser__ctx_1ac4f792c72026806499a2a50e0423fd77" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>log</name></member>
+      <member refid="structelement__tokeniser__ctx_1a06bdac1e1b2316482e8527a4c6a93c17" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>log</name></member>
+      <member refid="structelement__tokeniser__ctx_1aadcfb5eaf9cb3319cb1949b8a6b7f6af" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>logger</name></member>
+      <member refid="structelement__tokeniser__ctx_1a1c9ff78d05a88379c2e738f3d8212ed4" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>pos</name></member>
+      <member refid="structelement__tokeniser__ctx_1ad1a3ec6e789f30518ed1ad83ec066509" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>raw_filename</name></member>
+      <member refid="structelement__tokeniser__ctx_1a3dbaab2fc757db9e28808cee56239369" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>set_log_callback</name></member>
+      <member refid="structelement__tokeniser__ctx_1a54ce637c402578e9bd81fb90599aa9c9" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>text</name></member>
+      <member refid="structelement__tokeniser__ctx_1ae726433879f50338a9ea9b387208b047" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>text_on_line</name></member>
+      <member refid="structelement__tokeniser__ctx_1a930ba27146e375bbc30e6f54f9d94623" prot="public" virt="non-virtual"><scope>element_tokeniser_ctx</scope><name>tokens</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

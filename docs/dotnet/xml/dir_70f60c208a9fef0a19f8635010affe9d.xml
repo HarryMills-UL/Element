@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_70f60c208a9fef0a19f8635010affe9d" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/Host</compoundname>
+    <innerfile refid="_atomic_host_8cs">AtomicHost.cs</innerfile>
+    <innerfile refid="_i_host_8cs">IHost.cs</innerfile>
+    <innerfile refid="_persistent_host_8cs">PersistentHost.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_a_s_t_1_1_namespace_declaration" kind="class" language="C#" prot="public">
+    <compoundname>Element::AST::NamespaceDeclaration</compoundname>
+    <basecompoundref refid="class_element_1_1_a_s_t_1_1_declaration" prot="public" virt="non-virtual">Element.AST.Declaration</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_element_1_1_a_s_t_1_1_namespace_declaration_1a3c227cd8c84ba27b5fc691962035dae4" prot="protected" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Element.AST.NamespaceDeclaration.IntrinsicQualifier</definition>
+        <argsstring></argsstring>
+        <name>IntrinsicQualifier</name>
+        <initializer>=&gt; string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" line="8" column="35" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_namespace_declaration_1ac402eb9e42ed2df4becc52ccbfa83545" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string Element.AST.NamespaceDeclaration.Qualifier</definition>
+        <argsstring></argsstring>
+        <name>Qualifier</name>
+        <initializer>= &quot;namespace&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" line="9" column="35" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_a_s_t_1_1_namespace_declaration_1ace3871f02f55270bcb41ab7d4fbf6578" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override Type[]</type>
+        <definition>override Type [] Element.AST.NamespaceDeclaration.BodyAlternatives</definition>
+        <argsstring></argsstring>
+        <name>BodyAlternatives</name>
+        <initializer>= {typeof(<ref refid="class_element_1_1_a_s_t_1_1_namespace_block" kindref="compound">NamespaceBlock</ref>)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" line="10" column="33" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_namespace_declaration_1aafdfa38451bfd2cb0b86a2044b59c09b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override <ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; <ref refid="interface_element_1_1_a_s_t_1_1_i_value" kindref="compound">IValue</ref> &gt;</type>
+        <definition>override Result&lt;IValue&gt; Element.AST.NamespaceDeclaration.ResolveImpl</definition>
+        <argsstring>(IScope scope, Context context)</argsstring>
+        <name>ResolveImpl</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_declaration_1a92cced77ea05b3d4b95b4de72f9382d5">ResolveImpl</reimplements>
+        <param>
+          <type><ref refid="interface_element_1_1_a_s_t_1_1_i_scope" kindref="compound">IScope</ref></type>
+          <declname>scope</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" line="11" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_a_s_t_1_1_namespace_declaration_1a9eb32fd26d3ae8362327b0b7fec19839" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Element.AST.NamespaceDeclaration.ValidateDeclaration</definition>
+        <argsstring>(ResultBuilder builder, Context context)</argsstring>
+        <name>ValidateDeclaration</name>
+        <reimplements refid="class_element_1_1_a_s_t_1_1_declaration_1ad1bc7fc7273047c2ff6eac869d1bdc92">ValidateDeclaration</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_result_builder" kindref="compound">ResultBuilder</ref></type>
+          <declname>builder</declname>
+        </param>
+        <param>
+          <type><ref refid="class_element_1_1_context" kindref="compound">Context</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" line="15" column="33" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" bodystart="15" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="2">
+        <label>Declaration</label>
+        <link refid="class_element_1_1_a_s_t_1_1_declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.NamespaceDeclaration</label>
+        <link refid="class_element_1_1_a_s_t_1_1_namespace_declaration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Element.AST.PortList</label>
+        <link refid="class_element_1_1_a_s_t_1_1_port_list"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AstNode</label>
+        <link refid="class_element_1_1_a_s_t_1_1_ast_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IEquatable&lt; Identifier &gt;</label>
+      </node>
+      <node id="4">
+        <label>ISourceLocation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_source_location"/>
+      </node>
+      <node id="6">
+        <label>Element.AST.Identifier</label>
+        <link refid="struct_element_1_1_a_s_t_1_1_identifier"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Element.AST.ReturnConstraint</label>
+        <link refid="class_element_1_1_a_s_t_1_1_return_constraint"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IExpressionChainStart</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_expression_chain_start"/>
+      </node>
+      <node id="2">
+        <label>Declaration</label>
+        <link refid="class_element_1_1_a_s_t_1_1_declaration"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>PortList</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>Identifier</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.AST.NamespaceDeclaration</label>
+        <link refid="class_element_1_1_a_s_t_1_1_namespace_declaration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!1-AST/Declarations/NamespaceDeclaration.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1a4ed3e6ffa65cd3e90cbd68b0e7ac53fb" prot="protected" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>_</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1a05c3378a00f5b45f561a133a87579f7b" prot="protected" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>__</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1aa81a9541053d2254eccbb0584b18752c" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>Body</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_namespace_declaration_1ace3871f02f55270bcb41ab7d4fbf6578" prot="protected" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>BodyAlternatives</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1af3cdb697680f300c2aa991b88f565982" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>Identifier</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1aea3371152f46d75be233650ad347bc72" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>IndexInSource</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_namespace_declaration_1a3c227cd8c84ba27b5fc691962035dae4" prot="protected" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>IntrinsicQualifier</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1a295870c7058a70478aa7d18c5b80d879" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>PortList</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_namespace_declaration_1ac402eb9e42ed2df4becc52ccbfa83545" prot="protected" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>Qualifier</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1a12387981615d7c5c5cae31b197f827ad" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>Resolve</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_namespace_declaration_1aafdfa38451bfd2cb0b86a2044b59c09b" prot="protected" virt="virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>ResolveImpl</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1a999ae06ec30dfbfa89e593ebfeb3b713" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a6d91ea72f391505441e27fdb40c75aec" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>SourceInfo</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1aaeb4e33e42ea2192b38eaf1e6fd48721" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1afd4482e89cf109b816465c92c7960dc5" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_ast_node_1a16e8a7969fb8eec8e70358c020f0cc2f" prot="public" virt="non-virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>Validate</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_namespace_declaration_1a9eb32fd26d3ae8362327b0b7fec19839" prot="protected" virt="virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>ValidateDeclaration</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_declaration_1a960ce37021f9c6b45d595e67df835b39" prot="protected" virt="virtual"><scope>Element::AST::NamespaceDeclaration</scope><name>ValidateImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

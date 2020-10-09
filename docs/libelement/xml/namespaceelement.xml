@@ -1,0 +1,1822 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceelement" kind="namespace" language="C++">
+    <compoundname>element</compoundname>
+    <innerclass refid="classelement_1_1anonymous__block__expression" prot="public">element::anonymous_block_expression</innerclass>
+    <innerclass refid="classelement_1_1anonymous__block__instance" prot="public">element::anonymous_block_instance</innerclass>
+    <innerclass refid="classelement_1_1any__constraint" prot="public">element::any_constraint</innerclass>
+    <innerclass refid="classelement_1_1bool__type" prot="public">element::bool_type</innerclass>
+    <innerclass refid="classelement_1_1call__expression" prot="public">element::call_expression</innerclass>
+    <innerclass refid="classelement_1_1call__stack" prot="public">element::call_stack</innerclass>
+    <innerclass refid="classelement_1_1capture__stack" prot="public">element::capture_stack</innerclass>
+    <innerclass refid="classelement_1_1compilation__context" prot="public">element::compilation_context</innerclass>
+    <innerclass refid="classelement_1_1constraint" prot="public">element::constraint</innerclass>
+    <innerclass refid="classelement_1_1constraint__declaration" prot="public">element::constraint_declaration</innerclass>
+    <innerclass refid="classelement_1_1declaration" prot="public">element::declaration</innerclass>
+    <innerclass refid="classelement_1_1declaration__wrapper" prot="public">element::declaration_wrapper</innerclass>
+    <innerclass refid="classelement_1_1error" prot="public">element::error</innerclass>
+    <innerclass refid="structelement_1_1error__map" prot="public">element::error_map</innerclass>
+    <innerclass refid="structelement_1_1error__map_3_4" prot="public">element::error_map&lt;&gt;</innerclass>
+    <innerclass refid="classelement_1_1expression" prot="public">element::expression</innerclass>
+    <innerclass refid="classelement_1_1expression__chain" prot="public">element::expression_chain</innerclass>
+    <innerclass refid="structelement_1_1file__information" prot="public">element::file_information</innerclass>
+    <innerclass refid="classelement_1_1function__declaration" prot="public">element::function_declaration</innerclass>
+    <innerclass refid="classelement_1_1function__instance" prot="public">element::function_instance</innerclass>
+    <innerclass refid="classelement_1_1identifier" prot="public">element::identifier</innerclass>
+    <innerclass refid="classelement_1_1identifier__expression" prot="public">element::identifier_expression</innerclass>
+    <innerclass refid="classelement_1_1indexing__expression" prot="public">element::indexing_expression</innerclass>
+    <innerclass refid="classelement_1_1intrinsic" prot="public">element::intrinsic</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__binary" prot="public">element::intrinsic_binary</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__compiler__list__indexer" prot="public">element::intrinsic_compiler_list_indexer</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__constructor__bool" prot="public">element::intrinsic_constructor_bool</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__constructor__list" prot="public">element::intrinsic_constructor_list</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__constructor__num" prot="public">element::intrinsic_constructor_num</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__for" prot="public">element::intrinsic_for</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__function" prot="public">element::intrinsic_function</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__if" prot="public">element::intrinsic_if</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__list" prot="public">element::intrinsic_list</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__list__fold" prot="public">element::intrinsic_list_fold</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__not__implemented" prot="public">element::intrinsic_not_implemented</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__nullary" prot="public">element::intrinsic_nullary</innerclass>
+    <innerclass refid="classelement_1_1intrinsic__unary" prot="public">element::intrinsic_unary</innerclass>
+    <innerclass refid="classelement_1_1list__wrapper" prot="public">element::list_wrapper</innerclass>
+    <innerclass refid="classelement_1_1literal__expression" prot="public">element::literal_expression</innerclass>
+    <innerclass refid="structelement_1_1log__error__map" prot="public">element::log_error_map</innerclass>
+    <innerclass refid="structelement_1_1log__error__map_3_4" prot="public">element::log_error_map&lt;&gt;</innerclass>
+    <innerclass refid="classelement_1_1log__message" prot="public">element::log_message</innerclass>
+    <innerclass refid="classelement_1_1namespace__declaration" prot="public">element::namespace_declaration</innerclass>
+    <innerclass refid="classelement_1_1num__type" prot="public">element::num_type</innerclass>
+    <innerclass refid="classelement_1_1object" prot="public">element::object</innerclass>
+    <innerclass refid="classelement_1_1port" prot="public">element::port</innerclass>
+    <innerclass refid="classelement_1_1scope" prot="public">element::scope</innerclass>
+    <innerclass refid="structelement_1_1source__context" prot="public">element::source_context</innerclass>
+    <innerclass refid="classelement_1_1source__information" prot="public">element::source_information</innerclass>
+    <innerclass refid="classelement_1_1struct__declaration" prot="public">element::struct_declaration</innerclass>
+    <innerclass refid="classelement_1_1struct__instance" prot="public">element::struct_instance</innerclass>
+    <innerclass refid="classelement_1_1type" prot="public">element::type</innerclass>
+    <innerclass refid="classelement_1_1type__annotation" prot="public">element::type_annotation</innerclass>
+    <innerclass refid="classelement_1_1user__function__constraint" prot="public">element::user_function_constraint</innerclass>
+    <innerclass refid="classelement_1_1user__type" prot="public">element::user_type</innerclass>
+    <innernamespace refid="namespaceelement_1_1detail">element::detail</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>log_error_message_code</name>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a2424d83ddf98a56391a7a1ab2d0ef762" prot="public">
+          <name>parse_identifier_failed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a99345657405fa317b98802af6b391a07" prot="public">
+          <name>parse_identifier_reserved</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7956d281789be74a77455f4d7a7a63e9" prot="public">
+          <name>parse_typename_not_identifier</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a42392f009b57ee9465c172022abf9d3c" prot="public">
+          <name>parse_port_failed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a5906c0c735032b59f82d1ae91f8408c3" prot="public">
+          <name>parse_exprlist_empty</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a33106545aa97a33b599c563e2724a2b0" prot="public">
+          <name>parse_exprlist_missing_closing_parenthesis</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7cd1639b7db9b8c521970ddaed4080c7" prot="public">
+          <name>parse_call_invalid_expression</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a00e2005463e237e7e91eb1a1e00e2978" prot="public">
+          <name>parse_expression_failed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a5de10e21a6a8e0f8804789874cbd0086" prot="public">
+          <name>parse_declaration_invalid_identifier</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ac55e04b73e14d0c99a5fd3d5af416f31" prot="public">
+          <name>parse_declaration_missing_portlist_closing_parenthesis</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a4d6b4e58e266ce768a354a86881fcf7e" prot="public">
+          <name>parse_declaration_invalid_struct_return_type</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8af45058db44d8fa631bee84abb7162541" prot="public">
+          <name>parse_body_missing_semicolon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a1ad863811acd1b648aa1272bc9e8dfc2" prot="public">
+          <name>parse_body_missing_body_for_function</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a30197bd21761f1ef2a3f034719ddf20c" prot="public">
+          <name>parse_body_missing_body</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8afb16175959e7a3ff9951ae470d99bae0" prot="public">
+          <name>parse_function_missing_body</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a50438321c9d7a9f727fc10f5474dea8c" prot="public">
+          <name>parse_struct_missing_identifier</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a8848ad48d0f6f9e8fc294da75595097a" prot="public">
+          <name>parse_struct_nonintrinsic_missing_portlist</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a0faa3097a5b8600f8da640968821bc4d" prot="public">
+          <name>parse_struct_invalid_body</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a75df7649bdd821be02085fe4fc0128ec" prot="public">
+          <name>parse_constraint_invalid_identifier</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ab8b5e50482a105ac6ec7412ab3a8bffa" prot="public">
+          <name>parse_constraint_nonintrinsic_missing_portlist</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8aec6ae31e345ae9829447dbc7557e31c4" prot="public">
+          <name>parse_constraint_has_body</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a5c3511e74e040246f5fba11ab227df87" prot="public">
+          <name>parse_constraint_invalid_body</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ad5011028b290675681af84aebed453c2" prot="public">
+          <name>intrinsic_not_implemented</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8afa1fd973b3acac330bd95d2638995e8f" prot="public">
+          <name>intrinsic_type_mismatch</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8aa324a4336cf212df504a9c8839c0624d" prot="public">
+          <name>invalid_grammar_in_portlist</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8aa37a740d0e10f881617be61d10eccd34" prot="public">
+          <name>invalid_type_annotation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a0b4e025c156bafc4b92a4ba60288b161" prot="public">
+          <name>failed_to_build_declaration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7b6bd61a73edf74ab529ba297d9a0170" prot="public">
+          <name>failed_to_build_root</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a96055009906ace56d7a69bc54814ea11" prot="public">
+          <name>internal_compiler_error</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ae4e34ff3200f8772038025edf82b4c38" prot="public">
+          <name>missing_declaration_scope</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8ae67cb0342e68b77194bc95b71cfa61d0" prot="public">
+          <name>expression_chain_cannot_be_empty</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7b1f64f59cacd501a008cea98764db18" prot="public">
+          <name>invalid_function_declaration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a5a3188144736b8675bb52eafe1826c21" prot="public">
+          <name>invalid_call_expression_placement</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a3c242d78b2ac711362770d5750d09733" prot="public">
+          <name>invalid_literal_expression_placement</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a63183fb3b5316392ee6d720f1bda0db2" prot="public">
+          <name>empty_expression</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a4cdc9b4aba258f3b7022f0ccd63ae675" prot="public">
+          <name>function_missing_return</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a875f65c0ae58a0afe0d55f9c1b2380aa" prot="public">
+          <name>multiple_definition_with_parameter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a18729d367443ba4a17a6326083da7f70" prot="public">
+          <name>default_argument_not_at_end</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log__errors_8hpp_1a48a65dd58bb7a1d4ad68838585b0c7c8a7690dd86a02a4a53f4a1f50bac919a80" prot="public">
+          <name>struct_portlist_cannot_contain_discards</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="21" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="20" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="enum" id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>error_message_code</name>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ead59d44f65f27a8f17055f3d1026c93b5" prot="public">
+          <name>not_indexable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea5e745ab6c8449d86c7daaaaa96b9b9cb" prot="public">
+          <name>not_callable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea27f73099760adcc68fab5e59590d3e87" prot="public">
+          <name>not_compilable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea478a83a35791e2f83d602f5f0339af16" prot="public">
+          <name>failed_to_find_when_resolving_indexing_expr</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea85c08ed7632ff59dbacbd0e49d0da06c" prot="public">
+          <name>failed_to_find_when_resolving_identifier_expr</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea8ec2a68235f68b94698d40af809f91f6" prot="public">
+          <name>recursion_detected</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea00abba27b27f1816a7c907961e3c95b4" prot="public">
+          <name>instance_function_cannot_be_nullary</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea8288ea627126c759ceeb9cc1c268816f" prot="public">
+          <name>is_not_an_instance_function</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea0359e61df05b3a20311eb34e809c6b9d" prot="public">
+          <name>argument_count_mismatch</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea5bba04e7e11720eae1d1ae01861c3ba2" prot="public">
+          <name>failed_to_find</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ead5011028b290675681af84aebed453c2" prot="public">
+          <name>intrinsic_not_implemented</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2eaa9f62e43e781f7fdf335d9f25ebf918e" prot="public">
+          <name>not_enough_arguments</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2eac227176428d4ed4456c20405d85a0b6f" prot="public">
+          <name>too_many_arguments</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="error__map_8hpp_1a3de90dbfceb94efb7a8705710f688b2ea043b8100f964275735b71382f526e6a0" prot="public">
+          <name>invalid_errorless_call</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" line="20" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" bodystart="19" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="object__model_2fwd_8hpp_1a22d5bde42f35869c2a7c0fd56aa2244a" prot="public" static="no">
+        <type>std::shared_ptr&lt; const <ref refid="classelement_1_1object" kindref="compound">object</ref> &gt;</type>
+        <definition>using element::object_const_shared_ptr = typedef std::shared_ptr&lt;const object&gt;</definition>
+        <argsstring></argsstring>
+        <name>object_const_shared_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" line="11" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="object__model_2fwd_8hpp_1a0749a9c86e22116c446e94ead4dd93c5" prot="public" static="no">
+        <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+        <definition>using element::constraint_const_ptr = typedef const constraint*</definition>
+        <argsstring></argsstring>
+        <name>constraint_const_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" line="40" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="object__model_2fwd_8hpp_1a8ccd45ab56d3070612a24d676c04644e" prot="public" static="no">
+        <type>std::unique_ptr&lt; const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> &gt;</type>
+        <definition>using element::constraint_const_unique_ptr = typedef std::unique_ptr&lt;const constraint&gt;</definition>
+        <argsstring></argsstring>
+        <name>constraint_const_unique_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" line="41" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="object__model_2fwd_8hpp_1ae9d359c6a5f770d207309dca13d8679c" prot="public" static="no">
+        <type>const <ref refid="classelement_1_1type" kindref="compound">type</ref> *</type>
+        <definition>using element::type_const_ptr = typedef const type*</definition>
+        <argsstring></argsstring>
+        <name>type_const_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" line="44" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="object__model_2fwd_8hpp_1a6c5794794284499ffc601a9d3eb6afed" prot="public" static="no">
+        <type>std::unique_ptr&lt; const <ref refid="classelement_1_1type" kindref="compound">type</ref> &gt;</type>
+        <definition>using element::type_const_unique_ptr = typedef std::unique_ptr&lt;const type&gt;</definition>
+        <argsstring></argsstring>
+        <name>type_const_unique_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" line="45" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="object__model_2fwd_8hpp_1a63cd757dc7f9f09cfcd9aeece9a0ef75" prot="public" static="no">
+        <type>std::shared_ptr&lt; element_function &gt;</type>
+        <definition>using element::function_shared_ptr = typedef std::shared_ptr&lt;element_function&gt;</definition>
+        <argsstring></argsstring>
+        <name>function_shared_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" line="51" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="object__model_2fwd_8hpp_1aa27b5d8dd2ee39af45fbe63ff759622d" prot="public" static="no">
+        <type>std::shared_ptr&lt; const element_function &gt;</type>
+        <definition>using element::function_const_shared_ptr = typedef std::shared_ptr&lt;const element_function&gt;</definition>
+        <argsstring></argsstring>
+        <name>function_const_shared_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" line="52" column="5" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/fwd.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="object__model__builder_8hpp_1a19154029e298e18e7d7bf27de2593e41" prot="public" static="no">
+        <type>std::vector&lt; std::pair&lt; <ref refid="classelement_1_1identifier" kindref="compound">identifier</ref>, const <ref refid="structelement__ast" kindref="compound">element_ast</ref> * &gt; &gt;</type>
+        <definition>typedef std::vector&lt;std::pair&lt;identifier, const element_ast*&gt; &gt; element::deferred_expressions</definition>
+        <argsstring></argsstring>
+        <name>deferred_expressions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp" line="29" column="25" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="declaration_8hpp_1a4cea0527c88a4572670b99ca2275a078" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string element::intrinsic_qualifier</definition>
+        <argsstring></argsstring>
+        <name>intrinsic_qualifier</name>
+        <initializer>= &quot;intrinsic&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" line="10" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="declaration_8hpp_1aa1d6e468b869444d08e2e864c13485c4" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string element::namespace_qualifier</definition>
+        <argsstring></argsstring>
+        <name>namespace_qualifier</name>
+        <initializer>= &quot;namespace&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" line="11" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="declaration_8hpp_1a105ee0f1147e8cf800710b9134e778ee" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string element::constraint_qualifier</definition>
+        <argsstring></argsstring>
+        <name>constraint_qualifier</name>
+        <initializer>= &quot;constraint&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" line="12" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="declaration_8hpp_1aef4966c387b69a3c368a2015e8314894" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string element::struct_qualifier</definition>
+        <argsstring></argsstring>
+        <name>struct_qualifier</name>
+        <initializer>= &quot;struct&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" line="13" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="declaration_8hpp_1a8b1f3de5510d6a931d02dc97247f5bc5" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string element::function_qualifier</definition>
+        <argsstring></argsstring>
+        <name>function_qualifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" line="14" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="declaration_8hpp_1af8f8811efefd01f07db3ddb23c5fe5b5" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string element::return_keyword</definition>
+        <argsstring></argsstring>
+        <name>return_keyword</name>
+        <initializer>= &quot;return&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" line="15" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="declaration_8hpp_1a1e3532cc0fd660540b0d1150329fdbb9" prot="public" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string element::unidentifier</definition>
+        <argsstring></argsstring>
+        <name>unidentifier</name>
+        <initializer>= &quot;_&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" line="16" column="30" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/declarations/declaration.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="log__errors_8hpp_1a3b76dd210dfe2dbdf01474c822aba668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void element::register_log_error</definition>
+        <argsstring>(log_error_message_code code, std::string format, element_result error_result, element_stage stage)</argsstring>
+        <name>register_log_error</name>
+        <param>
+          <type>log_error_message_code</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>element_result</type>
+          <declname>error_result</declname>
+        </param>
+        <param>
+          <type>element_stage</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="122" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="122" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="log__errors_8hpp_1a3a594b1452a3d940f5380d7c7878ec59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classelement_1_1log__message" kindref="compound">log_message</ref></type>
+        <definition>log_message element::build_log_error</definition>
+        <argsstring>(const source_information &amp;source_info, log_error_message_code code, Args... args)</argsstring>
+        <name>build_log_error</name>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <param>
+          <type>log_error_message_code</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>Args...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="147" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="log__errors_8hpp_1a10dc6334a15890a748ebc9f76a6a883c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classelement_1_1source__information" kindref="compound">source_information</ref></type>
+        <definition>source_information element::build_source_info</definition>
+        <argsstring>(const source_context *context, const element_token *token, int extra_length)</argsstring>
+        <name>build_source_info</name>
+        <param>
+          <type>const <ref refid="structelement_1_1source__context" kindref="compound">source_context</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const element_token *</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>extra_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="152" column="31" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="152" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="log__errors_8hpp_1a9324d9020eaa06f46860c1fb389f5cab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classelement_1_1source__information" kindref="compound">source_information</ref></type>
+        <definition>source_information element::build_source_info</definition>
+        <argsstring>(const source_context *context, const element_token *token)</argsstring>
+        <name>build_source_info</name>
+        <param>
+          <type>const <ref refid="structelement_1_1source__context" kindref="compound">source_context</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const element_token *</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="173" column="31" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="173" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="log__errors_8hpp_1a05e36f241992cb0ef2c3dd2911b80f77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classelement_1_1log__message" kindref="compound">log_message</ref></type>
+        <definition>log_message element::build_log_error</definition>
+        <argsstring>(const source_context *context, const element_token *token, log_error_message_code code, Args... args)</argsstring>
+        <name>build_log_error</name>
+        <param>
+          <type>const <ref refid="structelement_1_1source__context" kindref="compound">source_context</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const element_token *</type>
+          <declname>token</declname>
+        </param>
+        <param>
+          <type>log_error_message_code</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>Args...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="179" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="log__errors_8hpp_1af3a04af72f661065e186fca272f094cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classelement_1_1log__message" kindref="compound">log_message</ref></type>
+        <definition>log_message element::build_log_error</definition>
+        <argsstring>(const source_context *context, const element_ast *ast, log_error_message_code code, Args... args)</argsstring>
+        <name>build_log_error</name>
+        <param>
+          <type>const <ref refid="structelement_1_1source__context" kindref="compound">source_context</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>log_error_message_code</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>Args...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="185" column="17" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="185" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="log__errors_8hpp_1a0bdd5f3f3850945663184bbb9da2cb00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>element_result</type>
+        <definition>element_result element::log_error</definition>
+        <argsstring>(const element_log_ctx *logger, Args &amp;&amp;... args)</argsstring>
+        <name>log_error</name>
+        <param>
+          <type>const <ref refid="structelement__log__ctx" kindref="compound">element_log_ctx</ref> *</type>
+          <declname>logger</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="196" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="196" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="log__errors_8hpp_1ae38cd1e1898ffeebc3a3f954c34e5af5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>element_result</type>
+        <definition>element_result element::log_error</definition>
+        <argsstring>(const element_interpreter_ctx *context, Args &amp;&amp;... args)</argsstring>
+        <name>log_error</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" line="204" column="20" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/log_errors.hpp" bodystart="204" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="error__map_8hpp_1afc5d17cf8893a35e7e2aa56c6cbda3a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void element::register_error</definition>
+        <argsstring>(error_message_code code, std::string format, element_result error_result)</argsstring>
+        <name>register_error</name>
+        <param>
+          <type>error_message_code</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>element_result</type>
+          <declname>error_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" line="96" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" bodystart="96" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="error__map_8hpp_1a92340d4ba7719f25139ccefdb1bb79c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; <ref refid="classelement_1_1error" kindref="compound">error</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;error&gt; element::build_error</definition>
+        <argsstring>(const source_information &amp;source_info, error_message_code code, Args... args)</argsstring>
+        <name>build_error</name>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <param>
+          <type>error_message_code</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>Args...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" line="109" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="error__map_8hpp_1a17c279ef5357c929f478daf321c90469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; <ref refid="classelement_1_1error" kindref="compound">error</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;error&gt; element::build_error_and_log</definition>
+        <argsstring>(const compilation_context &amp;context, Args &amp;&amp;... args)</argsstring>
+        <name>build_error_and_log</name>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" line="115" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/error_map.hpp" bodystart="115" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic_8hpp_1af768d9b5d7ccf72b006206c6057e49ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; std::vector&lt; object_const_shared_ptr &gt;, size_t &gt;</type>
+        <definition>std::pair&lt; std::vector&lt; object_const_shared_ptr &gt;, size_t &gt; element::generate_placeholder_inputs</definition>
+        <argsstring>(const compilation_context &amp;compilation_context, const std::vector&lt; port &gt; &amp;inputs, element_result &amp;out_result, const int index_offset)</argsstring>
+        <name>generate_placeholder_inputs</name>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>compilation_context</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="classelement_1_1port" kindref="compound">port</ref> &gt; &amp;</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>out_result</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>index_offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.hpp" line="90" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.cpp" bodystart="135" bodyend="155" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic.hpp" declline="90" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="intrinsic__function_8hpp_1a754336c73c19d1072e12b252ad97ca11" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; const <ref refid="structelement__instruction" kindref="compound">element_instruction</ref> &gt;</type>
+        <definition>static std::shared_ptr&lt;const element_instruction&gt; element::evaluate</definition>
+        <argsstring>(const compilation_context &amp;context, std::shared_ptr&lt; const element_instruction &gt; expr)</argsstring>
+        <name>evaluate</name>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; const <ref refid="structelement__instruction" kindref="compound">element_instruction</ref> &gt;</type>
+          <declname>expr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" line="23" column="28" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intrinsics/intrinsic_function.hpp" bodystart="23" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="object_8cpp_1a44f6a774a050486e6de6e4fc128a676f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool element::valid_call</definition>
+        <argsstring>(const compilation_context &amp;context, const declaration *declarer, const std::vector&lt; object_const_shared_ptr &gt; &amp;compiled_args)</argsstring>
+        <name>valid_call</name>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> *</type>
+          <declname>declarer</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; object_const_shared_ptr &gt; &amp;</type>
+          <declname>compiled_args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp" line="47" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp" bodystart="47" bodyend="79" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.hpp" declline="65" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="object_8cpp_1a7250c04d76c6a14dd000994fc42b79be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; const <ref refid="classelement_1_1error" kindref="compound">error</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; const error &gt; element::build_error_for_invalid_call</definition>
+        <argsstring>(const compilation_context &amp;context, const declaration *declarer, const std::vector&lt; object_const_shared_ptr &gt; &amp;compiled_args)</argsstring>
+        <name>build_error_for_invalid_call</name>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> *</type>
+          <declname>declarer</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; object_const_shared_ptr &gt; &amp;</type>
+          <declname>compiled_args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp" line="81" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp" bodystart="81" bodyend="116" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.hpp" declline="66" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="object_8cpp_1a9b2882eeb7e046e06317706eb46a54db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr element::index_type</definition>
+        <argsstring>(const declaration *type, object_const_shared_ptr instance, const compilation_context &amp;context, const identifier &amp;name, const source_information &amp;source_info)</argsstring>
+        <name>index_type</name>
+        <param>
+          <type>const <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>object_const_shared_ptr</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1identifier" kindref="compound">identifier</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp" line="118" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp" bodystart="118" bodyend="158" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.hpp" declline="67" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="object_8cpp_1a4f9dd6b3a9a29eb9518f191cc5539987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr element::compile_placeholder_expression</definition>
+        <argsstring>(const compilation_context &amp;context, const object &amp;object, const std::vector&lt; port &gt; &amp;inputs, element_result &amp;result, const source_information &amp;source_info, const int placeholder_offset)</argsstring>
+        <name>compile_placeholder_expression</name>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1object" kindref="compound">object</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="classelement_1_1port" kindref="compound">port</ref> &gt; &amp;</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>placeholder_offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp" line="160" column="29" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.cpp" bodystart="160" bodyend="192" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object.hpp" declline="73" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a9436f5933aaf9f5d89e76621d86ec65e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element::build_scope</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *ast, const declaration &amp;declaration, element_result &amp;output_result)</argsstring>
+        <name>build_scope</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &amp;</type>
+          <declname>declaration</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="559" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="559" bodyend="562" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" declline="27" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1ac7dba4c1f4ba19f5da04f0e4feab0c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element::build_scope</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *ast, scope *our_scope, element_result &amp;output_result)</argsstring>
+        <name>build_scope</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1scope" kindref="compound">scope</ref> *</type>
+          <declname>our_scope</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="519" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="519" bodyend="557" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" declline="28" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1aa2d77c3e5d7a7d4e08d07362997bde47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>function_declaration::kind</type>
+        <definition>function_declaration::kind element::get_function_kind</definition>
+        <argsstring>(const element_ast *const body, const bool intrinsic)</argsstring>
+        <name>get_function_kind</name>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>body</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>intrinsic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="31" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="31" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1aa43560e3be6a297af514cd26d6d6c6dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1type__annotation" kindref="compound">type_annotation</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;type_annotation&gt; element::build_type_annotation</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *ast, element_result &amp;output_result)</argsstring>
+        <name>build_type_annotation</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="43" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="43" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1ace88f78a87ad48c7da31aa425e931435" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element::build_output</definition>
+        <argsstring>(const element_interpreter_ctx *context, element_ast *output, declaration &amp;declaration, element_result &amp;output_result)</argsstring>
+        <name>build_output</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="structelement__ast" kindref="compound">element_ast</ref> *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &amp;</type>
+          <declname>declaration</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="64" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a515fcd7ffb86dfa19607bcac969c383a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element::build_inputs</definition>
+        <argsstring>(const element_interpreter_ctx *context, element_ast *inputs, declaration &amp;declaration, element_result &amp;output_result)</argsstring>
+        <name>build_inputs</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="structelement__ast" kindref="compound">element_ast</ref> *</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &amp;</type>
+          <declname>declaration</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="70" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="70" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a01e755cf4efd45dbccd08e0ba4d6ea21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void element::build_inputs_output</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, declaration &amp;declaration, element_result &amp;output_result, int type)</argsstring>
+        <name>build_inputs_output</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &amp;</type>
+          <declname>declaration</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="97" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="97" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a1f640988f685229fadde7a4a4243695e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;declaration&gt; element::build_struct_declaration</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, const scope *const parent_scope, element_result &amp;output_result)</argsstring>
+        <name>build_struct_declaration</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *const</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="117" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="117" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a3a0985d99e5ed1c13fc85d69d5911170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;declaration&gt; element::build_constraint_declaration</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, const scope *const parent_scope, element_result &amp;output_result)</argsstring>
+        <name>build_constraint_declaration</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *const</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="154" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="154" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a3c79e794d8ee288c328328647dc66f77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &gt;</type>
+        <definition>std::unique_ptr&lt; declaration &gt; element::build_lambda_declaration</definition>
+        <argsstring>(const element_interpreter_ctx *context, identifier &amp;identifier, const element_ast *const expression, const scope *const parent_scope, element_result &amp;output_result)</argsstring>
+        <name>build_lambda_declaration</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1identifier" kindref="compound">identifier</ref> &amp;</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>expression</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *const</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="175" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="175" bodyend="231" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp" declline="31" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a90bd952323fb38ee4f7b93bcb46e7c3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;declaration&gt; element::build_function_declaration</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, const scope *const parent_scope, element_result &amp;output_result)</argsstring>
+        <name>build_function_declaration</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *const</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="233" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="233" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a7a64e2ce625b08338e6d9c027c365916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;declaration&gt; element::build_namespace_declaration</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, const scope *const parent_scope, element_result &amp;output_result)</argsstring>
+        <name>build_namespace_declaration</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *const</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="338" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="338" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1ad1b77d814c2e5347ca064ff6f8b6d623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;declaration&gt; element::build_declaration</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, const scope *const parent_scope, element_result &amp;output_result)</argsstring>
+        <name>build_declaration</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1scope" kindref="compound">scope</ref> *const</type>
+          <declname>parent_scope</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="353" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="353" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1ac9e7c753c252a3d39d49d9ae661d5241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1expression" kindref="compound">expression</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;expression&gt; element::build_literal_expression</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, expression_chain *chain, element_result &amp;output_result)</argsstring>
+        <name>build_literal_expression</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> *</type>
+          <declname>chain</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="374" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="374" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a8d20f7e2f7f545b7f62806ef4a8d6e22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1expression" kindref="compound">expression</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;expression&gt; element::build_identifier_expression</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, expression_chain *chain, element_result &amp;output_result)</argsstring>
+        <name>build_identifier_expression</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> *</type>
+          <declname>chain</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="388" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="388" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a90389dc6ab64febed2b0c92dcf99999f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1expression" kindref="compound">expression</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;expression&gt; element::build_indexing_expression</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, expression_chain *chain, element_result &amp;output_result)</argsstring>
+        <name>build_indexing_expression</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> *</type>
+          <declname>chain</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="396" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="396" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a3b9da87c670bddac81f976c88c790852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1expression" kindref="compound">expression</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;expression&gt; element::build_call_expression</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, expression_chain *chain, deferred_expressions &amp;deferred_expressions, element_result &amp;output_result)</argsstring>
+        <name>build_call_expression</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> *</type>
+          <declname>chain</declname>
+        </param>
+        <param>
+          <type>deferred_expressions &amp;</type>
+          <declname>deferred_expressions</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="404" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="404" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1ac94128eefae8956159f5a12afe6c1453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1expression" kindref="compound">expression</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;expression&gt; element::build_anonymous_block_expression</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, expression_chain *chain, element_result &amp;output_result)</argsstring>
+        <name>build_anonymous_block_expression</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> *</type>
+          <declname>chain</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="433" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="433" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1ab95fd43652e56839487b7e4582eda0e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> &gt;</type>
+        <definition>std::unique_ptr&lt; expression_chain &gt; element::build_expression_chain</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, const declaration *declarer, deferred_expressions &amp;deferred_expressions, element_result &amp;output_result)</argsstring>
+        <name>build_expression_chain</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1declaration" kindref="compound">declaration</ref> *</type>
+          <declname>declarer</declname>
+        </param>
+        <param>
+          <type>deferred_expressions &amp;</type>
+          <declname>deferred_expressions</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="452" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="452" bodyend="493" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp" declline="33" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a5d8a4d3410e3918f1c7e2a115bca592e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1expression" kindref="compound">expression</ref> &gt;</type>
+        <definition>std::unique_ptr&lt; expression &gt; element::build_expression</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, expression_chain *chain, deferred_expressions &amp;deferred_expressions, element_result &amp;output_result)</argsstring>
+        <name>build_expression</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type><ref refid="classelement_1_1expression__chain" kindref="compound">expression_chain</ref> *</type>
+          <declname>chain</declname>
+        </param>
+        <param>
+          <type>deferred_expressions &amp;</type>
+          <declname>deferred_expressions</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="495" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="495" bodyend="517" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp" declline="32" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8cpp_1a8d5bc1a4a857f72c2ad603ab662c5ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="classelement_1_1scope" kindref="compound">scope</ref> &gt;</type>
+        <definition>std::unique_ptr&lt; scope &gt; element::build_root_scope</definition>
+        <argsstring>(const element_interpreter_ctx *context, const element_ast *const ast, element_result &amp;output_result)</argsstring>
+        <name>build_root_scope</name>
+        <param>
+          <type>const <ref refid="structelement__interpreter__ctx" kindref="compound">element_interpreter_ctx</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structelement__ast" kindref="compound">element_ast</ref> *const</type>
+          <declname>ast</declname>
+        </param>
+        <param>
+          <type>element_result &amp;</type>
+          <declname>output_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" line="564" column="21" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.cpp" bodystart="564" bodyend="585" declfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp" declline="34" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="object__model__builder_8hpp_1ac0a661df9e7a45e9f0f985c88bee0474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Context</type>
+          </param>
+          <param>
+            <type>typename Obj</type>
+          </param>
+          <param>
+            <type>typename AST</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void element::assign_source_information</definition>
+        <argsstring>(const Context *context, Obj &amp;t, const AST *ast)</argsstring>
+        <name>assign_source_information</name>
+        <param>
+          <type>const Context *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Obj &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const AST *</type>
+          <declname>ast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp" line="16" column="10" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/object_model_builder.hpp" bodystart="16" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/common_internal.hpp" line="25" column="1"/>
+  </compounddef>
+</doxygen>

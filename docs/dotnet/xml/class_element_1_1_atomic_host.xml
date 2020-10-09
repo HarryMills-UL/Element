@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_atomic_host" kind="class" language="C#" prot="public">
+    <compoundname>Element::AtomicHost</compoundname>
+    <basecompoundref refid="interface_element_1_1_i_host" prot="public" virt="non-virtual">Element.IHost</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_atomic_host_1a690be9bbad431846c5d0db7bb6ea9e49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref></type>
+        <definition>Result Element.AtomicHost.Parse</definition>
+        <argsstring>(CompilerInput compilerInput)</argsstring>
+        <name>Parse</name>
+        <reimplements refid="interface_element_1_1_i_host_1a888eaa174a152dd652d23b8f851f1c62">Parse</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>compilerInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/AtomicHost.cs" line="8" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_atomic_host_1a267dbaa6336daca47e57badb75557c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; float[]&gt;</type>
+        <definition>Result&lt;float[]&gt; Element.AtomicHost.Evaluate</definition>
+        <argsstring>(CompilerInput compilerInput, string expression)</argsstring>
+        <name>Evaluate</name>
+        <reimplements refid="interface_element_1_1_i_host_1ae85fdd7b63f2e5ff1a90e2b3eaaea78c">Evaluate</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>compilerInput</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/AtomicHost.cs" line="10" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_atomic_host_1a25f581baae148e4c4c3bc23b824be0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; string &gt;</type>
+        <definition>Result&lt;string&gt; Element.AtomicHost.Typeof</definition>
+        <argsstring>(CompilerInput input, string expression)</argsstring>
+        <name>Typeof</name>
+        <reimplements refid="interface_element_1_1_i_host_1a404ad939a8cb7fc8ddb7fe2c74fdbfa4">Typeof</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/AtomicHost.cs" line="13" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_atomic_host_1af04d31843a3efc22df505c38804eac94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; string &gt;</type>
+        <definition>Result&lt;string&gt; Element.AtomicHost.Summary</definition>
+        <argsstring>(CompilerInput input, string expression)</argsstring>
+        <name>Summary</name>
+        <reimplements refid="interface_element_1_1_i_host_1a104c0e1f00de7e1d04d3ff8490b9de1f">Summary</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/AtomicHost.cs" line="16" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_atomic_host_1ac72ca9662ee807f7d31dd8dc6c76bf62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_element_1_1_result" kindref="compound">Result</ref>&lt; string &gt;</type>
+        <definition>Result&lt;string&gt; Element.AtomicHost.NormalForm</definition>
+        <argsstring>(CompilerInput input, string expression)</argsstring>
+        <name>NormalForm</name>
+        <reimplements refid="interface_element_1_1_i_host_1a5a58e077aa5868a53182e38601abbbf3">NormalForm</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_compiler_input" kindref="compound">CompilerInput</ref></type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>expression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/AtomicHost.cs" line="19" column="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Host where each command executes in a temporary compilation context and no compilation state is persisted between commands. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.AtomicHost</label>
+        <link refid="class_element_1_1_atomic_host"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IHost</label>
+        <link refid="interface_element_1_1_i_host"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Element.AtomicHost</label>
+        <link refid="class_element_1_1_atomic_host"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IHost</label>
+        <link refid="interface_element_1_1_i_host"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/AtomicHost.cs" line="7" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/Host/AtomicHost.cs" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_atomic_host_1a267dbaa6336daca47e57badb75557c13" prot="public" virt="non-virtual"><scope>Element::AtomicHost</scope><name>Evaluate</name></member>
+      <member refid="class_element_1_1_atomic_host_1ac72ca9662ee807f7d31dd8dc6c76bf62" prot="public" virt="non-virtual"><scope>Element::AtomicHost</scope><name>NormalForm</name></member>
+      <member refid="class_element_1_1_atomic_host_1a690be9bbad431846c5d0db7bb6ea9e49" prot="public" virt="non-virtual"><scope>Element::AtomicHost</scope><name>Parse</name></member>
+      <member refid="class_element_1_1_atomic_host_1af04d31843a3efc22df505c38804eac94" prot="public" virt="non-virtual"><scope>Element::AtomicHost</scope><name>Summary</name></member>
+      <member refid="class_element_1_1_atomic_host_1a25f581baae148e4c4c3bc23b824be0d0" prot="public" virt="non-virtual"><scope>Element::AtomicHost</scope><name>Typeof</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

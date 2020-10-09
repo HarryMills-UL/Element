@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_89bd32495f234af63efdcf1e63a9b027" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel</compoundname>
+    <innerdir refid="dir_741c6e43bb1faee480aed59d07562c08">/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics</innerdir>
+    <innerdir refid="dir_8805f8cbc8ed1f2b18d28a25dead759d">/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/"/>
+  </compounddef>
+</doxygen>

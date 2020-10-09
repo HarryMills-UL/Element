@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_element_1_1_constant" kind="class" language="C#" prot="public">
+    <compoundname>Element::Constant</compoundname>
+    <basecompoundref refid="class_element_1_1_instruction" prot="public" virt="non-virtual">Element.Instruction</basecompoundref>
+    <basecompoundref refid="interface_element_1_1_a_s_t_1_1_i_expression_chain_start" prot="public" virt="non-virtual">Element.AST.IExpressionChainStart</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_element_1_1_constant_1a4789154c35353c9a9955563ef951bed6" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Intrinsic</name>
+        <enumvalue id="class_element_1_1_constant_1a4789154c35353c9a9955563ef951bed6a7ecfb3bf076a6a9635f975fe96ac97fd" prot="public">
+          <name>NaN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_constant_1a4789154c35353c9a9955563ef951bed6ad40fc076e9ae949248845b94f160ba6e" prot="public">
+          <name>PositiveInfinity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_constant_1a4789154c35353c9a9955563ef951bed6ac65958e0f9944d63bb0d7744146b8b21" prot="public">
+          <name>NegativeInfinity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_constant_1a4789154c35353c9a9955563ef951bed6af827cf462f62848df37c5e1e94a4da74" prot="public">
+          <name>True</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_element_1_1_constant_1a4789154c35353c9a9955563ef951bed6af8320b26d30ab433c5a54546d21f414c" prot="public">
+          <name>False</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="21" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="20" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_element_1_1_constant_1a28fee47a83cfec1b8c0fccc1f7bcbb27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(float value, <ref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation" kindref="compound">IIntrinsicStructImplementation</ref> structImplementationOverride)[Term] float</type>
+        <definition>Constant (float value, IIntrinsicStructImplementation structImplementationOverride) [Term] float Element.Constant.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="17" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1ac3b8933a95ade2b649bf983922b00133" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>Constant Element.Constant.True</definition>
+        <argsstring></argsstring>
+        <name>True</name>
+        <initializer>= new <ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(1f,  BoolStruct.Instance)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="29" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1a5ba61c4be651dc436bc4b367a0423499" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>Constant Element.Constant.False</definition>
+        <argsstring></argsstring>
+        <name>False</name>
+        <initializer>= new <ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(0f, BoolStruct.Instance)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="30" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1a995130cc12a73fa8df9d28ea6bc3f460" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>Constant Element.Constant.BoolNaN</definition>
+        <argsstring></argsstring>
+        <name>BoolNaN</name>
+        <initializer>= new <ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(float.NaN, BoolStruct.Instance)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="31" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1a9b6d050a1edededd159ceef4d23b945a" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>Constant Element.Constant.Zero</definition>
+        <argsstring></argsstring>
+        <name>Zero</name>
+        <initializer>= new <ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="32" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1ad69e4a9697482faaac8021f94dcffddd" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>Constant Element.Constant.One</definition>
+        <argsstring></argsstring>
+        <name>One</name>
+        <initializer>= new <ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="33" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1a67569264e741e006d0c4418beacfc4a1" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>Constant Element.Constant.NaN</definition>
+        <argsstring></argsstring>
+        <name>NaN</name>
+        <initializer>= new <ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(float.NaN)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="34" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1a4e6b9aa969b729f7a28ccdd1350d36cf" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>Constant Element.Constant.PositiveInfinity</definition>
+        <argsstring></argsstring>
+        <name>PositiveInfinity</name>
+        <initializer>= new <ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(float.PositiveInfinity)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="35" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1a84645fa1fb02884ae54cb27be91a70d6" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+        <definition>Constant Element.Constant.NegativeInfinity</definition>
+        <argsstring></argsstring>
+        <name>NegativeInfinity</name>
+        <initializer>= new <ref refid="class_element_1_1_constant" kindref="compound">Constant</ref>(float.NegativeInfinity)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="36" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_element_1_1_constant_1a938d27ac40a58c1ed0195f7b430a4518" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override IEnumerable&lt; <ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref> &gt;</type>
+        <definition>override IEnumerable&lt;Instruction&gt; Element.Constant.Dependent</definition>
+        <argsstring></argsstring>
+        <name>Dependent</name>
+        <initializer>= Array.Empty&lt;<ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="38" column="37" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_element_1_1_constant_1a475b3c77271a85bf39242e25f9916c70" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Element.Constant.TypeOf</definition>
+        <argsstring></argsstring>
+        <name>TypeOf</name>
+        <initializer>=&gt; StructImplementation.Identifier.String</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="39" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_constant_1aadc862d0a7dd45f37c2e6cde11d3f5eb" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Element.Constant.SummaryString</definition>
+        <argsstring></argsstring>
+        <name>SummaryString</name>
+        <initializer>=&gt; NormalizedFormString</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="40" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_constant_1acd316cfd4f2ab88ee2fbec862be18dfa" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Element.Constant.NormalizedFormString</definition>
+        <argsstring></argsstring>
+        <name>NormalizedFormString</name>
+        <initializer>=&gt; Value.ToString(CultureInfo.CurrentCulture)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="41" column="32" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_element_1_1_constant_1a059729f70d3beed602252acb782eb67e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Element.Constant.TraceString</definition>
+        <argsstring></argsstring>
+        <name>TraceString</name>
+        <initializer>=&gt; NormalizedFormString</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="45" column="23" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_element_1_1_constant_1a4c78c9bf19f015b6f512d02bb5e8c2ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Element.Constant.Constant</definition>
+        <argsstring>()</argsstring>
+        <name>Constant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="12" column="16" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_constant_1a7d2db983c3e8f332788dd93b8cf77e97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Element.Constant.Constant</definition>
+        <argsstring>(float value)</argsstring>
+        <name>Constant</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="13" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_constant_1a2a1e1c19116dd2f01ef9e9fec1bcd3de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Element.Constant.Equals</definition>
+        <argsstring>(Instruction other)</argsstring>
+        <name>Equals</name>
+        <reimplements refid="class_element_1_1_instruction_1a35f95bfd828cd266cb1e32631e9ae5ef">Equals</reimplements>
+        <param>
+          <type><ref refid="class_element_1_1_instruction" kindref="compound">Instruction</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="42" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_element_1_1_constant_1a6b040bd5a969275ae69f5138088d1567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Element.Constant.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="44" column="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_element_1_1_constant_1a6f2a90b242e29364dc5ca6ee33803126" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Element.Constant.operator float</definition>
+        <argsstring>(Constant l)</argsstring>
+        <name>operator float</name>
+        <param>
+          <type><ref refid="class_element_1_1_constant" kindref="compound">Constant</ref></type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="18" column="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="2">
+        <label>Instruction</label>
+        <link refid="class_element_1_1_instruction"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.Constant</label>
+        <link refid="class_element_1_1_constant"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IExpressionChainStart</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_expression_chain_start"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEquatable&lt; Instruction &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Element.AST.IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="4">
+        <label>IValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_value"/>
+      </node>
+      <node id="7">
+        <label>Element.AST.IIntrinsicStructImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_struct_implementation"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Instruction</label>
+        <link refid="class_element_1_1_instruction"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>StructImplementation</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Element.Constant</label>
+        <link refid="class_element_1_1_constant"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>IExpressionChainStart</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_expression_chain_start"/>
+      </node>
+      <node id="8">
+        <label>IIntrinsicImplementation</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation"/>
+      </node>
+      <node id="3">
+        <label>Value</label>
+        <link refid="class_element_1_1_a_s_t_1_1_value"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ReturnConstraint</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IEquatable&lt; Instruction &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" line="10" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!3-Instructions/Constant.cs" bodystart="9" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_element_1_1_instruction_1a3432d656a9a58e31341593d1cc240509" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>AllDependent</name></member>
+      <member refid="class_element_1_1_constant_1a995130cc12a73fa8df9d28ea6bc3f460" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>BoolNaN</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a8fbc4468318627c22f0d62c22e57dc46" prot="public" virt="virtual"><scope>Element::Constant</scope><name>Call</name></member>
+      <member refid="class_element_1_1_constant_1a4c78c9bf19f015b6f512d02bb5e8c2ed" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Constant</name></member>
+      <member refid="class_element_1_1_constant_1a7d2db983c3e8f332788dd93b8cf77e97" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Constant</name></member>
+      <member refid="class_element_1_1_instruction_1aee5ec53353dc4a92225f286084fa89d7" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>CountUses</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a167edf6225149bcf56bfab7ab6094904" prot="public" virt="virtual"><scope>Element::Constant</scope><name>DefaultValue</name></member>
+      <member refid="class_element_1_1_constant_1a938d27ac40a58c1ed0195f7b430a4518" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Dependent</name></member>
+      <member refid="class_element_1_1_instruction_1a27ee04a4c394e8507e3818d20f4eb27b" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a6a9a53f7cd08cecd896edaa1ee6d84fb" prot="public" virt="virtual" ambiguityscope="Element::AST::Value."><scope>Element::Constant</scope><name>Deserialize</name></member>
+      <member refid="class_element_1_1_constant_1a2a1e1c19116dd2f01ef9e9fec1bcd3de" prot="public" virt="virtual"><scope>Element::Constant</scope><name>Equals</name></member>
+      <member refid="class_element_1_1_instruction_1a8083175845c97edcca3884618a39554d" prot="public" virt="non-virtual" ambiguityscope="Element::Instruction."><scope>Element::Constant</scope><name>Equals</name></member>
+      <member refid="class_element_1_1_constant_1a5ba61c4be651dc436bc4b367a0423499" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>False</name></member>
+      <member refid="class_element_1_1_constant_1a6b040bd5a969275ae69f5138088d1567" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>GetHashCode</name></member>
+      <member refid="class_element_1_1_instruction_1a4d2256b835fdae629b97aed2f21d48eb" prot="public" virt="virtual"><scope>Element::Constant</scope><name>Index</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ac3be9fa21309cd961a11fc67e4fe39af" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>InputPorts</name></member>
+      <member refid="class_element_1_1_instruction_1a436dd31eb46f399166a0d0a5fb46e6c8" prot="protected" virt="non-virtual"><scope>Element::Constant</scope><name>Instruction</name></member>
+      <member refid="class_element_1_1_constant_1a4789154c35353c9a9955563ef951bed6" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Intrinsic</name></member>
+      <member refid="class_element_1_1_instruction_1a36f1ae7ef150a6eb28c4f7b8b62ca4b9" prot="protected" virt="non-virtual"><scope>Element::Constant</scope><name>ListJoinNormalizedForm</name></member>
+      <member refid="class_element_1_1_instruction_1a0a8a3f6fbd0cbfc4b6e91eedc9bebdcd" prot="protected" virt="non-virtual"><scope>Element::Constant</scope><name>ListJoinToString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a0b9fdb28fdbea2fe585c2a42c8f1ecf4" prot="public" virt="virtual"><scope>Element::Constant</scope><name>MatchesConstraint</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aa915c4b86008b2785621f5e48b5b53d1" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Members</name></member>
+      <member refid="class_element_1_1_constant_1a67569264e741e006d0c4418beacfc4a1" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>NaN</name></member>
+      <member refid="class_element_1_1_constant_1a84645fa1fb02884ae54cb27be91a70d6" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>NegativeInfinity</name></member>
+      <member refid="class_element_1_1_constant_1acd316cfd4f2ab88ee2fbec862be18dfa" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>NormalizedFormString</name></member>
+      <member refid="class_element_1_1_constant_1ad69e4a9697482faaac8021f94dcffddd" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>One</name></member>
+      <member refid="class_element_1_1_constant_1a6f2a90b242e29364dc5ca6ee33803126" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>operator float</name></member>
+      <member refid="class_element_1_1_constant_1a4e6b9aa969b729f7a28ccdd1350d36cf" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>PositiveInfinity</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1aaf9449e5d86cceb21ff322b52f97e01f" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>ReturnConstraint</name></member>
+      <member refid="class_element_1_1_instruction_1a8f53d61c6e1ec3eca7456b5c7572d496" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1ad0bc6438a64280a0a1558ed23cdb210b" prot="public" virt="virtual" ambiguityscope="Element::AST::Value."><scope>Element::Constant</scope><name>Serialize</name></member>
+      <member refid="class_element_1_1_instruction_1acc96b260beb5e69e983f78b6dda85221" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>StructImplementation</name></member>
+      <member refid="class_element_1_1_constant_1aadc862d0a7dd45f37c2e6cde11d3f5eb" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>SummaryString</name></member>
+      <member refid="class_element_1_1_a_s_t_1_1_value_1a29ad97030a38ac47c3dd63d2dabc2b36" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>ToString</name></member>
+      <member refid="class_element_1_1_constant_1a059729f70d3beed602252acb782eb67e" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>TraceString</name></member>
+      <member refid="class_element_1_1_constant_1ac3b8933a95ade2b649bf983922b00133" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>True</name></member>
+      <member refid="class_element_1_1_constant_1a475b3c77271a85bf39242e25f9916c70" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>TypeOf</name></member>
+      <member refid="class_element_1_1_constant_1a28fee47a83cfec1b8c0fccc1f7bcbb27" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Value</name></member>
+      <member refid="class_element_1_1_constant_1a9b6d050a1edededd159ceef4d23b945a" prot="public" virt="non-virtual"><scope>Element::Constant</scope><name>Zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

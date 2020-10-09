@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_8805f8cbc8ed1f2b18d28a25dead759d" kind="dir">
+    <compoundname>/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values</compoundname>
+    <innerfile refid="_constraint_8cs">Constraint.cs</innerfile>
+    <innerfile refid="_function_8cs">Function.cs</innerfile>
+    <innerfile refid="_i_value_8cs">IValue.cs</innerfile>
+    <innerfile refid="_namespace_8cs">Namespace.cs</innerfile>
+    <innerfile refid="_partial_application_8cs">PartialApplication.cs</innerfile>
+    <innerfile refid="_resolved_block_8cs">ResolvedBlock.cs</innerfile>
+    <innerfile refid="_struct_8cs">Struct.cs</innerfile>
+    <innerfile refid="_uncurrying_8cs">Uncurrying.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Values/"/>
+  </compounddef>
+</doxygen>

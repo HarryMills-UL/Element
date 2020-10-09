@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_element_1_1_a_s_t_1_1_i_intrinsic_value" kind="interface" language="C#" prot="public">
+    <compoundname>Element::AST::IIntrinsicValue</compoundname>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_intrinsic_constraint" prot="public" virt="non-virtual">Element.AST.IntrinsicConstraint</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_intrinsic_function" prot="public" virt="non-virtual">Element.AST.IntrinsicFunction</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_intrinsic_struct" prot="public" virt="non-virtual">Element.AST.IntrinsicStruct</derivedcompoundref>
+    <derivedcompoundref refid="class_element_1_1_a_s_t_1_1_intrinsic_value" prot="public" virt="non-virtual">Element.AST.IntrinsicValue</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_element_1_1_a_s_t_1_1_i_intrinsic_value_1a040306cd0f2c603e2b6a205f82667516" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_implementation" kindref="compound">IIntrinsicImplementation</ref></type>
+        <definition>IIntrinsicImplementation Element.AST.IIntrinsicValue.Implementation</definition>
+        <argsstring></argsstring>
+        <name>Implementation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" line="14" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Element.AST.IIntrinsicValue</label>
+        <link refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_value"/>
+      </node>
+      <node id="12">
+        <label>Element.AST.Memberwise</label>
+        <link refid="class_element_1_1_a_s_t_1_1_memberwise"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Element.AST.List</label>
+        <link refid="class_element_1_1_a_s_t_1_1_list"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Element.AST.IntrinsicStruct</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_struct"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Element.AST.If</label>
+        <link refid="class_element_1_1_a_s_t_1_1_if"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Element.AST.Binary</label>
+        <link refid="class_element_1_1_a_s_t_1_1_binary"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Element.AST.IntrinsicFunction</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_function"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Element.AST.Unary</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Element.AST.IntrinsicValue</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_value"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Element.AST.IntrinsicConstraint</label>
+        <link refid="class_element_1_1_a_s_t_1_1_intrinsic_constraint"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Element.AST.NothingConstraint</label>
+        <link refid="class_element_1_1_a_s_t_1_1_nothing_constraint"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Element.AST.Fold</label>
+        <link refid="class_element_1_1_a_s_t_1_1_fold"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Element.AST.Nullary</label>
+        <link refid="class_element_1_1_a_s_t_1_1_nullary"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Element.AST.For</label>
+        <link refid="class_element_1_1_a_s_t_1_1_for"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Element.AST.AnyConstraint</label>
+        <link refid="class_element_1_1_a_s_t_1_1_any_constraint"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" line="13" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/Element.NET/!2-ValueObjectModel/Intrinsics/IIntrinsicImplementation.cs" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="interface_element_1_1_a_s_t_1_1_i_intrinsic_value_1a040306cd0f2c603e2b6a205f82667516" prot="public" virt="non-virtual"><scope>Element::AST::IIntrinsicValue</scope><name>Implementation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

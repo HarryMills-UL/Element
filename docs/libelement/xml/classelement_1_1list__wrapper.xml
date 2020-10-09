@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classelement_1_1list__wrapper" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>element::list_wrapper</compoundname>
+    <basecompoundref refid="classelement_1_1object" prot="public" virt="non-virtual">element::object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">std::enable_shared_from_this&lt; list_wrapper &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classelement_1_1list__wrapper_1aea5d0472df92e8180ae23be805fb5ec4" prot="public" static="no" mutable="no">
+        <type>const std::shared_ptr&lt; const <ref refid="structelement__instruction" kindref="compound">element_instruction</ref> &gt;</type>
+        <definition>const std::shared_ptr&lt;const element_instruction&gt; element::list_wrapper::selector</definition>
+        <argsstring></argsstring>
+        <name>selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="36" column="31" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classelement_1_1list__wrapper_1ad96350586ba45a56dfcc0c0816cc7efb" prot="public" static="no" mutable="no">
+        <type>const std::vector&lt; object_const_shared_ptr &gt;</type>
+        <definition>const std::vector&lt;object_const_shared_ptr&gt; element::list_wrapper::options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="37" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1a777df77896253794a9b3ada27a64be90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr list_wrapper::create_or_optimise</definition>
+        <argsstring>(const object_const_shared_ptr &amp;selector_object, const std::vector&lt; object_const_shared_ptr &gt; &amp;option_objects, const source_information &amp;source_info)</argsstring>
+        <name>create_or_optimise</name>
+        <param>
+          <type>const object_const_shared_ptr &amp;</type>
+          <declname>selector_object</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; object_const_shared_ptr &gt; &amp;</type>
+          <declname>option_objects</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="13" column="40" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="14" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1ab81697bf5269c81f08af236b7f46c7c9" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>list_wrapper::list_wrapper</definition>
+        <argsstring>(std::shared_ptr&lt; const element_instruction &gt; selector, std::vector&lt; object_const_shared_ptr &gt; options)</argsstring>
+        <name>list_wrapper</name>
+        <param>
+          <type>std::shared_ptr&lt; const <ref refid="structelement__instruction" kindref="compound">element_instruction</ref> &gt;</type>
+          <declname>selector</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; object_const_shared_ptr &gt;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="15" column="18" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="77" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1a96a06d03841cb67af222fe255e5b181d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string list_wrapper::typeof_info</definition>
+        <argsstring>() const override</argsstring>
+        <name>typeof_info</name>
+        <reimplements refid="classelement_1_1object_1ad349d741b95f1a6fa5bbdd5188e8292b">typeof_info</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="17" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1ac3c4174ff11a3d1ea1c3b1f328789e12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string list_wrapper::to_code</definition>
+        <argsstring>(const int depth=0) const override</argsstring>
+        <name>to_code</name>
+        <reimplements refid="classelement_1_1object_1a930429a343359aaf0cf603d251ca53a2">to_code</reimplements>
+        <param>
+          <type>const int</type>
+          <declname>depth</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="18" column="22" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1a87938134d77380c100eaeba45d8443ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool list_wrapper::matches_constraint</definition>
+        <argsstring>(const compilation_context &amp;context, const constraint *constraint) const override</argsstring>
+        <name>matches_constraint</name>
+        <reimplements refid="classelement_1_1object_1a3ba311dae552affb306308617e394cf8">matches_constraint</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+          <declname>constraint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="20" column="15" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1a47337a3ad90c35cc277053939f04aa79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="classelement_1_1constraint" kindref="compound">constraint</ref> *</type>
+        <definition>const constraint * list_wrapper::get_constraint</definition>
+        <argsstring>() const override</argsstring>
+        <name>get_constraint</name>
+        <reimplements refid="classelement_1_1object_1a3452e5e30891e487707a7fb300f6465d">get_constraint</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="21" column="27" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1a63476f30f06074e6725fe5a27e732ea3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr list_wrapper::call</definition>
+        <argsstring>(const compilation_context &amp;context, std::vector&lt; object_const_shared_ptr &gt; compiled_args, const source_information &amp;source_info) const override</argsstring>
+        <name>call</name>
+        <reimplements refid="classelement_1_1object_1af6dbeefad4c697ab757864ae78fd831e">call</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; object_const_shared_ptr &gt;</type>
+          <declname>compiled_args</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="23" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="110" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1a085abc437497fe04e6e30b7afd9ce3b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr list_wrapper::index</definition>
+        <argsstring>(const compilation_context &amp;context, const identifier &amp;name, const source_information &amp;source_info) const override</argsstring>
+        <name>index</name>
+        <reimplements refid="classelement_1_1object_1a542266c49533b394c8f7668748f6424a">index</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1identifier" kindref="compound">identifier</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="27" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="122" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1a3dbf86abc3a5602406d4a16db0fc2b35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>object_const_shared_ptr</type>
+        <definition>object_const_shared_ptr list_wrapper::compile</definition>
+        <argsstring>(const compilation_context &amp;context, const source_information &amp;source_info) const override</argsstring>
+        <name>compile</name>
+        <reimplements refid="classelement_1_1object_1aa562aac5d1f233abda4a5348ac38da73">compile</reimplements>
+        <param>
+          <type>const <ref refid="classelement_1_1compilation__context" kindref="compound">compilation_context</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classelement_1_1source__information" kindref="compound">source_information</ref> &amp;</type>
+          <declname>source_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="31" column="34" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="134" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classelement_1_1list__wrapper_1a55d8727c3fd885b649e40152e397b93f" prot="public" static="no" const="yes" explicit="no" inline="no" final="yes" virt="virtual">
+        <type>std::shared_ptr&lt; const <ref refid="structelement__instruction" kindref="compound">element_instruction</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; const element_instruction &gt; list_wrapper::to_instruction</definition>
+        <argsstring>() const final</argsstring>
+        <name>to_instruction</name>
+        <reimplements refid="classelement_1_1object_1ac285622d5bdbf53d29ed531a7a50cd2a">to_instruction</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="34" column="26" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.cpp" bodystart="145" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>std::enable_shared_from_this&lt; list_wrapper &gt;</label>
+      </node>
+      <node id="2">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+      </node>
+      <node id="1">
+        <label>element::list_wrapper</label>
+        <link refid="classelement_1_1list__wrapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>std::enable_shared_from_this&lt; list_wrapper &gt;</label>
+      </node>
+      <node id="2">
+        <label>element::object</label>
+        <link refid="classelement_1_1object"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>source_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>element::list_wrapper</label>
+        <link refid="classelement_1_1list__wrapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>element::source_information</label>
+        <link refid="classelement_1_1source__information"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" line="11" column="1" bodyfile="/Users/harry.mills/Documents/Repos/Element/libelement/src/object_model/intermediaries/list_wrapper.hpp" bodystart="10" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classelement_1_1list__wrapper_1a63476f30f06074e6725fe5a27e732ea3" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>call</name></member>
+      <member refid="classelement_1_1list__wrapper_1a3dbf86abc3a5602406d4a16db0fc2b35" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>compile</name></member>
+      <member refid="classelement_1_1list__wrapper_1a777df77896253794a9b3ada27a64be90" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>create_or_optimise</name></member>
+      <member refid="classelement_1_1list__wrapper_1a47337a3ad90c35cc277053939f04aa79" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>get_constraint</name></member>
+      <member refid="classelement_1_1object_1a82a0020492785cb186c7d09ea88aa79d" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>get_inputs</name></member>
+      <member refid="classelement_1_1object_1a17cca83a78581c5e8b73652f57910d1a" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>get_output</name></member>
+      <member refid="classelement_1_1object_1a410a20ebbac9643d6798ffa98a34ff17" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>get_scope</name></member>
+      <member refid="classelement_1_1list__wrapper_1a085abc437497fe04e6e30b7afd9ce3b3" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>index</name></member>
+      <member refid="classelement_1_1object_1ab44c28014a94092052f9cf9418eef340" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>is_constant</name></member>
+      <member refid="classelement_1_1list__wrapper_1ab81697bf5269c81f08af236b7f46c7c9" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>list_wrapper</name></member>
+      <member refid="classelement_1_1list__wrapper_1a87938134d77380c100eaeba45d8443ad" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>matches_constraint</name></member>
+      <member refid="classelement_1_1object_1a0b77789880bc695115d2428b9b1f2fe6" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1aecee67e856bcf56ecaee3848c3b834fe" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1af31de89eb2a06fe7856ae3d8252fdd1b" prot="protected" virt="non-virtual"><scope>element::list_wrapper</scope><name>object</name></member>
+      <member refid="classelement_1_1object_1a05f452496fc2f14d4844fefe0326e5cd" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>operator=</name></member>
+      <member refid="classelement_1_1object_1aec74730c57e08a37dc6a61992e84e543" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>operator=</name></member>
+      <member refid="classelement_1_1list__wrapper_1ad96350586ba45a56dfcc0c0816cc7efb" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>options</name></member>
+      <member refid="classelement_1_1list__wrapper_1aea5d0472df92e8180ae23be805fb5ec4" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>selector</name></member>
+      <member refid="classelement_1_1object_1a8c377027f992c5b3440679941619c468" prot="public" virt="non-virtual"><scope>element::list_wrapper</scope><name>source_info</name></member>
+      <member refid="classelement_1_1list__wrapper_1ac3c4174ff11a3d1ea1c3b1f328789e12" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>to_code</name></member>
+      <member refid="classelement_1_1list__wrapper_1a55d8727c3fd885b649e40152e397b93f" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>to_instruction</name></member>
+      <member refid="classelement_1_1object_1a1c22bf6d69ae19c71d6b2bd0cedfd675" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>to_string</name></member>
+      <member refid="classelement_1_1list__wrapper_1a96a06d03841cb67af222fe255e5b181d" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>typeof_info</name></member>
+      <member refid="classelement_1_1object_1a9737ac6b6eef6c4e41d0a15ebf42762a" prot="public" virt="virtual"><scope>element::list_wrapper</scope><name>~object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
