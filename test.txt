@@ -1,1 +1,1 @@
-new test, is this copied to docs branch?
+new test, (with merge conflicts) is this copied to docs branch?
