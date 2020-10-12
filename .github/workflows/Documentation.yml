@@ -3,7 +3,7 @@ name: Documentation
 on:
   push:
     branches:
-      - master
+      - feature/documentation
 
 jobs:
   generate-documentation:
@@ -18,9 +18,6 @@ jobs:
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
           git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-      - name: Rebase Master
-        run: |
-          git rebase master
       - name: Install Dependencies
         run: |
           sudo apt-get install doxygen
@@ -46,7 +43,8 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: feature/Documentation
+          branch: docs
+          force: true
       - name: Zip Docs
         run: |
           cd Documentation
