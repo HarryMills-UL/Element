@@ -1,6 +1,9 @@
 name: Documentation
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   generate-documentation:
@@ -15,6 +18,9 @@ jobs:
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
           git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+      - name: Rebase Master
+        run: |
+          git rebase master
       - name: Install Dependencies
         run: |
           sudo apt-get install doxygen
@@ -26,6 +32,21 @@ jobs:
           cd build
           cmake ..
           cmake --build . --target Documentation
+      - name: Move Docs
+        run: |
+          cd Documentation
+          python scripts/move-docs.py
+      - name: Commit Docs
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Action"
+          git commit -m "[Auto] Documentation generation from master" -a
+          git status
+      - name: Push Docs
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: feature/Documentation
       - name: Zip Docs
         run: |
           cd Documentation
