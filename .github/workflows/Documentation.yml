@@ -36,10 +36,11 @@ jobs:
       - name: Commit Docs
         run: |
           git_hash=$(git rev-parse --short "$GITHUB_SHA")
+          git_branch=${GITHUB_REF##*/}
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Action"
           git add docs/\*
-          git commit -m "[Auto] Documentation generation from commit: $git_hash" -a
+          git commit -m "[Auto] Documentation generation from commit: $git_hash on $git_branch" -a
           git status
       - name: Push Docs
         uses: ad-m/github-push-action@master
