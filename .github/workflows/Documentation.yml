@@ -25,7 +25,11 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Action"
           git fetch
-          git merge origin/${GITHUB_REF#refs/heads/} -m "[Auto] Merging ${GITHUB_REF#refs/heads/} onto docs." --allow-unrelated-histories --strategy-option=theirs
+          git merge origin/${GITHUB_REF#refs/heads/} -m "[Auto] Merging ${GITHUB_REF#refs/heads/} onto docs." --allow-unrelated-histories -s ours
+          git checkout --detach origin/${GITHUB_REF#refs/heads/}
+          git reset --soft docs
+          git checkout docs
+          git commit --amend -C HEAD
       - name: Install Dependencies
         run: |
           sudo apt-get install doxygen
