@@ -10,11 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: docs
       - name: Merge branch
         run: |
-          git fetch ${GITHUIB_REF#refs/heads/}
+          git checkout origin/docs
           git merge ${GITHUB_REF#refs/heads/} -m "[Auto] Merge ${GITHUB_REF#refs/heads/} onto docs, ready for generation."
       - name: Checkout submodules
         shell: bash
