@@ -23,7 +23,7 @@ jobs:
       - name: Merge branch
         run: |
           git fetch
-          git merge origin/${GITHUB_REF#refs/heads/} -m "[Auto] Merging ${GITHUB_REF#refs/heads/} onto docs, for generation."
+          git merge origin/${GITHUB_REF#refs/heads/} -m "[Auto] Merging ${GITHUB_REF#refs/heads/} onto docs, for generation." --allow-unrelated-histories
       - name: Install Dependencies
         run: |
           sudo apt-get install doxygen
