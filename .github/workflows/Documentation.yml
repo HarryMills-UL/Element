@@ -22,7 +22,7 @@ jobs:
           git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
       - name: Merge branch
         run: |
-          git merge ref/remotes/origin/${GITHUB_REF#refs/heads/} -m "[Auto] Merging ${GITHUB_REF#refs/heads/} onto docs, for generation."
+          git merge ${GITHUB_REF#refs/heads/} -m "[Auto] Merging ${GITHUB_REF#refs/heads/} onto docs, for generation."
       - name: Install Dependencies
         run: |
           sudo apt-get install doxygen
