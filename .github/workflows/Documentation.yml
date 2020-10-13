@@ -14,7 +14,7 @@ jobs:
           ref: docs
       - name: Rebase on feature/Documentation
         run: |
-          git rebase ${GITHUB_REF#refs/heads/}
+          git rebase origin/${GITHUB_REF#refs/heads/}
       - name: Checkout submodules
         shell: bash
         run: |
