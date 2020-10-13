@@ -14,7 +14,7 @@ jobs:
           ref: docs
       - name: Merge branch
         run: |
-          git merge origin/${GITHUB_REF#refs/heads/} -m "[Auto] Merge ${GITHUB_REF#refs/heads/} onto docs, ready for generation."
+          git merge ${GITHUB_REF#refs/heads/} -m "[Auto] Merge ${GITHUB_REF#refs/heads/} onto docs, ready for generation."
       - name: Checkout submodules
         shell: bash
         run: |
