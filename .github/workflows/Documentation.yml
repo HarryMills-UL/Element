@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: docs
+      - name: Rebase on feature/Documentation
+        run: |
+          git rebase $GITHUB_REF
       - name: Checkout submodules
         shell: bash
         run: |
