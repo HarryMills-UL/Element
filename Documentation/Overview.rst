@@ -2,4 +2,4 @@
 Overview
 ========
 
-What is element huh??
+What is element and what can it do for us?
